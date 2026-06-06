@@ -1,0 +1,253 @@
+rank,influence,effect_size,hypothetical_ai_effect
+1,Collective teacher efficacy,1.57,d≈0.15 [HYPOTHESIS]: AI dashboard only; collective trust cannot be automated
+2,Self-reported grades,1.33,d≈1.10 [HYPOTHESIS]: AI prompts reflection but student must retain metacognitive ownership
+3,Teacher estimates of achievement,1.29,d≈0.90 [HYPOTHESIS]: AI risk-flagging supports but cannot replace teacher's localized judgment
+4,Cognitive task analysis,1.29,d≈1.00 [HYPOTHESIS]: AI can map task hierarchies; human expert must validate domain accuracy
+5,Response to intervention,1.29,d≈0.90 [HYPOTHESIS]: AI tier-tracking is legitimate; physical intervention delivery remains human
+6,Piagetian programs,1.28,d≈0.70 [HYPOTHESIS]: AI can scaffold tasks matched to developmental stage; stage itself is biologically constrained
+7,Jigsaw method,1.20,d≈0.30 [HYPOTHESIS]: AI group-composition optimization only; peer teaching exchange must be human
+8,Conceptual change programs,0.99,d≈0.75 [HYPOTHESIS]: AI misconception detection is legitimate; schema restructuring requires human follow-up
+9,Prior ability,0.94,N/A — not a manipulable intervention
+10,Strategy to integrate with prior knowledge,0.93,d≈0.70 [HYPOTHESIS]: AI schema-mapping is promising; analogies must connect to student's actual prior knowledge
+11,Self-efficacy,0.92,d≈0.50 [HYPOTHESIS]: AI success loops help short-term; long-term efficacy requires trusted adult relationship
+12,Teacher credibility,0.90,d≈-0.15 [HYPOTHESIS]: AI proxy degrades credibility; human delivery required
+13,Micro-teaching/video review of lessons,0.88,d≈0.75 [HYPOTHESIS]: AI video analysis is the legitimate use case; teacher must act on feedback
+14,Transfer strategies,0.86,d≈0.60 [HYPOTHESIS]: AI can generate diverse transfer problem sets; teacher must model abstract principles
+15,Classroom discussion,0.82,d≈0.40 [HYPOTHESIS]: AI discourse mapping supports teacher; peer reasoning exchange must be human
+16,Scaffolding,0.82,d≈0.65 [HYPOTHESIS]: AI dynamic scaffolding is legitimate; fading must be explicitly programmed
+17,Deliberate practice,0.79,d≈0.60 [HYPOTHESIS]: AI difficulty calibration is useful; expert feedback on specific error pattern requires human
+18,Summarization,0.79,d≈0.40 [HYPOTHESIS]: AI summarization delivery only if student does the summarizing
+19,Effort,0.77,d≈0.40 [HYPOTHESIS]: AI engagement monitoring supports; authentic persistence is human-mediated
+20,Interventions for students with learning needs,0.77,d≈0.55 [HYPOTHESIS]: AI assistive tools are legitimate augmentation; specialized physical therapy remains human
+21,Mnemonics,0.76,d≈0.70 [HYPOTHESIS]: AI mnemonic generation at scale is genuinely AI-native
+22,Planning and prediction,0.76,d≈0.55 [HYPOTHESIS]: AI platforms can require predictions before tasks; self-regulation act must be student's
+23,Repeated reading programs,0.75,d≈0.65 [HYPOTHESIS]: AI voice recognition for fluency tracking is genuinely AI-native
+24,Teacher clarity,0.75,d≈0.60 [HYPOTHESIS]: AI can help draft clear learning goals; verbal delivery and live checking must be human
+25,Elaboration and organization,0.75,d≈0.55 [HYPOTHESIS]: AI Socratic prompts support; student must do the elaborating
+26,Evaluation and reflection,0.75,d≈0.55 [HYPOTHESIS]: AI reflection prompts are useful scaffolds; internalization requires human guidance
+27,Reciprocal teaching,0.74,d≈0.50 [HYPOTHESIS]: AI can model four strategies; social peer-teaching structure is human-centric
+28,Rehearsal and memorization,0.73,d≈0.65 [HYPOTHESIS]: Spaced repetition automation is genuinely AI-native
+29,Comprehensive instructional programs for teachers,0.72,d≈0.55 [HYPOTHESIS]: AI can support PD logistics and content; human coaching and reflection remain essential
+30,Help seeking,0.72,d≈0.50 [HYPOTHESIS]: AI can lower threshold for help-seeking; psychological safety requires human relationship
+31,Phonics instruction,0.70,d≈0.60 [HYPOTHESIS]: AI voice recognition for phonics is legitimate augmentation; human decoding instruction remains anchor
+32,Feedback,0.70,d≈0.50 [HYPOTHESIS]: AI fast task-level feedback is legitimate; relational and self-regulation feedback must be human
+33,Deep motivation and approach,0.69,d≈0.35 [HYPOTHESIS]: AI gamification supports short-term focus; deep motivational orientation requires human mentorship
+34,Field independence,0.68,d≈0.30 [HYPOTHESIS]: AI task design can target field-independent demands; underlying cognitive trait is not malleable by AI
+35,Acceleration programs,0.68,d≈0.55 [HYPOTHESIS]: AI curriculum pacing is legitimate; human mentorship for gifted students remains important
+36,Learning goals vs. no goals,0.68,d≈0.50 [HYPOTHESIS]: AI goal-setting prompts are useful; accountability requires teacher enforcement
+37,Problem-solving teaching,0.68,d≈0.45 [HYPOTHESIS]: AI can co-design problem scenarios; heuristic modeling and error processing must be human-guided
+38,Outlining and transforming,0.66,d≈0.45 [HYPOTHESIS]: AI NLP evaluation of outlines is useful; student must do the transforming
+39,Concept mapping,0.64,d≈0.45 [HYPOTHESIS]: AI mapping tools are useful scaffolds; student must construct the map
+40,Vocabulary programs,0.62,d≈0.55 [HYPOTHESIS]: Spaced retrieval vocabulary at scale is genuinely AI-native
+41,Creativity programs,0.62,d≈0.35 [HYPOTHESIS]: AI divergent prompts support; collaborative evaluation requires human facilitators
+42,Behavioral intervention programs,0.62,d≈0.10 [HYPOTHESIS]: AI monitoring only; direct behavior modification requires human relationship
+43,Setting standards for self-judgement,0.62,d≈0.45 [HYPOTHESIS]: AI rubric co-construction is useful; self-appraisal requires human validation
+44,Teachers not labeling students,0.61,d≈0.40 [HYPOTHESIS]: AI anonymization of grading reduces bias; conscious relationship-building remains human
+45,Relations of high school to university achievement,0.60,d≈0.40 [HYPOTHESIS]: AI transition scaffolding is useful; human advising for individual pathways remains important
+46,Meta-cognitive strategies,0.60,d≈0.40 [HYPOTHESIS]: AI prompts are useful scaffolds only if systematically faded
+47,Spaced vs. mass practice,0.60,d≈0.55 [HYPOTHESIS]: AI scheduling of spaced practice is a legitimate use case
+48,Direct instruction,0.60,d≈0.45 [HYPOTHESIS]: AI can generate structured worked examples; live lesson delivery and comprehension checking must be human
+49,Mathematics programs,0.59,d≈0.45 [HYPOTHESIS]: AI adaptive math practice is legitimate augmentation; conceptual instruction remains human
+50,Appropriately challenging goals,0.59,d≈0.45 [HYPOTHESIS]: AI challenge calibration is useful; goal ownership must remain with student
+51,Spelling programs,0.58,d≈0.50 [HYPOTHESIS]: Automated spelling practice with error tracking is genuinely AI-native
+52,Tactile stimulation programs,0.58,d≈0.05 [HYPOTHESIS]: Physical sensory stimulation cannot be AI-mediated
+53,Strategy monitoring,0.58,d≈0.40 [HYPOTHESIS]: AI can prompt strategy monitoring; student must do the monitoring
+54,Service learning,0.58,d≈0.10 [HYPOTHESIS]: Physical community engagement is the causal mechanism
+55,Working memory strength,0.57,"N/A — cognitive trait, not manipulable intervention"
+56,Full compared to pre-term/low birth weight,0.57,"N/A — biological/developmental variable, not an intervention"
+57,Mastery learning,0.57,d≈0.50 [HYPOTHESIS]: AI mastery gating is legitimate; teacher must validate transfer and unstick stuck students
+58,Explicit teaching strategies,0.57,d≈0.45 [HYPOTHESIS]: AI can generate explicit strategy instruction materials; live delivery and checking remain human
+59,Technology with learning needs students,0.57,d≈0.50 [HYPOTHESIS]: AI assistive technology is a legitimate AI-native zone for this population
+60,Concentration/persistence/engagement,0.56,d≈0.35 [HYPOTHESIS]: AI engagement monitoring is useful; authentic persistence is human-mediated
+61,Prior achievement,0.55,"N/A — background variable, not a manipulable intervention"
+62,Visual-perception programs,0.55,d≈0.40 [HYPOTHESIS]: AI visual task adaptation is useful; specialist human assessment required for diagnosis
+63,Self-verbalization and self-questioning,0.55,d≈0.40 [HYPOTHESIS]: AI prompts can scaffold self-verbalization; student must produce the internal dialogue
+64,Cooperative vs. individualistic learning,0.55,d≈0.10 [HYPOTHESIS]: Cooperative dynamic requires physical peer interdependence
+65,Technology in other subjects,0.55,d≈0.40 [HYPOTHESIS]: AI content delivery in non-core subjects is a legitimate use case
+66,Practice testing,0.54,d≈0.50 [HYPOTHESIS]: AI automated micro-quizzing is genuinely AI-native; answer-reveal timing is critical design variable
+67,Interactive video methods,0.54,d≈0.45 [HYPOTHESIS]: AI-enhanced interactive video with embedded questions is AI-native
+68,Second/third chance programs,0.53,d≈0.40 [HYPOTHESIS]: AI can structure re-attempt pathways; human accountability for engagement remains important
+69,Enrichment programs,0.53,d≈0.40 [HYPOTHESIS]: AI content curation for enrichment is useful; mentorship and depth require human
+70,Positive peer influences,0.53,d≈0.05 [HYPOTHESIS]: Peer influence is a social-contextual mechanism AI cannot replicate
+71,Peer tutoring,0.53,d≈0.10 [HYPOTHESIS]: Peer teaching exchange requires physical human presence
+72,Cooperative vs. competitive learning,0.53,d≈0.10 [HYPOTHESIS]: Cooperative social dynamic requires physical human interdependence
+73,Positive family/home dynamics,0.52,d≈0.05 [HYPOTHESIS]: Family relational dynamics are not AI-addressable
+74,Socio-economic status,0.52,"N/A — structural variable, not a manipulable intervention"
+75,Teacher-student relationships,0.52,d≈0.05 [HYPOTHESIS]: AI administrative support only; face-to-face relationship time is the mechanism
+76,Self-regulation strategies,0.52,d≈0.40 [HYPOTHESIS]: AI can scaffold self-regulation prompts; systematic fading required
+77,Record keeping,0.52,d≈0.45 [HYPOTHESIS]: AI record-keeping automation is a legitimate use case
+78,Play programs,0.50,"d≈0.05 [HYPOTHESIS]: Physical, embodied, unstructured play is the mechanism"
+79,Parental involvement,0.50,d≈0.15 [HYPOTHESIS]: AI communication tools reduce friction; actual parental engagement is human
+80,Student rating of quality of teaching,0.50,d≈0.35 [HYPOTHESIS]: AI can aggregate and pattern student feedback; teacher interpretation and response must be human
+81,Note taking,0.50,d≈0.30 [HYPOTHESIS]: Student must take the notes; AI transcription bypasses the mechanism entirely
+82,Underlining and highlighting,0.50,d≈0.25 [HYPOTHESIS]: Student must select what to highlight; AI highlighting bypasses the discrimination process
+83,Time on task,0.49,d≈0.35 [HYPOTHESIS]: AI engagement monitoring supports time-on-task; teacher management of environment is essential
+84,Science programs,0.48,d≈0.40 [HYPOTHESIS]: AI simulation and adaptive content are useful augmentation; inquiry facilitation remains human
+85,Generalized school effects,0.48,N/A — aggregate institutional variable
+86,Clear goal intentions,0.48,d≈0.35 [HYPOTHESIS]: AI goal-setting prompts are useful; student must formulate the goals
+87,Providing formative evaluation,0.48,d≈0.40 [HYPOTHESIS]: AI formative data collection is legitimate; teacher interpretation and instructional adjustment are human
+88,Questioning,0.48,d≈0.35 [HYPOTHESIS]: AI can generate question sets; live classroom questioning discourse requires human teacher
+89,Intelligent tutoring systems,0.48,d≈0.45 curriculum-aligned [HYPOTHESIS]; d≈0.20 unconstrained chat [HYPOTHESIS]
+90,Comprehension programs,0.47,d≈0.35 [HYPOTHESIS]: AI adaptive reading comprehension tools are useful; teacher-led discussion of meaning remains essential
+91,Integrated curricula programs,0.47,d≈0.35 [HYPOTHESIS]: AI cross-curricular content mapping is useful; teacher design of integrated units remains human
+92,Small group learning,0.47,d≈0.10 [HYPOTHESIS]: Small group social dynamics require physical human presence
+93,Information communications technology (ICT),0.47,N/A — broad pre-LLM technology bucket; do not use as evidence for modern AI products
+94,Perceived task value,0.46,d≈0.30 [HYPOTHESIS]: AI task design can build relevance connections; authentic value perception requires human context
+95,Study skills,0.46,d≈0.35 [HYPOTHESIS]: AI study scaffolds are useful; student must practice the skills independently
+96,Relative age within a class,0.45,N/A — structural demographic variable
+97,Writing programs,0.45,d≈0.35 [HYPOTHESIS]: AI writing feedback is useful; student must produce the writing
+98,Imagery,0.45,d≈0.35 [HYPOTHESIS]: AI can prompt and scaffold imagery use; student must generate the mental images
+99,Achieving motivation and approach,0.44,d≈0.30 [HYPOTHESIS]: AI gamification supports achievement orientation; deep motivational identity requires human relationship
+100,Early years' interventions,0.44,d≈0.30 [HYPOTHESIS]: AI can support early years content delivery; relational care and physical stimulation remain human
+101,Strong classroom cohesion,0.44,d≈0.05 [HYPOTHESIS]: Classroom community is built through shared physical experience
+102,Inductive teaching,0.44,d≈0.35 [HYPOTHESIS]: AI can generate inductive example sets; teacher facilitation of reasoning process remains essential
+103,Technology with elementary students,0.44,d≈0.35 [HYPOTHESIS]: AI content delivery for elementary students is a legitimate use case with strong oversight requirements
+104,Exposure to reading,0.43,d≈0.35 [HYPOTHESIS]: AI adaptive reading platforms increase exposure; teacher-modeled reading enthusiasm matters
+105,Outdoor/adventure programs,0.43,d≈0.05 [HYPOTHESIS]: Physical embodied challenge is the causal mechanism
+106,School size (600-900 students at secondary),0.43,N/A — structural institutional variable
+107,Teacher expectations,0.43,d≈0.30 [HYPOTHESIS]: AI can surface differential expectation patterns; teacher must consciously recalibrate
+108,Philosophy in schools,0.43,d≈0.30 [HYPOTHESIS]: AI can provide philosophical texts and prompts; Socratic dialogue requires human facilitation
+109,Teaching communication skills and strategies,0.43,d≈0.35 [HYPOTHESIS]: AI can scaffold communication skill practice; live human interaction for authentic communication remains essential
+110,Motivation,0.42,d≈0.25 [HYPOTHESIS]: AI gamification supports surface motivation; intrinsic motivation requires human relationship and meaningful tasks
+111,Reducing anxiety,0.42,d≈0.25 [HYPOTHESIS]: AI can provide low-stakes practice environments; therapeutic anxiety reduction requires human relationship
+112,Elaborative interrogation,0.42,d≈0.35 [HYPOTHESIS]: AI why-questions are useful; student must generate the elaborations
+113,Behavioral organizers,0.42,d≈0.35 [HYPOTHESIS]: AI can generate advance organizers; teacher must connect organizer to live instruction
+114,Technology in writing,0.42,d≈0.20 [HYPOTHESIS]: Writing assistance tools only if student produces the writing
+115,Technology with college students,0.42,d≈0.35 [HYPOTHESIS]: AI content delivery for college students is a legitimate use case; academic integrity monitoring required
+116,Positive self-concept,0.41,d≈0.25 [HYPOTHESIS]: AI success scaffolding supports self-concept; durable self-concept requires human validation
+117,Professional development programs,0.41,d≈0.35 [HYPOTHESIS]: AI can support PD content and logistics; peer coaching and reflection remain human
+118,Relating creativity to achievement,0.40,d≈0.25 [HYPOTHESIS]: AI can design creative achievement tasks; teacher validation of creative output matters
+119,Goal commitment,0.40,d≈0.30 [HYPOTHESIS]: AI accountability prompts support goal commitment; public commitment to human teacher strengthens it
+120,Cooperative learning,0.40,d≈0.10 [HYPOTHESIS]: Cooperative interdependence requires physical human presence
+121,Inquiry-based teaching,0.40,d≈0.30 [HYPOTHESIS]: AI can scaffold inquiry resources; teacher facilitation of genuine inquiry reasoning is essential
+122,After-school programs,0.40,d≈0.25 [HYPOTHESIS]: AI can support after-school content; relational mentorship in these programs is human
+123,Social skills programs,0.39,d≈0.05 [HYPOTHESIS]: Social skill development requires physical human interaction
+124,Relations of high school achievement to career performance,0.38,"N/A — correlation variable, not an intervention"
+125,Drama/arts programs,0.38,d≈0.15 [HYPOTHESIS]: AI creative tools are peripheral; embodied artistic practice and human audience are the mechanism
+126,Career interventions,0.38,d≈0.20 [HYPOTHESIS]: AI career information tools are useful; human mentorship and networking remain primary
+127,Music programs,0.37,d≈0.15 [HYPOTHESIS]: AI music tools are peripheral; embodied musical practice and human instruction are the mechanism
+128,Worked examples,0.37,d≈0.30 [HYPOTHESIS]: AI generation of worked examples at scale is a legitimate AI-native use case
+129,Mobile phones,0.37,d≈-0.30 [HYPOTHESIS]: AI learning apps on personal phones degrade learning through multitasking
+130,Bilingual programs,0.36,d≈0.20 [HYPOTHESIS]: AI language tools support bilingual programs; human cultural and linguistic modeling remains primary
+131,Student-centered teaching,0.36,d≈0.20 [HYPOTHESIS]: AI personalization supports student-centered design; teacher responsive judgment is the mechanism
+132,Attitude to content domains,0.35,d≈0.15 [HYPOTHESIS]: AI relevance framing may support attitude; teacher enthusiasm and modeling are primary
+133,Counseling effects,0.35,d≈-0.10 [HYPOTHESIS]: AI counseling substitutes degrade therapeutic relationship
+134,Classroom management,0.35,d≈0.05 [HYPOTHESIS]: Physical classroom authority cannot be AI-mediated
+135,Gaming/simulations,0.35,d≈0.28 [HYPOTHESIS]: AI-enhanced simulations are a legitimate use case; transfer to real learning requires human connection
+136,Chess instruction,0.34,d≈0.20 [HYPOTHESIS]: AI chess tools support practice; human instruction and competitive motivation remain primary
+137,Motivation/character programs,0.34,d≈0.15 [HYPOTHESIS]: AI content delivery for character programs is peripheral; human modeling is primary
+138,Decreasing disruptive behavior,0.34,d≈0.05 [HYPOTHESIS]: Behavior de-escalation requires physical human presence and relational authority
+139,Collaborative learning,0.34,d≈0.10 [HYPOTHESIS]: Collaborative learning requires physical human interdependence
+140,Teaching creative thinking,0.34,d≈0.15 [HYPOTHESIS]: AI divergent prompts are useful; human facilitation of creative evaluation is primary
+141,Stereotype threat,0.33,N/A — psychological barrier variable; intervention is human-relational
+142,Technology in mathematics,0.33,d≈0.28 [HYPOTHESIS]: AI adaptive math practice is a legitimate use case but effect size is below hinge
+143,ADHD – treatment with drugs,0.32,N/A — pharmacological intervention
+144,Principals/school leaders,0.32,d≈0.05 [HYPOTHESIS]: Leadership is relational and contextual; AI administrative support only
+145,School climate,0.32,d≈0.05 [HYPOTHESIS]: School climate is a human social construct; AI monitoring is peripheral
+146,Average teacher effects,0.32,N/A — aggregate variable describing teacher quality distribution
+147,Adjunct aids,0.32,d≈0.20 [HYPOTHESIS]: AI can generate study aids; effect size below hinge limits value
+148,External accountability systems,0.31,d≈0.15 [HYPOTHESIS]: AI can support accountability reporting; systemic accountability is institutional
+149,Matching style of learning,0.31,N/A — learning styles theory lacks robust empirical support
+150,Manipulative materials on math,0.30,d≈0.10 [HYPOTHESIS]: Physical manipulatives are the mechanism; AI virtual manipulatives are a weak substitute
+151,Ability grouping for gifted students,0.30,d≈0.15 [HYPOTHESIS]: AI can support flexible grouping logistics; grouping decisions require human judgment
+152,Teaching test taking and coaching,0.30,d≈0.25 [HYPOTHESIS]: AI test prep tools are a legitimate peripheral use case
+153,Technology with high school students,0.30,d≈0.25 [HYPOTHESIS]: AI content delivery for high school students is a legitimate use case; effect size below hinge
+154,Mindfulness,0.29,d≈0.15 [HYPOTHESIS]: AI-guided mindfulness apps are peripheral; human-facilitated practice is primary
+155,Home visiting,0.29,d≈0.05 [HYPOTHESIS]: Physical home visiting relationship is the causal mechanism
+156,Cognitive behavioral programs,0.29,d≈0.15 [HYPOTHESIS]: AI CBT tools are peripheral; therapeutic relationship is primary
+157,Online and digital tools,0.29,d≈0.25 [HYPOTHESIS]: AI-enhanced digital tools are a legitimate use case; effect size below hinge is the honest number
+158,Technology in reading/literacy,0.29,d≈0.25 [HYPOTHESIS]: AI reading tools are legitimate; effect size below hinge limits claim strength
+159,Homework,0.29,d≈-0.10 [HYPOTHESIS]: AI homework assistance degrades the mechanism
+160,Desegregation,0.28,N/A — structural policy variable
+161,Pre-school programs,0.28,d≈0.15 [HYPOTHESIS]: AI pre-school content tools are peripheral; human care and embodied play are primary
+162,Whole-school improvement programs,0.28,d≈0.10 [HYPOTHESIS]: AI data analytics support school improvement; the human organizational change work is primary
+163,Use of calculators,0.27,d≈0.22 [HYPOTHESIS]: AI calculators are legitimate; mechanism conflict if used before conceptual understanding is established
+164,Mainstreaming/inclusion,0.27,d≈0.10 [HYPOTHESIS]: AI can support inclusion logistics; human specialist support is primary
+165,Student personality attributes,0.26,"N/A — background variable, not a manipulable intervention"
+166,Exercise/relaxation,0.26,d≈0.10 [HYPOTHESIS]: AI fitness tracking is peripheral; physical activity is the mechanism
+167,Lack of illness,0.26,"N/A — health variable, not a manipulable educational intervention"
+168,Out-of-school curricula experiences,0.26,d≈0.10 [HYPOTHESIS]: AI can facilitate access to out-of-school resources; embodied experiences are the mechanism
+169,Volunteer tutors,0.26,d≈0.05 [HYPOTHESIS]: Volunteer tutor relationship is the mechanism; AI substitution degrades it
+170,Problem-based learning,0.26,d≈0.15 [HYPOTHESIS]: AI can scaffold PBL resources; human facilitation of genuine problem-solving reasoning is primary
+171,Use of PowerPoint,0.26,d≈0.20 [HYPOTHESIS]: AI presentation generation is a legitimate peripheral use case; effect size below hinge is the honest number
+172,Grit/incremental vs. entity thinking,0.25,d≈0.15 [HYPOTHESIS]: AI can scaffold growth mindset prompts; human modeling is primary
+173,Adopted vs non-adopted care,0.25,"N/A — family structure variable, not an educational intervention"
+174,Religious schools,0.24,N/A — institutional context variable
+175,Competitive vs. individualistic learning,0.24,d≈0.10 [HYPOTHESIS]: AI competition mechanics are peripheral; human social competition dynamic is primary
+176,Intact (two-parent) families,0.23,"N/A — family structure variable, not an educational intervention"
+177,Summer school,0.23,d≈0.15 [HYPOTHESIS]: AI can support summer learning content; relational engagement in summer programs is primary
+178,Teacher personality attributes,0.23,"N/A — teacher background variable, not a manipulable intervention"
+179,Individualized instruction,0.23,d≈0.18 [HYPOTHESIS]: AI personalization is useful; effect size below hinge suggests limited impact
+180,Programmed instruction,0.23,d≈0.18 [HYPOTHESIS]: AI is the natural evolution of programmed instruction; effect size below hinge limits claim strength
+181,Technology in science,0.23,d≈0.18 [HYPOTHESIS]: AI science tools are a legitimate use case; effect size below hinge limits claim strength
+182,Teacher verbal ability,0.22,d≈0.05 [HYPOTHESIS]: Teacher verbal modeling cannot be AI-substituted
+183,Clickers,0.22,d≈0.18 [HYPOTHESIS]: AI real-time response systems are a legitimate peripheral use case
+184,Visual/audio-visual methods,0.22,d≈0.15 [HYPOTHESIS]: AI multimedia generation is peripheral; teacher-facilitated sense-making is primary
+185,Finances,0.21,N/A — resource variable
+186,Reducing class size,0.21,d≈0.10 [HYPOTHESIS]: AI classroom management tools are peripheral; physical teacher-to-student ratio is the variable
+187,Interleaved practice,0.21,d≈0.18 [HYPOTHESIS]: AI scheduling of interleaved practice is a legitimate use case; effect size below hinge
+188,Discovery-based teaching,0.21,d≈0.10 [HYPOTHESIS]: AI resource scaffolding is peripheral; genuine discovery requires human facilitation
+189,Technology in small groups,0.21,d≈0.05 [HYPOTHESIS]: Small group social dynamic is the mechanism; technology in groups often degrades collaboration
+190,Student support programs – college,0.21,d≈0.15 [HYPOTHESIS]: AI support tools are peripheral; human advising and belonging are primary
+191,Extra-curricula programs,0.20,d≈0.10 [HYPOTHESIS]: AI can support extra-curricular logistics; embodied participation and human mentorship are primary
+192,Engaged vs disengaged fathers,0.20,N/A — family engagement variable
+193,Aptitude/treatment interactions,0.19,d≈0.12 [HYPOTHESIS]: AI can personalize treatment to aptitude; interaction effects are complex and require human judgment
+194,Learning hierarchies-based approach,0.19,d≈0.15 [HYPOTHESIS]: AI can map learning hierarchies; curriculum sequencing decisions require human expertise
+195,Co- or team teaching,0.19,d≈0.10 [HYPOTHESIS]: AI coordination tools are peripheral; teacher collaborative relationship is the mechanism
+196,Within class grouping,0.18,d≈0.12 [HYPOTHESIS]: AI can optimize group composition; grouping decisions require human judgment about equity
+197,Web-based learning,0.18,d≈0.15 [HYPOTHESIS]: AI-enhanced web learning is legitimate; 0.18 effect size is the honest baseline
+198,Lack of stress,0.17,N/A — background wellbeing variable
+199,Other family structure,0.16,N/A — family structure variable
+200,One-on-one laptops,0.16,d≈0.14 [HYPOTHESIS]: AI-enhanced one-on-one device programs are legitimate; 0.16 is the honest baseline
+201,Home-school programs,0.16,d≈0.10 [HYPOTHESIS]: AI home-school content tools are peripheral; family relationship and curriculum design are primary
+202,Sentence combining programs,0.15,d≈0.12 [HYPOTHESIS]: AI sentence-combining exercises are a peripheral use case
+203,Parental autonomy support,0.15,d≈0.05 [HYPOTHESIS]: Parental autonomy support is an embodied relational family dynamic
+204,Distance education,0.13,d≈0.12 [HYPOTHESIS]: AI enhances distance education; 0.13 effect size is an honest warning about distance education's limitations
+205,Morning vs. evening,0.12,N/A — chronobiological variable
+206,Positive ethnic self-identity,0.12,N/A — identity development variable
+207,Juvenile delinquent programs,0.12,d≈0.08 [HYPOTHESIS]: AI can support program logistics; human mentorship and relational accountability are primary
+208,School choice programs,0.12,N/A — structural policy variable
+209,Tracking/streaming,0.12,d≈0.05 [HYPOTHESIS]: AI can support flexible tracking decisions; structural tracking harms equity
+210,Mentoring,0.12,d≈-0.05 [HYPOTHESIS]: AI mentoring substitutes degrade genuine mentoring relationship
+211,Initial teacher training programs,0.12,d≈0.10 [HYPOTHESIS]: AI can support teacher training content delivery; human coaching and practice teaching are primary
+212,Different types of testing,0.12,d≈0.10 [HYPOTHESIS]: AI can diversify assessment formats; effect size below hinge limits claim strength
+213,Teacher subject matter knowledge,0.11,d≈0.08 [HYPOTHESIS]: AI cannot substitute for teacher's integrated subject matter understanding
+214,Diverse student body,0.10,N/A — structural demographic variable
+215,Background music,0.10,d≈0.08 [HYPOTHESIS]: AI music selection is peripheral; effect size suggests minimal educational impact
+216,Diversity courses,0.09,d≈0.07 [HYPOTHESIS]: AI can deliver diversity course content; human facilitation of genuine dialogue is primary
+217,Charter schools,0.09,N/A — structural institutional variable
+218,Modifying school calendars/timetables,0.09,d≈0.05 [HYPOTHESIS]: AI scheduling optimization is peripheral; effect size suggests minimal educational impact
+219,Detracking,0.09,d≈0.07 [HYPOTHESIS]: AI can support flexible grouping; structural detracking is a policy decision
+220,Gender on achievement,0.08,N/A — demographic variable
+221,Perceptual-motor programs,0.08,d≈0.05 [HYPOTHESIS]: Physical motor skill development requires embodied practice
+222,Single-sex schools,0.08,N/A — structural institutional variable
+223,Middle schools' interventions,0.08,d≈0.05 [HYPOTHESIS]: AI can support middle school transition logistics; relational support is primary
+224,Mastery goals,0.06,d≈0.05 [HYPOTHESIS]: AI goal-tracking is peripheral; negligible effect size limits claim strength
+225,Whole language approach,0.06,d≈0.04 [HYPOTHESIS]: AI whole language tools are peripheral; negligible effect size below phonics instruction
+226,College halls of residence,0.05,N/A — institutional context variable
+227,Teacher performance pay,0.05,N/A — structural incentive policy variable
+228,Breastfeeding,0.04,N/A — biological/health variable
+229,Multi-grade/age classes,0.04,d≈0.03 [HYPOTHESIS]: AI content differentiation is peripheral; negligible effect size limits claim strength
+230,Humor,0.04,d≈0.02 [HYPOTHESIS]: AI humor generation is peripheral; genuine teacher humor is human and contextual
+231,Parental employment,0.03,N/A — family economic variable
+232,Student control over learning,0.02,d≈0.01 [HYPOTHESIS]: AI personalization increases student control; negligible effect size suggests control alone is insufficient
+233,Non-immigrant background,0.01,N/A — demographic variable
+234,Open vs. traditional classrooms,0.01,N/A — structural environmental variable
+235,Technology in distance education,0.01,d≈0.01 [HYPOTHESIS]: AI dramatically improves distance education delivery; 0.01 baseline is the honest warning about distance education itself
+236,Performance goals,-0.01,d≈-0.01 [HYPOTHESIS]: AI performance goal scaffolding does not resolve the underlying harm of performance goal orientation
+237,Summer vacation effect,-0.02,d≈-0.02 [HYPOTHESIS]: AI summer learning tools partially mitigate summer learning loss; structural calendar is the primary variable
+238,Lack of sleep,-0.05,N/A — biological health variable
+239,Surface motivation and approach,-0.11,d≈-0.15 [HYPOTHESIS]: AI gamification risks increasing surface motivation orientation
+240,Family on welfare/state aid,-0.12,N/A — socioeconomic barrier variable
+241,Parental military deployment,-0.16,N/A — family disruption variable
+242,Television,-0.18,d≈-0.20 [HYPOTHESIS]: AI screen-time monitoring is peripheral; enforcement requires human authority
+243,Students feeling disliked,-0.19,d≈-0.25 [HYPOTHESIS]: AI social interaction tools deepen isolation risk
+244,Suspension/expelling students,-0.20,d≈-0.20 [HYPOTHESIS]: Suspension harm requires human restorative relationship repair
+245,Non-standard dialect use,-0.29,d≈-0.15 [HYPOTHESIS]: AI dialect-insensitive feedback tools may perpetuate the harm
+246,Retention (holding students back),-0.32,d≈-0.32 [HYPOTHESIS]: AI data can surface retention decisions; the harm of retention remains regardless of data quality
+247,Corporal punishment in the home,-0.33,N/A — child welfare variable requiring human intervention
+248,Moving between schools,-0.34,d≈-0.20 [HYPOTHESIS]: AI transition support tools partially mitigate school mobility harm; relational continuity is primary
+249,Depression,-0.36,N/A — clinical mental health variable requiring human therapeutic intervention
+250,Boredom,-0.49,d≈-0.20 [HYPOTHESIS]: AI adaptive engagement reduces boredom risk; surface gamification may mask deeper disengagement
+251,Deafness,-0.61,d≈-0.30 [HYPOTHESIS]: AI assistive technology for deaf students is a legitimate and important augmentation
+252,ADHD,-0.90,d≈-0.60 [HYPOTHESIS]: AI scaffolding and interface adaptation help; cannot alter the neurobiology of ADHD

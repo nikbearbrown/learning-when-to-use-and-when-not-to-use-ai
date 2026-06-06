@@ -1,0 +1,6 @@
+band,No conflict,Partial conflict,Conflict present,total
+High,17,11,4,32
+Above hinge,46,27,17,90
+Below hinge,64,6,11,81
+Negligible,29,2,1,32
+Harmful,13,2,2,17

@@ -1,0 +1,79 @@
+profile_id,count,average_effect_size,band,ai_feasibility,human_irreducibility,substitution_risk,mechanism_conflict,vendor_activity,influences
+P01,38,0.27,Below hinge,AI-ADJACENT,Low,Low,No conflict,Low,Drama/arts programs; Music programs; Bilingual programs; Student-centered teaching; Attitude to content domains; Chess instruction; Motivation/character programs; Stereotype threat; ADHD – treatment with drugs; Adjunct aids; External accountability systems; Matching style of learning; Manipulative materials on math; Ability grouping for gifted students; Teaching test taking and coaching; Desegregation; Pre-school programs; Whole-school improvement programs; Mainstreaming/inclusion; Student personality attributes; Exercise/relaxation; Lack of illness; Out-of-school curricula experiences; Adopted vs non-adopted care; Religious schools; Competitive vs. individualistic learning; Visual/audio-visual methods; Finances; Reducing class size; Student support programs – college; Extra-curricula programs; Engaged vs disengaged fathers; Aptitude/treatment interactions; Learning hierarchies-based approach; Co- or team teaching; Within class grouping; Lack of stress; Sentence combining programs
+P02,22,0.08,Negligible,AI-ADJACENT,Low,Low,No conflict,Low,Morning vs. evening; Positive ethnic self-identity; Juvenile delinquent programs; School choice programs; Tracking/streaming; Different types of testing; Diverse student body; Background music; Diversity courses; Charter schools; Modifying school calendars/timetables; Detracking; Gender on achievement; Perceptual-motor programs; Single-sex schools; Middle schools' interventions; Whole language approach; College halls of residence; Breastfeeding; Multi-grade/age classes; Humor; Non-immigrant background
+P03,21,0.50,Above hinge,AI-AUGMENTED,Medium,Low,No conflict,Low,Field independence; Acceleration programs; Relations of high school to university achievement; Spaced vs. mass practice; Concentration/persistence/engagement; Visual-perception programs; Second/third chance programs; Enrichment programs; Record keeping; Student rating of quality of teaching; Time on task; Comprehension programs; Integrated curricula programs; Perceived task value; Achieving motivation and approach; Early years' interventions; Teaching communication skills and strategies; Motivation; Reducing anxiety; Positive self-concept; Relating creativity to achievement
+P04,11,0.50,Above hinge,AI-AUGMENTED,Medium,Low,Partial conflict,Low,Outlining and transforming; Creativity programs; Setting standards for self-judgement; Appropriately challenging goals; Clear goal intentions; Imagery; Inductive teaching; Philosophy in schools; Elaborative interrogation; Goal commitment; Inquiry-based teaching
+P05,9,0.25,Below hinge,AI-NATIVE,Low,High,No conflict,Low,Technology in mathematics; Technology with high school students; Online and digital tools; Technology in reading/literacy; Use of PowerPoint; Technology in science; Clickers; Web-based learning; One-on-one laptops
+P06,6,0.89,High,AI-AUGMENTED,Medium,Low,Partial conflict,Low,Self-reported grades; Self-efficacy; Transfer strategies; Elaboration and organization; Evaluation and reflection; Reciprocal teaching
+P07,6,0.52,Above hinge,AI-ADJACENT,Low,Low,No conflict,Low,Working memory strength; Full compared to pre-term/low birth weight; Prior achievement; Socio-economic status; Relative age within a class; School size (600-900 students at secondary)
+P08,6,-0.21,Harmful,AI-ADJACENT,Low,Low,No conflict,Low,Summer vacation effect; Lack of sleep; Television; Retention (holding students back); Moving between schools; Depression
+P09,5,0.54,Above hinge,AI-RESISTANT,High,High,Conflict present,Low,Tactile stimulation programs; Service learning; Positive peer influences; Positive family/home dynamics; Play programs
+P10,5,0.48,Above hinge,AI-AUGMENTED,Medium,Medium,No conflict,Low,Direct instruction; Explicit teaching strategies; Behavioral organizers; Professional development programs; After-school programs
+P11,5,0.31,Below hinge,AI-ADJACENT,Low,Medium,No conflict,Low,Relations of high school achievement to career performance; Career interventions; Mindfulness; Cognitive behavioral programs; Summer school
+P12,5,0.25,Below hinge,AI-RESISTANT,High,Low,Conflict present,Low,Decreasing disruptive behavior; Home visiting; Volunteer tutors; Teacher verbal ability; Parental autonomy support
+P13,4,1.07,High,AI-AUGMENTED,Medium,Low,No conflict,Low,Cognitive task analysis; Piagetian programs; Conceptual change programs; Help seeking
+P14,4,0.55,Above hinge,AI-NATIVE,Low,High,No conflict,Low,Vocabulary programs; Technology with learning needs students; Technology in other subjects; Technology with elementary students
+P15,4,0.49,Above hinge,AI-AUGMENTED,Medium,High,No conflict,Low,Mathematics programs; Science programs; Providing formative evaluation; Exposure to reading
+P16,4,0.48,Above hinge,AI-RESISTANT,High,Medium,Conflict present,Low,Peer tutoring; Cooperative vs. competitive learning; Small group learning; Cooperative learning
+P17,4,0.36,Below hinge,AI-RESISTANT,High,Medium,Conflict present,Low,Social skills programs; Counseling effects; Classroom management; Collaborative learning
+P18,4,0.26,Below hinge,AI-ADJACENT,Low,Low,Partial conflict,Low,Teaching creative thinking; Problem-based learning; Individualized instruction; Discovery-based teaching
+P19,4,0.05,Negligible,AI-ADJACENT,High,Low,No conflict,Low,Initial teacher training programs; Teacher performance pay; Parental employment; Open vs. traditional classrooms
+P20,3,0.56,Above hinge,AI-RESISTANT,High,High,Conflict present,Moderate,Behavioral intervention programs; Cooperative vs. individualistic learning; Teacher-student relationships
+P21,3,0.52,Above hinge,AI-AUGMENTED,Medium,High,Partial conflict,Moderate,Self-verbalization and self-questioning; Self-regulation strategies; Questioning
+P22,3,0.26,Below hinge,AI-ADJACENT,High,Low,No conflict,Low,Average teacher effects; Intact (two-parent) families; Teacher personality attributes
+P23,3,0.21,Below hinge,AI-RESISTANT,High,Low,No conflict,Low,Principals/school leaders; Other family structure; Home-school programs
+P24,2,1.08,High,AI-AUGMENTED,Medium,Medium,No conflict,High,Response to intervention; Micro-teaching/video review of lessons
+P25,2,1.05,High,AI-RESISTANT,High,High,Conflict present,Low,Jigsaw method; Teacher credibility
+P26,2,0.84,High,AI-AUGMENTED,Medium,Low,Partial conflict,High,Strategy to integrate with prior knowledge; Planning and prediction
+P27,2,0.74,High,AI-AUGMENTED,High,Low,No conflict,Low,Effort; Comprehensive instructional programs for teachers
+P28,2,0.74,High,AI-NATIVE,Low,Low,No conflict,Low,Mnemonics; Rehearsal and memorization
+P29,2,0.65,Above hinge,AI-AUGMENTED,High,Low,No conflict,Low,Deep motivation and approach; Teachers not labeling students
+P30,2,0.56,Above hinge,AI-NATIVE,Low,Low,No conflict,Low,Spelling programs; Interactive video methods
+P31,2,0.56,Above hinge,AI-AUGMENTED,High,Low,Partial conflict,Low,Problem-solving teaching; Teacher expectations
+P32,2,0.51,Above hinge,AI-AUGMENTED,Medium,High,Partial conflict,High,Mastery learning; Writing programs
+P33,2,0.48,Above hinge,AI-NATIVE,Low,High,Partial conflict,Low,Practice testing; Technology with college students
+P34,2,0.43,Above hinge,AI-RESISTANT,High,Low,Conflict present,Low,Strong classroom cohesion; Outdoor/adventure programs
+P35,2,0.31,Below hinge,AI-NATIVE,Low,High,Partial conflict,Low,Gaming/simulations; Use of calculators
+P36,2,0.30,Below hinge,AI-NATIVE,Low,Low,No conflict,Low,Worked examples; Programmed instruction
+P37,2,0.23,Below hinge,AI-AUGMENTED,Medium,Low,No conflict,Low,Grit/incremental vs. entity thinking; Interleaved practice
+P38,2,0.07,Negligible,AI-NATIVE,Low,High,No conflict,Low,Distance education; Technology in distance education
+P39,2,-0.14,Harmful,AI-ADJACENT,High,Low,No conflict,Low,Family on welfare/state aid; Parental military deployment
+P40,2,-0.27,Harmful,AI-RESISTANT,High,Low,No conflict,Low,Suspension/expelling students; Corporal punishment in the home
+P41,2,-0.31,Harmful,AI-AUGMENTED,Medium,Low,No conflict,Low,Performance goals; Deafness
+P42,1,1.57,High,AI-RESISTANT,High,High,No conflict,Low,Collective teacher efficacy
+P43,1,1.29,High,AI-AUGMENTED,High,Medium,No conflict,Low,Teacher estimates of achievement
+P44,1,0.94,High,AI-ADJACENT,Low,Low,No conflict,Low,Prior ability
+P45,1,0.82,High,AI-AUGMENTED,High,High,Conflict present,Moderate,Classroom discussion
+P46,1,0.82,High,AI-AUGMENTED,Medium,Medium,Partial conflict,High,Scaffolding
+P47,1,0.79,High,AI-AUGMENTED,Medium,Medium,Partial conflict,Low,Deliberate practice
+P48,1,0.79,High,AI-NATIVE,Low,High,Conflict present,Low,Summarization
+P49,1,0.77,High,AI-AUGMENTED,Medium,Medium,No conflict,Moderate,Interventions for students with learning needs
+P50,1,0.75,High,AI-AUGMENTED,High,Medium,No conflict,Moderate,Teacher clarity
+P51,1,0.75,High,AI-NATIVE,Low,High,No conflict,Low,Repeated reading programs
+P52,1,0.70,High,AI-AUGMENTED,Medium,High,No conflict,Low,Phonics instruction
+P53,1,0.70,High,AI-AUGMENTED,Medium,High,Partial conflict,High,Feedback
+P54,1,0.68,Above hinge,AI-AUGMENTED,Low,Low,Partial conflict,Moderate,Learning goals vs. no goals
+P55,1,0.64,Above hinge,AI-AUGMENTED,Medium,Medium,Partial conflict,Low,Concept mapping
+P56,1,0.60,Above hinge,AI-AUGMENTED,Medium,Low,Partial conflict,High,Meta-cognitive strategies
+P57,1,0.58,Above hinge,AI-AUGMENTED,Medium,Low,Partial conflict,Moderate,Strategy monitoring
+P58,1,0.50,Above hinge,AI-AUGMENTED,Medium,High,Conflict present,Low,Note taking
+P59,1,0.50,Above hinge,AI-AUGMENTED,Medium,Low,Conflict present,Low,Underlining and highlighting
+P60,1,0.50,Above hinge,AI-RESISTANT,High,Medium,Partial conflict,Low,Parental involvement
+P61,1,0.48,Above hinge,AI-ADJACENT,Medium,Low,No conflict,Low,Generalized school effects
+P62,1,0.48,Above hinge,AI-NATIVE,Low,High,Partial conflict,High,Intelligent tutoring systems
+P63,1,0.47,Above hinge,AI-ADJACENT,Low,High,No conflict,Low,Information communications technology (ICT)
+P64,1,0.46,Above hinge,AI-AUGMENTED,Medium,High,Partial conflict,Low,Study skills
+P65,1,0.42,Above hinge,AI-NATIVE,Low,High,Conflict present,High,Technology in writing
+P66,1,0.37,Below hinge,AI-ADJACENT,Low,High,No conflict,Low,Mobile phones
+P67,1,0.32,Below hinge,AI-RESISTANT,High,Medium,No conflict,Low,School climate
+P68,1,0.29,Below hinge,AI-RESISTANT,High,High,Conflict present,High,Homework
+P69,1,0.21,Below hinge,AI-RESISTANT,High,High,Conflict present,Low,Technology in small groups
+P70,1,0.12,Negligible,AI-RESISTANT,High,Medium,Conflict present,Low,Mentoring
+P71,1,0.11,Negligible,AI-RESISTANT,High,Low,No conflict,Low,Teacher subject matter knowledge
+P72,1,0.06,Negligible,AI-AUGMENTED,Medium,High,Partial conflict,Low,Mastery goals
+P73,1,0.02,Negligible,AI-ADJACENT,Low,Low,Partial conflict,Low,Student control over learning
+P74,1,-0.11,Harmful,AI-ADJACENT,Low,Low,Conflict present,Low,Surface motivation and approach
+P75,1,-0.19,Harmful,AI-RESISTANT,High,Low,Conflict present,Low,Students feeling disliked
+P76,1,-0.29,Harmful,AI-ADJACENT,Low,Low,Partial conflict,Low,Non-standard dialect use
+P77,1,-0.49,Harmful,AI-AUGMENTED,Medium,Low,Partial conflict,Low,Boredom
+P78,1,-0.90,Harmful,AI-AUGMENTED,High,Low,No conflict,Low,ADHD
