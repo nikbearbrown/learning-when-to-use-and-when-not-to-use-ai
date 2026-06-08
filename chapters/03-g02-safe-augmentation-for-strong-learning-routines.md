@@ -1,116 +1,170 @@
 # Chapter 3 — G02: Safe Augmentation for Strong Learning Routines
+*Doing the Structural Work the Teacher Was Always Too Busy to Finish.*
 
-## The Decision on the Table
+Marisol Vega's cohort spent four months learning something hard, and then a piece of software offered to do it for them.
 
-Marisol Vega runs the instructional coaching program at a 700-student middle school, and her flagship project this year is a professional-development cohort: eight math and science teachers, meeting twice a month, with one shared commitment — replace end-of-unit cramming with spaced retrieval routines. The cohort is four months in. Teachers have built review calendars by hand, written retrieval questions on index cards and exit tickets, and argued productively about which October concepts deserve a seat in January's warm-ups. It is working, and it is exhausting. Building the spacing schedule for one course takes a teacher most of a planning period per unit; writing fresh retrieval items takes longer.
+The hard thing was not spacing retrieval practice — any scheduling algorithm can do that. The hard thing was understanding *why* spacing works, which required building the calendars by hand. A teacher who has spent a planning period deciding which October concepts deserve a seat in January's warm-ups has done something no piece of software has done: she has made a curriculum judgment. She knows what her students actually consolidated, what the state assessment actually weights, and what Tuesday's class meltdown means for Wednesday's retrieval difficulty. The algorithm doesn't know any of that. The algorithm knows interval optimization.
 
-Then the district's LMS vendor flips on a feature called Smart Review. It does, by its own description, exactly what the cohort has been doing by hand: it schedules spaced review automatically, generates retrieval questions from uploaded unit materials, and delivers them to students as warm-ups. The eight teachers want it yesterday. Marisol's question is not whether the tool can do the job — it visibly can. Her question is which parts of the job were the point. The cohort spent four months learning something. If the tool absorbs the routine, does it absorb the learning that built the routine — the teachers' or the students'?
+So when the district's LMS vendor switched on Smart Review — automated spacing schedules, auto-generated retrieval questions, student-facing warm-ups — Marisol didn't ask whether the tool could do the job. It visibly could. She asked which parts of the job were *the point.* That question is the entire logic of this chapter, and it turns out to be the easiest version of a question you'll have to ask in much harder territory later.
 
-This is the first true group chapter of the book, and it starts in the friendliest territory the classification offers. That is deliberate. If you cannot write a phase gate where AI is safest, you will not write one where it is dangerous.
+## What the Signature Means
 
-## What This Group Is
+Twenty-one influences share a classification signature in the dataset that built this book: AI-AUGMENTED, medium human irreducibility, low substitution risk, no cognitive-work conflict. Effect sizes run from 0.40 to 0.68, weighted average 0.50. [verify against MetaX near publication]
 
-Twenty-one influences sharing one signature: above the hinge, **AI-AUGMENTED**, medium human irreducibility, **low** substitution risk, **no cognitive-work conflict**. Effect sizes run from 0.40 to 0.68 on the 2018 252-influence list, weighted average 0.50.
+Those four descriptors are not decoration. Read them in order, because each one does real work.
 
-Translate the signature one dimension at a time. *AI-AUGMENTED* means the productive AI role is around the mechanism — preparing, scheduling, varying, recording, surfacing — not inside it. *Medium human irreducibility* means a teacher's judgment is load-bearing somewhere in every row: someone must decide what gets spaced, who gets accelerated, whether re-engagement is genuine. *Low substitution risk* means the learning-producing act is not the kind of thing AI output naturally replaces — a scheduling algorithm cannot accidentally do a student's remembering for them the way a summarizer does a student's summarizing. And *no cognitive-work conflict* means the way these tools work does not collide with the reason the influence works.
+*AI-AUGMENTED* means the productive AI role wraps around the mechanism, not inside it. Scheduling, surfacing, varying, recording — the logistics of a practice routine — are where AI earns its keep. The retrieval moment itself, the moment the student strains to recall something partly forgotten, is the mechanism. Nothing in this group's signature authorizes touching that.
 
-That makes G02 the book's safe shelf — the place where "use AI" is usually the right call and the phase gate is short. But read the signature honestly: it describes the group's center of gravity, not a blanket amnesty for all twenty-one rows. Low risk is a property to be preserved by design, not assumed by category. The job of this chapter is to show what preserving it looks like when the stakes are low, so the same moves are automatic later, when they are not.
+*Medium human irreducibility* means teacher judgment is load-bearing somewhere in every row of the group. Not everywhere — that would be high irreducibility — but somewhere meaningful. For spaced practice, that somewhere is the selection decision: what enters the rotation, at what difficulty, prioritized in what order. An algorithm can optimize intervals across whatever you hand it. It cannot hand itself the right material.
 
-## The Influences
+*Low substitution risk* names what makes this group the book's friendliest shelf. The learning-producing act in these twenty-one influences is not the kind of thing AI output naturally replaces. A scheduling algorithm cannot accidentally do a student's remembering for them the way a summarizer does a student's summarizing. The structural support and the cognitive effort are, in this group, cleanly separable. That separability is not a feature of AI tools. It is a feature of the influences themselves, and it is why this chapter's phase gate is short while later chapters' are long.
 
-The full group is a mixed shelf, and sorting it is the first skill. Three kinds of rows live here:
+*No cognitive-work conflict* means the way these tools work does not collide with the reason the influence works. This sounds obvious until you compare it with a chapter 28 problem: summarization tools and summarization practice are in direct conflict because the tool's output is exactly the cognitive product the student was supposed to generate. Here, no such collision exists. The spacing engine runs; the student retrieves. Different machines, different jobs.
 
-**Routines AI can genuinely run.** Spaced vs. massed practice (d = 0.60) — this chapter's anchor. Record keeping (0.52). Time on task (0.49). These are the cleanest augmentation cases in the entire dataset: the dataset's own notes call AI scheduling of spaced practice "a legitimate use case," with the teacher ensuring curriculum alignment and assessing transfer.
+## The Three Kinds of Rows
 
-**Programs AI can support but not constitute.** Acceleration programs (0.68) — AI can pace a gifted student through advanced material; the placement decision and the social-emotional mentorship stay human. Enrichment programs (0.53), second/third-chance programs (0.53), comprehension programs (0.47), visual-perception programs (0.55), early years' interventions (0.44), teaching communication skills (0.43). The recurring pattern in the dataset's notes: AI handles content, structure, and re-attempt logistics; mentorship, diagnosis, accountability, and meaning-making discussion stay with people.
+The group contains twenty-one influences, and sorting them is the first useful skill.
 
-**Dispositions and conditions wearing program clothes.** Field independence (0.68) tops the group, and it is a cognitive style, not a lever — AI can design tasks that exercise field-independent processing, but the trait itself is not a button (Chapter 2's "not an intervention" reflex applies above the hinge too). Concentration/persistence/engagement (0.56), perceived task value (0.46), motivation (0.42), reducing anxiety (0.42), positive self-concept (0.41). For every one of these, the dataset's notes end the same way: the durable version of the disposition is built through human relationship, classroom culture, and tasks worth caring about. AI gets the surface layer — low-stakes practice environments, competence feedback, relevance framing.
+Some rows are ones AI can genuinely run. Spaced versus massed practice (d = 0.60) is this chapter's anchor, and the dataset's own notes call AI scheduling of spaced practice "a legitimate use case" — explicitly, with the caveat that the teacher ensures curriculum alignment and assesses transfer. Record keeping (d = 0.52) and time on task (d = 0.49) sit nearby. These are the clearest augmentation cases in the entire dataset: logistics automatable, cognitive act structurally protected.
 
-All values are from the 2018 list and should be re-checked against the MetaX database near publication; group-mate "relations of high school to university achievement" (0.60) is, like field independence, an association rather than a program.
+<!-- → [TABLE: Three-column classification of G02 rows — column 1: Row name and effect size; column 2: What AI can run or support; column 3: What must stay human. Group by the three types described in text. Student should see the pattern: as human irreducibility rises, AI role narrows to content and structure, never judgment or relationship.] -->
 
-## Why It Works
+Other rows are programs AI can support but not constitute. Acceleration programs (d = 0.68), enrichment programs (d = 0.53), second- and third-chance programs (d = 0.53), comprehension programs (d = 0.47), early years' interventions (d = 0.44), teaching communication skills (d = 0.43). The pattern in the dataset's notes is uniform across all of them: AI handles content supply, structure, and re-attempt logistics; mentorship, diagnosis, accountability, and meaning-making discussion stay with people. The distinction is not capability — an AI system can absolutely generate a discussion script — but *function*. The discussion's value in a comprehension program is that a student thinks through meaning under the pressure of a teacher who reads their hesitation. Generating the script and applying that pressure are different jobs, and only one of them is in this group's safe zone.
 
-Take the anchor, because its mechanism is the one the AI tool will either serve or quietly sand off.
+The third kind of row wears program clothes but is actually a disposition or condition. Field independence (d = 0.68) tops the group and is a cognitive style, not a lever; AI can design tasks that exercise field-independent processing, but the trait is not a button. Concentration, persistence, engagement (d = 0.56), perceived task value (d = 0.46), motivation (d = 0.42), reducing anxiety (d = 0.42), positive self-concept (d = 0.41). For every one of these, the notes end the same way: durable versions of the disposition are built through human relationship, classroom culture, and tasks worth caring about. AI gets the surface layer — low-stakes practice environments, competence feedback, relevance framing. It does not get the layer underneath, which is trust.
 
-Spaced practice beats massed practice — d = 0.60 for the comparison — for a reason that feels backwards: spacing makes review *harder*. Mass your review the night before and every item feels fluent, because it is still warm in memory. Space it across weeks and each return forces effortful retrieval of partly forgotten material. That effort is not friction on the way to the learning; it *is* the learning. Roediger and Karpicke's testing-effect studies put the same engine in one finding: being made to retrieve produces more durable memory than restudying, even though restudying feels better at the time. Forgetting, then effortful recall, then re-consolidation — the cycle strengthens precisely because it strains.
+"Relations of high school to university achievement" (d = 0.60) sits in this group as an association, not a program — same epistemological status as field independence. [verify] Both warrant the Chapter 2 reflex: above the hinge is not sufficient to make something an intervention.
 
-Hold that against the group's other rows and a shared shape appears. Time on task works when the time contains practice and feedback, not occupancy. Second-chance programs work when the re-attempt involves genuine re-engagement, not procedural repetition — the dataset's note draws exactly that line. Comprehension programs work when students do the meaning-making that the teacher-led discussion demands. In every case the mechanism is a human doing effortful cognitive or pedagogical work *on a schedule and structure that someone must maintain*. The structure is automatable. The effort is not — and in this group, helpfully, the structure and the effort are cleanly separable. That separability is what "no cognitive-work conflict" means in practice, and it is why this group is safe in a way that summarization (Chapter 28) and outlining (Chapter 4) are not.
+## Why Spaced Practice Works
 
-One more reading of the mechanism, because it explains the whole group's medium irreducibility: deciding *what to space* is a curriculum judgment. An algorithm can optimize intervals; it cannot know that this year's students never consolidated proportional reasoning, or that the state assessment weights data analysis, or that Tuesday's class meltdown means tomorrow's warm-up should be confidence-building retrieval rather than maximal difficulty. The schedule is AI's; the syllabus of remembering is the teacher's.
+Take the anchor carefully, because its mechanism is the thing the AI tool will either serve or quietly sand off.
+
+Spaced practice outperforms massed practice — d = 0.60 for the comparison — for a reason that feels wrong the first time you hear it: spacing makes review *harder.* Mass your studying the night before an exam and every item feels fluent, because the material is still warm. Space it across weeks and each return forces effortful retrieval of something that has been partly forgotten. That strain is not friction on the way to learning. It *is* the learning.
+
+Roediger and Karpicke's retrieval-effort studies sharpen this into a finding worth sitting with: being made to retrieve produces more durable memory than restudying the same material, even though restudying feels more productive at the time. The feeling of fluency during a massed review session is a real cognitive experience — it is just not evidence of anything that will survive two weeks. What survives is the struggle. Forgetting, then effortful recall, then reconsolidation — the cycle strengthens exactly because it strains. 
+
+<!-- → [CHART: Line chart showing retention over time for massed vs. spaced practice — x-axis: days after study session; y-axis: recall accuracy. Two curves diverge after the first week. Student should see that spaced practice produces lower immediate recall but dramatically higher delayed recall — the spacing effect in a single image.] -->
+
+Now hold that mechanism against the rest of the group and a shared shape appears. Time on task works when the time contains practice and feedback, not mere occupancy. Second-chance programs work when re-attempt involves genuine re-engagement, not procedural repetition — the dataset draws exactly this line. Comprehension programs work when students are doing the meaning-making, not watching someone else do it. In every case the mechanism is a human doing effortful cognitive or pedagogical work *on a schedule and structure that someone must maintain.* The structure is automatable. The effort is not. And in this group, helpfully, the structure and the effort are separable. That is what "no cognitive-work conflict" means when you push on it.
+
+One more reading of the mechanism, because it explains the medium irreducibility score across all twenty-one rows: deciding *what to space* is a curriculum judgment. An algorithm can optimize intervals; it cannot know that this year's students never fully consolidated proportional reasoning, or that Tuesday's class went sideways, or that the state assessment weights data interpretation more heavily than your unit plan acknowledged. The schedule is AI's. The syllabus of remembering is the teacher's.
 
 ## What AI Can Safely Do
 
-This group is where AI earns its keep most honestly, and the list is long:
+The list is long, and that is appropriate — this is the safe shelf.
 
-- **Run the spacing engine.** Compute review intervals per topic, resurface October's concepts in January, interleave topics, and adjust intervals per student based on retrieval success. This is the one task in the chapter the dataset endorses without a conflict warning.
-- **Mass-produce retrieval variation.** Fresh versions of retrieval prompts at controlled difficulty, so students retrieve the idea rather than re-recognize the question. Item drafting is exactly the labor that was eating the cohort's planning periods.
-- **Keep the records.** Attendance of ideas, not just students: which concepts have been retrieved, when, by whom, with what success — surfaced as patterns a teacher reads in minutes (record keeping, 0.52, is the dataset's quietest "legitimate use case").
-- **Watch for drift.** Disengagement detection, time-on-task patterns, students whose retrieval success is sliding — flags that trigger a human conversation, not an automated consequence.
-- **Structure second chances.** Draft re-attempt pathways, regenerate practice for retakes, schedule the follow-up check — while the teacher holds the line on whether re-engagement is real.
-- **Curate upward.** Enrichment and acceleration content matched to a student the teacher has already decided is ready.
+AI can run the spacing engine: compute review intervals per topic, resurface October's concepts in January, interleave ideas, and adjust intervals per student based on retrieval success. This is the one task in the chapter the dataset endorses without a conflict warning. It is also, not coincidentally, the task that was eating Marisol's cohort's planning periods.
 
-Notice what every bullet shares: AI is doing *teacher-side logistics and material supply*. Nothing on the list touches the student's retrieval moment itself. The book's classification hypothesizes that AI involvement here can preserve most of the influence's value — for spaced practice the appendix entry is d ≈ 0.55 [HYPOTHESIS] — but that is the author's structured conjecture, not a measured result, and nothing in this chapter leans on it.
+AI can mass-produce retrieval variation. Fresh versions of retrieval prompts at controlled difficulty levels — enough variation that students retrieve the idea rather than re-recognize the question. Index cards breed answer memorization; variation kills it. Item drafting is exactly where the saved hours should come from.
 
-## The Substitution Trap
+AI can keep records. Attendance of ideas, not just students: which concepts have been retrieved, when, by whom, and with what success — surfaced as patterns a teacher can read in a few minutes. Record keeping (d = 0.52) is the dataset's quietest legitimate use case. A dashboard nobody changes their behavior from is decoration; a dashboard that tells a teacher her students' retention of unit rates is collapsing at the three-week mark is a diagnostic instrument.
 
-A low-risk group still has three traps; they are just subtler than theft of the cognitive act.
+AI can flag drift. Disengagement patterns, time-on-task anomalies, students whose retrieval success is quietly sliding — surfaced as flags that trigger a human conversation. Not automated consequences. Flags.
 
-**The hint that becomes the answer.** The retrieval moment is fragile. A review tool that shows the answer after ten idle seconds, autocompletes the response, or lets a student flip the card instantly has converted retrieval practice into recognition practice — same content, same dashboard, a fraction of the learning. This is the Bastani pattern from Chapter 1 in miniature: unguardrailed help inflates practice performance while quietly removing the strain that was the point. The tool's default settings, not its category, decide which side of the line it sits on.
+AI can structure second chances: draft re-attempt pathways, regenerate practice for retakes, schedule the follow-up check — while the teacher holds the line on whether re-engagement is real. And AI can curate upward: enrichment and acceleration content matched to a student the teacher has already placed, for reasons the teacher understands.
 
-**Optimizing the wrong number.** An adaptive system tuned to maximize in-app success will discover, correctly, that students score better when review is easier, more recent, and more massed. Left to its own objective function, a "smart" review tool will drift back toward the cramming the cohort spent four months escaping — because fluency is what its metrics can see. Somebody human has to check that the system is preserving desirable difficulty rather than laundering it away.
+Notice what every item in that list shares. AI is doing teacher-side logistics and material supply. Nothing on the list touches the student's retrieval moment. The book hypothesizes that AI involvement here can preserve most of the influence's value — for spaced practice the working estimate is d ≈ 0.55 [HYPOTHESIS] — but that is structured conjecture, not a measured result, and this chapter does not lean on it.
 
-**Time saved that never returns.** The honest argument for this whole group is that AI buys back teacher hours. The notes for this chapter put it bluntly: time saving is only improvement if the saved time returns to learning — to feedback, conferences, diagnosis, relationship. If Smart Review's recovered planning periods are absorbed by compliance paperwork, the tool improved a workflow and changed nothing the hinge can detect. Worse: a teacher who stops building review schedules may also stop doing the curriculum thinking that schedule-building forced. The cohort learned more from constructing the calendars than the calendars themselves contained — which is exactly the question Marisol has to answer next.
+## The Three Traps
 
-## Case Study
+Low risk is a property to be preserved by design, not assumed by category. Three traps live inside even this group's friendly territory.
 
-The cohort's fifth meeting opened with Smart Review on the projector and Marisol asking one question before anyone touched the pilot toggle: *list what we learned this fall that the tool must not undo.* The answers became the adoption conditions.
+**The hint that becomes the answer.** The retrieval moment is fragile. A review tool that shows the correct answer after ten idle seconds, autocompletes the response, or allows a student to flip the card immediately has converted retrieval practice into recognition practice. Same content, same dashboard, a fraction of the learning. This is the Bastani pattern in miniature: unguardrailed help inflates in-app performance while removing the strain that was the mechanism. The tool's default settings — not its category — decide which side of the line it sits on. The settings screen is where the pedagogy lives.
 
-**The tool.** The LMS vendor's Smart Review module: automated spacing schedules, generated retrieval items, student-facing warm-ups, teacher dashboard. **The influence.** Spaced vs. massed practice, d = 0.60 — with the mechanism stated in the cohort's own words: the forgetting is load-bearing.
+**Optimizing the wrong number.** An adaptive system tuned to maximize in-app accuracy will discover, correctly, that students score better when review is easier, more recent, and more massed. Left to its own objective function, a "smart" review tool will drift back toward the cramming the cohort spent four months replacing — because fluency is what its metrics can see. Someone human has to verify that the system is preserving desirable difficulty, not laundering it away under the label "frustration reduction."
 
-**The useful moment.** The pilot, in two classrooms first, was a genuine relief. The tool resurfaced eight-week-old concepts no teacher would have had bandwidth to rotate back in; it generated four variants of each retrieval prompt, killing the answer-memorization the index cards had bred; its dashboard showed one teacher that her students' retention of unit rates was collapsing at the three-week mark, which redirected an entire re-teach. Item quality was uneven — about one prompt in six was misaligned or trivially answerable — so the cohort instituted a fifteen-minute weekly review where each teacher skimmed and pruned the coming week's items. Planning-period savings, after pruning: roughly two hours per teacher per week, which Marisol contractually reclaimed for the cohort's student-work analysis protocol.
+**Time saved that never returns.** The honest argument for AI involvement in this group is that it buys back teacher hours. But time saving is only improvement if the saved time returns to learning — to feedback, conferences, diagnosis, relationship. If Smart Review's recovered planning periods are absorbed by compliance work, the tool improved a workflow and left the influence untouched. Worse: a teacher who stops building review schedules may also stop doing the curriculum thinking that schedule-building forced. The cohort learned more from constructing the calendars than the calendars themselves contained. That is Marisol's question, and it has no algorithmic answer.
 
-**The dangerous moment.** Three weeks in, a teacher noticed her students' in-app accuracy climbing while their Friday closed-book quizzes stayed flat. The cause took ten minutes to find: Smart Review's default "support mode" revealed the answer after one wrong attempt and re-queued the item the *same day* — recognition and re-massing, the two failure modes, shipped as kindness. Student accuracy was measuring exposure, not memory. The vendor called the settings "frustration reduction." The cohort called them what they were: the mechanism, refunded.
+## Marisol's Cohort, Two Months In
 
-**The decision.** Adopt, with conditions written into the pilot memo: (1) support mode off — retrieval attempts are closed-book, answers revealed only after a committed response, re-queue intervals never compress below the spacing floor; (2) teachers review and prune generated items weekly — the tool drafts, the teacher owns alignment; (3) reclaimed planning time is scheduled into the cohort's protocol, not released into the building's ambient demands; (4) the evidence standard is delayed and unaided — monthly cumulative quizzes, no devices — with in-app accuracy explicitly ruled out as a success metric; (5) one cohort meeting per semester re-runs the calendar-building exercise by hand with new teachers, because the judgment that built the routine has to keep being taught even though the routine is now automated.
+The fifth cohort meeting opened with Smart Review on the projector and a single question before anyone touched the pilot toggle: *what did we learn this fall that the tool must not undo?* The answers became the adoption conditions.
+
+The pilot ran in two classrooms first. It was a genuine relief. The tool resurfaced eight-week-old concepts no teacher would have had bandwidth to rotate back in. It generated four variants of each retrieval prompt, killing the answer-memorization the index cards had produced. Its dashboard showed one teacher that her students' retention of unit rates was collapsing at the three-week mark, which redirected an entire re-teach that would otherwise have waited for the end-of-unit assessment.
+
+Item quality was uneven — about one prompt in six was misaligned or trivially answerable — so the cohort instituted a fifteen-minute weekly review where each teacher skimmed and pruned the coming week's items. Planning-period savings after pruning: roughly two hours per teacher per week, which Marisol contractually reclaimed for the cohort's student-work analysis protocol.
+
+<!-- → [INFOGRAPHIC: Time accounting before and after Smart Review adoption — show planning-period allocation shifting from calendar-building and item-writing toward student-work analysis and feedback. Annotate the "reclaimed hours" explicitly. Student should see that the value of the tool is visible only when someone accounts for where the time actually went.] -->
+
+Three weeks in, a teacher noticed her students' in-app accuracy climbing while their Friday closed-book quizzes stayed flat. The cause took ten minutes to find: Smart Review's default "support mode" revealed the answer after one wrong attempt and re-queued the item the same day — recognition and re-massing, the two failure modes, shipped together as a kindness setting. Student accuracy had been measuring exposure, not memory.
+
+The vendor called the settings "frustration reduction." The cohort called them what they were: the mechanism, refunded.
+
+The adoption conditions the cohort wrote into the pilot memo were five: support mode off, with retrieval attempts closed-book and answers revealed only after a committed response, re-queue intervals never compressed below the spacing floor; teachers review and prune generated items weekly; reclaimed planning time is scheduled into the cohort's protocol rather than released into the building's ambient demands; the evidence standard is delayed and unaided — monthly cumulative quizzes, no devices — with in-app accuracy explicitly ruled out as a success metric; and one cohort meeting per semester re-runs the calendar-building exercise by hand with new teachers, because the judgment that built the routine has to keep being taught even when the routine itself is automated.
+
+That last condition is the one that took the longest argument. Someone said: if we've off-loaded the scheduling, why are we teaching scheduling? Marisol's answer was the chapter in a sentence: because understanding the scheduling well enough to audit the algorithm is not the same skill as running it, and we cannot give up the understanding just because we no longer have to run it by hand.
 
 ## The Phase Gate
 
-**AI may** compute and run spacing schedules; generate and vary retrieval prompts at teacher-set difficulty; keep records of what has been retrieved, when, and how successfully; flag disengagement and retention drift; and draft re-attempt pathways and enrichment sequences for students the teacher has already placed.
+**AI may** compute and run spacing schedules; generate and vary retrieval prompts at teacher-set difficulty; maintain records of what has been retrieved, when, and how successfully; flag disengagement and retention drift; and draft re-attempt pathways and enrichment sequences for students the teacher has already placed.
 
-**The teacher must** decide what enters the spacing rotation and why; review generated items for alignment and difficulty; keep retrieval moments closed-book and effortful by controlling the tool's help settings; verify that re-engagement in second chances is genuine; and return saved time to feedback, diagnosis, and relationship. **The learner must** do every act of retrieval unaided — the strain is non-transferable.
+**The teacher must** decide what enters the spacing rotation and why; review generated items for alignment and difficulty; control the tool's help settings to preserve effortful retrieval; verify that re-engagement in second chances is genuine; and return recovered planning time to feedback, diagnosis, and relationship.
 
-**Evidence that learning improved is** performance on delayed, cumulative, unaided assessment — material from weeks ago, retrieved cold — trending up against baseline, plus transfer items the review system never showed.
+**The learner must** do every retrieval attempt unaided. The strain is not transferable.
 
-## The Evidence Check
+**Evidence that learning improved is** performance on delayed, cumulative, unaided assessment — material from weeks ago, retrieved cold — trending upward against pre-tool baseline, plus transfer items the review system never showed.
 
-For any tool claiming this group's territory, demand:
+<!-- → [TABLE: Phase gate summary — three rows (AI may / Teacher must / Learner must) with specific actions listed in each. Fourth row: valid evidence standard. Clean reference format a teacher could post near their planning station.] -->
 
-1. **Delayed unaided performance.** Cumulative closed-book checks at four-plus weeks' delay, compared with the pre-tool baseline. This is the only number that can vindicate a spacing tool, because durability is the entire claim.
-2. **Transfer beyond the item bank.** Performance on problems the system never presented. A tool can teach its own items; the influence is about teaching the idea.
-3. **The settings audit.** Inspect the defaults: When are answers revealed? Can intervals compress? What does the adaptive engine optimize? A spacing tool's pedagogy lives in its configuration screen.
-4. **Where the saved time went.** An accounting — even informal — of what the recovered teacher hours now contain. If the answer is "nothing visible," the tool's main benefit has evaporated.
+## What Evidence to Demand
 
-What does not count: in-app accuracy, streaks, completion rates, items generated, or how much teachers like the dashboard. (They will like the dashboard.)
+For any tool claiming this group's territory:
 
-## Reader Exercises
+Demand delayed unaided performance — cumulative closed-book checks at four or more weeks' delay, compared with a pre-tool baseline. This is the only number that can vindicate a spacing tool, because durability is the entire claim. Demand transfer beyond the item bank: performance on problems the system never presented. A tool can teach its own items. The influence is about teaching the idea.
 
-1. **The reader audit.** Pick one routine-support tool in your setting — a review app, an LMS scheduler, an adaptive practice system. Write one sentence each: the mechanism (effortful practice on a maintained structure), the safe AI support, the forbidden substitution (usually a help setting, not a feature), and the proof that learning happened.
-2. **Run the settings inspection.** Open the actual configuration screen of one tool your students use for practice. Answer three questions in writing: when does it reveal answers, what does its adaptivity optimize, and can a student complete a session without one act of genuine retrieval? Apply the Bastani rule: any path to success that bypasses the effort is a path the weakest students will find first.
-3. **Produce the pilot memo.** Draft a one-page adoption memo for Smart Review or its local equivalent, using the case study's five conditions as a template but rewritten for your context. Include the evidence standard and the settings requirements as contract language a vendor would have to accept.
+Run the settings audit. Inspect the defaults: when are answers revealed, can intervals compress, what does the adaptive engine optimize? A spacing tool's pedagogy lives in its configuration screen, not its marketing materials.
+
+Require an accounting — even informal — of where recovered teacher hours went. If the answer is "nothing visible," the tool's main benefit has evaporated and the hinge will not show a thing.
+
+What does not count: in-app accuracy, streaks, completion rates, items generated, or how much teachers appreciate the dashboard. They will appreciate the dashboard. The dashboard measures the tool's activity. You are measuring learning.
 
 ## What Would Change My Mind
 
-The claim at risk in this chapter is that scheduling and item generation can be fully delegated without loss — that the structure and the effort are cleanly separable. A study showing that teachers who hand off review-calendar construction subsequently lose measurable curricular diagnosis ability — or that their students' outcomes degrade relative to hand-built spacing even with identical settings — would mean the routine-building was itself a load-bearing teacher-learning mechanism, and this group's "low substitution risk" label was scored against the student alone when it needed to be scored against the teacher too. I would then move spacing tools toward Chapter 8's logic: scaffolds for novice teachers, faded as judgment develops.
+The claim at risk here is that scheduling and item generation can be fully delegated without loss — that the structure and the effort are cleanly separable. A study showing that teachers who hand off review-calendar construction subsequently lose measurable curricular diagnosis ability — or that their students' outcomes degrade relative to hand-built spacing even with identical tool settings — would mean the routine-building was itself a load-bearing teacher-learning mechanism. The group's "low substitution risk" label was scored against the student; it may need to be scored against the teacher too. If that evidence emerged, spacing tools would move toward a scaffold model: essential for novice teachers, faded as judgment develops.
 
 ## Still Puzzling
 
-- Where is the floor on automating *selection*? A tool that schedules teacher-chosen content is clearly safe; a tool that also chooses what to space is doing curriculum. The group's signature says medium irreducibility, but no one has mapped which selection decisions can move without loss.
-- Adaptive spacing personalizes intervals per student — almost certainly good for memory, but it dissolves the shared class rhythm of "everyone wrestles with October today," and some of the cohort's best discussion came from that synchrony. Memory optimization versus collective experience is a trade nobody is pricing.
-- The dispositional rows (motivation, anxiety, self-concept) sit in this group on the strength of AI's surface contributions. Whether sustained AI-mediated success experiences can feed durable self-efficacy without a trusted adult in the loop is an open empirical question — Chapter 5 inherits it.
+Where is the floor on automating selection? A tool that schedules teacher-chosen content is clearly safe. A tool that also chooses what to space is doing curriculum. The signature says medium irreducibility, but nobody has mapped which selection decisions can move without loss, and the line between logistics and curriculum judgment is not always obvious when you're looking at a configuration screen.
+
+Adaptive spacing personalizes intervals per student — almost certainly good for individual memory, but it dissolves the shared class rhythm of "everyone retrieves October today together," and some of the cohort's best discussion came from that synchrony. Memory optimization versus collective experience is a trade-off nobody is pricing.
+
+The dispositional rows — motivation, anxiety, self-concept — sit in this group on the strength of AI's surface contributions. Whether sustained AI-mediated success experiences can build durable self-efficacy without a trusted adult in the loop is an open empirical question. Chapter 5 inherits it.
 
 ## Further Reading
 
-- **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255.** The retrieval-effort engine under this chapter's anchor influence, in its cleanest experimental form.
-- **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The policy frame this chapter operationalizes: humans in the loop, AI on the logistics, judgment never delegated.
-- **Visible Learning MetaX, research methodology and the d = 0.40 hinge (visiblelearningmetax.com).** Where to re-check every number quoted here before relying on it, and the honest account of what the hinge does and does not mean.
-- **Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** Why the dashboards in this chapter only matter when they change what a teacher or learner does next.
+**Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255.** The retrieval-effort engine under this chapter's anchor influence, in its cleanest experimental form.
+
+**U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The policy frame this chapter operationalizes: humans in the loop, AI on the logistics, judgment not delegated.
+
+**Visible Learning MetaX (visiblelearningmetax.com).** Where to re-check every number quoted here before relying on it, and the honest account of what the d = 0.40 hinge does and does not mean.
+
+**Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** Why the dashboards in this chapter only matter when they change what a teacher or learner does next.
+
+---
+
+## Exercises
+
+**Warm-up**
+
+1. (Low difficulty) *Tests understanding of the mechanism.* In two sentences, explain why spacing makes retrieval harder — and why that difficulty is the point rather than a problem to be designed away.
+
+2. (Low difficulty) *Tests reading of the phase gate.* Name one action from the phase gate that belongs to AI, one that belongs to the teacher, and one that belongs to the learner. For each, explain in one sentence why it cannot move to a different row.
+
+3. (Low difficulty) *Tests identification of valid evidence.* A principal tells you that Smart Review is working because student in-app accuracy has risen 18% since adoption. Identify what is wrong with this as an evidence claim and state what you would measure instead.
+
+**Application**
+
+4. (Medium difficulty) *Tests the settings audit.* You are piloting a new adaptive practice app. List three specific configuration settings you would inspect before allowing students to use it, and explain what each setting can do to the retrieval mechanism if left at its default.
+
+5. (Medium difficulty) *Tests substitution trap identification.* A second-chance program uses AI to generate retake materials and schedule re-attempts automatically. Describe one scenario in which this arrangement preserves the influence's mechanism and one scenario in which it substitutes for the part that was the point.
+
+6. (Medium difficulty) *Tests the time-accounting argument.* A school saves 2 hours per teacher per week by automating review scheduling. Propose a concrete protocol for ensuring that saved time returns to learning rather than disappearing into other demands. What would you measure to confirm it worked?
+
+**Synthesis**
+
+7. (High difficulty) *Tests integration of mechanism, phase gate, and evidence standard.* Design a two-classroom pilot for a spacing tool in your subject area. Specify: what the tool does, what the teacher does, what the learner does, what the settings must be, and what evidence at what time interval would allow you to conclude the tool helped rather than harmed.
+
+8. (High difficulty) *Tests the teacher-learning argument from "What Would Change My Mind."* Marisol's cohort scheduled one manual calendar-building session per semester even after adopting Smart Review. Construct the strongest argument for this practice and the strongest argument against it. Then state which you find more persuasive and why.
+
+**Challenge**
+
+9. (Advanced) *Tests ecosystem and dispositional-row thinking.* Choose one of the dispositional rows from the group — motivation, anxiety reduction, or self-concept. Describe the surface-layer contribution AI can make and the deeper layer that requires human relationship. Then design a learning environment in which both layers are intentionally present, specifying how you would know whether the AI contribution was adding to the human contribution or substituting for it.
