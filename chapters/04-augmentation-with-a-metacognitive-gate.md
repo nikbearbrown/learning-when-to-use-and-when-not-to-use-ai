@@ -151,7 +151,7 @@ The dependency warning has an empirical exit too: if year-long continuous AI Soc
 - **Education Endowment Foundation. *Metacognition and Self-Regulated Learning* — guidance report and evidence review.** The strongest practitioner synthesis of this group's strands, including the explicit-teaching and gradual-release logic the fading schedule borrows.
 - **Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** The feedback-levels framework behind this chapter's insistence that AI critique must change what the learner does next — uptake, not volume.
 - **Judgment of Learning: A Human Ability Beyond Generative AI (2024). arXiv:2410.13392.** The argument that the learner's own assessment of their knowing is precisely the act no model can perform on their behalf — the theoretical floor under the metacognitive gate.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The +48/−17 unguardrailed signature and the +127/≈0 guardrailed result — the data shape every workflow in this chapter is designed to avoid replicating.
+- **Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The +48/−17 unguardrailed signature and the +127/≈0 guardrailed result — the data shape every workflow in this chapter is designed to avoid replicating.
 - **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3).** Why generation beats reception across this whole group — not just in memory tasks, but wherever the production of structure is the mechanism.
 
 ---
@@ -183,3 +183,15 @@ The dependency warning has an empirical exit too: if year-long continuous AI Soc
 ### Challenge
 
 **9.** The week-three incident in the case study — a teacher distributing a model outline with good intentions — illustrates that the gate can be crossed *for* students as easily as *by* them. Design a professional-development session for a department that has just discovered this pattern in its own practice. Your session should: name the mechanism violation without blaming the teacher, install a concrete protocol that prevents recurrence, and build in the department's own evidence check at semester's end. The session runs ninety minutes. *(Difficulty: challenge. Tests: integrating the chapter's mechanism, gate, and evidence framework into an institutional response that a real department could run.)*
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/04-augmentation-with-a-metacognitive-gate-assertions.md -->
+
+1. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+2. Education Endowment Foundation. *Metacognition and Self-Regulated Learning* (guidance report and Toolkit). https://educationendowmentfoundation.org.uk/
+3. Huff, M., & Ulakçı, E. (2024/2025). Judgment of Learning: A Human Ability Beyond Generative Artificial Intelligence. arXiv:2410.13392. https://arxiv.org/abs/2410.13392
+4. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.
+5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

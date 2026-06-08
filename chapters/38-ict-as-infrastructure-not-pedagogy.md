@@ -179,3 +179,12 @@ Displacement remains the channel nobody instruments. The tooling now exists to m
 **Challenge**
 
 9. (Advanced) *Tests the integration-value hypothesis from "What Would Change My Mind."* The chapter acknowledges that if bundled, default-on AI suites outperformed selectively adopted components because coherence and zero-friction access beat governance, the two-ledger framework would need revision. Design the randomized study that would test this claim in a real district. Specify: the unit of randomization, the conditions (full bundle default-on vs. unbundled gated adoption vs. devices-only control), the outcome measures and their timing, how you would measure the governance cost (administrative burden, implementation lag, ungoverned AI counterfactual), and the result pattern that would lead you to recommend bundled default-on adoption despite this book's framework — including what threshold of learning advantage would be large enough to justify the gate bypass.
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/38-ict-as-infrastructure-not-pedagogy-assertions.md).*
+
+1. OECD (2015). *Students, Computers and Learning: Making the Connection*. PISA, OECD Publishing. https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/09/students-computers-and-learning_g1g57f3a/9789264239555-en.pdf
+2. Zheng, B., Warschauer, M., Lin, C.-H., & Chang, C. (2016). Learning in one-to-one laptop environments: A meta-analysis. *Review of Educational Research*, 86(4), 1052–1084. https://journals.sagepub.com/doi/10.3102/0034654316628645
+3. Cuban, L. (2001). *Oversold and Underused: Computers in the Classroom*. Harvard University Press.
+4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

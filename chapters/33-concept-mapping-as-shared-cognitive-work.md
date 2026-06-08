@@ -185,3 +185,13 @@ A classroom-scale randomized study showing that students who study high-quality 
 ### Challenge
 
 **9.** You are Priya, presenting to the district curriculum committee, which is evaluating whether to purchase the upgraded mapping software for all 23 middle schools. The vendor has attended and makes the following argument: "Our research shows that students who use AI-generated maps as study guides score 28% higher on end-of-unit tests than students who don't use them. This proves the maps work. The construction-versus-studying distinction is an academic debate — what matters is whether students learn the content." Write the three-minute response you deliver: address the 28% figure directly (what it likely measures and why), explain the Schroeder split in terms the committee will understand without the technical vocabulary, propose the one additional comparison the vendor should be required to run before the district signs, and close with the question that would determine whether the 28% is evidence of learning or evidence of recognition. *(Difficulty: challenge. Tests: translating the chapter's complete empirical framework into adversarial institutional advocacy for a non-technical audience, addressing a specific vendor claim, and identifying the critical missing comparison.)*
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/33-concept-mapping-as-shared-cognitive-work-assertions.md).*
+
+1. Schroeder, N. L., Nesbit, J. C., Anguiano, C. J., & Adesope, O. O. (2018). Studying and constructing concept maps: A meta-analysis. *Educational Psychology Review*, 30, 431–455. https://link.springer.com/article/10.1007/s10648-017-9403-9
+2. Nesbit, J. C., & Adesope, O. O. (2006). Learning with concept and knowledge maps: A meta-analysis. *Review of Educational Research*, 76(3), 413–448.
+3. Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, 331(6018), 772–775.
+4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316. https://academic.oup.com/pnasnexus/article/4/10/pgaf316/8303888
+5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

@@ -134,7 +134,7 @@ When the AI interviews the expert directly — elicitation chatbots are already 
 
 **VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46(4), 197–221.** Coached stepping, not answer delivery, is where tutoring's effect lives — the design law under the help channel.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The adaptive/executive distinction in field data: +48 percent assisted, −17 percent unaided, and the guardrail that prevented it.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The adaptive/executive distinction in field data: +48 percent assisted, −17 percent unaided, and the guardrail that prevented it.
 
 **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The expert-in-the-loop doctrine this chapter turns into a signature requirement.
 
@@ -169,3 +169,15 @@ When the AI interviews the expert directly — elicitation chatbots are already 
 **Challenge**
 
 9. (Advanced) *Tests the recursive-automation problem and the validation clause's limits.* An edtech company pilots an AI system that conducts structured elicitation interviews with experts autonomously — it asks the follow-up questions, flags inconsistencies, and produces a validated-looking decomposition without a human interviewer. The company claims accuracy comparable to human-led CTA on a benchmark of ten technical skills. Design the study you would want to see before trusting this system's output in a safety-critical domain, specifying what the benchmark would need to include, who would validate the validation, and what failure mode you are most worried the benchmark cannot detect.
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/09-ai-as-expert-task-analyst-assertions.md -->
+
+1. Clark, R. E., Feldon, D. F., van Merriënboer, J. J. G., Yates, K. A., & Early, S. (2008). Cognitive task analysis. In *Handbook of Research on Educational Communications and Technology* (3rd ed.).
+2. Posner, G. J., Strike, K. A., Hewson, P. W., & Gertzog, W. A. (1982). Accommodation of a scientific conception: Toward a theory of conceptual change. *Science Education*, 66(2), 211–227.
+3. VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46(4), 197–221. https://doi.org/10.1080/00461520.2011.611369
+4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

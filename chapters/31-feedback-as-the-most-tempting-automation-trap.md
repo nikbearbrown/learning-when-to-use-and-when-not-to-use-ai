@@ -143,3 +143,13 @@ The compounding loop has no good answer yet: when drafts are partly AI-written a
 **Challenge**
 
 9. *(Open — Autonomous feedback reversal)* The chapter's What Would Change My Mind section specifies the experiment that would dismantle the teacher-review gate: autonomous AI feedback showing durable gains on unassisted transfer without the negative-effect tail. Design that experiment: population, random assignment, what the autonomous AI condition must demonstrate about comment level distribution before it qualifies as a test (not a repetition of the failure mode), outcome measures and timing, and sample size reasoning. Then evaluate honestly: what is the single hardest design problem your experiment faces — and is it a solvable methodological challenge, or does it point to a structural limit on what autonomous feedback can be tested to show?
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/31-feedback-as-the-most-tempting-automation-trap-assertions.md).*
+
+1. Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions on performance. *Psychological Bulletin*, 119(2), 254–284.
+2. Wisniewski, B., Zierer, K., & Hattie, J. (2020). The power of feedback revisited. *Frontiers in Psychology*, 10:3087. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full
+3. Steiss, J., et al. (2024). Comparing the quality of human and ChatGPT feedback of students writing. *Learning and Instruction*. https://escholarship.org/uc/item/6k61v37f
+4. Scarfe, P., et al. (2024). A real-world test of AI infiltration of a university examinations system. *PLOS ONE*, 19(6), e0305354.
+5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

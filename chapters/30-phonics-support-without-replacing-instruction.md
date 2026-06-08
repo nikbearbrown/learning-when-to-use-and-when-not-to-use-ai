@@ -72,7 +72,7 @@ Around an intact, teacher-led phonics block, the support roles are substantial.
 
 **Decodable-text generation — the genuinely new affordance.** Language models can draft decodable passages on demand, constrained to taught correspondences: only short vowels and the digraphs ch and sh; no r-controlled vowels. This eases a real scarcity — engaging texts matched to each week of a scope and sequence, on demand rather than after a librarian's year of searching.
 
-Two cautions ride along. LLMs do not natively respect phonics constraints; they drift into untaught patterns because the model has no concept of "what this class has been taught this week." So outputs need rule-checking — scriptable: a program can verify every word against the constraint list — plus teacher review. And no peer-reviewed evaluation of LLM decodable-text generation exists yet. This is a promising, verifiable-by-construction affordance, not an evidenced one.
+Two cautions ride along. LLMs do not natively respect phonics constraints; they drift into untaught patterns because the model has no concept of "what this class has been taught this week." So outputs need rule-checking — scriptable: a program can verify every word against the constraint list — plus teacher review. And no peer-reviewed evaluation of LLM decodable-text generation exists yet. <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/30-phonics-support-without-replacing-instruction-assertions.md --> This is a promising, verifiable-by-construction affordance, not an evidenced one.
 
 **Progress curves and flag lists** telling the teacher which children's decoding growth has stalled and on which correspondences — directing scarce small-group time to the right targets.
 
@@ -179,3 +179,12 @@ A well-designed independent trial showing app-delivered phonics instruction matc
 ### Challenge
 
 **9.** You are Renee, presenting the district's phonics adoption plan to the state education department, which has funded the adoption under the new early-literacy law. The state's program officer wants to see "AI utilization metrics" in the quarterly report — specifically, app login rates, time-on-task, and in-app phonics level advancement. The state's rationale: these metrics demonstrate the science-of-reading mandate is being implemented with fidelity. Write the memo you send to the program officer: acknowledge the state's legitimate interest in implementation fidelity, explain why the requested metrics do not measure phonics learning or instructional fidelity as the research defines them, propose a replacement metric set that the state could collect and that would actually demonstrate the mandate is being implemented correctly, and close with the one question the state should add to its next site-visit protocol to verify that instruction — not just app coverage — is happening. *(Difficulty: challenge. Tests: translating the chapter's complete evidence framework into state-level policy advocacy, for a regulatory audience operating under a legislative mandate, with the goal of changing what the state measures without dismissing the state's legitimate interest.)*
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/30-phonics-support-without-replacing-instruction-assertions.md).*
+
+1. Ehri, L. C., Nunes, S. R., Stahl, S. A., & Willows, D. M. (2001). Systematic phonics instruction helps students learn to read. *Review of Educational Research*, 71(3), 393–447. https://journals.sagepub.com/doi/10.3102/00346543071003393
+2. Bowers, J. S. (2020). Reconsidering the evidence that systematic phonics is more effective than alternative methods. *Educational Psychology Review*, 32(3), 681–705. https://link.springer.com/article/10.1007/s10648-019-09515-y
+3. Fletcher, J. M., Savage, R., & Vaughn, S. (2021). A commentary on Bowers (2020). *Educational Psychology Review*, 33. https://eric.ed.gov/?id=EJ1310133
+4. Hattie, J. (2018 update). Ranking of influences. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

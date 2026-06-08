@@ -167,3 +167,13 @@ Deep motivation forms in relationships, and relationships take adult time the de
 **Challenge**
 
 9. (Advanced) *Tests the compound mechanism and the limits of environmental design.* The chapter argues deep motivation forms in relationships with adults who treat the student as a thinker — and that this is irreducibly human. A well-funded edtech company argues it can approximate this relationship through an AI tutor trained to ask Socratic questions, express genuine curiosity about the student's ideas, and remember the student's interests across sessions. Construct the strongest possible case that this approximation could produce deep-approach signatures. Then construct the strongest case that it cannot — focusing specifically on what the relationship does that the interaction cannot. Finally, propose an empirical test that would distinguish between the two accounts.
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Hattie, J. Visible Learning ranking (Not labeling students d=0.61; deep motivation ~0.69). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+2. Rosenthal, R., & Jacobson, L. (1968). Pygmalion in the Classroom. Holt, Rinehart & Winston.
+3. Marton, F., & Säljö, R. (1976). On qualitative differences in learning. British Journal of Educational Psychology, 46(1), 4–11.
+4. Steele, C. M. (2010). Whistling Vivaldi. W. W. Norton.
+5. Biggs, J., & Tang, C. (2011). Teaching for Quality Learning at University (4th ed.). Open University Press.

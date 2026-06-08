@@ -155,7 +155,7 @@ On the PD side: if scaled AI-coached teacher development — model-in-the-loop o
 - **Kraft, M. A., Blazar, D., & Hogan, D. (2018). The effect of teacher coaching on instruction and achievement: A meta-analysis. *Review of Educational Research*, 88(4), 547–588.** The evidence that the relational components of teacher development carry the weight — and the sobering scale-up findings that explain why content libraries keep failing to replicate them.
 - **Wigfield, A., & Eccles, J. S. (2000). Expectancy-value theory of achievement motivation. *Contemporary Educational Psychology*, 25(1), 68–81.** The engine under the effort row: doable, worth it, and costly to abandon — the three terms every intervention here is actually adjusting.
 - **Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253.** The benchmark discipline for reading both rows honestly.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** Read here for its quietest implication: effort is the variable unguardrailed assistance removes, making the disposition this chapter protects the upstream defense for every other chapter's gate.
+- **Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** Read here for its quietest implication: effort is the variable unguardrailed assistance removes, making the disposition this chapter protects the upstream defense for every other chapter's gate.
 - **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The policy treatment of early-warning systems and automated communication, including the human-response commitments this chapter writes into configuration memos.
 
 ---
@@ -187,3 +187,13 @@ On the PD side: if scaled AI-coached teacher development — model-in-the-loop o
 ### Challenge
 
 **9.** You are Renee, eighteen months after the pilot. The state has revised the grant terms: sites must now demonstrate "active use of AI persistence features" to qualify for renewal, and the program officer's definition of active use includes automated student-contact sequences. Crossroads' completion data is strong — best in the cohort — but the new requirement would force adoption of the feature the configuration memo prohibits. Write the letter to the state education agency: make the evidence case for your results, challenge the validity of the required metric using the Goodhart and discovery-cost arguments, propose an alternative compliance demonstration, and close with the question the program officer should be asking instead of the one the rubric asks. The letter must be persuasive to a reader who has not read this book. *(Difficulty: challenge. Tests: translating the chapter's complete analytical framework into institutional advocacy under regulatory pressure, for an audience that does not share the framework's vocabulary.)*
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Kraft, M. A., Blazar, D., & Hogan, D. (2018). The effect of teacher coaching on instruction and achievement: A meta-analysis of the causal evidence. Review of Educational Research, 88(4), 547–588.
+2. Wigfield, A., & Eccles, J. S. (2000). Expectancy-value theory of achievement motivation. Contemporary Educational Psychology, 25(1), 68–81.
+3. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
+5. Hattie, J. (2018). 252 Influences and Effect Sizes (effort d=0.77). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

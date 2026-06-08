@@ -139,3 +139,12 @@ The involvement literature is overwhelmingly correlational, and aspiration-rich 
 **Challenge**
 
 9. *(Open — Authorship disclosure reversal)* The chapter's What Would Change My Mind section identifies the experiment that would soften its resistant classification: disclosed AI messaging performing as well as teacher-written messages on conference attendance and home conversation measures. Design that experiment: population, random assignment, the exact disclosure language in the AI-messaging condition, the outcome measures and their timing, and the sample-size reasoning. Then evaluate honestly: what is the single hardest design problem — and does it point to a solvable methodological challenge, or to a structural feature of trust that makes authorship disclosure itself an intervention variable that cannot be held constant across the experiment's duration?
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/34-parental-involvement-without-platform-substitution-assertions.md).*
+
+1. Jeynes, W. H. (2007). The relationship between parental involvement and urban secondary school student academic achievement: A meta-analysis. *Urban Education*, 42(1), 82–110.
+2. Kraft, M. A., & Rogers, T. (2015). The underutilized potential of teacher-to-parent communication. *Economics of Education Review*, 47, 49–63.
+3. York, B. N., Loeb, S., & Doss, C. (2019). One step at a time: an early literacy text-messaging program. *Journal of Human Resources*, 54(3).
+4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

@@ -55,11 +55,11 @@ Hold this rule for the rest of the book: **an effect size is a prioritization si
 
 If this book is going to use Hattie's list for thirty-eight more chapters, it owes you the strongest case against doing so — stated before the using, not footnoted after.
 
-Bergeron and Rivard (2017) published, in the *McGill Journal of Education*, a paper whose title does not hedge: "How to Engage in Pseudoscience with Real Data." Their argument: Cohen's *d* cannot serve as a universal impact ruler across studies with different populations, different measures, and different designs, and averaging such d's into rankings borrows the *form* of science without satisfying its assumptions. The charge stings because the statistical core of it is right — which is exactly why this book quarantines every effect size behind the two-rulers lesson above.
+Bergeron (2017) published, in the *McGill Journal of Education*, a paper whose title does not hedge: "How to Engage in Pseudoscience with Real Data." His argument: Cohen's *d* cannot serve as a universal impact ruler across studies with different populations, different measures, and different designs, and averaging such d's into rankings borrows the *form* of science without satisfying its assumptions. The charge stings because the statistical core of it is right — which is exactly why this book quarantines every effect size behind the two-rulers lesson above.
 
 There were also computational errors. Alongside Cohen's *d*, the 2009 book reported a second statistic, the Common Language Effect size — and many of those values were mathematically impossible: negative probabilities, probabilities above 100 percent. Hattie had used z-values directly where probabilities belonged. Readers flagged it around 2011; Hattie acknowledged the error, and reprints were corrected. Two things are simultaneously true. First: the CLE errors do not contaminate the *d*-based rankings — the rankings never rested on that statistic. The speedometer was broken; the odometer was fine. Second: a synthesis offered as the foundation for evidence-based practice shipped with basic statistical errors that no reviewer caught. Not zero deference owed to the enterprise after that. Not full deference either. Adult deference.
 
-Simpson (2017) supplied the mechanism behind Bergeron and Rivard's charge: an effect size is a ratio, and researchers can enlarge it without making an intervention any better — shrink the denominator by studying restricted samples, sharpen the numerator with proximal researcher-built measures. League tables of effect sizes may really be hierarchies of *openness to research-design manipulation*. Slavin (2018) made the practitioner version of the same point bluntly: the meta-meta-analysis accepts its underlying meta-analyses uncritically, and those are dominated by small, brief, artificial studies that inflate effects.
+Simpson (2017) supplied the mechanism behind Bergeron's charge: an effect size is a ratio, and researchers can enlarge it without making an intervention any better — shrink the denominator by studying restricted samples, sharpen the numerator with proximal researcher-built measures. League tables of effect sizes may really be hierarchies of *openness to research-design manipulation*. Slavin (2018) made the practitioner version of the same point bluntly: the meta-meta-analysis accepts its underlying meta-analyses uncritically, and those are dominated by small, brief, artificial studies that inflate effects.
 
 And there is a critique internal to the averaging itself — the one this book leans on hardest. A single number per influence averages over moderators that can reverse the effect. Hattie's own feedback synthesis acknowledges that roughly one-third of feedback effects in the underlying literature are *negative*. The d = 0.70 on the vendor's slide is the mean of a distribution that includes a fat tail of feedback that made things worse. Practitioners do not live in the mean; they live in the distribution.
 
@@ -167,10 +167,10 @@ This chapter rests on claims that evidence could overturn, and honesty requires 
 
 - **Hattie, J. (2009). *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Routledge.** The source of the list, the hinge, and the controversy. Read the first three chapters for the logic; read the critics alongside.
 - **Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253.** The second ruler. The single most practical statistics paper a school leader can read; it will permanently change how vendor decks look to you.
-- **Bergeron, P.-J., & Rivard, L. (2017). How to engage in pseudoscience with real data: A criticism of John Hattie's arguments in Visible Learning from the perspective of a statistician. *McGill Journal of Education*, 52(1), 237–246.** The strongest statistical case against the synthesis.
+- **Bergeron, P.-J. (2017). How to engage in pseudoscience with real data: A criticism of John Hattie's arguments in Visible Learning from the perspective of a statistician. *McGill Journal of Education*, 52(1), 237–246. Translated by L. Rivard.** The strongest statistical case against the synthesis.
 - **Simpson, A. (2017). The misdirection of public policy: Comparing and combining standardised effect sizes. *Journal of Education Policy*, 32(4), 450–466.** Why effect sizes are manipulable ratios, and why league tables of them may rank research designs rather than interventions.
 - **Hamilton, A., Wiliam, D., & Hattie, J. (2023). The future of AI in education: 13 things we can do to minimize the damage. Working paper.** Co-authored caution from the most-quoted name in the genre.
-- **Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI can harm learning. *PNAS*.** The book's central cautionary experiment: +48% with help, −17 points without it — and the guardrailed arm that shows design decides the outcome.
+- **Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The book's central cautionary experiment: +48% with help, −17 points without it — and the guardrailed arm that shows design decides the outcome.
 - **Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** What the 0.70 on the vendor slide was actually a measurement of.
 
 ---
@@ -195,10 +195,27 @@ This chapter rests on claims that evidence could overturn, and honesty requires 
 
 ### Synthesis
 
-**7.** Bergeron and Rivard's statistical critique is correct. Hattie's [HYPOTHESIS] column is the author's conjecture, not peer-reviewed findings. Yet this book uses both. Write a 200-word defense of that choice that does not dismiss either critique — and that would satisfy a methodologically trained skeptic. *(Difficulty: high. Tests: holding the epistemological distinctions together under pressure.)*
+**7.** Bergeron's statistical critique is correct. Hattie's [HYPOTHESIS] column is the author's conjecture, not peer-reviewed findings. Yet this book uses both. Write a 200-word defense of that choice that does not dismiss either critique — and that would satisfy a methodologically trained skeptic. *(Difficulty: high. Tests: holding the epistemological distinctions together under pressure.)*
 
 **8.** The Bastani study shows a guardrailed AI tutor producing large practice gains with no exam harm, while an unguardrailed version produced large practice gains and significant exam harm. A colleague argues: "So we just need guardrails — then AI is safe." What does this chapter add to that claim that the colleague is missing? *(Difficulty: high. Tests: mechanism conflict, substitution risk, and the specificity of what guardrails must protect.)*
 
 ### Challenge
 
 **9.** Design a one-semester pilot for an AI writing-feedback tool that a methodologically trained evaluator would accept as credible. Specify: the influence being targeted, its mechanism, the phase gate (X, Y, Z), the evidence measure for Z, and a plan for what you would do if Z shows flat or negative results at week ten. Your design must make the same mistake the cautionary tale in this chapter makes *impossible* — explain why. *(Difficulty: challenge. Tests: integrating every concept in the chapter into a practical institutional decision.)*
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/01-hatties-visible-learning-and-the-ai-question-assertions.md -->
+
+1. Hattie, J. (2009). *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Routledge. https://www.routledge.com/p/book/9780415476188
+2. Hattie, J. (2023). *Visible Learning: The Sequel*. Routledge. https://www.routledge.com/p/book/9781032462035
+3. Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences*. Routledge.
+4. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+5. Bergeron, P.-J. (2017). How to engage in pseudoscience with real data. *McGill Journal of Education*, 52(1), 237–246. (L. Rivard, trans.) https://mje.mcgill.ca/article/view/9475
+6. Hamilton, A., Wiliam, D., & Hattie, J. (2023). *The Future of AI in Education: 13 Things We Can Do to Minimize the Damage*. Working paper (EdArXiv). https://osf.io/preprints/edarxiv/372vr/
+7. Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+8. VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46(4), 197–221. https://doi.org/10.1080/00461520.2011.611369
+9. Wang, R. E., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. arXiv:2410.03017. https://arxiv.org/abs/2410.03017
+10. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

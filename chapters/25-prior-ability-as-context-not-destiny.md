@@ -106,7 +106,7 @@ No one has located a longitudinal study of LLM-era placement loops on long-run s
 
 **Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49, 241–253.** Essential here for the distinction the chapter leans on: what a 0.94 means when it describes a background association rather than an intervention's payoff.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The field experiment behind this chapter's equity warning: the same AI access produced gains with guardrails and harm without — design, not technology, decided whether prior differences shrank or compounded.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The field experiment behind this chapter's equity warning: the same AI access produced gains with guardrails and harm without — design, not technology, decided whether prior differences shrank or compounded.
 
 ---
 

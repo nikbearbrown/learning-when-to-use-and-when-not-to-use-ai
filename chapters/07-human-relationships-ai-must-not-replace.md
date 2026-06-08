@@ -188,3 +188,15 @@ The claim under load is that simulated relational interaction cannot deliver the
 ### Challenge
 
 **9.** You are the family-engagement coordinator inheriting the platform three months after the "Weekly Wins" incident described in the case study. The vendor has now added a feature that lets teachers review and approve auto-drafted notes with a single click — no editing required. The vendor's argument: this preserves teacher voice because teachers can reject any note, and click-approval is still human approval. Using the authenticity-wall argument and the phase gate, write a one-page policy memo that either accepts this feature with conditions, rejects it with explanation, or proposes a third option — and anticipates the vendor's counter-argument in your final paragraph. *(Difficulty: challenge. Tests: applying the chapter's framework to a genuine edge case where the gate's boundary is being contested by a commercially motivated redesign.)*
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/07-human-relationships-ai-must-not-replace-assertions.md -->
+
+1. Roorda, D. L., Koomen, H. M. Y., Spilt, J. L., & Oort, F. J. (2011). The influence of affective teacher–student relationships on students' school engagement and achievement: A meta-analytic approach. *Review of Educational Research*, 81(4), 493–529.
+2. Cochon Drouet, O., Lentillon-Kaestner, V., & Margas, N. (2023). Effects of the Jigsaw method on student educational outcomes: systematic review and meta-analyses. *Frontiers in Psychology*, 14, 1216437. https://doi.org/10.3389/fpsyg.2023.1216437
+3. Visible Learning MetaX — Teacher-student relationships. https://www.visiblelearningmetax.com/influences
+4. U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*. https://tech.ed.gov/ai/
+5. UNESCO (2023). *Guidance for Generative AI in Education and Research*.

@@ -108,7 +108,7 @@ The new-teacher dilemma has no clean answer: the suite helps novices most and er
 
 **Liljedahl, P. (2021). *Building Thinking Classrooms in Mathematics*.** The mimicking diagnosis, and the strongest available account of classroom structures that force thinking — the human program autopilot quietly replaces.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence, here read at organizational scale: in-suite performance is assisted performance.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The assisted/unassisted divergence, here read at organizational scale: in-suite performance is assisted performance.
 
 **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The teacher-in-the-loop doctrine applied to exactly this product category, including its warnings on automated assignment of instruction.
 
@@ -141,3 +141,13 @@ The new-teacher dilemma has no clean answer: the suite helps novices most and er
 **Challenge**
 
 9. *(Open — Autopilot reversal)* The chapter claims that autopilot remediation bypasses the teacher's diagnostic act and produces mimicking rather than learning. Construct the strongest possible counterargument: conditions under which full-autopilot remediation could match or exceed teacher-mediated response on delayed, off-platform transfer outcomes. Name the mechanism by which autopilot could teach rather than mimic, identify what evidence would confirm it, and state the falsification condition. Then evaluate your own argument: does the mechanism you proposed actually exist in current adaptive systems, or only in a hypothetical version of them?
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Hattie, J., & Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1), 81–112.
+2. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+3. Liljedahl, P. (2021). Building Thinking Classrooms in Mathematics. Corwin.
+4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
+5. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

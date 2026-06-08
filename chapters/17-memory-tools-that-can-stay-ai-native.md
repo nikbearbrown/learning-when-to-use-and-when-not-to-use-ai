@@ -112,7 +112,7 @@ The dataset hypothesizes a small discount (0.76 → ≈0.70 [HYPOTHESIS]) for AI
 
 **Atkinson, R. C. (1975). Mnemotechnics in second-language learning. *American Psychologist*, 30, 821–828.** The keyword method's founding demonstrations — with experimenter-supplied keywords, the historical precedent for received scaffolds working.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** Cited here for contrast: the +48/−17 signature of AI doing the learner's cognitive work — the pattern this group's division of labor is designed never to produce.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** Cited here for contrast: the +48/−17 signature of AI doing the learner's cognitive work — the pattern this group's division of labor is designed never to produce.
 
 **Brown, P. C., Roediger, H. L., & McDaniel, M. A. (2014). *Make It Stick*.** The practitioner's translation of retrieval and spacing — the book to hand a colleague who thinks rehearsal is beneath their course.
 
@@ -145,3 +145,12 @@ The dataset hypothesizes a small discount (0.76 → ≈0.70 [HYPOTHESIS]) for AI
 **Challenge**
 
 9. *(Open — Self-generation reversal)* The chapter argues that the supplied-mnemonic experiments justify AI-generated memory aids — the learning was never in the authorship. Construct the strongest possible counterargument: conditions under which self-generating mnemonics in the AI era would produce reliably better retention than receiving AI-personalized ones. Draw on the generation effect literature and the metacognitive research from Chapter 5. State the mechanism, the evidence needed to confirm it, and the falsification condition. Then evaluate honestly: if a self-generation advantage were demonstrated for AI-era mnemonics, what exactly would change in this chapter's adoption rules — and what would stay the same?
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Hattie, J. (2018). 252 Influences and Effect Sizes (Mnemonics 0.76; Rehearsal/memorization 0.73). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+2. Dunlosky, J., et al. (2013). Improving students' learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4–58.
+3. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3), 249–255.
+4. Atkinson, R. C. (1975). Mnemotechnics in second-language learning. American Psychologist, 30(11), 821–828.

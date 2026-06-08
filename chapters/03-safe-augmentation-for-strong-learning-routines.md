@@ -183,3 +183,14 @@ The dispositional rows — motivation, anxiety, self-concept — sit in this gro
 **Challenge**
 
 9. (Advanced) *Tests ecosystem and dispositional-row thinking.* Choose one of the dispositional rows from the group — motivation, anxiety reduction, or self-concept. Describe the surface-layer contribution AI can make and the deeper layer that requires human relationship. Then design a learning environment in which both layers are intentionally present, specifying how you would know whether the AI contribution was adding to the human contribution or substituting for it.
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/03-safe-augmentation-for-strong-learning-routines-assertions.md -->
+
+1. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255.
+2. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+3. Visible Learning MetaX. https://www.visiblelearningmetax.com/
+4. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

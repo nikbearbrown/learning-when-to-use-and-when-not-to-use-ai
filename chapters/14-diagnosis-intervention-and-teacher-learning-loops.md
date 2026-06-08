@@ -135,3 +135,12 @@ Teacher video analytics sit one policy memo away from surveillance. The same tag
 **Challenge**
 
 9. *(Open — Human judgment reversal)* The chapter claims human-team diagnosis outperforms algorithm-decided tier placements for diverse populations, especially multilingual learners and atypical cases. The clinical-prediction literature outside education — Meehl's actuarial vs. clinical judgment research — suggests algorithms often beat humans in high-volume prediction tasks. Construct the argument that RTI placement should move to algorithmic decision-making with human review, rather than human decision-making with algorithmic recommendation. State the conditions under which the argument holds, what evidence would confirm it, and what the falsification condition is. Then evaluate honestly: does the multilingual-learner case from the chapter represent a solvable data problem for future algorithms, or a structural limit on what pattern-matching can diagnose?
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Fuchs, D., & Fuchs, L. S. (2006). Introduction to response to intervention. Reading Research Quarterly, 41(1), 93–99.
+2. Hattie, J., & Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1), 81–112.
+3. Hattie, J. Visible Learning ranking (RTI d=1.29; micro-teaching d=0.88). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+4. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798

@@ -189,3 +189,14 @@ Relative age is the group's strangest row: fully structural, yet trivially cheap
 **Challenge**
 
 9. (Advanced) *Tests the forecasting-feedback problem from "Still Puzzling."* A school implements an effective response protocol. Over three years, students who are flagged early receive strong support and their trajectories improve substantially. The model, retrained on the new data, begins flagging fewer students — because the outcomes it learned from are better. Is this a success or a failure of the system? Construct the strongest argument for each interpretation, then propose a governance mechanism that resolves the tension without requiring the school to choose between effective response and accurate detection.
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/06-context-signals-ai-can-read-but-not-repair-assertions.md -->
+
+1. Sirin, S. R. (2005). Socioeconomic status and academic achievement: A meta-analytic review of research. *Review of Educational Research*, 75(3), 417–453.
+2. Jussim, L., & Harber, K. D. (2005). Teacher expectations and self-fulfilling prophecies: Knowns and unknowns, resolved and unresolved controversies. *Personality and Social Psychology Review*, 9(2), 131–155.
+3. Melby-Lervåg, M., & Hulme, C. (2013). Is working memory training effective? A meta-analytic review. *Developmental Psychology*, 49(2), 270–291.
+4. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

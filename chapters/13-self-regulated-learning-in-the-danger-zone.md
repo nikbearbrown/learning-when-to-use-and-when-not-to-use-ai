@@ -70,7 +70,8 @@ Second, it is trained *by being run, effortfully, by the learner* — with suppo
 
 Now place the AI assistant against that mechanism. Configured as a coach that asks and then fades, it is plausibly the best self-regulation training tool ever mass-distributed. Configured as it ships — helpful by default, answering whatever is asked — it is a machine for ensuring the handoff never happens. It plans, prompts, monitors, summarizes, and adjusts, tirelessly, personally, forever. Every capability that makes it valuable for training is also a capability that, in the wrong configuration, removes the training's object.
 
-The Bastani field experiment gives this a number: unrestricted help lifted practice performance 48 percent and left students 17 percent worse on the unassisted exam. A working paper by Poulidis, Bastani, and Bastani studying chess academies adds a result this group should take seriously: self-regulation alone did not prevent over-reliance on AI assistance — structural constraints did what willpower could not (working paper, unreviewed — weight accordingly). The group whose entire subject matter is willpower-plus-strategy cannot assume willpower-plus-strategy will protect it from its own study tool.
+The Bastani field experiment gives this a number: unrestricted help lifted practice performance 48 percent and left students 17 percent worse on the unassisted exam. A working paper by Poulidis, Bastani, and Bastani studying chess academies adds a result this group should take seriously: self-regulation alone did not prevent over-reliance on AI assistance — structural constraints did what willpower could not (working paper, unreviewed — weight accordingly).
+<!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/13-self-regulated-learning-in-the-danger-zone-assertions.md --> The group whose entire subject matter is willpower-plus-strategy cannot assume willpower-plus-strategy will protect it from its own study tool.
 
 ---
 
@@ -160,7 +161,7 @@ I would also update on the trap's other edge: if coach-mode configurations show 
 
 - **Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. *Theory Into Practice*, 41(2), 64–70.** The canonical map of the loop — forethought, performance, self-reflection — and the internalization story this chapter's fading requirement comes from.
 - **Education Endowment Foundation. *Metacognition and Self-Regulation* evidence review.** The cost-effectiveness case: among the highest-yield interventions known, with implementation guidance that predates and outlasts any tool.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The +48/−17 divergence — the danger zone measured, and the guardrailed arm showing design beats default.
+- **Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The +48/−17 divergence — the danger zone measured, and the guardrailed arm showing design beats default.
 - **Poulidis, N., Bastani, H., & Bastani, O. (working paper, SSRN). Self-regulation and over-reliance on AI assistance — evidence from chess academies.** The structure-beats-willpower result this chapter leans on, flagged as what it is: unreviewed, one domain, directionally important.
 - **Steiss, J., et al. (2024). Comparing the quality of human and ChatGPT feedback on students' writing.** Where machine feedback legitimately helps a writer: criteria-based response to student-produced drafts — the narrow lane, mapped.
 
@@ -193,3 +194,14 @@ I would also update on the trap's other edge: if coach-mode configurations show 
 ### Challenge
 
 **9.** You are Priya, six months into the campus rollout. The vendor has requested a meeting to present data showing that students in the configured (coach-mode) cohort have significantly lower engagement metrics than students in the unconfigured (generative-default) cohort — fewer sessions, shorter session lengths, lower platform satisfaction scores. The vendor argues this shows the configured version is less effective and suggests reverting to generative defaults. Write the memo you bring to that meeting: acknowledge the engagement data, explain why it is the wrong measure for this group's influences, present the evidence that would actually settle the question, and propose the study design that would generate it — in terms a provost who is not an education researcher will find compelling. *(Difficulty: challenge. Tests: integrating the chapter's evidence framework, the substitution analysis, and the institutional communication problem into a single coherent argument under adversarial conditions.)*
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
+2. Steiss, J., Tate, T., Graham, S., et al. (2024). Comparing the quality of human and ChatGPT feedback of students' writing. Learning and Instruction, 91, 101894. https://www.sciencedirect.com/science/article/pii/S0959475224000215
+3. Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70.
+4. Education Endowment Foundation. Metacognition and Self-Regulation. EEF Teaching and Learning Toolkit. https://educationendowmentfoundation.org.uk/
+
+*Note: The Poulidis, Bastani & Bastani chess-academy working paper (cited in-text) is UNVERIFIED against a published record — the author flags it as unreviewed; verify exact title/URL near publication.*

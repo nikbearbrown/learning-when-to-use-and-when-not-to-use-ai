@@ -189,3 +189,13 @@ Separately, evidence that early dependence on app-mediated practice degrades chi
 ### Challenge
 
 **9.** Your district has piloted the same adaptive spelling app at twelve elementary schools for one year. The vendor presents end-of-year data showing average in-app mastery gains of 34 percentage points across all sites and requests contract renewal for all schools. You have also collected independent data: biweekly paper dictation scores at six of the twelve sites — the other six never ran the external check. At four of the six sites with external data, paper dictation moved in parallel with in-app mastery. At two sites, they diverged — in-app scores high, paper dictation flat. Write the analysis memo you present to the assistant superintendent: interpret the vendor data, explain the divergence pattern and its most probable causes, propose differentiated renewal terms for the two site categories, and design the evidence requirement that all twelve sites must meet in year two. *(Difficulty: challenge. Tests: applying the complete evidence framework to a real district decision with heterogeneous site data and a vendor in the room.)*
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Hattie, J. (2018). 252 Influences and Effect Sizes (Spelling programs 0.58; Interactive video methods 0.54). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+2. Graham, S., & Santangelo, T. (2014). Does spelling instruction make students better spellers, readers, and writers? Reading and Writing, 27(9), 1703–1743.
+3. Ehri, L. C. (2014). Orthographic mapping in the acquisition of sight word reading, spelling memory, and vocabulary learning. Scientific Studies of Reading, 18(1), 5–21.
+4. Mayer, R. E. (2021). Multimedia Learning (3rd ed.). Cambridge University Press.
+5. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3), 249–255.

@@ -195,3 +195,13 @@ Evidence that reading AI pre-marked text produces equal or better *novel-text* i
 ### Challenge
 
 **9.** You are Dale, presenting to the college's academic technology committee, which is deciding whether to enable AI Smart Highlights by default across all 47 courses using the e-textbook platform. The vendor has presented data showing that students in courses with Smart Highlights enabled have 23% higher chapter completion rates and 15% higher scores on end-of-chapter quizzes. The department chairs are impressed. Write the five-minute presentation you deliver: acknowledge the vendor's data directly and explain what it likely measures (completion and recognition on pre-selected content), introduce the fluency illusion and the discrimination mechanism without using academic vocabulary the committee won't have, propose the one study the committee should require the vendor to run before enabling the feature by default, and close with the question about adult reading competence — not study skills — that the committee should be asking. *(Difficulty: challenge. Tests: translating the chapter's complete framework — mechanism, fluency illusion, evidence check, default-as-pedagogical-decision — into a non-technical institutional argument that addresses specific vendor data and redirects the committee toward the right question.)*
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/36-highlighting-underlining-and-false-fluency-assertions.md).*
+
+1. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students learning with effective learning techniques. *Psychological Science in the Public Interest*, 14(1), 4–58. https://journals.sagepub.com/doi/abs/10.1177/1529100612453266
+2. Koriat, A., & Bjork, R. A. (2005). Illusions of competence in monitoring ones knowledge during study. *JEP: LMC*, 31(2), 187–194.
+3. Bjork, R. A., Dunlosky, J., & Kornell, N. (2013). Self-regulated learning: Beliefs, techniques, and illusions. *Annual Review of Psychology*, 64, 417–444.
+4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316.
+5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

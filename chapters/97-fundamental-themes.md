@@ -245,10 +245,10 @@ The critical specification: **the premium goes to AI-fluent domain experts who s
 This is the Irreducibly Human taxonomy applied to employment economics. The Tiers 4–7 capacities — plausibility auditing, causal reasoning, institutional judgment, values integration — are what the 56% premium pays for. They are what domain experts already have in their domain. They are what AI cannot supply. And they are, precisely, what the AI+1 curriculum teaches in domain-specific form.
 
 **Skills-based hiring is accelerating this signal:**
-- Less than 40% of employers screen by GPA (third straight year of decline)
-- Nearly two-thirds use skills-based hiring all or most of the time
-- Degree requirements fell 7–9 percentage points in AI-exposed jobs from 2019–2024
-- Practical AI skills get a 19–23% premium vs. 9–11% for credentials alone
+- Less than 40% of employers screen by GPA (third straight year of decline) <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/97-fundamental-themes-assertions.md -->
+- Nearly two-thirds use skills-based hiring all or most of the time <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/97-fundamental-themes-assertions.md -->
+- Degree requirements fell 7–9 percentage points in AI-exposed jobs from 2019–2024 <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/97-fundamental-themes-assertions.md -->
+- Practical AI skills get a 19–23% premium vs. 9–11% for credentials alone <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/97-fundamental-themes-assertions.md -->
 - Internship and co-op experience is the dominant entry-level hiring signal
 
 The credential matters less. The demonstrated capability matters more. This is the market telling educators what to teach.
@@ -299,7 +299,7 @@ The combination: students learn which cognitive work to keep (Tiers 4–7, domai
 
 **AI+1 Plus One** is the residential one-year master's for recent graduates and early-career professionals. The credit structure is efficient: four courses transferred from the undergraduate degree plus four new AI+1 courses. The co-op pathway is preserved — the dominant entry-level hiring signal. The curriculum renders in domain-specific variants matched to the incoming cohort: eight designers and four lawyers gets a different curriculum than six clinicians and six teachers.
 
-**AI+1 Bridge** is the online master's for mid-career professionals. It accepts prior graduate and undergraduate coursework toward the credit requirement — reducing the time and cost for professionals who already have domain depth and domain credentials. The employer-tied capstone replaces the co-op pathway, connecting the learning directly to the workplace the student already has. Bridge serves the professional who wants to keep their role and add the AI fluency that keeps them valuable in it — the 88% of workers without AI upskilling who would take it if it were offered in a form that worked for them.
+**AI+1 Bridge** is the online master's for mid-career professionals. It accepts prior graduate and undergraduate coursework toward the credit requirement — reducing the time and cost for professionals who already have domain depth and domain credentials. The employer-tied capstone replaces the co-op pathway, connecting the learning directly to the workplace the student already has. Bridge serves the professional who wants to keep their role and add the AI fluency that keeps them valuable in it — the 88% of workers without AI upskilling who would take it if it were offered in a form that worked for them. <!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/97-fundamental-themes-assertions.md -->
 
 Both paths apply the same framework. The domain expertise is the student's. The Tier 1 AI productivity is taught domain-specifically. The Tier 4–7 cognitive skills are taught domain-specifically. The phase gate — the explicit division of what AI handles and what the human keeps — is specified for the student's actual field.
 
@@ -493,3 +493,11 @@ The framework described in this document is deployed across a connected set of p
 | **Nik Bear Brown** | Author website — the connecting node across all projects | [nikbearbrown.com](https://nikbearbrown.com) |
 
 The argument is one. The applications are many. The tools will change. The taxonomy will evolve at the margins. The neurobiological mechanism of learning — and the structural incapacity of AI at Tiers 4 through 7 — will not.
+
+---
+
+## References
+
+1. Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS* 122(26), 2025. https://www.pnas.org/doi/10.1073/pnas.2422633122
+2. Kosmyna, N., et al. Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. MIT Media Lab, arXiv:2506.08872, 2025. https://arxiv.org/abs/2506.08872
+3. PwC. The Fearless Future: 2025 Global AI Jobs Barometer, June 2025. https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html

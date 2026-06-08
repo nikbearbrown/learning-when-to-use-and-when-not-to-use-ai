@@ -203,3 +203,15 @@ You now know everything that note requires. The influence on the slide has a mec
 The questions are four. The gate is three sentences. The work stays where it always was: in the learner who must do the thinking, the teacher who must witness it, and the institution that must refuse to certify what no one witnessed. AI belongs in your schools — this book has put it there, deliberately, dozens of times. It belongs everywhere except the one place each influence cannot survive its presence, and you can now find that place yourself, influence by influence, deck by deck.
 
 *This checks out, right?* It does now — because you checked.
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/39-technology-in-writing-and-the-authorship-gate-assertions.md).*
+
+1. Bangert-Drowns, R. L. (1993). The word processor as an instructional tool. *Review of Educational Research*, 63(1), 69–93.
+2. Graham, S., & Perin, D. (2007). *Writing Next*. Alliance for Excellent Education. https://files.eric.ed.gov/fulltext/ED499256.pdf
+3. Bereiter, C., & Scardamalia, M. (1987). *The Psychology of Written Composition*. Erlbaum.
+4. Kosmyna, N., et al. (2025). Your Brain on ChatGPT (preprint). arXiv:2506.08872. https://arxiv.org/abs/2506.08872
+5. Scarfe, P., et al. (2024). A real-world test of AI infiltration of a university examinations system. *PLOS ONE*, 19(6), e0305354. https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0305354
+6. Steiss, J., et al. (2024). Comparing the quality of human and ChatGPT feedback. *Learning and Instruction*. https://escholarship.org/uc/item/6k61v37f
+7. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

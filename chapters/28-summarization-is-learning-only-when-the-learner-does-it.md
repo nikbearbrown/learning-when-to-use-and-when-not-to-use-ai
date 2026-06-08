@@ -106,7 +106,7 @@ The biggest hole in the literature: no classroom RCT on AI-summary consumption i
 
 **Rosenshine, B., & Meister, C. (1994). Reciprocal teaching: A review of the research. *Review of Educational Research*, 64, 479–530.** Summarizing as one of four trained strategies, and a useful caution about how effect sizes differ between standardized and researcher-built measures.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The unguardrailed-help signature — inflated assisted performance, damaged unassisted capability — that this chapter's failure modes all reduce to.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The unguardrailed-help signature — inflated assisted performance, damaged unassisted capability — that this chapter's failure modes all reduce to.
 
 **McTighe, J., & Silver, H. F. (2020). *Teaching for Deeper Learning*.** Summarizing and paraphrasing as meaning-making moves within a larger repertoire — the pedagogical frame that keeps this chapter's prohibition from collapsing into mere nostalgia for note cards.
 

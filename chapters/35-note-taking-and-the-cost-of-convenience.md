@@ -142,7 +142,7 @@ The accessibility track is this chapter's untroubled good, but it raises a quest
 
 **Melumad, S., & Yun, J. H. (2025). Experimental evidence of the effects of large language models versus web search on depth of learning. *PNAS Nexus*, 4(10).** Received synthesis produces shallower knowledge than learner-assembled understanding — the AI-era result that converts fifty-year-old mechanism literature into a present-tense warning.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted-performance/unassisted-capability split: the shape of what the preparedness-performance gap will look like in your data if the gate fails.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The assisted-performance/unassisted-capability split: the shape of what the preparedness-performance gap will look like in your data if the gate fails.
 
 ---
 
@@ -173,3 +173,13 @@ The accessibility track is this chapter's untroubled good, but it raises a quest
 **Challenge**
 
 9. (Advanced) *Tests the petition's hypothesis directly and the experiment that should be run.* The chapter argues that the petition's hypothesis — that freed-from-transcription students will process more deeply — deserves a fair empirical test. Design that test. Specify: the populations and their assignment, the conditions (full AI notes, gated AI notes, no AI notes), the outcome measures and their timing (including the preparedness-performance gap as a pre-registered secondary outcome), and the result pattern that would lead you to conclude the petition was right. Address two methodological challenges: how you would verify that students in the full-AI condition are actually using the freed attention for deeper processing rather than drifting, and how you would design the study so it could ethically withhold a potentially beneficial intervention from a control group for an entire semester.
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/35-note-taking-and-the-cost-of-convenience-assertions.md).*
+
+1. Di Vesta, F. J., & Gray, G. S. (1972). Listening and note taking. *Journal of Educational Psychology*, 63(1), 8–14.
+2. Kiewra, K. A. (1989). A review of note-taking: The encoding-storage paradigm and beyond. *Educational Psychology Review*, 1, 147–172.
+3. Morehead, K., Dunlosky, J., & Rawson, K. A. (2019). How much mightier is the pen than the keyboard for note-taking? *Educational Psychology Review*, 31, 753–780. https://eric.ed.gov/?id=EJ1225471
+4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316.
+5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

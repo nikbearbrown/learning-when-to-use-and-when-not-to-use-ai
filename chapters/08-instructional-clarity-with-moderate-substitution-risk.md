@@ -151,3 +151,15 @@ After-school programs sit awkwardly in this group: their hinge-riding 0.40 mixes
 **Challenge**
 
 9. *(Open — Apprenticeship reversal)* The chapter's core claim for novices is that planning struggle builds the live half's diagnostic vigilance, so supplying perfect scripts de-skills. Construct the strongest possible counterargument: a mechanism by which studying expert-generated scripts could build diagnostic skill faster than writing flawed ones. Draw on the worked-example literature from Chapter 2 in your argument. Then evaluate honestly: under what conditions does your argument hold, and at what point does it break down and the chapter's restriction reassert?
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/08-instructional-clarity-with-moderate-substitution-risk-assertions.md -->
+
+1. Rosenshine, B. (2012). Principles of instruction: Research-based strategies that all teachers should know. *American Educator*, 36(1), 12–19, 39.
+2. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+3. Wang, R. E., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. arXiv:2410.03017. https://arxiv.org/abs/2410.03017
+4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

@@ -136,7 +136,7 @@ Goal-setting programs show some of their largest effects for the lowest-performi
 
 **Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. *Theory Into Practice*, 41(2), 64–70.** Goal-setting as the forethought phase of the self-regulation cycle — the frame connecting this chapter back to metacognition throughout the book.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The book's recurring signature, applicable here in slow motion: assistance that improves the artifact while the self-directing capacity it stands in for goes unbuilt.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The book's recurring signature, applicable here in slow motion: assistance that improves the artifact while the self-directing capacity it stands in for goes unbuilt.
 
 ---
 
@@ -167,3 +167,12 @@ Goal-setting programs show some of their largest effects for the lowest-performi
 **Challenge**
 
 9. (Advanced) *Tests the formulation-gate definition and the ghostwriting-by-installments problem.* The chapter identifies "who typed" as an insufficient definition of formulation. Design a more rigorous operational definition of genuine goal formulation — one that could be applied by an auditor reviewing a session log to determine whether the student did the diagnostic work or the AI did it. Your definition should: distinguish between legitimate Socratic prompting and covert ghostwriting by installments; specify what evidence in the log would confirm or disconfirm genuine formulation; and address the edge case where a student's final goal is nearly identical to a suggestion the AI made early in the interview. Then propose one platform design feature that would make the distinction auditable without requiring log review for every student.
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/32-learning-goals-and-the-ownership-problem-assertions.md).*
+
+1. Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting and task motivation: A 35-year odyssey. *American Psychologist*, 57(9), 705–717.
+2. Morisano, D., et al. (2010). Setting, elaborating, and reflecting on personal goals improves academic performance. *Journal of Applied Psychology*, 95(2), 255–264.
+3. Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.
+4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

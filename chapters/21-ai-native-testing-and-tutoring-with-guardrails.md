@@ -132,7 +132,7 @@ Tutor CoPilot helped the weakest human tutors most. The unmeasured question from
 
 **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17, 249–255.** The testing effect's canonical demonstration, including the detail this group's design rule lives on: restudy feels better and performs worse at delay.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The fork measured: +48/−17 unguardrailed, +127/≈0 guardrailed — the same product split by its settings.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The fork measured: +48/−17 unguardrailed, +127/≈0 guardrailed — the same product split by its settings.
 
 **Wang, R. E., et al. (2024). Tutor CoPilot: A human-AI approach for scaling real-time expertise.** The +4/+9-point third option: AI amplifying the human tutoring layer instead of replacing it.
 

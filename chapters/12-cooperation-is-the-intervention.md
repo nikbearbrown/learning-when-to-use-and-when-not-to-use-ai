@@ -138,7 +138,7 @@ For genuinely isolated learners — rural schools, homebound students, midnight 
 
 **Johnson, D. W., & Johnson, R. T. (2009). An educational psychology success story: Social interdependence theory and cooperative learning. *Educational Researcher*, 38(5), 365–379.** The theory under the comparative rows: positive interdependence, individual accountability, promotive interaction — the ingredients no software inhabits.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence, applied here to groups: collective assisted output as the mask over absent collective cognition.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The assisted/unassisted divergence, applied here to groups: collective assisted output as the mask over absent collective cognition.
 
 **Aronson, E., & Patnoe, S. (2011). *Cooperation in the Classroom: The Jigsaw Method* (3rd ed.).** The fullest account of engineering interdependence on purpose — and the bridge to Chapter 15, where jigsaw gets its own decision.
 
@@ -171,3 +171,13 @@ For genuinely isolated learners — rural schools, homebound students, midnight 
 **Challenge**
 
 9. (Advanced) *Tests the isolated-learner problem and the limits of the framework.* The chapter argues for preserving human cooperative structures but acknowledges that for genuinely isolated learners, the structure is sometimes unavailable at any price. Design an AI-supported learning arrangement for a homebound high school student that preserves as much of the mechanism as possible — not the transcript of peer tutoring, but the consequential interdependence. Specify what human elements your design requires, what it cannot replicate, and how you would measure whether it produced more learning than the student working alone.
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. Educational Psychologist, 46(4), 197–221.
+2. Wang, R., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. arXiv:2410.03017. https://arxiv.org/abs/2410.03017
+3. Johnson, D. W., & Johnson, R. T. (2009). An educational psychology success story: Social interdependence theory and cooperative learning. Educational Researcher, 38(5), 365–379.
+4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
+5. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

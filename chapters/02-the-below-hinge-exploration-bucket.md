@@ -158,3 +158,17 @@ Do honest numbers ever update? Web-based learning (0.18) and distance education 
 **Challenge**
 
 9. *(Open — Argue the reversal)* The chapter claims that AI homework helpers are likely to damage the consolidation mechanism that gives homework its effect. Construct the strongest possible argument *against* that claim — an argument that a well-designed AI homework tool could improve on d = 0.29, not depress it. State what the tool would have to do differently, what evidence would be needed to confirm the argument, and what the falsification condition is. Then evaluate your own argument honestly.
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/02-the-below-hinge-exploration-bucket-assertions.md -->
+
+1. Sweller, J., & Cooper, G. A. (1985). The use of worked examples as a substitute for problem solving in learning algebra. *Cognition and Instruction*, 2(1), 59–89.
+2. Atkinson, R. K., Derry, S. J., Renkl, A., & Wortham, D. (2000). Learning from examples: Instructional principles from the worked examples research. *Review of Educational Research*, 70(2), 181–214.
+3. Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist*, 38(1), 23–31.
+4. Beland, L.-P., & Murphy, R. (2016). Ill communication: Technology, distraction and student performance. *Labour Economics*, 41, 61–76.
+5. Sala, G., & Gobet, F. (2017). Does far transfer exist? Negative evidence from chess, music, and working memory training. *Current Directions in Psychological Science*, 26(6), 515–520.
+6. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+7. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

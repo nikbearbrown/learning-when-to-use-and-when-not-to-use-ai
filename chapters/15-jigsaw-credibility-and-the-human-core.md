@@ -135,6 +135,7 @@ Credibility has a cold-start problem the research barely touches: it is built ov
 **Aronson, E., & Patnoe, S. (2011). *Cooperation in the Classroom: The Jigsaw Method* (3rd ed.).** The design from its inventor — including the desegregation history that explains why interdependence, not content delivery, was always the point.
 
 **Effects of the jigsaw method on student educational outcomes: systematic review (2023). *Frontiers in Psychology*.** The contemporary evidence picture: positive, heterogeneous, implementation-sensitive — the honest companion to the 2018 list's headline number.
+<!-- FACT-CHECK FLAG: UNVERIFIED — see factchecks/15-jigsaw-credibility-and-the-human-core-assertions.md -->
 
 **Finn, A. N., et al. (2009). A meta-analytical review of teacher credibility and its associations with teacher behaviors and student outcomes. *Communication Education*, 58(4), 516–537.** The competence-trust-goodwill architecture, and the behavioral correlates teachers can actually act on.
 
@@ -171,3 +172,14 @@ Credibility has a cold-start problem the research barely touches: it is built ov
 **Challenge**
 
 9. (Advanced) *Tests the cold-start problem and the limits of the credibility framework.* The chapter notes that credibility is built over months but first-year teachers need it on day one. A school district proposes using AI-prepared lesson materials, AI-generated feedback templates, and an AI communication assistant to help new teachers appear more competent and responsive in their first semester — arguing this buys time for the real credibility audit to begin. Construct the strongest case for this proposal and the strongest case against it, using the chapter's mechanism. Then propose a research design that would distinguish between AI support that accelerates credibility formation and AI support that merely delays the audit's verdict.
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Hattie, J. Visible Learning ranking (jigsaw d=1.20; teacher credibility d=0.90). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+2. Finn, A. N., et al. (2009). A meta-analytical review of teacher credibility and its associations with teacher behaviors and student outcomes. Communication Education, 58(4), 516–537.
+3. Aronson, E., & Patnoe, S. (2011). Cooperation in the Classroom: The Jigsaw Method (3rd ed.). Pinter & Martin.
+4. Johnson, D. W., & Johnson, R. T. (2009). Social interdependence theory and cooperative learning. Educational Researcher, 38(5), 365–379.
+
+*Note: The "2023 Frontiers in Psychology jigsaw systematic review" (cited in-text) is UNVERIFIED to an exact DOI in this pass — the author flags it [verify]; confirm the precise citation near publication.*

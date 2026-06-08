@@ -116,7 +116,7 @@ Reciprocal teaching with one human and one AI peer: clearly not the influence as
 
 **Judgment of Learning: A Human Ability Beyond Generative AI (2024). arXiv:2410.13392.** The theoretical case that self-assessment is constitutively first-person — the deepest justification for this chapter's ownership clause.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence that every evidence check in this chapter is designed to detect early.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The assisted/unassisted divergence that every evidence check in this chapter is designed to detect early.
 
 **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.** Prediction-then-test as a special case of the generation family: the act, not the artifact, carries the effect.
 
@@ -149,3 +149,17 @@ Reciprocal teaching with one human and one AI peer: clearly not the influence as
 **Challenge**
 
 9. *(Open — Ownership claim stress test)* The chapter asserts that reflection is a first-person performative — it cannot be done for you. Construct the strongest possible counterargument: a case in which AI-drafted reflections, lightly edited, could produce genuine calibration gains equal to fully self-authored ones. State the mechanism by which editing could substitute for authoring, identify what evidence would confirm it, and name the falsification condition. Then evaluate your own argument honestly — where does it hold, and where does the ownership claim survive it?
+
+---
+
+## References
+
+<!-- Added by fact-check pass 2026-06-08. See factchecks/05-high-impact-self-regulation-without-outsourcing-thinking-assertions.md -->
+
+1. Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. W. H. Freeman.
+2. Palincsar, A. S., & Brown, A. L. (1984). Reciprocal teaching of comprehension-fostering and comprehension-monitoring activities. *Cognition and Instruction*, 1(2), 117–175.
+3. Rosenshine, B., & Meister, C. (1994). Reciprocal teaching: A review of the research. *Review of Educational Research*, 64(4), 479–530.
+4. Huff, M., & Ulakçı, E. (2024/2025). Judgment of Learning: A Human Ability Beyond Generative Artificial Intelligence. arXiv:2410.13392. https://arxiv.org/abs/2410.13392
+5. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
+6. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.
+7. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

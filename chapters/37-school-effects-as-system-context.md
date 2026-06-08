@@ -135,3 +135,12 @@ The observer effect has no fix: any school measure a district governs by becomes
 **Challenge**
 
 9. *(Open — Prescription reversal)* The chapter claims that prescription from observational district data cannot causally improve school outcomes — that the "lever recommendations" the platform generates are necessarily generic and inert. Construct the strongest possible counterargument: conditions under which automated lever recommendations from an analytics platform could produce school-level improvements at Kraft-credible magnitudes. State the mechanism, the design features required, and the evidence that would confirm it. Then evaluate honestly: do the conditions you described correspond to any platform currently on the market, or only to a hypothetical one — and what is the board's correct posture in the gap between the hypothetical and what it is actually being sold?
+
+## References
+
+*Added by fact-check pass — all CONFIRMED via web verification (see factchecks/37-school-effects-as-system-context-assertions.md).*
+
+1. Coleman, J. S., et al. (1966). *Equality of Educational Opportunity*. U.S. Government Printing Office.
+2. Hattie, J. (2015). *What doesnt work in education: The politics of distraction*. Pearson.
+3. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253.
+4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

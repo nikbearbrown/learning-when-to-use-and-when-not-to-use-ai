@@ -112,7 +112,7 @@ The task factory's kill log made teachers better task designers. Does the factor
 
 **Pólya, G. (1945). *How to Solve It*.** The original heuristic repertoire; still the clearest statement of what problem-solving teaching is supposed to leave behind in the student.
 
-**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The +48/−17 unguardrailed signature and the +127/≈0 guardrailed contrast — this chapter's struggle argument, measured.
+**Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The +48/−17 unguardrailed signature and the +127/≈0 guardrailed contrast — this chapter's struggle argument, measured.
 
 **Rubie-Davies, C. M. (2015). *High Expectation Teaching*.** Expectations as observable practice — opportunity allocation, grouping, feedback — rather than sentiment; the behavioral checklist behind this chapter's audit.
 

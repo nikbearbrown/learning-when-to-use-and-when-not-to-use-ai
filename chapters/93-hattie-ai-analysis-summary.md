@@ -342,3 +342,10 @@ Fourth, the human-irreducible cases are not marginal. Collective teacher efficac
 
 The practical conclusion is not "less AI." It is better division of labor: AI for pattern work, retrieval, scaffolding, monitoring, and generation; humans for judgment, relationship, metacognition, causal interpretation, and accountability.
 
+---
+
+## References
+
+1. Hattie, J. *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Routledge, 2009. https://www.routledge.com/p/book/9780415476188
+2. Visible Learning. Hattie Ranking: 252 Influences And Effect Sizes Related To Student Achievement (2018 list). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+

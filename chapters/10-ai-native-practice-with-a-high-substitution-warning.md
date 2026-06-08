@@ -158,7 +158,7 @@ Separately: if attempt-first guardrails in real deployments turn out to be trivi
 
 - **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255.** The retrieval-practice result underneath this whole group: attempts strengthen memory; re-exposure mostly doesn't.
 - **National Reading Panel (2000). *Teaching Children to Read* — vocabulary instruction findings.** The provenance of structured vocabulary teaching: repeated, varied, active encounters — the design the d = 0.62 rewards.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence this chapter's conditions exist to prevent, and the guardrail evidence that conditions work.
+- **Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The assisted/unassisted divergence this chapter's conditions exist to prevent, and the guardrail evidence that conditions work.
 - **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The human-in-the-loop doctrine, including its strongest sections on assistive use and oversight for young learners.
 - **Horvath, J. C. (2023). *The Digital Delusion*.** A bracing corrective on educational technology's recurring pattern: the medium impresses, the method decides.
 
@@ -191,3 +191,11 @@ Separately: if attempt-first guardrails in real deployments turn out to be trivi
 ### Challenge
 
 **9.** A vendor has responded to districts' concerns about answer-seeking by redesigning their helper: instead of supplying sentences, it now asks the student a sequence of Socratic questions (*What does reluctant mean? Can you think of a time you felt that way? Now try putting that in a sentence.*). The vendor argues this is attempt-first by design — the student is always producing before receiving. Using the metacognitive gate from Chapter 4 and the productive-encounter logic from this chapter, evaluate the redesign: does it solve the substitution problem, shift it, or create a new one? Write a one-page memo that a curriculum director could use to decide whether to enable the feature. *(Difficulty: challenge. Tests: applying two chapters' frameworks simultaneously to a genuinely novel edge case — a design that looks compliant but may shift rather than remove the risk.)*
+
+## References
+
+*Added by fact-check pass (2026-06-08). CONFIRMED sources.*
+
+1. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
+2. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x
+3. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. Visible Learning. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/

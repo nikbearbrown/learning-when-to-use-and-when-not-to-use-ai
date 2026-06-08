@@ -158,7 +158,7 @@ A replicated study showing that always-available, high-quality hints do *not* im
 - **van de Pol, J., Volman, M., & Beishuizen, J. (2010). Scaffolding in teacher–student interaction: A decade of research. *Educational Psychology Review*, 22, 271–296.** The synthesis that gives this chapter its three-part contract — contingency, fading, transfer of responsibility — and its honest note about how thin the controlled-effectiveness base is.
 - **Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate practice and performance: A meta-analysis. *Psychological Science*, 25, 1608–1618.** The correction that caps the 10,000-hours story — including the 4%-in-education figure every practice-platform pitch should be made to confront.
 - **VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46, 197–221.** The benchmark for what step-level adaptive support actually achieves — and the boundary conditions (well-structured domains) the marketing omits.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The two-line graph in published form: practice performance up, unaided exam performance down, unless the help was designed to keep the student working. The single most important figure for any scaffolding purchase decision.
+- **Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*.** The two-line graph in published form: practice performance up, unaided exam performance down, unless the help was designed to keep the student working. The single most important figure for any scaffolding purchase decision.
 
 ---
 
