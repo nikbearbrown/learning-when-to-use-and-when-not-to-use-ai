@@ -3,6 +3,19 @@
 
 Two influences, oddly paired and structurally identical: the jigsaw method (1.20) and teacher credibility (0.90). Both are near the top of Hattie's list, and both run on a property no system can hold on a person's behalf — being genuinely needed (jigsaw makes every student the room's only expert on their piece) and being genuinely believed (credibility exists in students' judgment of the teacher, not in the teacher's behavior). This is AI-resistant territory with high substitution risk: the tools can prepare every component and, in doing so, quietly delete the interdependence and the authenticity the effect sizes were measuring.
 
+**Group Profile: Jigsaw, Credibility, and the Human Core**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.90 to 1.20 (weighted average 1.05) |
+| Hattie band | High |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Members | Jigsaw method (rank 7, d = 1.20); Teacher credibility (rank 12, d = 0.90) |
+
 Four candidates. Four expert segments. Four sets of notes that were the same document.
 
 Dr. Naomi Fontaine noticed it when she read the expert-group materials before class — same structure, same examples, same slightly-off emphasis on reliability versus validity. She knew immediately what had happened. Each candidate had asked an AI to prepare their segment of the jigsaw. Each had walked into their home group fluent in material they had never mastered, and taught it.

@@ -3,6 +3,19 @@
 
 Vocabulary programs, technology for learning-needs students, technology in other subjects, technology with elementary students: four influences between 0.44 and 0.62 that were already technology-flavored before generative AI existed. AI can run this practice natively — that is the feasibility finding. The warning is the other finding: when the tool can do the practice, the learner can route around the practice, and the platform's own metrics will not show the difference. Hattie's effect sizes here were earned by students doing the work in pre-generative systems that could not do it for them. That provenance is the chapter's whole problem.
 
+**Group Profile: AI-Native Practice With a High Substitution Warning**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 4 of Hattie's 252 |
+| Effect-size range | d = 0.44 to 0.62 (weighted average 0.55) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Members | Vocabulary programs (rank 40, d = 0.62); Technology with learning needs students (rank 59, d = 0.57); Technology in other subjects (rank 65, d = 0.55); Technology with elementary students (rank 103, d = 0.44) |
+
 The demo student typed seven words into the chat window: *use the word reluctant in a sentence for me.*
 
 The platform answered immediately — three lovely sentences, grade-leveled, contextually varied. The student read them, selected the best one, and pasted it into the practice box. The platform logged a completed production task. The student had produced nothing.

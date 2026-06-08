@@ -3,6 +3,19 @@
 
 Mastery learning, self-verbalization and self-questioning, self-regulation strategies, questioning, study skills, writing programs: six influences between 0.45 and 0.57 that teach students to run their own learning loop. The conflict here is recursive — AI can perform not just the task but the regulating of the task: the planning, the self-questioning, the checking. A student whose AI runs that loop is compliant, productive, and learning almost nothing about how to learn. Hattie's effect sizes came from students acquiring the loop. The danger zone is tools that operate it for them, indistinguishably and on by default.
 
+**Group Profile: Self-Regulated Learning in the Danger Zone**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 6 of Hattie's 252 |
+| Effect-size range | d = 0.45 to 0.57 (weighted average 0.51) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | High |
+| Cognitive-work conflict | Partial |
+| Members | Mastery learning (rank 57, d = 0.57); Self-verbalization and self-questioning (rank 63, d = 0.55); Self-regulation strategies (rank 76, d = 0.52); Questioning (rank 88, d = 0.48); Study skills (rank 95, d = 0.46); Writing programs (rank 97, d = 0.45) |
+
 The prompt was eleven words: *make me a study guide, quiz me, and if I get it wrong just explain it.*
 
 The sophomore typed it the same way every session. The AI study assistant delivered: a structured guide organized by topic, a set of practice questions, patient explanations when she answered incorrectly. Her usage logs were immaculate. She used the tool for twelve hours the week before her biology midterm. She had done everything a diligent student does — planned, reviewed, practiced, checked.

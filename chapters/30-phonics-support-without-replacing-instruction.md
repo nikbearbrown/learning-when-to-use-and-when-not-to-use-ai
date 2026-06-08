@@ -3,6 +3,19 @@
 
 One influence: phonics instruction, d = 0.70 — systematic teaching of sound-letter correspondence, one of the most evidence-settled interventions on Hattie's list. AI can support it well: decodable texts on demand, practice calibrated to the exact correspondence a child is learning, patient repetition. The high substitution risk is institutional rather than mechanical: phonics apps are cheap, teachers are not, and the temptation is to let the app do the first teaching rather than the practice that follows it. The chapter draws that line — support after instruction, never instead of it.
 
+**Group Profile: Phonics Support**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.70 |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Influence | Phonics instruction (rank 31, d = 0.70) |
+
 The vendor's pitch has four words that are doing unearned work: *AI-delivered phonics lessons.*
 
 Renee Castile is assistant superintendent for elementary instruction in a district of nine elementary schools. The state's new early-literacy law requires systematic, evidence-based phonics instruction in every K-2 classroom. The district is short three literacy coaches. Two of the four finalist curriculum packages arrive with AI built in — and one vendor's brochure carries the sentence she will spend the next five weeks unpacking: "AI-delivered phonics lessons that guarantee every child receives the science of reading, d = 0.70."

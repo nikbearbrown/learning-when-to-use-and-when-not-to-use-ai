@@ -3,6 +3,19 @@
 
 One influence: learning goals versus no goals, d = 0.68. In Hattie's synthesis the effect belongs to goals that are specific, appropriately hard, and owned — a goal is not information; it is a commitment device. That last property is the AI problem in miniature: a model can generate flawless goals on request, and a generated goal arrives without the ownership that made goals work. The conflict is partial — AI drafting, structuring, and tracking are all fine — but the act of committing has to be the learner's, because you cannot outsource a commitment and keep its force.
 
+**Group Profile: Learning Goals and the Ownership Problem**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.68 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Low |
+| Substitution risk | Low |
+| Cognitive-work conflict | Partial |
+| Influence | Learning goals vs. no goals (rank 36, d = 0.68) |
+
 Renee Okafor wrote her hesitation on a sticky note after the meeting: *whose goals are these?*
 
 The platform had just produced, in ninety seconds, five beautifully calibrated goals for a fictional sophomore — specific, measurable, written in encouraging second person, auto-populated from gradebook data. The vendor's research page cited Hattie: learning goals versus no goals, d = 0.68. The sales engineer was visibly pleased. The advisory program's October goal-setting forms, a monument to compliance — "get better grades," "pass chemistry," "do my best" — would be replaced with something legible and trackable.

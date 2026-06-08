@@ -3,6 +3,19 @@
 
 Thirteen above-hinge influences live here — outlining and transforming, metacognitive strategies, goal setting, strategy monitoring, imagery — with effect sizes between 0.40 and 0.66 in Hattie's synthesis. They look, at first pass, like the previous chapter's safe-augmentation cases. The difference is that each one contains a cognitive act that is itself the learning: the organizing, the self-questioning, the judgment of one's own understanding. AI can support every one of them, and AI's most natural behavior is to perform every one of them. The chapter's work is the gate that keeps the help on the right side of that line.
 
+**Group Profile: Augmentation With a Metacognitive Gate**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 13 of Hattie's 252 |
+| Effect-size range | d = 0.40 to 0.66 (weighted average 0.51) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | Partial |
+| Highest-ranked members | Outlining and transforming (rank 38, d = 0.66); Creativity programs (rank 41, d = 0.62); Setting standards for self-judgement (rank 43, d = 0.62); Meta-cognitive strategies (rank 46, d = 0.60); Appropriately challenging goals (rank 50, d = 0.59); Strategy monitoring (rank 53, d = 0.58); Clear goal intentions (rank 86, d = 0.48); Imagery (rank 98, d = 0.45) |
+
 The essays are better. That is the problem.
 
 A veteran English teacher at a comprehensive high school brings a stack of papers to the curriculum director's office — not the usual stack, not the ones that need help. These are the good ones. Organized, logical, paragraphs that actually argue. The students who wrote them have spent months with a sanctioned AI assistant that produces immaculate essay outlines: thesis, three body paragraphs with topic sentences, evidence slots pre-labeled. Ask, paste the prompt, receive the skeleton, write to fill it. The essays in the stack are measurably better organized than anything these students produced before the tool arrived. Several teachers want to formalize the practice — "we've spent years begging them to outline, and now they finally do."

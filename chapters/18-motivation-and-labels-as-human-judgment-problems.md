@@ -3,6 +3,19 @@
 
 Deep motivation and approach (0.69) and teachers not labeling students (0.61): two above-hinge influences that are, at bottom, judgment problems about persons. Hattie's synthesis registers the achievement cost of labels and the value of motivation that goes deeper than compliance. AI's role here is genuinely useful and genuinely bounded: it can surface patterns a busy adult misses, and it can also generate labels at industrial scale — risk scores, ability tiers, predicted trajectories — that harden into exactly the categorization the second influence warns against. The substitution risk is low; the classification risk is the chapter.
 
+**Group Profile: Motivation and Labels as Human Judgment Problems**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.61 to 0.69 (weighted average 0.65) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | High |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Deep motivation and approach (rank 33, d = 0.69); Teachers not labeling students (rank 44, d = 0.61) |
+
 Risa Calderón has spent six years at Eastgate High School vetoing sentences that begin "he's just not motivated."
 
 She chairs the Student Support Team, which means the Wednesday meeting: attendance data, teacher observations, counselor knowledge, family context — assembled into a plan for one specific kid, one at a time, with the labels left at the door. She can describe the SST's core discipline in one sentence: we discuss students with evidence on the table, not hypotheses wearing verdicts' clothes.

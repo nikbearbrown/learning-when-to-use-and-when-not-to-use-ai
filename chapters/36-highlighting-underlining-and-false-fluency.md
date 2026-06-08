@@ -3,6 +3,19 @@
 
 One influence: underlining and highlighting, d = 0.50 on Hattie's list, rated low-utility by the cognitive-psychology literature — a tension this chapter takes apart at the mechanism level. The one genuinely valuable thing inside this weak technique is the act of discriminating important from unimportant. AI pre-highlighting automates exactly that act and nothing else: low stakes, total mechanism loss — the only AI feature in the book that automates only the harm. The substitution risk is rated low because highlighting was never load-bearing; the lesson it teaches about reading-platform defaults is anything but.
 
+**Group Profile: Highlighting, Underlining, and False Fluency**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.50 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | Present |
+| Influence | Underlining and highlighting (rank 82, d = 0.50) |
+
 Two documents land on Dale Brogan's desk in the same month and point in opposite directions.
 
 The first is the college's new e-textbook platform announcement. The upgraded reader includes **AI Smart Highlights** — the system pre-marks the key sentences of every chapter, in three colors, keyed to learning objectives, "so students can focus on understanding instead of hunting."

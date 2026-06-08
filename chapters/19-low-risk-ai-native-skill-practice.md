@@ -3,6 +3,19 @@
 
 Spelling programs (0.58) and interactive video methods (0.54): two above-hinge influences built on structured, repetitive, feedback-rich skill practice. This is the book's second genuinely permissive AI-native group — the practice format is one AI can run well, the human-irreducible core is small, and no cognitive-work conflict applies, because the learner still produces every answer. Hattie's effect sizes here come from production practice with tight feedback loops, which is precisely what current tools deliver cheaply. The risks are quieter: recognition creeping in where production belongs, and practice software displacing the instruction it was meant to follow.
 
+**Group Profile: Low-Risk AI-Native Skill Practice**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.54 to 0.58 (weighted average 0.56) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Spelling programs (rank 51, d = 0.58); Interactive video methods (rank 67, d = 0.54) |
+
 The second-grade team at Hollis Elementary has a request with a deadline: the site-budget window closes Friday, and they want to spend their materials allocation on an adaptive spelling app. Their reasons are not frivolous. Spelling instruction at Hollis is the curriculum's orphan — fifteen inconsistent minutes squeezed between reading blocks, a Friday test of fifteen words memorized Thursday night and forgotten by Monday, and no one with time to track which child confuses which phonics patterns. The app offers what the orphan never gets: daily adaptive practice, per-child error tracking by pattern, audio dictation so children spell from sound rather than copy from sight, and a teacher dashboard showing exactly which spelling features each child has and hasn't mastered.
 
 Gwen Okafor, the K-5 literacy coach, has also read the parent reviews, which describe a different product: a multiple-choice mode where children tap the correctly spelled word among four options, a points-and-pets reward system, and a class leaderboard. She knows her building: whatever the app does will *become* spelling instruction at Hollis, because the fifteen orphan minutes will be handed to it entirely.

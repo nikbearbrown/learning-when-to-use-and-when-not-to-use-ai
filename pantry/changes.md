@@ -14,3 +14,7 @@ Reason: reader-facing chapters must not use internal group IDs; each group chapt
 ## Addendum — 2026-06-08
 
 - Renamed all 38 pantry `_notes.md` files to drop gNN slugs, restoring the 1:1 filename pairing with the renamed chapter files.
+
+## Addendum 2 — 2026-06-08
+
+- Added a named "Group Profile" markdown table to all 38 group chapters, placed between the group intro paragraph and the cold open. Each table carries: influence count (of 252), effect-size range with weighted average, Hattie band, AI feasibility, human irreducibility, substitution risk, cognitive-work conflict, and ranked member influences with d values. Tables are named after the chapter's human title — no cluster/group numbers. Internal R/C source-group IDs deliberately excluded (internal crosswalk IDs, per the same rule that removed G numbers). G33–G35 profiles keyed on influence content, not group number, due to a numbering rotation between the cluster doc and the original chapter slugs.

@@ -3,6 +3,19 @@
 
 One influence: classroom discussion, d = 0.82 — students reasoning aloud, against and with each other, in real time. Hattie's synthesis prices it among the most effective things a classroom can do, and the mechanism is irreducibly social: the learning happens in the formulating, defending, and revising of positions before people whose reactions matter. This is high-conflict territory for AI: a chatbot can simulate a discussion partner indefinitely, and the simulation removes the stakes that made discussion work. AI's real roles are upstream and downstream — preparation, prompts, analysis of who got to speak — never the discussion itself.
 
+**Group Profile: Classroom Discussion**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.82 |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | High |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Influence | Classroom discussion (rank 15, d = 0.82) |
+
 The vendor's number was real. That was the problem.
 
 Dr. Naomi Okafor directs the first-year humanities program at a mid-sized university — forty seminar sections, capped at eighteen students, built around discussion of difficult texts. The spring planning retreat brought a proposal: AI Socratic companions, one skeptic, one textualist, one Athenian, available to each student on demand, cited against Hattie. *Classroom discussion: d = 0.82, one of the highest-impact instructional practices. Now available at 2 a.m.* The concrete ask: pilot the product in twelve sections, reduce seminar meetings from twice to once a week, with AI dialogues replacing the second session.

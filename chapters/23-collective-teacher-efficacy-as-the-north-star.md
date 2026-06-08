@@ -3,6 +3,19 @@
 
 One influence, the largest number on Hattie's entire list: collective teacher efficacy, d = 1.57 — a faculty's shared, evidence-fed belief that their teaching causes their students' learning. It is also one of the list's most misread numbers, a correlational measure of a school's collective state rather than a switch anyone can flip. The AI relationship is almost entirely indirect: no tool can hold a belief for a faculty, but tools can feed or starve the evidence loops the belief grows from. High substitution risk here means something specific — platforms marketed as the thing itself, purchased in place of the slow institutional work the number actually describes.
 
+**Group Profile: Collective Teacher Efficacy**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 1.57 |
+| Hattie band | High |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Influence | Collective teacher efficacy (rank 1, d = 1.57) |
+
 The vendor's opening slide resolves on the boardroom screen, and it is the slide Dr. Lenore Adeyemi knew was coming: a bar chart of Hattie's top influences with the tallest bar glowing. *Collective teacher efficacy: d = 1.57. The number one influence on student achievement. Now measurable, trackable, and improvable — with EfficacyIQ.*
 
 The product is a collective efficacy dashboard. Quarterly staff surveys feed building-level "efficacy scores." AI analyzes open-response items for "belief signals." Principals get heat maps and benchmark comparisons against districts the vendor declines to name. An AI assistant generates "efficacy-building communications" — celebration messages for staff — and recommends "high-impact efficacy interventions" from a template library.

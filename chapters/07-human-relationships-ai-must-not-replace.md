@@ -3,6 +3,19 @@
 
 Eight influences cluster here — teacher-student relationships, positive family dynamics, peer influences, cooperative learning structures, service learning, play and behavioral programs — all between 0.50 and 0.62 in Hattie's synthesis. Their common engine is a human relationship with real stakes on both sides. This is the book's clearest AI-resistant territory: the mechanism is not information transfer, which AI does well, but trust, cost, and authenticity, which AI cannot supply — only simulate. The substitution risk is high precisely because the simulations are getting good. AI's legitimate role here is to free human time for the relationship; the failure mode is becoming it.
 
+**Group Profile: Human Relationships AI Must Not Replace**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 8 of Hattie's 252 |
+| Effect-size range | d = 0.50 to 0.62 (weighted average 0.55) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Members | Behavioral intervention programs (rank 42, d = 0.62); Tactile stimulation programs (rank 52, d = 0.58); Service learning (rank 54, d = 0.58); Cooperative vs. individualistic learning (rank 64, d = 0.55); Positive peer influences (rank 70, d = 0.53); Positive family/home dynamics (rank 73, d = 0.52); Teacher-student relationships (rank 75, d = 0.52); Play programs (rank 78, d = 0.50) |
+
 The birthday card arrived in October, personalized and warm, and the parent cried when she read it. She stopped the teacher in the hallway the next week to say thank you — to say that she had never felt seen by a school before, that this meant everything.
 
 The teacher had never seen the card.

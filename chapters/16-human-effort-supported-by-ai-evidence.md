@@ -3,6 +3,19 @@
 
 Effort (0.77) and comprehensive instructional programs for teachers (0.72): the same mechanism at two altitudes — a person deciding, repeatedly, that hard work is worth continuing. Hattie's synthesis prices that persistence high. The AI profile here is friendly on paper: low substitution risk, no mechanism conflict, real value in detection — AI is good at noticing when effort flags. The chapter's caution is subtler than usual: a system can detect disengagement, but the response that re-engages a human being has to come from one, because counterfeit care, once discovered, costs more than no response at all.
 
+**Group Profile: Human Effort Supported by AI Evidence**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.72 to 0.77 (weighted average 0.75) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | High |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Effort (rank 19, d = 0.77); Comprehensive instructional programs for teachers (rank 29, d = 0.72) |
+
 The intake counselor read the vendor brochure, set it down, and asked one question.
 
 "When a student gets the 3 a.m. *We miss you!* text and realizes no one actually sent it — what does that cost us?"

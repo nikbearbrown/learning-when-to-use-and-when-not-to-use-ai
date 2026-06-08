@@ -3,6 +3,19 @@
 
 Problem-solving teaching (0.68) and teacher expectations (0.43) look like an odd couple until you see the shared mechanism: both are calibration problems. The first calibrates difficulty against what a learner can almost do; the second calibrates belief against what a learner could do — and Hattie's synthesis shows miscalibration in either direction carries real cost. AI can inform both calibrations with better evidence than teachers have ever had. It cannot own either one, because premature certainty — the model's natural register — is exactly the failure mode that destroys both mechanisms. The judgment stays human; the evidence pipeline doesn't have to.
 
+**Group Profile: Problem Solving and Expectations**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.43 to 0.68 (weighted average 0.56) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | High |
+| Substitution risk | Low |
+| Cognitive-work conflict | Partial |
+| Members | Problem-solving teaching (rank 37, d = 0.68); Teacher expectations (rank 107, d = 0.43) |
+
 The first came from his own teachers. The department is two years into a thinking-classrooms overhaul — non-routine problems, vertical whiteboards, students doing mathematics instead of watching it — and the bottleneck is task supply. Good non-routine problems are brutally expensive to write: rich enough to sustain struggle, accessible enough to start, with low floors and high ceilings. The teachers want to use a generative AI workflow to draft problem variants, anticipate misconceptions, and produce extension ladders. A task factory with humans doing quality control.
 
 The second came from the district. Whitfield's new learning platform includes a "predicted proficiency" feature — a per-student forecast of end-of-year math performance, refreshed weekly — and the district's improvement office suggests teachers use it to differentiate problem-solving experiences: rich tasks for students predicted to handle them, scaffolded routines for students predicted to struggle.

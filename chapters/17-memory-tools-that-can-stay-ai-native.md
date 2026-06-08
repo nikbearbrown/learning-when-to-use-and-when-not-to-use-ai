@@ -3,6 +3,19 @@
 
 Mnemonics (0.76) and rehearsal and memorization (0.73): two high-band influences whose mechanism is honest, mechanical memory work. This is the rare group where the dataset's verdict is simply favorable — AI can run these natively, the human-irreducible core is small, and there is no conflict between what the tool automates and what the learner must do, because generating a mnemonic was never the learning; using it in retrieval is. Hattie's synthesis and the cognitive-psychology literature agree here more cleanly than almost anywhere else. The chapter is about why this exception is real, and exactly where its edges sit.
 
+**Group Profile: Memory Tools That Can Stay AI-Native**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.73 to 0.76 (weighted average 0.75) |
+| Hattie band | High |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Mnemonics (rank 21, d = 0.76); Rehearsal and memorization (rank 28, d = 0.73) |
+
 By October, most of Dr. Sahana Iyer's first-year anatomy students are using an AI study tool that ingests the lecture materials and produces personalized mnemonics on demand. Acronyms tuned to a student's pop-culture references. Memory-palace walkthroughs of the brachial plexus set in the student's own apartment. Auto-generated spaced-repetition decks that schedule review by each student's error history. The students did not wait for a committee.
 
 Now the curriculum committee wants a ruling. One faction wants the tool licensed and endorsed: the students are using it anyway, the decks are accurate when checked, and faculty time is better spent in the lab than writing flashcards. Another faction reaches, reasonably, for the alarm this book keeps ringing. Have we not spent sixteen chapters establishing that when AI does the cognitive work, the student stops learning?

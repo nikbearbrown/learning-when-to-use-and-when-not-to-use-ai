@@ -3,6 +3,19 @@
 
 The six influences here — working memory strength, prior achievement, socio-economic status, relative age, birth weight, school size — are not programs anyone runs. They are facts about learners and contexts that Hattie's synthesis shows are strongly associated with achievement, between 0.43 and 0.57. Nothing in this group can be "implemented." What AI can do is read these signals earlier and more systematically than human attention allows; what it cannot do is repair any of them. The chapter is about the narrow, real value of better reading — and the category error of mistaking a forecast for an intervention.
 
+**Group Profile: Context Signals AI Can Read but Not Repair**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 6 of Hattie's 252 |
+| Effect-size range | d = 0.43 to 0.57 (weighted average 0.52) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-adjacent |
+| Human irreducibility | Low |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Working memory strength (rank 55, d = 0.57); Full compared to pre-term/low birth weight (rank 56, d = 0.57); Prior achievement (rank 61, d = 0.55); Socio-economic status (rank 74, d = 0.52); Relative age within a class (rank 96, d = 0.45); School size, 600-900 students at secondary (rank 106, d = 0.43) |
+
 The third Tuesday, someone asked the question Renee Castillo had been waiting for.
 
 The district had switched on an AI early-warning module inside its student information system in September. The old spreadsheet flagged students on three thresholds — attendance, grades, behavior referrals. The new system ingested everything: prior achievement back to second grade, assessment histories, demographic fields, attendance microtrends. It produced a risk score, color-coded, and a generated narrative paragraph per student. The paragraphs were unnervingly fluent. One read: *"Marcus's profile resembles students who struggled with grade-level mathematics by spring. Contributing factors include below-benchmark prior achievement and socioeconomic indicators."*

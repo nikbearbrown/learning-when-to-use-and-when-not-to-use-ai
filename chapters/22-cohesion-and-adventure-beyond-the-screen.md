@@ -3,6 +3,19 @@
 
 Strong classroom cohesion (0.44) and outdoor/adventure programs (0.43): two above-hinge influences whose mechanism is shared experience among physically co-present people — belonging built through actual weather, actual rope, actual rooms. In Hattie's synthesis their effects are modest but real. The AI relationship is close to null: this is resistant territory not because the tools threaten it directly but because, at budget time, a chatbot line item and a ropes-course line item compete as if they were the same kind of thing. The chapter is about why they are not, and what AI can do at the edges — logistics, planning, follow-up — without pretending to be the experience.
 
+**Group Profile: Cohesion and Adventure Beyond the Screen**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.43 to 0.44 (weighted average 0.44) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | Low |
+| Cognitive-work conflict | Present |
+| Members | Strong classroom cohesion (rank 101, d = 0.44); Outdoor/adventure programs (rank 105, d = 0.43) |
+
 The finance committee's packet frames it as a simple comparison.
 
 Program A costs $310 per student per year. It takes seventh graders into wilderness for four days in September and cycles eighth-grade advisories through a ropes course all year. It produces no dashboard. Three decades of alumni describe it, with suspicious consistency, as the thing they remember from middle school.

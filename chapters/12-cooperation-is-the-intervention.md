@@ -3,6 +3,19 @@
 
 Peer tutoring, cooperative versus competitive learning, small group learning, cooperative learning: four influences from 0.40 to 0.53 whose active ingredient is students working on and with each other. In Hattie's synthesis the cooperation is not the delivery format of the intervention; it is the intervention. That makes this AI-resistant territory of a specific kind: a model can organize the groups, prepare the materials, even coach the tutors — but the moment it replaces a peer, the mechanism is gone, because the value ran through a human being explaining to another human being with something at stake.
 
+**Group Profile: Cooperation Is the Intervention**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 4 of Hattie's 252 |
+| Effect-size range | d = 0.40 to 0.53 (weighted average 0.48) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | Moderate |
+| Cognitive-work conflict | Present |
+| Members | Peer tutoring (rank 71, d = 0.53); Cooperative vs. competitive learning (rank 72, d = 0.53); Small group learning (rank 92, d = 0.47); Cooperative learning (rank 120, d = 0.40) |
+
 The budget analyst's note was not hostile. It was arithmetic.
 
 "AI tutor: $11 per student per year. Peer program: stipends, coordinator time, training days. Recommend consolidation."

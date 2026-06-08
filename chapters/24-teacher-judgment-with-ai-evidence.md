@@ -3,6 +3,19 @@
 
 Teacher estimates of achievement (1.29) and teacher clarity (0.75): two high-band influences about the quality of teacher judgment and teacher communication. The first is a measurement finding — teachers' estimates of their students' achievement track reality remarkably well — not an intervention. The second is a design property of instruction that can be engineered. AI fits both as an evidence amplifier: better data for the estimates, faster drafting and checking for the clarity. The medium substitution risk is automation bias — judgment that slowly becomes ratification of the dashboard, eroding exactly the calibrated expertise the 1.29 was measuring.
 
+**Group Profile: Teacher Judgment With AI Evidence**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.75 to 1.29 (weighted average 1.02) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | High |
+| Substitution risk | Medium |
+| Cognitive-work conflict | None |
+| Members | Teacher estimates of achievement (rank 3, d = 1.29); Teacher clarity (rank 24, d = 0.75) |
+
 The vendor's onboarding webinar makes the pitch directly: "Teacher estimates of achievement is the number three influence on Hattie's list, with an effect size of 1.29. Our dashboard operationalizes it."
 
 Dana Whitfield runs the eighth-grade data team at a middle school of about 700 students. She is watching the webinar because the district has just pushed an update to the learning management system — a new early-warning module that assigns every student a color-coded risk score, refreshed nightly from attendance, quiz results, and assignment completion. The pitch sounds rigorous. Effect size 1.29. Number three on a list of 252.

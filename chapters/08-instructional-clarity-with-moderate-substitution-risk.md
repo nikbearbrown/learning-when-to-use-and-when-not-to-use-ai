@@ -3,6 +3,19 @@
 
 Direct instruction, explicit teaching strategies, behavioral organizers, professional development, after-school programs: five influences from 0.40 to 0.60 that share a mechanism of structured, teacher-led clarity. Hattie's synthesis is friendlier to these unfashionable methods than much of the field expects. AI can genuinely help — drafting the worked sequence, the organizer, the practice items — which is exactly why the substitution risk is moderate rather than low: a teacher who lets the model deliver as well as draft has handed over the clarity, the checking, and the adjustment that made direct instruction work in the first place.
 
+**Group Profile: Instructional Clarity**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 5 of Hattie's 252 |
+| Effect-size range | d = 0.40 to 0.60 (weighted average 0.48) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Moderate |
+| Cognitive-work conflict | None |
+| Members | Direct instruction (rank 48, d = 0.60); Explicit teaching strategies (rank 58, d = 0.57); Behavioral organizers (rank 113, d = 0.42); Professional development programs (rank 117, d = 0.41); After-school programs (rank 122, d = 0.40) |
+
 Four weeks into sixth-grade math, Priya Nair has found a solution to the oldest problem in teaching: the gap between knowing mathematics and explaining it to an eleven-year-old. Every evening she feeds tomorrow's objective into an AI assistant and receives a complete direct-instruction lesson — scripted explanation, three worked examples, guided-practice questions with anticipated errors, an exit ticket. The scripts are good. Genuinely good. Better-structured than anything she could write yet. Her lessons have stopped collapsing. Her principal, who was worried in September, is not worried now.
 
 Carl Jensen, who has mentored new teachers for nine years, is worried now.

@@ -3,6 +3,19 @@
 
 One influence: technology in writing, d = 0.42 — earned by word processors and writing software in the era when technology helped students write more, revise more, and share more, while every word remained the student's. Generative AI breaks that provenance completely: for the first time the technology can do the writing, and Hattie's number says nothing about that condition. This is the book's last gate and its sharpest: full conflict between what the tool produces and what the learner was supposed to become. The chapter draws the authorship line — AI before and after the drafting act, never inside it.
 
+**Group Profile: Technology in Writing and the Authorship Gate**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.42 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Influence | Technology in writing (rank 114, d = 0.42) |
+
 The faculty senate policy committee has deadlocked at one sentence, and Amara Diallo has until Friday.
 
 One faction wants the policy built around detection: licensed AI-detection software, mandatory originality scores, a disciplinary pipeline. The other wants what they call innovation: AI is the new word processor, we teach with it not against it, policing is over. Both factions cite evidence. The detection faction cites the integrity crisis, and it is real — nobody on the committee believes the current essays are all human. The surrender faction cites history, and it is also real — writing instruction absorbed the pen, the typewriter, the word processor, and the spell-checker, and Hattie's list even has a number for it: technology in writing, d = 0.42, above the hinge.

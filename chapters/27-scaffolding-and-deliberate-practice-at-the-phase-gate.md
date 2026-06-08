@@ -3,6 +3,19 @@
 
 Scaffolding (0.82) and deliberate practice (0.79): two high-band influences about support that is calibrated, temporary, and aimed at the edge of current ability. In Hattie's synthesis both depend on a property commercial software rarely ships: the support must fade. AI can scaffold superbly and generate practice endlessly — the partial conflict is that a system optimized for helpfulness has no incentive to withdraw, and mastery measured from assisted performance is the book's quietest false positive. The chapter places the phase gate where the support ends and the unaided attempt begins.
 
+**Group Profile: Scaffolding and Deliberate Practice**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 2 of Hattie's 252 |
+| Effect-size range | d = 0.79 to 0.82 (weighted average 0.81) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Medium |
+| Cognitive-work conflict | Partial |
+| Members | Scaffolding (rank 16, d = 0.82); Deliberate practice (rank 17, d = 0.79) |
+
 The platform marked him as having mastered equivalent fractions. Every one of his correct answers had come after opening hint level four — the worked solution. Given the same problem type on paper with no hints, he could not start.
 
 Priya Raman coordinates math intervention at a K-5 school. She oversees the Tier 2 and Tier 3 groups, the students one to two years behind in number sense and fractions. Her interventionists are stretched across three buildings. When the district offered an adaptive practice platform with a hint system the vendor described as "a personal tutor's scaffolding for every child," the thirty-day trial looked wonderful: homework completion jumped, students who used to shut down kept going, and the dashboard reported mastery across the pilot group. Then one interventionist brought Priya the printout.

@@ -3,6 +3,19 @@
 
 One influence: repeated reading programs, d = 0.75 — fluency built by reading the same text multiple times with feedback. In Hattie's synthesis this is a high-band literacy intervention with an unusually mechanical mechanism: the repetition itself, performed by the reader, does the work. That makes it AI-native territory without a conflict flag: a model can select texts, listen, time, and give feedback, and none of that removes the student's reading, which no tool can do for them. The high substitution risk lives elsewhere — in the tool displacing the teacher's instruction rather than the student's practice.
 
+**Group Profile: Repeated Reading as AI-Supported Fluency Practice**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.75 |
+| Hattie band | High |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Influence | Repeated reading programs (rank 23, d = 0.75) |
+
 Lena Fitzgerald teaches second grade and can describe her fluency problem with the precision of someone who has watched it eight times in a row: eight of her students decode accurately but so slowly that by the end of a sentence they have lost its beginning. She knows the intervention they need. Repeated reading — short passages read aloud, again and again, with someone catching errors and nudging expression — is not a mystery. The arithmetic is.
 
 Eight students. Four sessions a week. Ten minutes of one-to-one listening each. That is more than three hours of dedicated adult attention per week for a single intervention, in a classroom with one part-time aide and twenty-six children who all need something.

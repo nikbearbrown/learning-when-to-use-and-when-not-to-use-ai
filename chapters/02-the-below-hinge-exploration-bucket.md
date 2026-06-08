@@ -3,6 +3,16 @@
 
 This chapter covers the largest single collection in the book: the 130 influences on Hattie's list with effect sizes below 0.40 — his practical hinge point for instructional priority. Hattie's synthesis treats these as weaker, more context-dependent, or less central, and so does this book: they are gathered here for exploration rather than given a chapter each. The set runs from genuinely promising near-misses like worked examples and social skills programs down to influences with measured negative effects. For AI, this is mostly low-stakes territory — but low impact is exactly where novelty-driven adoption concentrates, which is why the group needs reading rather than skipping.
 
+**Group Profile: The Below-Hinge Exploration Bucket**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 130 of Hattie's 252 |
+| Effect-size range | d = -0.90 to 0.39 (weighted average 0.15) |
+| Hattie band | Below the d = 0.40 hinge |
+| Why grouped this way | All influences below the practical hinge point, collapsed into one exploration chapter rather than treated as headline groups |
+| Highest-ranked members | Social skills programs (rank 123, d = 0.39); Relations of high school achievement to career performance (rank 124, d = 0.38); Drama/arts programs (rank 125, d = 0.38); Career interventions (rank 126, d = 0.38); Music programs (rank 127, d = 0.37); Worked examples (rank 128, d = 0.37); Mobile phones (rank 129, d = 0.37); Bilingual programs (rank 130, d = 0.36); Student-centered teaching (rank 131, d = 0.36); Attitude to content domains (rank 132, d = 0.35); Counseling effects (rank 133, d = 0.35); Classroom management (rank 134, d = 0.35) |
+
 Here is a thing that happens in school districts. A board member reads John Hattie. They download a spreadsheet. They sort it descending by effect size, draw a horizontal line at 0.40, and send an email: everything below the line should be cut. Music. Drama. The bilingual expansion. The classroom-management strand in new-teacher mentoring. Redirect the funds to AI tutoring.
 
 The same week, four AI vendors send pitches. All four cite Hattie. Three of the four map their products to influences below 0.40 — not that any pitch mentions it.

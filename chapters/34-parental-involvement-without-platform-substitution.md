@@ -3,6 +3,19 @@
 
 One influence: parental involvement, d = 0.50 — above the hinge and resistant to delegation, because the mechanism is a family's actual attention, expectations, and time, not the school's communication volume. Hattie's synthesis is clear that involvement means the home side of the relationship, which no platform holds. The AI relationship is mostly perimeter work: translation, scheduling, summaries that lower the cost of engagement for busy families. The partial conflict arrives when automated messaging starts simulating the relationship — communication metrics rise, involvement does not, and the dashboard cannot tell the difference.
 
+**Group Profile: Parental Involvement Without Platform Substitution**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.50 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-resistant |
+| Human irreducibility | High |
+| Substitution risk | Moderate |
+| Cognitive-work conflict | Partial |
+| Influence | Parental involvement (rank 79, d = 0.50) |
+
 Gloria Esteves is the family engagement coordinator for a district of eleven schools and nineteen home languages, and she is the only person in the procurement meeting who has actually sat at a kitchen table explaining a special-education evaluation to a grandmother through an interpreter. The platform under review is a family-communication suite, and its pitch is aimed squarely at the district's real and painful problem: teachers do not have time to communicate with families, and the families who hear from school least are the ones the school most needs to reach.
 
 The suite does four things. It auto-translates everything, in both directions, across more languages than the district's interpreter contract covers. It auto-drafts weekly "personalized" family updates from gradebook and attendance data — *Maria had a strong week in math; she missed one assignment in ELA; ask her about the food web project!* — sent under each teacher's name. It offers families a chatbot that answers questions about events, policies, and "your student's progress." And it gives the district an engagement dashboard: opens, reads, response rates, sentiment.

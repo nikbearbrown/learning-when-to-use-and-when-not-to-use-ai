@@ -3,6 +3,19 @@
 
 The twenty-one influences gathered here all sit above Hattie's d = 0.40 hinge — solidly worth a school's attention — and share a fortunate profile: spaced practice schedules, acceleration and enrichment programs, persistence and engagement routines, structures whose machinery is organizational rather than cognitive. In Hattie's synthesis they earn their effect sizes from consistency and structure, not from any single human performance. That is what makes them the book's safest AI territory: a model can run the calendar, the sequencing, and the reminders without touching the learning act itself, because here the learning act and the logistics are genuinely separable.
 
+**Group Profile: Safe Augmentation for Strong Learning Routines**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 21 of Hattie's 252 |
+| Effect-size range | d = 0.40 to 0.68 (weighted average 0.50) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Highest-ranked members | Field independence (rank 34, d = 0.68); Acceleration programs (rank 35, d = 0.68); Relations of high school to university achievement (rank 45, d = 0.60); Spaced vs. mass practice (rank 47, d = 0.60); Concentration/persistence/engagement (rank 60, d = 0.56); Visual-perception programs (rank 62, d = 0.55); Second/third chance programs (rank 68, d = 0.53); Enrichment programs (rank 69, d = 0.53) |
+
 Marisol Vega's cohort spent four months learning something hard, and then a piece of software offered to do it for them.
 
 The hard thing was not spacing retrieval practice — any scheduling algorithm can do that. The hard thing was understanding *why* spacing works, which required building the calendars by hand. A teacher who has spent a planning period deciding which October concepts deserve a seat in January's warm-ups has done something no piece of software has done: she has made a curriculum judgment. She knows what her students actually consolidated, what the state assessment actually weights, and what Tuesday's class meltdown means for Wednesday's retrieval difficulty. The algorithm doesn't know any of that. The algorithm knows interval optimization.

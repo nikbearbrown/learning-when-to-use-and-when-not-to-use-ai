@@ -3,6 +3,19 @@
 
 One influence: concept mapping, d = 0.64 — learners drawing the structure of what they know, links and all. The effect size in Hattie's synthesis belongs to the drawing, not the drawing's quality: the errors in a student-made map are its diagnostic payload, the visible shape of a developing model. AI can generate textbook-perfect maps instantly, and a generated map is the trap in its purest form — a correct artifact that reveals nothing about the student and replaces the act that would have. The chapter keeps the generate button away from the learning event and finds the real AI roles around it.
 
+**Group Profile: Concept Mapping as Shared Cognitive Work**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.64 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Moderate |
+| Cognitive-work conflict | Partial |
+| Influence | Concept mapping (rank 39, d = 0.64) |
+
 Priya Raman's retired colleague used to say that concept maps told her more about a student's head than any test. This was not sentiment. A student who draws an arrow from "decomposers" to "producers" and labels it "competes with" has just made a misconception visible that no multiple-choice item would have caught — the organic and inorganic cycling of nutrients, collapsed into a competition metaphor. The map is wrong. The map is, for that reason, priceless.
 
 The new version of the district's mapping software adds one button: **Generate map from text.** Paste the textbook chapter, receive a clean, hierarchical, accurately linked concept map in four seconds — expandable nodes, color-coded levels, exportable as a study guide. Two of Priya's teachers are enthusiastic. The maps students draw by hand are slow, and full of errors, and here is a button that produces correct ones.

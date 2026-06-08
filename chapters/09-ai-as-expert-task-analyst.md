@@ -3,6 +3,19 @@
 
 Four influences with enormous effect sizes and an unusually permissive AI profile: cognitive task analysis (1.29), Piagetian programs (1.28), conceptual change programs (0.99), and help seeking (0.72). In Hattie's synthesis these run on analysis — decomposing what experts actually do, matching tasks to developmental readiness, surfacing misconceptions, lowering the cost of asking. The cognitive work they support is mostly design work, done before the learner arrives, and that is the kind of work large language models are structurally good at. This is the rare chapter where the book's answer is closer to yes than to carefully.
 
+**Group Profile: AI as Expert Task Analyst**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 4 of Hattie's 252 |
+| Effect-size range | d = 0.72 to 1.29 (weighted average 1.07) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Members | Cognitive task analysis (rank 4, d = 1.29); Piagetian programs (rank 6, d = 1.28); Conceptual change programs (rank 8, d = 0.99); Help seeking (rank 30, d = 0.72) |
+
 Watch Ray Delgado set up a vertical weld and he makes forty decisions. Ask him to list them and he names six.
 
 The other thirty-four stopped being decisions decades ago. They became hands. The gap between what Ray does and what Ray knows he does is not a character flaw — it is a well-documented feature of expertise, and it is why the students who learn from him sort into two groups: the strong ones, who reconstruct the missing steps through trial and scrap metal, and the rest, who fail in ways Ray finds genuinely mysterious. The step they missed is one he no longer knows he takes.

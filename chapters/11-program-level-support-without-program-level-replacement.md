@@ -3,6 +3,19 @@
 
 Mathematics programs, science programs, formative evaluation, exposure to reading — four program-level influences from 0.43 to 0.59 in Hattie's synthesis. These are curricula and routines, not single classroom moves, and AI can support them at scale: generating problems, tracking formative signals, recommending texts. The substitution risk is high at a different altitude than usual — not the student outsourcing homework but the institution outsourcing the program, mistaking a platform license for a mathematics program. The chapter is about keeping AI inside the program without letting it quietly become the program.
 
+**Group Profile: Program-Level Support**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 4 of Hattie's 252 |
+| Effect-size range | d = 0.43 to 0.59 (weighted average 0.50) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Members | Mathematics programs (rank 49, d = 0.59); Science programs (rank 84, d = 0.48); Providing formative evaluation (rank 87, d = 0.48); Exposure to reading (rank 104, d = 0.43) |
+
 The AI mathematics suite comes in a pitch deck, and the deck's best feature is the one the assistant superintendent underlined twice: *autopilot mode*. The system detects a student's gaps and assigns remediation automatically. No teacher action required.
 
 Elena Vasquez chairs the mathematics department. Her two newest teachers are drowning in prep and want the suite. Her most experienced teacher — the one who has run the department's common-formative-assessment cycle for a decade — slid the deck back across the conference table with one sentence: "This thing wants my Tuesday meeting."

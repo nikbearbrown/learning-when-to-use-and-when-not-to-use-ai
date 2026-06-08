@@ -3,6 +3,19 @@
 
 One influence: note taking, d = 0.50. The value, in Hattie's synthesis and the cognitive literature behind it, is in the encoding: selecting, rephrasing, and structuring in your own words while listening or reading. AI transcription and auto-notes offer perfect storage — and perfect storage, purchased at the price of encoding, is a bad trade. This is full cognitive-work conflict: the convenience and the mechanism are the same act. The chapter's question is not whether AI notes are accurate (they are) but what the learner's hands and attention are doing while the system writes.
 
+**Group Profile: Note Taking and the Cost of Convenience**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.50 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Influence | Note taking (rank 81, d = 0.50) |
+
 The petition had four thousand signatures, and the argument was disarming.
 
 *You tell us to engage in lecture instead of stenographing it. This frees us to actually listen.*

@@ -3,6 +3,19 @@
 
 A single influence: prior ability, d = 0.94. Like the context-signals group, this is a fact about learners, not a lever — one of the strongest predictors of achievement in Hattie's synthesis, and not something any program installs. AI's relationship to it is adjacency: models can estimate it, track it, and adapt to it with unprecedented resolution. The chapter's work is keeping that resolution from hardening into destiny — prior ability as context that shapes the next instructional move, not as a classification that decides what a student is offered.
 
+**Group Profile: Prior Ability as Context**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.94 |
+| Hattie band | High |
+| AI feasibility | AI-adjacent |
+| Human irreducibility | Low |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Influence | Prior ability (rank 9, d = 0.94) |
+
 Every spring, Marisol Vega's placement committee makes hundreds of consequential calls — who goes into Algebra II versus the support section, who gets recommended for AP, which incoming ninth graders land in the "foundations" English block. This year the district's new scheduling platform offers to help. It ingests middle-school records, screener results, and attendance, and produces a "readiness index" for each student, with placement recommendations attached. The sales engineer is careful to say the index "doesn't decide anything — it just informs."
 
 An English teacher on the committee raises her hand: "When the index says a kid isn't ready, who un-says it? And when do we ever check whether the kids it routed into foundations would have been fine in the regular section?"

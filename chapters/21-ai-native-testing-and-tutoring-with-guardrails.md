@@ -3,6 +3,19 @@
 
 Practice testing (0.54), intelligent tutoring systems (0.48), and technology with college students (0.42): the group where AI's natural strengths and Hattie's evidence overlap most directly — and where the substitution risk is highest among the AI-native groups. Retrieval practice is one of the best-evidenced moves in cognitive psychology, and AI can generate, administer, and score it natively. The same system, optimized to be helpful, will also answer instead of asking, hint instead of waiting, and convert testing back into telling. Everything here is permitted, and everything here needs a guardrail.
 
+**Group Profile: AI-Native Testing and Tutoring With Guardrails**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 3 of Hattie's 252 |
+| Effect-size range | d = 0.42 to 0.54 (weighted average 0.48) |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | Partial |
+| Members | Practice testing (rank 66, d = 0.54); Intelligent tutoring systems (rank 89, d = 0.48); Technology with college students (rank 115, d = 0.42) |
+
 Camille Foster confirmed it in about ninety seconds.
 
 She is the director of the Learning and Testing Center at a regional public university — gateway courses, retention leak, three hundred students on the human-tutoring waitlist last term who never got a tutor. The vendor's demo was genuinely strong in places: curriculum-aligned problem sets, step-level feedback that caught *where* in a derivation a student went wrong, spaced retrieval quizzing, instructor dashboard. Then she found the chat pane. "Your 24/7 AI tutor," the interface called it. She pasted in a problem from the chemistry homework. The platform solved it.

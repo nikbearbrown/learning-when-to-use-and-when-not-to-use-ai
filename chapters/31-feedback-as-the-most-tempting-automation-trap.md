@@ -3,6 +3,19 @@
 
 One influence: feedback, d = 0.70 — the most cited number in educational technology marketing, and one of the most heterogeneous findings in Hattie's entire synthesis: feedback's average conceals variants that help enormously and variants that measurably harm. AI makes feedback infinitely abundant for the first time in history, which makes the distribution, not the average, the design problem. The partial conflict: receiving feedback is not the mechanism — acting on it is, and a system that drowns the learner in instant commentary can displace the very revision it was meant to provoke. Abundance is the new failure mode.
 
+**Group Profile: Feedback**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.70 |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | High |
+| Cognitive-work conflict | Partial |
+| Influence | Feedback (rank 32, d = 0.70) |
+
 Hector Alvarez is director of secondary curriculum in a district of six high schools, and the procurement request on his desk has more political momentum than anything he has reviewed in years. The English department chairs, jointly, want an AI essay-feedback platform: students submit drafts, the system returns detailed comments in under a minute, and teachers — each carrying 150 students — stop spending Sundays buried in paper. The vendor's one-pager leads with the number everyone in the building already knows: "Feedback: effect size 0.70–0.73, among the most powerful influences on achievement. Our platform delivers it instantly, on every draft, for every student."
 
 The superintendent is supportive. The teachers' association is supportive. The budget exists. Hector's hesitation comes from a single line he half-remembers from a research methods course: something about a third of feedback interventions making performance *worse*.

@@ -3,6 +3,19 @@
 
 This group holds eight of the most powerful student-side influences Hattie measured — self-reported grades (1.33), self-efficacy, transfer strategies, planning and prediction, evaluation and reflection, reciprocal teaching — everything between 0.74 and 1.33. They share a mechanism: the student doing the work of knowing their own knowledge. They also share a vulnerability. These are acts AI can simulate convincingly — drafting the reflection, predicting the grade, generating the plan — and every simulation hollows out the mechanism that produced the effect size. High ceiling, low substitution tolerance: the most valuable and most fragile territory in the book.
 
+**Group Profile: High-Impact Self-Regulation**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 8 of Hattie's 252 |
+| Effect-size range | d = 0.74 to 1.33 (weighted average 0.88) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | Partial |
+| Members | Self-reported grades (rank 2, d = 1.33); Strategy to integrate with prior knowledge (rank 10, d = 0.93); Self-efficacy (rank 11, d = 0.92); Transfer strategies (rank 14, d = 0.86); Planning and prediction (rank 22, d = 0.76); Elaboration and organization (rank 25, d = 0.75); Evaluation and reflection (rank 26, d = 0.75); Reciprocal teaching (rank 27, d = 0.74) |
+
 The sales engineer's best line lands hard in the cabinet meeting: "Hattie's number one student factor is self-reported grades — 1.33. We operationalize it."
 
 Jerome Ellis, the assistant principal who owns the advisory program, has the dataset open on his laptop. He can see that the number is real. He can also see, in the row's own notes, a phrase the pitch deck does not contain: *the student must do the self-assessment act or the mechanism hollows out.*

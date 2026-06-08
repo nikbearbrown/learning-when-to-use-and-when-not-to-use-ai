@@ -3,6 +3,19 @@
 
 Three high-band influences — response to intervention (1.29), micro-teaching and video review (0.88), interventions for students with learning needs (0.77) — share one mechanism: a short, closed loop of diagnose, act, observe, adjust. Hattie's synthesis puts them near the top of the list because the loop, when it actually closes, compounds. AI fits naturally here as instrumentation — flagging, transcribing, pattern-surfacing — with medium risk and no direct conflict, because the loop's force comes from a teacher changing what they do next. The chapter's question is what happens when the instrumentation starts proposing the adjustments too.
 
+**Group Profile: Diagnosis, Intervention, and Teacher Learning Loops**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 3 of Hattie's 252 |
+| Effect-size range | d = 0.77 to 1.29 (weighted average 0.98) |
+| Hattie band | High |
+| AI feasibility | AI-augmented |
+| Human irreducibility | Medium |
+| Substitution risk | Medium |
+| Cognitive-work conflict | None |
+| Members | Response to intervention (rank 5, d = 1.29); Micro-teaching/video review of lessons (rank 13, d = 0.88); Interventions for students with learning needs (rank 20, d = 0.77) |
+
 Lauren Okafor coordinates MTSS at Brightwater Elementary, which means she chairs the intervention team: six educators, one conference table, and a Thursday meeting where the school decides, child by child, who needs more help and whether the help is working. This year the district bought her two pieces of AI at once.
 
 The first is an early-warning and progress-monitoring platform: it ingests screening data, attendance, and intervention logs, flags students whose trajectories say *Tier 2 isn't holding*, and — the new feature — drafts a recommended tier placement and intervention package for each flagged child. The second landed in the principal's PLC budget: an AI lesson-video service that takes a recorded lesson and returns an analysis — talk-time ratios, question types, cold-call distribution, engagement estimates — plus a written summary of "strengths and growth areas," so teachers can skip the part everyone hates, which is watching themselves on camera.

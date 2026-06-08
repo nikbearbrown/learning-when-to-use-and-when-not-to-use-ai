@@ -3,6 +3,19 @@
 
 One influence: generalized school effects, d = 0.48 — not a thing schools do, but the accounting category for everything a school is: the aggregate impact of attending one school rather than another. In Hattie's synthesis it is a context variable, sitting above the hinge with no lever attached. AI's relationship is adjacency: it can describe, compare, and forecast school-level patterns with new precision, and none of that changes a school. The chapter uses this strange entry to teach a system-level reading skill — what aggregate numbers can tell a leadership team, and what they cannot tell anyone.
 
+**Group Profile: School Effects as System Context**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.48 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-adjacent |
+| Human irreducibility | Medium |
+| Substitution risk | Low |
+| Cognitive-work conflict | None |
+| Influence | Generalized school effects (rank 85, d = 0.48) |
+
 Vivian Cho is four months into her first term on the school board and has done the thing new board members are always urged to do and rarely forgiven for: the reading. Tonight's agenda includes a proposal from a consulting firm for a "School Quality Intelligence Platform" — an AI analytics layer that ingests the district's assessment, attendance, discipline, staffing, and demographic data, scores each school on a composite quality index, ranks them, and recommends "evidence-based levers" for the underperformers. The firm's deck cites the research the way decks do: school effects matter, Hattie's generalized school effects sit at d = 0.48, above the hinge — *which school a child attends shapes their achievement, and now you can manage it like a portfolio.*
 
 Vivian's reading has left her with a question she suspects is naive and is in fact the sharpest one available: *if school effects are a thing, what exactly is the thing?* When the platform ranks Jefferson Elementary below Whitman, what has it measured — Jefferson's teaching, or Jefferson's catchment? And when it recommends "levers," is it recommending anything Jefferson can pull, or just describing Jefferson's circumstances back to it with a confidence interval?

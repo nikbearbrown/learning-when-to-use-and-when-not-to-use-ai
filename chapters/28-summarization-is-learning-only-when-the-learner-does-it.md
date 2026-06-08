@@ -3,6 +3,19 @@
 
 One influence: summarization, d = 0.79. The effect size is high in Hattie's synthesis because making a summary forces selection, compression, and connection — the learner must decide what matters and say it in fewer words. This is the book's purest conflict case: summarization is the single thing current language models do best, and every fluent AI summary delivers the artifact while deleting the act. The better the tool gets, the worse the trade becomes. The chapter's rule is blunt: summarization is learning only when the learner does it; received summaries are content, not practice.
 
+**Group Profile: Summarization**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.79 |
+| Hattie band | High |
+| AI feasibility | AI-native |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | Present |
+| Influence | Summarization (rank 18, d = 0.79) |
+
 Tom Calloway has taught AP U.S. History for eleven years, and this is the first October he cannot read his students' study habits. The textbook chapters are long. The course is a forced march. His strongest students have discovered that an AI notebook tool will produce a clean, accurate, beautifully organized summary of any chapter in eleven seconds. Several arrive at his review sessions with flawless summary documents — and fail the document-based questions that ask them to apply what the chapter argued.
 
 The decision has left his classroom. The social studies department meeting opens with a proposal from a well-meaning colleague: standardize on the AI notebook tool department-wide, pre-load every textbook chapter, and distribute AI summaries as official study guides — "so at least everyone's working from accurate notes." The department chair turns to Tom. He has used the tool the longest. Should the department hand every student a perfect summary of everything?

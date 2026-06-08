@@ -3,6 +3,19 @@
 
 One influence: information and communications technology, d = 0.47 — the broadest technology category on Hattie's list, averaging across decades of devices, platforms, and implementations. The number is real and belongs to no specific product; it is infrastructure, not pedagogy. That is the AI relationship in miniature: high substitution risk at the procurement level, because "technology works, d = 0.47" is the most launderable sentence in the vendor lexicon. The chapter teaches the provenance check — what populations, what tools, what decade — that keeps a pre-generative average from underwriting a generative purchase.
 
+**Group Profile: ICT as Infrastructure, Not Pedagogy**
+
+| Profile | Detail |
+|---|---|
+| Influences in this group | 1 of Hattie's 252 |
+| Effect size | d = 0.47 |
+| Hattie band | Above the d = 0.40 hinge |
+| AI feasibility | AI-adjacent |
+| Human irreducibility | Low |
+| Substitution risk | High |
+| Cognitive-work conflict | None |
+| Influence | Information communications technology, ICT (rank 93, d = 0.47) |
+
 Owen Marsh has personally decommissioned three revolutions.
 
 The interactive whiteboards are in a warehouse. The netbook carts are gone. The tablet initiative survives as a line item nobody defends. Now the district's four-year device lease is up for renewal, and the renewal is no longer a device lease. The vendor has bundled the laptops with an "AI Learning Suite" — embedded tutor, writing assistant, auto-grading, analytics — and priced the bundle so that declining the suite saves almost nothing. The proposal is $4.6 million over four years. The deck's research slide says: *Information and communications technology: d = 0.47 (Hattie). Above the hinge. Technology works.*
