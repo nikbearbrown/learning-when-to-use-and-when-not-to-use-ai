@@ -1,109 +1,136 @@
 # Chapter 5 — G04: High-Impact Self-Regulation Without Outsourcing Thinking
+*The list's most powerful number is a description of what students can do — not a recipe for doing it to them.*
 
-## The Decision on the Table
+The sales engineer's best line lands hard in the cabinet meeting: "Hattie's number one student factor is self-reported grades — 1.33. We operationalize it."
 
-Jerome Ellis, the assistant principal who owns the advisory program at a 900-student middle school, built last year's quiet success story: a self-assessment routine. Every other week, advisory students predict their performance on upcoming assessments, compare predictions with results, and write three sentences about the gap. It was cheap, slightly awkward at first, and by spring the advisors swore by it — students were talking about their own learning in a way the school had never heard.
+Jerome Ellis, the assistant principal who owns the advisory program, has the dataset open on his laptop. He can see that the number is real. He can also see, in the row's own notes, a phrase the pitch deck does not contain: *the student must do the self-assessment act or the mechanism hollows out.*
 
-Now a vendor has seen the program and raised it. The pitch deck is titled "Metacognition at Scale," and the product does everything Jerome's paper routine does, plus everything it doesn't: predicts each student's likely grade from LMS data before the student does, drafts the reflection from performance analytics ("just edit and submit"), generates personalized goals, and renders the whole thing as a glowing dashboard for advisors. The sales engineer's best line lands hard in the cabinet meeting: "Hattie's number one student factor is self-reported grades — 1.33. We operationalize it."
+The product does everything Jerome's paper routine does, plus everything it doesn't. It predicts each student's likely grade from LMS data before the student does. It drafts the reflection from performance analytics — "just edit and submit." It generates personalized goals and renders the whole thing as a glowing dashboard for advisors. The platform is called "Metacognition at Scale," and the name is the first clue that something has gone wrong, because the influence behind the 1.33 does not scale the way the vendor imagines.
 
-Jerome has the dataset open on his laptop, and he can see that the number is real. He can also see, in the row's own notes, a phrase the pitch deck does not contain: *the student must do the self-assessment act or the mechanism hollows out.* The decision on the table is whether to scale the program with the tool — and it turns on understanding what that 1.33 actually measured, because the vendor is operationalizing a misreading.
+Jerome's decision turns on understanding what that number actually measured.
 
-## What This Group Is
+## What the 1.33 Is — and Is Not
 
-Eight influences: **High band**, AI-AUGMENTED, medium human irreducibility, low substitution risk, **partial cognitive-work conflict**. Effect sizes 0.74 to 1.33 on the 2018 252-influence list, weighted average 0.88 — the highest-powered group in the book that still says "augment."
+The meta-analyses behind self-reported grades measured how accurately students *predict their own performance* — correlations between student self-estimates and subsequent achievement. The d = 1.33 says students' judgments of their own learning track their actual learning remarkably well. It is a finding about **judgment accuracy**, not an intervention. Nobody raised achievement by 1.33 standard deviations by asking students to guess their grades. Hattie himself has glossed the practical upshot as calibration work: helping students form *accurate, ambitious* expectations. [His later commentary renames the influence "student expectations"; treat any stronger causal gloss as contested.]
 
-Structurally, this is Chapter 4's group promoted to the top of the list. Same signature except the band: these are the self-regulation influences that post the largest numbers Hattie's synthesis contains. That combination — enormous effect sizes, partial conflict flag — makes G04 the most tempting group in the dataset for both vendors and administrators. The numbers justify investment; the mechanisms involve exactly the cognitive acts (self-assessment, planning, elaboration, reflection) that current AI performs fluently on a person's behalf. Everything Chapter 4 said about the metacognitive gate applies here at higher stakes: the bigger the effect, the more expensive the hollowing.
+What the row licenses: prediction, comparison, recalibration — the loop that trains judgment. What it does not license: any product claiming the 1.33 as its expected payoff. The number describes an asset students already carry. A program that trains that asset can legitimately point here. A platform that pre-empts it is sabotaging the mechanism while invoicing for the effect.
 
-One discipline before the rows: in this band especially, a large d is a description of where learning was found, not a recipe for producing it. The group's headline number is the book's single best teaching case for that distinction.
+This is the book's single best teaching case for the distinction between description and recipe. A large d is a description of where learning was found, not a formula for manufacturing it. The bigger the effect, the more expensive it is to hollow out.
 
-## The Influences
+<!-- → [DIAGRAM: Two-column contrast — left: "What d = 1.33 measured" (judgment accuracy, correlational finding, description of a student asset); right: "What vendors claim" (causal effect, expected payoff, purchasable outcome) — student should see why the same number warrants opposite interpretations] -->
 
-**Self-reported grades (d = 1.33)** — rank 2 of 252, and the most misread row on the list. The meta-analyses behind it measured how accurately students *predict their own performance* — correlations between student self-estimates and subsequent achievement. The d = 1.33 says students' judgments of their own learning track their actual learning remarkably well. It is a finding about **judgment accuracy, not an intervention**: nobody raised achievement by 1.33 standard deviations by asking students to guess their grades. Hattie himself has glossed the practical upshot as raising expectations and calibration — helping students form *accurate, ambitious* expectations — not as a guessing ritual. What the row licenses is calibration work: prediction, comparison, recalibration. What it does not license is any product claiming the 1.33 as its expected payoff. [Hattie's own later commentary renames the influence "student expectations"; treat any stronger causal gloss as contested.]
+## Eight Influences, One Engine
 
-**Self-efficacy (d = 0.92).** A learner's belief in their capacity to succeed at a task — built, in Bandura's account, through mastery experiences, vicarious models, persuasion from credible others, and managed emotional states. Note which of those four an AI can manufacture and which require a trusted human; the dataset's note draws the line at exactly that joint: AI success loops can foster immediate confidence; durable efficacy is built through human encouragement over time.
+G04 collects eight influences: self-reported grades (1.33), strategy to integrate with prior knowledge (0.93), self-efficacy (0.92), transfer strategies (0.86), planning and prediction (0.76), elaboration and organization (0.75), evaluation and reflection (0.75), reciprocal teaching (0.74). Weighted average 0.88 — the highest-powered group in the book that still carries an "augment" classification rather than "implement." The band is a signal. These are the self-regulation influences that post the largest numbers Hattie's synthesis contains, and they share a mechanism. Understanding the engine explains why it cannot be outsourced.
 
-**Transfer strategies (d = 0.86).** Explicitly teaching for application beyond the practiced context — near and far. **Strategy to integrate with prior knowledge (0.93)** — connecting new material to what the learner already holds. **Planning and prediction (0.76)**, **elaboration and organization (0.75)**, **evaluation and reflection (0.75)** — the self-regulation loop's segments, each independently measured, each above 0.74.
+**Self-efficacy (d = 0.92)** is a learner's belief in their capacity to succeed at a specific task. Bandura's account of how it is built names four sources: mastery experiences, vicarious models, persuasion from credible others, and managed emotional states. Notice which of those an AI can manufacture. Notice which require a trusted human. The dataset's note draws the line at exactly that joint: AI success loops can foster immediate confidence; durable efficacy runs through human encouragement over time and authentic struggle survived. Efficacy built exclusively on frictionless, calibrated micro-success is brittle precisely where it matters — at the first unengineered difficulty.
 
-**Reciprocal teaching (d = 0.74).** Palincsar and Brown's structured dialogue — predict, clarify, question, summarize — with students rotating as discussion leader. Chapter 28 already flagged the measurement caveat that travels with this literature: effects around 0.32 on standardized tests versus 0.88 on experimenter-developed measures in Rosenshine and Meister's review [verify — confirmed via secondary sources only]. The strategies are trainable by anything; the *social structure* — teaching one's peers, being accountable to them — is the part the dataset marks human.
+**Transfer strategies (0.86) and integration with prior knowledge (0.93)** are the near and far ends of the same problem: getting learning to stick somewhere it was never explicitly practiced. Teaching for transfer requires explicit modeling of cross-domain application; the dataset flags that as human work. Mapping prior knowledge — connecting new material to schema the learner actually holds — is something AI can do well in the diagnostic phase, before the human teaches into the gap.
 
-## Why It Works
+**Planning and prediction (0.76), elaboration and organization (0.75), evaluation and reflection (0.75)** are the self-regulation loop's segments, each measured independently, each posting above 0.74. They are not separate interventions. They are the same flywheel measured at different points.
 
-One engine drives all eight rows: **calibration under ownership**. A self-regulated learner runs a loop — predict, plan, attempt, monitor, evaluate, adjust — and every cycle does two jobs at once. It improves the work, and it improves the *model of self* doing the work. The student who predicts a 78, scores a 64, and confronts the gap is debugging their own judgment of learning. Over cycles, the judgment sharpens; sharpened judgment redirects effort toward actual weakness; redirected effort produces mastery experiences; mastery feeds efficacy; efficacy funds the persistence the next cycle needs. The group's influences are this flywheel measured at different points.
+**Reciprocal teaching (0.74)** is Palincsar and Brown's structured dialogue — predict, clarify, question, summarize — with students rotating as discussion leader. One measurement caveat travels with this row: effects around 0.32 on standardized tests versus 0.88 on experimenter-developed measures in Rosenshine and Meister's review [verify — confirmed via secondary sources only]. The strategies are trainable by anything. The *social structure* — teaching one's peers, being accountable to a human audience — is what the dataset marks as irreducibly human.
 
-Two properties of the flywheel matter for AI decisions. First, *the error is the curriculum*. The 14-point miss is not a defect in the routine — it is the routine's most valuable output, the precise address of a miscalibration. Any tool that prevents the miss (by predicting for the student) or smooths it (by drafting the reflection) deletes the lesson. Second, *ownership is not decoration*. Prediction works because the student stakes a claim and is confronted with its accuracy; reflection works because the student authors the account. The acts are first-person performatives — like apologizing or promising, they cannot be done for you. A ghostwritten apology is not an apology; a ghostwritten reflection is not reflection. This is why the conflict flag sits on a group whose substitution risk is nominally low: the artifacts are easy to fake precisely because they look like short texts, and short texts are what AI makes best.
+## The Flywheel Mechanism
+
+One engine drives all eight rows: **calibration under ownership**. A self-regulated learner runs a loop — predict, plan, attempt, monitor, evaluate, adjust — and every cycle does two jobs. It improves the work. And it improves the *model of self* doing the work.
+
+The student who predicts a 78, scores a 64, and confronts the 14-point gap is not failing. They are debugging their own judgment of learning. Over cycles, the judgment sharpens. Sharpened judgment redirects effort toward actual weakness. Redirected effort produces mastery experiences. Mastery feeds efficacy. Efficacy funds the persistence the next cycle needs. The group's eight influences are this flywheel measured at different entry points.
+
+Two properties of the flywheel are the chapter's core claims, and both have direct implications for what any tool may do.
+
+**The error is the curriculum.** The 14-point miss is not a defect in the routine — it is the routine's most valuable output, the precise address of a miscalibration. Any tool that prevents the miss, by predicting for the student, or smooths it, by drafting the reflection, deletes the lesson. The gap exists to be confronted, not managed.
+
+**Ownership is not decoration.** Prediction works because the student stakes a claim and is confronted with its accuracy. Reflection works because the student authors the account. These acts are first-person performatives — like apologizing or promising, they cannot be done for you. A ghostwritten apology is not an apology. A ghostwritten reflection is not reflection. The artifacts are short texts, and short texts are exactly what AI makes fluently. That fluency is the trap. The platform can produce genre-perfect self-assessment — structured, specific, grammatically unimpeachable — that contains zero self-assessment.
 
 ## What AI Can Safely Do
 
-Point the tool at the loop's logistics and its feedback, never its first-person acts:
+The safe zone is the loop's logistics and its feedback. Never the first-person acts.
 
-- **Force the prediction, then keep the books.** Require a prediction before any practice or assessment unlocks; log predictions against outcomes; chart each student's calibration curve over the semester. The dataset's note endorses exactly this: AI can scaffold prediction and tracking; the self-assessment act stays with the student.
-- **Surface the gap, structured.** After results, present prediction versus outcome with the student's own history — "you ran 12 points optimistic on the last three quizzes, all on multi-step problems" — as raw material for a reflection the student writes.
-- **Generate transfer practice.** Near- and far-transfer problem sets varied beyond what any teacher can hand-build; the dataset calls this legitimate while reserving the explicit modeling of cross-domain principles for human instruction.
-- **Map prior knowledge.** Pre-diagnostic tasks that surface what a student actually holds, so integration strategies connect to real schema rather than assumed ones; analogies checked against the student's demonstrated knowledge.
-- **Model the moves, then exit.** Demonstrate predict-clarify-question-summarize as worked examples before reciprocal-teaching groups run — the rehearsal room, never the stage. The peer exchange itself stays embodied and mutual.
-- **Flag efficacy collapses.** Patterns suggesting a student has stopped attempting — for a counselor or advisor to act on, because the dataset is blunt that durable efficacy runs through a trusted adult.
+**Force the prediction, then keep the books.** Require a prediction before any practice or assessment unlocks. Log predictions against outcomes. Chart each student's calibration curve over the semester. This is administrative infrastructure for the mechanism — the mechanism still runs inside the student. The dataset's note endorses exactly this use.
 
-The book's classification hypothesizes high retained value for the headline row — d ≈ 1.10 [HYPOTHESIS] for AI-scaffolded self-assessment with student ownership intact — a conjecture whose only function here is to mark how much the classification thinks is at stake in the ownership clause.
+**Surface the gap, structured.** After results, present prediction versus outcome with the student's own history: "you ran 12 points optimistic on the last three quizzes, all on multi-step problems." Raw material for a reflection the student writes, not a reflection the student signs.
 
-## The Substitution Trap
+**Generate transfer practice.** Near- and far-transfer problem sets varied beyond what any single teacher can hand-build. This is legitimate — the cognitive work of applying the concept stays with the learner.
 
-**The ghostwritten self.** The vendor's "draft reflection" button is the cleanest gate-crossing in this book: a tool performing a first-person cognitive act and offering it for signature. Every edited-and-submitted draft produces compliant artifacts and zero calibration; worse, it trains students that reflection is a formatting task. The arXiv work on judgment of learning names the deep problem — the model has no access to the student's knowing; it can only simulate the *genre* of self-assessment. Genre-perfect, content-empty.
+**Map prior knowledge.** Pre-diagnostic tasks that surface what a student actually holds, so integration strategies connect to real schema rather than assumed ones.
 
-**The pre-empted prediction.** Showing the student an AI-predicted grade before (or instead of) their own prediction converts calibration training into anchoring. The student's judgment never gets exercised against reality — it gets exercised against the model's guess, which is both more accurate and entirely beside the point. The 1.33 row measured *students'* judgment accuracy; a dashboard that out-predicts them does not operationalize the influence, it unemploys it.
+**Model the moves, then exit.** Demonstrate predict-clarify-question-summarize as worked examples before reciprocal-teaching groups run. The rehearsal room, never the stage.
 
-**Efficacy on a drip.** Adaptive systems can engineer unbroken micro-success — every task calibrated to be just achievable, confidence rising on schedule. The trap is that efficacy built exclusively on frictionless success is brittle exactly where it matters: at the first unengineered difficulty. Mastery experiences count when the learner attributes success to their own effortful agency, and the attribution needs occasional genuine struggle to stay honest. Bastani's signature haunts this group too — assisted performance inflating while unassisted capability quietly falls is precisely what a reflection-drafting, prediction-supplying advisory platform would produce, with the gap hidden until some unassisted moment exposes it.
+**Flag efficacy collapses.** Patterns suggesting a student has stopped attempting — flat-zero predictions on everything, scored well — surfaced for a counselor or advisor to act on. The detection is legitimate. The response requires a human.
 
-## Case Study
+<!-- → [TABLE: Safe AI uses vs. substitution traps — three columns: Loop segment, Safe AI role, Forbidden substitution; rows: Prediction, Gap confrontation, Reflection, Efficacy building, Peer teaching — student should see the line between augmentation and mechanism deletion at each segment] -->
 
-Jerome Ellis took the vendor meeting, and what he did with it became the district's reference case for this group.
+## The Substitution Trap, Named Precisely
 
-**The tool.** The "Metacognition at Scale" platform. **The influence.** Self-reported grades, d = 1.33 — presented to his cabinet with the misreading corrected first: the number describes how well students can judge their own learning, which is an asset the program trains, not an effect the program purchases.
+**The ghostwritten self.** The vendor's "draft reflection" button is the cleanest gate-crossing in this book. A tool performing a first-person cognitive act and offering it for signature. Every edited-and-submitted draft produces compliant artifacts and zero calibration. Worse, it trains students that reflection is a formatting task. The arXiv work on judgment of learning names the deep problem: the model has no access to the student's knowing. It can only simulate the genre. Genre-perfect, content-empty.
 
-**The useful moment.** Jerome's counter-proposal kept the platform's skeleton and amputated its voice. In the pilot, the tool ran prediction logistics flawlessly: predictions required before each assessment window, calibration curves per student, advisor dashboards showing who ran chronically optimistic (and on what kinds of tasks), reflection *prompts* generated from each student's actual gap data. Advisory conversations changed measurably — advisors stopped asking "how do you think you did?" cold and started from the student's own three-month calibration history. The school's multilingual families got prediction prompts in home languages. A seventh-grader's flat-zero predictions — predicting failure on everything, scoring well — surfaced an efficacy collapse no grade report would have caught; that finding went to a counselor, not an algorithm.
+**The pre-empted prediction.** Showing the student an AI-predicted grade before — or instead of — their own prediction converts calibration training into anchoring. The student's judgment never gets exercised against reality. It gets exercised against the model's guess, which is both more accurate and entirely beside the point. The 1.33 row measured students' judgment accuracy. A dashboard that out-predicts them does not operationalize the influence. It unemploys it.
 
-**The dangerous moment.** Mid-pilot, the vendor pushed an update: the "reflection assistant" began autocompleting after one typed word, and the dashboard started displaying its own predicted grade *next to the student's prediction box*. Within two weeks, advisor-flagged reflections converged on identical phrasing across sections, and student predictions snapped to the model's number — calibration curves went flat not because judgment improved but because judgment had been replaced by copying. The platform's metrics celebrated: prediction accuracy up, reflection completion 100 percent. Both numbers measured the mechanism's death.
+**Efficacy on a drip.** Adaptive systems can engineer unbroken micro-success — every task calibrated to be just achievable, confidence rising on schedule. The trap is that efficacy built on frictionless success is brittle at the first unengineered difficulty. Mastery experiences count when the learner attributes success to their own effortful agency, and the attribution requires occasional genuine struggle to remain honest. Bastani's signature haunts this group: assisted performance inflating while unassisted capability quietly falls — with the gap hidden until some unassisted moment exposes it.
 
-**The decision.** Renew only on contract conditions: (1) no AI-visible grade prediction until after the student's prediction is locked; (2) reflection fields accept no generated text — prompts yes, prose no — with autocomplete disabled at the platform level; (3) calibration data flows to advisors as conversation material, never to students as verdicts and never into any grouping or grading decision; (4) the advisory conversation remains the program's center — the platform schedules and feeds it, the human runs it; (5) evidence reviewed each semester: students' unprompted prediction accuracy on novel assessments, and reflection specificity rated blind against the paper-era samples. The vendor accepted three conditions, balked at autocomplete, and lost the contract to the configuration that complied.
+## The Case in Full
 
-## The Phase Gate
+Jerome's counter-proposal kept the platform's skeleton and amputated its voice.
 
-**AI may** require and log predictions, chart calibration histories, surface gap data and tailored reflection prompts, generate transfer and prior-knowledge diagnostics, model discussion strategies before peer teaching, and flag efficacy-collapse patterns to a human.
+In the pilot, the tool ran prediction logistics flawlessly: predictions required before each assessment window, calibration curves per student, advisor dashboards showing who ran chronically optimistic and on what kinds of tasks. Reflection prompts — not prose — generated from each student's actual gap data. Advisory conversations changed measurably. Advisors stopped asking "how do you think you did?" cold and started from the student's own three-month calibration history. The school's multilingual families got prediction prompts in home languages. A seventh-grader's flat-zero predictions — predicting failure on everything, scoring well — surfaced an efficacy collapse no grade report would have caught. That finding went to a counselor, not an algorithm.
 
-**The learner must** make every prediction before seeing any machine estimate, author every reflection in their own prose, set the goals the loop runs on, and do the explaining in every peer-teaching exchange. **The teacher or advisor must** hold the conversation the data feeds, supply the credible human encouragement efficacy is built from, and act on the flags.
+Then the vendor pushed an update. The reflection assistant began autocompleting after one typed word. The dashboard started displaying its predicted grade next to the student's prediction box. Within two weeks, advisor-flagged reflections converged on identical phrasing across sections, and student predictions snapped to the model's number — calibration curves went flat not because judgment improved but because judgment had been replaced by copying. The platform's metrics celebrated: prediction accuracy up, reflection completion 100 percent. Both numbers measured the mechanism's death.
 
-**Evidence that learning improved is** calibration accuracy improving on *novel, unprompted* predictions; reflection content growing more specific and more often acted on; and achievement plus persistence rising on unassisted work — never reflection completion rates or in-platform prediction scores.
+Jerome renewed only on contract conditions: no AI-visible grade prediction until after the student's prediction locks; reflection fields accept no generated text — prompts yes, prose no — with autocomplete disabled at the platform level; calibration data flows to advisors as conversation material, never to students as verdicts; the advisory conversation remains the program's center — the platform schedules and feeds it, the human runs it; evidence reviewed each semester: students' unprompted prediction accuracy on novel assessments, and reflection specificity rated blind against paper-era samples. The vendor accepted three conditions, balked at autocomplete, and lost the contract to a configuration that complied.
 
-## The Evidence Check
-
-For any tool claiming this group:
-
-1. **Unprompted calibration transfer.** Students predict performance on an assessment outside the platform, cold. Accuracy versus baseline is the direct test of whether judgment moved into the student.
-2. **Reflection authorship and uptake.** Blind-rate samples for specificity; track whether reflections name an action and whether the action happened. Identical phrasing across students is a known signature of crossing — audit for it explicitly.
-3. **Unassisted achievement and persistence.** The Bastani check: capability with the tool absent, including behavior at genuine difficulty (re-attempt rates, help-seeking quality).
-4. **The anchoring audit.** Verify, in the interface itself, that no machine estimate is visible before student predictions lock. This is a settings inspection, not a vendor assurance.
-
-What does not count: completion rates, dashboard engagement, the accuracy of the *platform's* predictions, sentiment scores on reflections, or advisor satisfaction with the visualizations.
-
-## Reader Exercises
-
-1. **The reader audit.** Take one self-assessment, goal-setting, or reflection routine in your setting (with or without AI). One sentence each: the mechanism (calibration under ownership), the safe AI support, the forbidden substitution, and the proof that learning happened.
-2. **Run your own calibration loop.** Before your next significant piece of work — a lesson, a presentation, this book's later exercises — write a prediction: what will go well, what will not, and a numeric self-estimate. Afterward, score yourself and write the three-sentence gap account. Two cycles in, you will understand viscerally why no one can draft this for you — and you will have the program Jerome built, at n = 1.
-3. **Produce the contract language.** Draft the five renewal conditions from the case study as actual procurement language for a metacognition product your district might face: prediction-lock ordering, no generated reflection prose, data-flow restrictions, human-conversation centrality, and the evidence standard. Trade it with a colleague and attack each other's loopholes.
+The case is the chapter's structure in miniature. The tool's value was entirely in logistics and gap data. The moment it moved into prediction display and prose generation, it crossed the line — and the line was detectable in the outcome measures within two weeks.
 
 ## What Would Change My Mind
 
-Two reversals would matter. If a randomized study showed that students who receive AI-drafted reflections and lightly edit them develop calibration accuracy and self-regulated behavior equal to students who author their own — measured on novel, unassisted tasks at delay — then reflection is exposure-trainable, the first-person ownership claim is romantic surplus, and this chapter's gate is overbuilt. And if longitudinal evidence showed AI-engineered success streaks producing efficacy that *survives* unengineered difficulty as well as struggle-built efficacy does, the "drip" warning would need retracting. Current evidence — the generation effect, the Bastani signature, the judgment-of-learning argument — bets against both, but the decisive school-population experiments have not been run.
+Two reversals would matter. If a randomized study showed that students who receive AI-drafted reflections and lightly edit them develop calibration accuracy and self-regulated behavior equal to students who author their own — measured on novel, unassisted tasks at delay — then reflection is exposure-trainable, the first-person ownership claim is surplus, and this chapter's gate is overbuilt. And if longitudinal evidence showed AI-engineered success streaks producing efficacy that *survives* unengineered difficulty as well as struggle-built efficacy does, the drip warning would need retracting. Current evidence — the generation effect, the Bastani signature, the judgment-of-learning argument — bets against both. The decisive school-population experiments have not been run.
 
 ## Still Puzzling
 
-- The headline row's causal status remains genuinely awkward: if self-reported grades is judgment accuracy rather than an intervention, the honest effect size for *calibration training itself* is some smaller, mostly unmeasured number. The book inherits Hattie's row but not his confidence.
-- Where does scaffolded prediction end and anchoring begin? Showing a student their own past calibration curve before they predict is feedback; showing the class average is context; showing the model's estimate is anchoring. The middle case is undertheorized.
-- Reciprocal teaching with one human and one AI "peer": clearly not the influence as measured — but is it worthless rehearsal or genuine partial value for students with no available partner? The dataset says the social exchange requires human presence; the boundary case of *no* available human has no data at all.
+The headline row's causal status is genuinely awkward. If self-reported grades is judgment accuracy rather than an intervention, the honest effect size for calibration training itself is some smaller, mostly unmeasured number. The book inherits Hattie's row but not his confidence.
+
+Where does scaffolded prediction end and anchoring begin? Showing a student their own past calibration curve before they predict is feedback. Showing the class average is context. Showing the model's estimate is anchoring. The middle case is undertheorized — there is likely a visibility threshold that matters, and nobody has drawn it empirically.
+
+Reciprocal teaching with one human and one AI peer: clearly not the influence as measured. But is it worthless rehearsal or genuine partial value for students with no available partner? The dataset says the social exchange requires human presence; the boundary case of no available human has no data at all.
 
 ## Further Reading
 
-- **Education Endowment Foundation. *Metacognition and Self-Regulated Learning* — guidance report and evidence review.** The practitioner synthesis for this group's loop, including explicit teaching and gradual release toward independence.
-- **Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** The self-regulation level of feedback — the kind this chapter's dashboards must feed and must not replace.
-- **Judgment of Learning: A Human Ability Beyond Generative AI (2024). arXiv:2410.13392.** The theoretical case that self-assessment is constitutively first-person — the deepest justification for this chapter's ownership clause.
-- **Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence (+48/−17 unguardrailed) that every evidence check in this chapter is designed to detect early.
-- **Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.** Prediction-then-test as a special case of the generation family: the act, not the artifact, carries the effect.
+**Education Endowment Foundation. *Metacognition and Self-Regulated Learning* — guidance report and evidence review.** The practitioner synthesis for this group's loop, including explicit teaching and gradual release toward independence.
+
+**Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** The self-regulation level of feedback — the kind this chapter's dashboards must feed and must not replace.
+
+**Judgment of Learning: A Human Ability Beyond Generative AI (2024). arXiv:2410.13392.** The theoretical case that self-assessment is constitutively first-person — the deepest justification for this chapter's ownership clause.
+
+**Bastani, H., et al. (2025). Generative AI can harm learning. *PNAS*.** The assisted/unassisted divergence that every evidence check in this chapter is designed to detect early.
+
+**Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.** Prediction-then-test as a special case of the generation family: the act, not the artifact, carries the effect.
+
+---
+
+## Exercises
+
+**Warm-up**
+
+1. *(Recall — What the number measures)* The vendor claims Hattie's d = 1.33 for self-reported grades justifies their expected payoff. Explain, in two sentences, why that claim misreads the row — what the d actually measured, and what it does and does not license.
+
+2. *(Recall — Mechanism)* Name the two properties of the calibration flywheel that the chapter calls its core claims, and explain in one sentence each why they determine what a tool may and may not do.
+
+3. *(Recall — Efficacy sources)* Bandura identifies four sources of self-efficacy. Name them. Then identify which source is most at risk when an AI system engineers an unbroken micro-success streak, and explain the mechanism of the risk.
+
+**Application**
+
+4. *(Transfer — Gate-crossing audit)* A new advisory platform offers three features: (a) a prediction-lock interface that requires student input before assessment data is visible, (b) a reflection prompt generator keyed to the student's specific gap, and (c) a "reflection coach" that drafts a full reflection from performance data for the student to edit. Classify each feature as safe augmentation or forbidden substitution, with a one-sentence mechanism rationale for each.
+
+5. *(Transfer — Anchoring vs. feedback)* An administrator proposes showing students three things before they enter their prediction: their own calibration curve from the previous month, the class average prediction from last week, and the platform's model prediction for this assessment. Apply the chapter's anchoring analysis to each disclosure. Which constitutes feedback? Which constitutes anchoring? Where is the line?
+
+6. *(Transfer — Contract language)* Jerome's renewal contract included five conditions. Take conditions one and two — prediction-lock ordering and no generated reflection prose — and draft them as actual procurement language. Your language should be specific enough that a technology auditor could verify compliance without asking the vendor for clarification.
+
+**Synthesis**
+
+7. *(Combine — Flywheel design)* Design a semester-long advisory routine for a ninth-grade cohort that uses AI for what the chapter says AI may do, and reserves for students and advisors what the chapter says must stay human. Specify the cadence (how often, which acts happen in what order), the tool's role at each step, the advisor's role, and the two outcome measures you would check at semester end to confirm the flywheel ran inside the student rather than inside the platform.
+
+8. *(Combine — Misread reversal)* The chapter argues that "operationalizing" a descriptive finding by automating the first-person acts hollows the mechanism. Using the self-reported grades row as your anchor, construct the argument a vendor *should* make — one that honestly represents what the d = 1.33 licenses and proposes a platform accordingly. What would that platform do? What would it refuse to do? How would its pitch deck differ from the one Jerome received?
+
+**Challenge**
+
+9. *(Open — Ownership claim stress test)* The chapter asserts that reflection is a first-person performative — it cannot be done for you. Construct the strongest possible counterargument: a case in which AI-drafted reflections, lightly edited, could produce genuine calibration gains equal to fully self-authored ones. State the mechanism by which editing could substitute for authoring, identify what evidence would confirm it, and name the falsification condition. Then evaluate your own argument honestly — where does it hold, and where does the ownership claim survive it?
