@@ -1,0 +1,102 @@
+# Chapter 14 — G13: Diagnosis, Intervention, and Teacher Learning Loops
+
+## The Decision on the Table
+
+Lauren Okafor coordinates MTSS at Brightwater Elementary, which means she chairs the intervention team — six educators, one conference table, and a Thursday meeting where the school decides, child by child, who needs more help and whether the help is working. This year the district bought her two pieces of AI at once.
+
+The first is an early-warning and progress-monitoring platform: it ingests screening data, attendance, and intervention logs, flags students whose trajectories say *Tier 2 isn't holding*, and — the new feature — drafts a recommended tier placement and intervention package for each flagged child. The second landed in the principal's PLC budget: an AI lesson-video service that takes a recorded lesson and returns an analysis — talk-time ratios, question types, cold-call distribution, engagement estimates — plus a written summary of "strengths and growth areas," so teachers can skip the part everyone hates, which is watching themselves on camera.
+
+Both tools point at the same Thursday table from opposite sides: one claims to accelerate the team's decisions about children; the other claims to accelerate the teachers' learning about themselves. The district's implementation memo uses the word "streamline" four times. Lauren has sat on intervention teams for eleven years, and she knows what the research behind RTI's enormous effect size actually rewards — and that "streamline" is sometimes a synonym for the exact step the effect size lives in.
+
+## What This Group Is
+
+Three influences: **High band**, AI-AUGMENTED, medium human irreducibility, medium substitution risk, no cognitive-work conflict. Effect sizes 0.77 to 1.29 on the 2018 252-influence list, weighted average 0.98 — one of the most powerful shelves in the dataset.
+
+The grammar of this group is the **loop**: gather evidence, diagnose, act, measure response, adjust. Twice over, in fact — RTI and learning-needs interventions run the loop on students; micro-teaching runs the identical loop on teachers, with the teacher's own practice as the patient. No conflict flag, because AI's natural strengths — aggregation, pattern detection, monitoring at scale — map onto the loop's *evidence* steps without touching its decisions. Medium substitution risk, because the temptation here is precise and respectable-looking: let the machine close the loop. Accept the drafted placement. Read the video summary instead of the video. Every shortcut preserves the loop's appearance and removes the cognition that made the loop work — and unlike the learner-side traps of earlier chapters, these substitutions are committed by professionals in meetings, with documentation.
+
+## The Influences
+
+**Response to intervention (d = 1.29)** — rank 5 of 252, and the number demands its caveat before its celebration. RTI is not a thing you buy; it is a whole-school *system* — universal screening, tiered support of increasing intensity, frequent progress monitoring, and data-based decision rules — and the 1.29 comes substantially from studies of well-implemented systems under research conditions. Implementation dependence is the defining fact of this row: the same framework, run with infrequent monitoring, drifting decision rules, or interventions delivered by whoever was free, produces a fraction of the headline. By the benchmark realism Kraft urges for field interventions, 1.29 should be read as *what the loop can deliver at high fidelity*, not what the label delivers on contact. The dataset's hypothesis: AI tier-tracking and flagging are legitimate at d ≈ 0.90 [HYPOTHESIS]; intervention delivery and placement decisions remain human.
+
+**Micro-teaching / video review of lessons (d = 0.88)** — rank 13. Teachers teach, record, review the recording with feedback, and re-teach. A provenance note: the classic evidence base skews toward teacher-preparation contexts and older studies, so treat the figure as strong support for the *practice-review-revise cycle* rather than a guarantee for any in-service program [verify]. The dataset marks AI video analysis as the legitimate use case — computer vision mapping talk-time, questioning, engagement — with the teacher's own interpretation and changed practice as the human core. Hypothesis d ≈ 0.75 [HYPOTHESIS].
+
+**Interventions for students with learning needs (d = 0.77)** — rank 20. Targeted, structured, intensive instruction for students with identified needs — the dataset splits the row cleanly: AI-driven assistive tools (text-to-speech, interface adaptation) are legitimate augmentation, while specialized instruction and therapy require trained humans. Hypothesis d ≈ 0.55 [HYPOTHESIS].
+
+## Why It Works
+
+One mechanism powers all three rows: **frequent evidence about a specific learner (or a specific teacher), interpreted by someone equipped to act, followed by an actual change in what happens next**. The loop's force is not in any single component. Screening alone is measurement; intervention alone is hope; it is the *closing* — evidence changing action, repeatedly, on a short cycle — that compounds into the group's outsized effects.
+
+Notice what the loop runs on at each joint. The evidence steps run on collection, aggregation, and comparison — clerical cognition, high-volume and error-prone in human hands, and precisely what software does best. The decision steps run on something else entirely: causal diagnosis (is this child's flat trajectory a decoding problem, an attendance problem, an instruction problem, or a wrong-intervention problem?), contextual knowledge (what the screener can't see about this child's October), and professional accountability (someone whose name is on the decision). The delivery steps run on skilled human instruction — the dataset is unambiguous that the intervention itself, for the students who need it most, is trained-educator work.
+
+Micro-teaching is the same anatomy with one brutal addition: the evidence is *you*. Its effect size lives in the confrontation — the gap between the lesson you remember teaching and the lesson the camera recorded — and in what that gap does to a teacher who examines it with a colleague. The confrontation is effortful and mildly painful, which is exactly why the AI summary sells: it offers the findings without the watching. But the findings were never the mechanism. The *seeing* was. A teacher told she talks 71 percent of the time has received a statistic; a teacher who watches herself talk over the same student's third attempt to answer has received a reason to change. The summary is to micro-teaching what the AI summary was to summarization in Chapter 28's territory: the artifact of an act whose value was in the performing.
+
+## What AI Can Safely Do
+
+- **Run the surveillance the loop starves without.** Continuous aggregation of screening scores, progress probes, attendance, and intervention logs; trajectory projection; flags raised *with the evidence attached* — the monitoring frequency that high-fidelity RTI demands and human clerical capacity has always rationed.
+- **Draft for the Thursday table.** Pre-meeting briefs per flagged student — trajectory, intervention history, what's been tried, comparable-case patterns — so the team's hour goes to diagnosis instead of data archaeology. Drafted placements may arrive as *hypotheses with reasons*, clearly labeled, never as defaults.
+- **Watch the fidelity.** Log whether the intervention actually ran — minutes delivered, sessions missed, group size drift — because implementation dependence means fidelity data *is* outcome data's leading indicator.
+- **Tag the video.** Talk-time, question taxonomy, cold-call distribution, wait time — and, most usefully, timestamps: *here are the four moments where student talk died*. The machine finds the moments; the teacher watches them. Tagging that routes a teacher into the footage serves the mechanism; summary that routes her around it deletes the mechanism.
+- **Carry the assistive layer.** Text-to-speech, adapted interfaces, accessible materials for learning-needs students — the row's settled territory, under the specialist's plan.
+
+## The Substitution Trap
+
+**The rubber-stamped tier.** The platform drafts a placement; the team, six tired professionals at 3:40 on a Thursday, approves it; the minutes record a data-based decision. Automation bias does the rest — each approved draft makes the next approval easier, until the team is a ratification body and the diagnosis step has migrated into the model, where it consists of pattern-matching on the variables the platform can see. What the model cannot see is most of what the table exists for: the screener artifacts, the family disruption behind the attendance dip, the mismatch between this child's error pattern and the recommended package. The loop still closes. It closes on thinner causation, with no one's judgment actually engaged — and for the students at the margins of every distribution, thinner causation is misplacement.
+
+**Platform minutes as Tier 2.** The delivery-side trap, and the budget office's favorite: re-defining the intervention itself as software time. *Tier 2 = 30 adaptive-platform minutes daily* is an arithmetic dream and a mechanism deletion — the d = 0.77 for learning-needs interventions belongs to structured, intensive, human-delivered instruction, and the dataset's row says so without hedging. Adaptive practice can be a component; the moment it becomes the definition, the school is billing the influence's effect size for a different and weaker product.
+
+**The unwatched self.** A teacher receives her AI lesson report, reads "consider increasing wait time," nods, files it. Next month, same. The PLC's video-review hour becomes a report-discussion hour; the camera keeps rolling; nobody watches anything. Every artifact of micro-teaching survives — recordings, analyses, reflection forms — except the confrontation that was the point. This trap is especially seductive because the avoided act is genuinely unpleasant: the tool isn't saving time so much as selling anesthesia, and practice that doesn't hurt a little usually isn't changing.
+
+## Case Study
+
+Lauren Okafor piloted both tools for one semester, and her implementation memo back to the district replaced "streamline" with a different verb: *feed*. The tools would feed the loops. Nothing would close them but people.
+
+**The tools.** The early-warning platform and the video-analysis service. **The influences.** RTI, d = 1.29 — presented to her team with the implementation caveat first, because a team that believes the label delivers the number stops doing the work the number came from — micro-teaching at 0.88, and learning-needs interventions at 0.77.
+
+**The useful moment.** Both tools earned their licenses inside a month. The platform caught what Thursday tables historically miss: a quiet second-grader whose progress probes were individually unremarkable but whose trajectory, plotted against intervention dosage, showed a child receiving Tier 2 on paper and roughly half of it in fact — her interventionist's schedule had been cannibalized by coverage duties. The flag was a fidelity catch, not a child defect, and it redirected the team's response from "intensify the child's placement" to "protect the minutes." In the PLC, the video service's timestamping did what Lauren hoped: a fourth-grade teacher skeptical of "talk-time ratios" watched the four flagged moments where her questioning shut a discussion down, and came to the next meeting having re-taught the lesson — the 0.88 cycle, running on machine-found moments and human eyes.
+
+**The dangerous moment.** It came dressed as efficiency, in two costumes the same week. The intervention team, three Thursdays behind after testing season, voted to fast-track "obvious" cases by approving the platform's drafted placements without discussion — and the first batch included a multilingual learner flagged for a decoding intervention whose "deficit" was, as the ELL specialist caught two weeks later, an artifact of screening a child in her second language. The draft had been plausible, confident, and wrong in precisely the way the table exists to catch. Same week, the principal — delighted with the video reports — proposed replacing the PLC's watch-and-discuss hour with a monthly "AI insights digest." Both proposals were the same proposal: remove the human act, keep its paperwork.
+
+**The decision.** The memo set four conditions. (1) Drafted placements are hypotheses: every platform recommendation is discussed against at least one alternative explanation, and the team's disagreements with the draft are logged — the log doubling as the platform's local error map and the team's best calibration record. (2) No placement, exit, or intensification decision occurs outside the human meeting; the platform sets the agenda, never the outcome. (3) Tier 2 and 3 delivery is defined in the memo as human-delivered structured instruction; platform practice time may supplement, never constitute, the intervention — and fidelity dashboards report *human minutes delivered* as the headline metric. (4) The video service is configured to require footage: reports unlock after the teacher has viewed her flagged moments, and the PLC hour remains watch-first. Evidence for the whole pilot was set in advance: intervention-response rates and exit rates against the prior two years, decision-to-action latency, fidelity of delivered minutes, and — for the PLC — observed instructional change at re-teach, not report sentiment.
+
+## The Phase Gate
+
+**AI may** aggregate and monitor progress data continuously, flag at-risk trajectories with evidence attached, draft pre-meeting briefs and clearly-labeled placement hypotheses, track intervention fidelity, tag lesson video and route teachers to the moments worth watching, and carry assistive access for learning-needs students.
+
+**The team must** make every diagnosis and placement decision in human deliberation, with alternative explanations argued and a name on the call; **the interventionist must** deliver the instruction; **the teacher must** watch her own footage and change her own practice — because the loop's effect size lives in the closing, and the closing is judgment plus action, not aggregation.
+
+**Evidence that learning improved is** intervention-response and tier-exit rates improving against baseline, delivered-fidelity rising, and — on the teacher side — observable instructional change between recordings, with student measures moving behind it.
+
+## The Evidence Check
+
+For any tool claiming this group:
+
+1. **Response rates, not flag rates.** The platform's value is not how many students it flags; it is whether flagged students' trajectories *bend* after the team acts. Demand response-to-intervention and tier-exit data against pre-adoption baseline.
+2. **The disagreement log.** How often does the human team amend or reject the drafted placement, and what happened after? A zero-override record is not accuracy; it is automation bias wearing accuracy's badge.
+3. **Fidelity of human minutes.** What fraction of prescribed intervention minutes were delivered, by trained humans, as designed? If the tool cannot report this — or if the number is quietly being backfilled with platform time — the implementation dependence at the heart of d = 1.29 is already failing.
+4. **Footage actually watched, practice actually changed.** For video tools: viewing data on the teacher's own flagged moments, and re-teach evidence — the second recording — not report-reading compliance.
+
+What does not count: flags raised, dashboards rendered, briefs generated, report eloquence, meeting minutes saved, or any metric of the tools' activity rather than the loops' outcomes.
+
+## Reader Exercises
+
+1. **The reader audit.** Pick one diagnostic loop in your setting — MTSS, IEP progress review, instructional coaching, a PLC. One sentence each: the mechanism (evidence, interpreted by someone equipped to act, changing what happens next), the safe AI support, the forbidden substitution, and the proof that learning happened.
+2. **Trace one child through your loop.** Take a real (anonymized) intervention case from the past year and timestamp it: evidence gathered → discussed → decided → delivered → response measured → adjusted. Mark every joint where a proposed tool would replace a person rather than feed one. The marked joints are your phase-gate negotiation, written by your own data.
+3. **Run micro-teaching on yourself before buying it for others.** Record twenty minutes of your own practice — teaching, chairing the Thursday meeting, coaching. Get an AI summary of the transcript, read it, and *then* watch the footage. Write down what the footage contained that the summary structurally could not. That delta is the mechanism this chapter refuses to automate, experienced firsthand.
+
+## What Would Change My Mind
+
+Two results would rewrite the chapter. First: a credible trial in which algorithm-decided tier placements matched or beat human-team decisions on *student response outcomes* — not placement-prediction accuracy, which is circular — across diverse populations, including the multilingual and atypical learners where human catch-rates currently justify the table. The clinical-prediction literature outside education gives that possibility more respect than educators like to admit; if it lands, the Thursday meeting becomes quality assurance rather than diagnosis, and honesty would require saying so. Second: evidence that AI lesson-summaries drive practice change equal to watched footage — that the confrontation is dispensable and the information was the mechanism after all. If teachers change as much from reading as from seeing, this chapter's anesthesia argument was sentimentality, and micro-teaching just got dramatically cheaper. Neither study exists yet. The loops, meanwhile, should keep their people.
+
+## Still Puzzling
+
+- RTI's 1.29 contains a paradox this chapter manages rather than resolves: the influence is implementation-dependent, AI demonstrably improves implementation's evidence layer, and yet every implementation-improving tool creates a new way to fake the loop's closure. Whether net fidelity rises or falls under tooling is an empirical question no district is measuring cleanly.
+- The flagging threshold encodes a values choice nobody votes on: tune it sensitive and the team drowns in false positives until automation bias becomes a survival strategy; tune it specific and the quiet children the platform was bought for slip through, with the vendor's default deciding which failure mode a district gets.
+- Teacher video analytics sit one policy memo away from surveillance: the same tags that route a teacher to her own growth moments can route an administrator to her evaluation file. The micro-teaching evidence was earned under conditions of safety and self-confrontation; nobody has measured what the camera teaches when it reports upward.
+
+## Further Reading
+
+- **Fuchs, D., & Fuchs, L. S. (2006). Introduction to response to intervention: What, why, and how valid is it? *Reading Research Quarterly*, 41(1), 93–99.** The framework from its architects — and the clearest early statement of the implementation questions the d = 1.29 tends to bury.
+- **Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253.** The benchmark discipline for reading a 1.29: what field interventions actually deliver, and why fidelity is where the number lives or dies.
+- **Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.** The feedback architecture underneath both loops — where am I going, how am I going, where to next — for children and for the teachers watching themselves.
+- **U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*.** The teacher-in-the-loop doctrine at its most institutional: early-warning systems, automated recommendation, and the human-judgment requirements this chapter turns into meeting rules.
+- **Visible Learning MetaX (visiblelearningmetax.com).** Where to re-check all three rows — micro-teaching's provenance especially — before quoting any of this chapter's numbers to a school board.
