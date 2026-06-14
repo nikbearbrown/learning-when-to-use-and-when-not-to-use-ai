@@ -65,6 +65,9 @@ The normalization step affects only substitution-risk vocabulary. The original f
 
 Most influences are not AI-native. Nearly three quarters are either AI-adjacent or AI-augmented. This matters for book framing: AI is usually a support layer around teaching and learning mechanisms, not the mechanism itself.
 
+![Bar chart of 252 Hattie influences by AI feasibility — 97 AI-adjacent, 88 AI-augmented, 38 AI-resistant, 29 AI-native](images/93-hattie-ai-analysis-summary-fig-01.png)
+*Figure 93.1 — AI feasibility of 252 Hattie influences*
+
 ### Human Irreducibility
 
 | Category | n | Share |
@@ -159,6 +162,9 @@ The highest-impact end of the list is therefore not a simple technology story. I
 
 Interpretation: AI-native influences exist, but they are not the bulk of high-impact learning. The high and above-hinge zones are concentrated in AI-augmented practices.
 
+![Grouped bar chart of the High effect band by AI feasibility — AI-augmented dominant at 24, AI-native 4, AI-resistant 3, AI-adjacent 1](images/93-hattie-ai-analysis-summary-fig-02.png)
+*Figure 93.2 — Effect band by AI feasibility*
+
 ---
 
 ## Cross-Tab: Effect Band by Mechanism Conflict
@@ -172,6 +178,9 @@ Interpretation: AI-native influences exist, but they are not the bulk of high-im
 | Harmful | 13 | 2 | 2 |
 
 Interpretation: many strong influences can be supported by AI without direct mechanism conflict, but the partial-conflict cases are where the book's phase-gate language matters most. AI can prepare, prompt, monitor, or scaffold; the human still must perform the learning-producing act.
+
+![Flowchart of the amplification-vs-substitution phase gate — a high-impact influence meets a gate that preserves the effect under amplification and collapses it under substitution](images/93-hattie-ai-analysis-summary-fig-03.png)
+*Figure 93.3 — The amplification-vs-substitution phase gate*
 
 ---
 
@@ -244,6 +253,9 @@ The top priority cases include:
 | 32 | Feedback | 0.70 | AI-AUGMENTED | Medium | High | Partial conflict | High |
 
 These are the cases most likely to carry the book's argument. They show that AI can produce leverage in precisely the places where it can also hollow out learning if used as a substitute.
+
+![Dot plot of top priority-review cases ranked by effect size from d = 0.70 to d = 1.57, all far above the 0.40 hinge](images/93-hattie-ai-analysis-summary-fig-04.png)
+*Figure 93.4 — Priority review cases by effect size*
 
 ---
 
@@ -348,4 +360,20 @@ The practical conclusion is not "less AI." It is better division of labor: AI fo
 
 1. Hattie, J. *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Routledge, 2009. https://www.routledge.com/p/book/9780415476188
 2. Visible Learning. Hattie Ranking: 252 Influences And Effect Sizes Related To Student Achievement (2018 list). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 93.1 — AI feasibility of 252 Hattie influences
+Build a horizontal bar chart of four AI-feasibility categories as counts out of 252, zero baseline, sorted descending: AI-Adjacent (97, highlighted), AI-Augmented (88), AI-Resistant (38), AI-Native (29). Label the axis "count of influences (of 252)". Each bar a single horizontal mark; encode value by length. Optionally group the two support categories (Adjacent + Augmented) visually distinct from the two extremes (Resistant, Native) to make the "support not automation" point. Annotate that most influences fall into support rather than AI-native categories. Highlight the AI-Adjacent bar. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 93.2 — Effect band by AI feasibility
+Build a grouped horizontal bar chart focused on the High effect band, counts. Four bars sorted descending: AI-Augmented (24, highlighted), AI-Native (4), AI-Resistant (3), AI-Adjacent (1). Zero baseline. Label the axis "count in High effect band". The structural point: the strongest learning effects concentrate in AI-Augmented (amplification), not AI-Native (automation). Highlight the AI-Augmented bar as dominant. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 93.3 — The amplification-vs-substitution phase gate
+Build a left-to-right two-branch conceptual flowchart with a central gate. Stage 1 "High-impact learning influence" → Stage 2 "Phase gate" (central decision node) → branches into Stage 3 "Amplification: AI supports the mechanism — effect preserved" (arrow, positive) and Stage 4 "Substitution: AI performs the work — effect collapses" (blocked/barred connector, warning). Use a forward arrow into the amplification branch labeled "supports" and a barred glyph into the substitution branch labeled "blocked". The structural point: the gate divides amplification (effect preserved) from substitution (effect collapses). Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 93.4 — Priority review cases by effect size
+Build a horizontal dot plot, one row per priority-review influence, effect size on the x-axis from zero. Eight rows sorted descending: 1.57 (highlighted), 1.33, 1.29, 1.20, 0.93, 0.90, 0.82, 0.70. Draw a vertical reference line at d = 0.40 labeled "0.40 hinge"; all dots fall far to its right. Encode each row as a labeled lead line to a terminal dot. Optionally encode dot color by mechanism-conflict level. Label the axis "effect size (Cohen's d)". The structural point: these high-leverage cases warrant the closest human review. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
 

@@ -1,0 +1,36 @@
+<!--
+  Two paths: discrimination retained vs. fluency illusion
+  Book: Visible Learning x AI
+  Chapter: 36-highlighting-underlining-and-false-fluency
+  Figure: 02
+  Type: two-path mechanism diagram with divergent terminal states
+  Generated: 2026-06-08
+  Source: pantry/36-highlighting-underlining-and-false-fluency-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Two paths: discrimination retained vs. fluency illusion — 36-highlighting-underlining-and-false-fluency</title>
+<desc>Constrained marking forces a judgment of importance and is reviewed by closed-book retrieval (illusion broken); free or pre-marked text is reread, each pass feels smoother, confidence rises, and the gap to actual retrieval is the illusion.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="36-highlighting-underlining-and-false-fluency"
+    figure-number="02"
+    figure-title="Two paths: discrimination retained vs. fluency illusion"
+    figure-slug="two-paths-discrimination-retained-vs-flu"
+    figure-type="two-path mechanism diagram with divergent terminal states"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/36-highlighting-underlining-and-false-fluency-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Two paths: discrimination retained vs. fluency illusion</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Same surface behavior, divergent endpoints</text><line x1="350" y1="72" x2="350" y2="380" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Constrained marking</text><text x="509" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Free / pre-marked</text><rect x="40" y="102" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Judge importance</text><rect x="366" y="102" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="115" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Text arrives already</text><text x="509" y="127" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">highlighted</text><rect x="40" y="146" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="159" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Mark one sentence per</text><text x="191" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">paragraph</text><rect x="366" y="146" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Reread</text><rect x="40" y="190" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Closed-book retrieval review</text><rect x="366" y="190" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Rereading feels smooth,</text><text x="509" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">confidence rises</text><rect x="40" y="234" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="247" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Illusion broken, storage</text><text x="191" y="259" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">tested</text><rect x="366" y="234" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="247" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">Retrieval untested — the gap</text><text x="509" y="259" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">is the illusion</text><text x="350" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Marking splits into two paths</text>
+</svg>

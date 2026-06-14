@@ -1,0 +1,36 @@
+<!--
+  Where the variance lives: between vs. within schools
+  Book: Visible Learning x AI
+  Chapter: 37-school-effects-as-system-context
+  Figure: 01
+  Type: single proportional bar (between vs. within)
+  Generated: 2026-06-08
+  Source: pantry/37-school-effects-as-system-context-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Where the variance lives: between vs. within schools — 37-school-effects-as-system-context</title>
+<desc>Only on the order of ten to twenty percent of achievement variance lies between schools; the large majority lies within them — the empirical basis for treating school effects as a context to read rather than a lever to pull.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="37-school-effects-as-system-context"
+    figure-number="01"
+    figure-title="Where the variance lives: between vs. within schools"
+    figure-slug="where-the-variance-lives-between-vs-with"
+    figure-type="single proportional bar (between vs. within)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/37-school-effects-as-system-context-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Where the variance lives: between vs. within schools</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Share of achievement variance</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">85</text><rect x="181" y="64" width="64" height="292" fill="#C8102E" rx="0"/><text x="213" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">85</text><text x="213" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Within schools</text><rect x="479" y="304.47058823529414" width="64" height="51.529411764705856" fill="#787878" rx="0"/><text x="511" y="298.47058823529414" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">15</text><text x="511" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Between</text><text x="511" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">schools</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Share of achievement variance (%)</text>
+</svg>

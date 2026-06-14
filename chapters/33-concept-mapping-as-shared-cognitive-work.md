@@ -42,7 +42,16 @@ The meta-analytic record is consistent in direction and instructive in its moder
 
 One more result belongs on the table because it cuts against over-claiming. Karpicke and Blunt (2011, *Science*) found that retrieval practice — closed-book writing of what you remember — outperformed open-book concept mapping on delayed tests, including tests that required mapping. The lesson is not that mapping is weak; it is that mapping with the text open can slide into copying structure rather than generating it. The influence's power tracks the generative work, wherever that work happens.
 
-<!-- → [TABLE: Three mapping conditions and their relative outcomes — (1) student construction, closed-book: highest delayed-transfer performance; (2) student construction, open-book: intermediate, with Karpicke-Blunt warning; (3) studying AI-generated or expert maps: lowest on relational transfer, some benefit on recognition. The table should make the Schroeder split visually unmistakable and locate AI generation clearly in condition 3.] -->
+![Bar chart of relative delayed-relational-transfer across three mapping conditions — closed-book construction highest, open-book intermediate, studying AI/expert maps lowest](images/33-concept-mapping-as-shared-cognitive-work-fig-01.png)
+*Figure 33.1 — Three mapping conditions and relative transfer*
+
+| Condition | Who does the relational work | Delayed relational transfer | Note |
+|---|---|---|---|
+| Student construction, closed-book | Student, from memory | Highest | The generative act runs unaided — all relational commitments are the student's |
+| Student construction, open-book | Student, against the source | Intermediate | Karpicke-Blunt warning: can slide into copying textbook structure rather than generating it |
+| Studying AI-generated / expert maps | Someone else (the model or the expert) | Lowest on relational transfer | Some benefit on recognition; the construction work is forfeited — where the generate button places every student |
+
+*The Schroeder split: constructing maps clearly outperforms studying them. AI generation lands in the bottom row.*
 
 ---
 
@@ -74,6 +83,9 @@ The safe surface is genuinely useful, and every entry exploits cheap generation 
 
 **Provide the skeleton for novices, then fade.** Expert-skeleton maps — a partial structure the learner completes — are an established scaffold in the mapping literature. AI can generate skeletons at any grain. The worked-example logic from Chapter 27 governs: novices only, fading mandatory, the faded endpoint a blank page.
 
+![Matrix of safe AI roles across the three mapping operations — AI may evaluate, question, and aggregate but never pre-select, pre-label, or pre-correct, with the generate button detached off to the side](images/33-concept-mapping-as-shared-cognitive-work-fig-02.png)
+*Figure 33.2 — Safe AI roles across the three production operations*
+
 <!-- → [DIAGRAM: Safe AI roles mapped to the three production operations — Selection (AI evaluates which concepts the student chose; AI does not pre-select); Proposition generation (AI evaluates link labels; AI does not pre-label; AI questions mid-construction); Misconception display (AI aggregates class misconceptions; AI does not pre-correct). The generate button appears off to the side, labeled "positions the student in the studying condition."] -->
 
 ---
@@ -101,6 +113,9 @@ Priya's design decision was to treat the generate button not as a feature to dis
 The redesigned ecosystems unit ran in four moves. Students first built maps closed-book — fifteen minutes, from memory, ugly by design — making their relational commitments before any source or model could make the commitments for them. Second, they revised against the textbook in a different color, the same monitoring move the summarization chapter installed. Third, the AI evaluated each revised map: missing concepts flagged, vacuous link labels challenged, one targeted question per student about their most suspect proposition. Fourth, on Fridays, the class confronted a generated map of the week's topic containing two planted errors — the generate button, turned from ghostwriter into sparring partner.
 
 The week the class caught the AI's map linking "increased producers" to "decreased decomposers" with a causal arrow, the argument over whether the model was wrong lasted twenty minutes. It was, Priya said afterward, the best ecosystems discussion she had seen in years. The button had produced the argument; the students had to understand the actual relationships in order to win it.
+
+![Four-move classroom sequence — closed-book construction, open-book revision, AI evaluation with one targeted question, Friday critique of a planted-error map — with the generate button entering only at move four](images/33-concept-mapping-as-shared-cognitive-work-fig-03.png)
+*Figure 33.3 — The four-move classroom sequence*
 
 <!-- → [INFOGRAPHIC: The four-move sequence — (1) closed-book construction: student commits to concepts and links from memory; (2) open-book revision: second color, explicit monitoring; (3) AI evaluation: structural feedback + one targeted question per student; (4) Friday critique: AI-generated map with planted errors, class identifies and corrects. The generate button appears only at stage 4, labeled "sparring partner, not ghostwriter."] -->
 
@@ -195,3 +210,16 @@ A classroom-scale randomized study showing that students who study high-quality 
 3. Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, 331(6018), 772–775.
 4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316. https://academic.oup.com/pnasnexus/article/4/10/pgaf316/8303888
 5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 33.1 — Three mapping conditions and relative transfer
+Build a vertical bar chart of relative delayed-relational-transfer (illustrative, unit-scaled 0 to 1.0, zero baseline) across three mapping conditions. Three bars sorted descending: Student construction closed-book (1.0, highlighted), Student construction open-book (0.6), Studying AI-generated / expert maps (0.25). Encode the construction-vs-studying split with two fill families (construction bars one family, studying bar another) so the Schroeder split is visually unmistakable. Label the axis "Relative delayed-relational-transfer (illustrative)". Annotate the open-book bar with the Karpicke-Blunt warning and the studying bar as "where the generate button places every student". Because values are illustrative, mark the axis as relative, not absolute. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 33.2 — Safe AI roles across the three production operations
+Build a two-column comparison matrix ("AI may" vs. "AI does not") with three rows for the production operations of mapping: Selection (AI may evaluate which concepts were chosen / does not pre-select), Propositions (AI may evaluate and question link labels / does not pre-label), Misconceptions (AI may aggregate class patterns / does not pre-correct). Add a detached element off to the side — the "Generate button" — visually separated from the matrix and labeled "studying condition", to signal it sits outside safe roles. Use a positive fill for the "AI may" column and a warning fill for "AI does not"; render the detached generate button in the warning family. Highlight the detached generate button. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 33.3 — The four-move classroom sequence
+Build a left-to-right four-step process flow connected by arrows: (1) Closed-book construction (from memory) → (2) Open-book revision (second color = monitoring) → (3) AI evaluation + one targeted question → (4) Friday critique of a planted-error AI map. Each step is a labeled node; the connectors are forward arrows. Mark that the generate button enters only at move 4, as "sparring partner, not ghostwriter" — e.g. an annotation under step 4. Use a consistent node style with step 4 highlighted to show where AI generation finally appears. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

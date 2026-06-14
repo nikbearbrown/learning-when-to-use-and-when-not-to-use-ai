@@ -1,0 +1,36 @@
+<!--
+  Minute-audit: two configurations of the literacy block
+  Book: Visible Learning x AI
+  Chapter: 30-phonics-support-without-replacing-instruction
+  Figure: 03
+  Type: before/after stacked-bar comparison panels
+  Generated: 2026-06-08
+  Source: pantry/30-phonics-support-without-replacing-instruction-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Minute-audit: two configurations of the literacy block — 30-phonics-support-without-replacing-instruction</title>
+<desc>Adopting the app as core instruction does not add systematicity — it replaces the explicit-instruction column of the weekly literacy block with app-practice minutes, leaving first-teaching near zero while total minutes stay constant.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="30-phonics-support-without-replacing-instruction"
+    figure-number="03"
+    figure-title="Minute-audit: two configurations of the literacy block"
+    figure-slug="minute-audit-two-configurations-of-the-l"
+    figure-type="before/after stacked-bar comparison panels"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/30-phonics-support-without-replacing-instruction-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Minute-audit: two configurations of the literacy block</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Same total minutes, first-teaching vanishes</text><line x1="350" y1="72" x2="350" y2="380" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Teacher-led + app supplement</text><text x="509" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">App-as-core</text><rect x="40" y="102" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="115" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Explicit instruction: large</text><text x="191" y="127" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">segment</text><rect x="366" y="102" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="115" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">Explicit instruction: near</text><text x="509" y="127" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">zero</text><rect x="40" y="146" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">App practice: small segment</text><rect x="366" y="146" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">App practice: fills the bar</text><rect x="40" y="190" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Total minutes unchanged</text><rect x="366" y="190" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Total minutes unchanged</text><text x="350" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">One weekly literacy block</text>
+</svg>

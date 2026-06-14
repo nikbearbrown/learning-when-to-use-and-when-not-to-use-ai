@@ -48,7 +48,14 @@ Relative age within a class (d = 0.45). Older-in-cohort students outperform youn
 
 School size, 600–900 students at secondary (d = 0.43). An institutional-design correlate. AI cannot resize a building or the relational dynamics the size creates.
 
-<!-- → [TABLE: Six group rows — columns: influence name, effect size, what it actually is (cognitive trait / biological variable / structural predictor / institutional correlate), and what AI can do with it. Final column makes the N/A explicit for every row. Student should see at a glance that none of these is a program and that the AI column describes reading, not repair.] -->
+| Influence | Effect size | What it actually is | What AI can do | Hypothetical AI effect |
+| --- | --- | --- | --- | --- |
+| Working memory strength | d = 0.57 | Cognitive trait | Track the working-memory demands of tasks; redesign materials to fit a narrower channel | N/A: capacity not manipulable (task load is) |
+| Full term vs. pre-term/low birth weight | d = 0.57 | Biological-developmental variable | Read and record only | N/A: not a manipulable intervention |
+| Prior achievement | d = 0.55 | Structural predictor (autocorrelation of learning) | Use as the strongest early signal; predict, never repair | N/A: not a manipulable intervention |
+| Socio-economic status | d = 0.52 | Background condition | Optimize resource allocation within existing constraints | N/A: cannot alter household income |
+| Relative age within a class | d = 0.45 | Structural artifact of cutoff dates | Flag for age-normed assessment and delayed tracking | N/A: no tool changes a birthday |
+| School size (600–900 at secondary) | d = 0.43 | Institutional-design correlate | Read and record only | N/A: cannot resize a building |
 
 Reading these six together converts the group from a shopping list into a terrain map. These numbers tell you where achievement gaps will tend to sit before any teaching happens. That is genuinely valuable information — and valuable information is exactly what AI is good at organizing, which is how dashboards like Renee's came to exist.
 
@@ -65,6 +72,9 @@ First, prediction from fossils is legitimate and useful. If the goal is to find 
 Second, a fossil is not a lever. Changing the prediction changes nothing. Only changing the child's ongoing instruction, support, and conditions changes the outcome — and those changes are made of teaching, relationships, and resource decisions, none of which the model performs.
 
 The dataset's failure-case note states the whole chapter in one sentence: a dashboard can accurately identify risk while no instructional or relational support changes — technically successful and educationally inert. A high-accuracy early-warning system that triggers no effective response is a fire alarm in an empty building.
+
+![AI completing the detection pipeline entirely while touching nothing in the response pipeline, the two systems connecting only at human review](images/06-context-signals-ai-can-read-but-not-repair-fig-01.png)
+*Figure 6.1 — Detection pipeline vs. response pipeline*
 
 <!-- → [CHART: Two-panel schematic — left panel: detection pipeline (context variables → model → risk score → flag). Right panel: response pipeline (flag → human review → instructional decision → support → trajectory change). The two pipelines are shown as separate systems that must connect at one point: the human review. Student should see that the model completes the left panel entirely and touches nothing in the right panel.] -->
 
@@ -106,6 +116,9 @@ The system earned its place in week four. It flagged a fifth-grader — strong g
 
 The working-memory audit produced the quarter's least glamorous win. The math interventionist ran Tier 2 materials through a load analysis. The model flagged four-step procedures presented with no external supports — steps students were expected to hold in working memory while doing the arithmetic. The redesigned materials — steps visible on the page, a worked example adjacent — improved completion for every group using them, flagged students or not. That is what task redesign looks like: the repair is in the lesson.
 
+![A multi-step task redesigned to fit a narrower working-memory channel by externalizing steps and adding an adjacent worked example](images/06-context-signals-ai-can-read-but-not-repair-fig-02.png)
+*Figure 6.2 — Working-memory load reduction in a task*
+
 <!-- → [INFOGRAPHIC: Before/after of a worked math task — left: four-step procedure with no supports, steps held in memory; right: same problem with steps externalized and worked example visible. Annotate the specific load-reduction moves. Student should see a concrete example of AI-assisted task redesign as the group's one genuine lever.] -->
 
 Week six, the pre-assignment proposal returned with momentum: semester-long Tier 2 placement from the risk decile, no work-sample review, the model already knows. Renee ran the equity audit before the vote. The bottom decile was 71 percent free-and-reduced-lunch students against a 44 percent school rate. The youngest-in-grade were overrepresented by half again their share. The model was working exactly as built: it had faithfully learned that poverty and relative youth predict struggle — and the proposal would have converted that statistical fact into six months of differentiated, and thinner, schooling assigned by birthday and income. The room went quiet in the way rooms do when a number stops being abstract.
@@ -122,7 +135,12 @@ The team's charter, rewritten after that meeting: a risk score may open a conver
 
 **Evidence that learning improved is** outcome change after support — flagged students' achievement and engagement trajectories bending against their own baselines — plus equity audit results showing support, not sorting. Never model accuracy, flag counts, or dashboard adoption rates.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Team must / Teacher must / Valid evidence. Two-column format: role, specific actions. The evidence row explicitly lists what does not count alongside what does. Reference format for posting at the data team meeting table.] -->
+| Role | Specific actions |
+| --- | --- |
+| AI may | Aggregate records; surface risk patterns and pattern hypotheses; analyze the working-memory load of instructional materials; run equity audits on its own flags and the school's responses; track whether trajectories bend after support |
+| The team must | Verify every signal against current student work; choose and deliver the instructional and relational response; keep placements reversible and scheduled for re-review; communicate with families in human voice; own the meaning of every label that touches a child's schedule |
+| The teacher must | Do the repairing the signal can only locate |
+| Valid evidence | Outcome change after support — flagged students' trajectories bending against their own baselines — plus equity-audit results showing support, not sorting. Does NOT count: model accuracy, flag counts, dashboard adoption rates, AUC, time saved in meetings |
 
 ## What Evidence to Demand
 
@@ -200,3 +218,13 @@ Relative age is the group's strangest row: fully structural, yet trivially cheap
 2. Jussim, L., & Harber, K. D. (2005). Teacher expectations and self-fulfilling prophecies: Knowns and unknowns, resolved and unresolved controversies. *Personality and Social Psychology Review*, 9(2), 131–155.
 3. Melby-Lervåg, M., & Hulme, C. (2013). Is working memory training effective? A meta-analytic review. *Developmental Psychology*, 49(2), 270–291.
 4. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 6.1 — Detection pipeline vs. response pipeline
+Build a node-edge systems diagram of two pipelines joined at a single handoff. Detection pipeline (AI-completed): "Context variables" → "Model" → "Risk score" → "Flag" (highlighted) connected by arrows. Response pipeline (human): "Human review" → "Instructional decision" → "Support / trajectory change" connected by arrows. The only connection between pipelines is "Flag" → "Human review" (label this edge "only handoff"). Channels: position = which pipeline (AI left, human right), color = AI-completed nodes vs. human-only nodes, edge = the single handoff distinguished. No axes, no zero baseline. Annotate that the model completes the left pipeline entirely and touches nothing in the right. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 6.2 — Working-memory load reduction in a task
+Build an annotated before/after structural schematic of the same multi-step task. Left "Before (overload)": four steps held simultaneously in mind (highlighted), no external supports, split attention. Right "After (redesigned)": steps externalized as an ordered list, an adjacent worked example beside the problem, split attention removed. Marks: paired schematic panels showing the task structure, with callout annotations on the specific load-reduction moves. Channels: panel = before vs. after, color = held-in-mind vs. externalized supports, annotations = each load-reduction move. No zero baseline. Annotate that task redesign is the group's one genuine lever — the repair is in the lesson, not the learner. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

@@ -1,0 +1,36 @@
+<!--
+  Internalization arc: fading vs. permanent scaffold
+  Book: Visible Learning x AI
+  Chapter: 13-self-regulated-learning-in-the-danger-zone
+  Figure: 01
+  Type: Two-path trajectory chart (time on x-axis, locus-of-control on y-axis).
+  Generated: 2026-06-08
+  Source: pantry/13-self-regulated-learning-in-the-danger-zone-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Internalization arc: fading vs. permanent scaffold — 13-self-regulated-learning-in-the-danger-zone</title>
+<desc>External regulation becomes self-regulation only through a managed handoff. A fading scaffold curves from external toward internalized control; a permanent scaffold stays flat at external, and the week-sixteen gap is what the effect sizes describe.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="13-self-regulated-learning-in-the-danger-zone"
+    figure-number="01"
+    figure-title="Internalization arc: fading vs. permanent scaffold"
+    figure-slug="internalization-arc-fading-vs-permanent-"
+    figure-type="Two-path trajectory chart (time on x-axis, locus-of-control on y-axis)."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/13-self-regulated-learning-in-the-danger-zone-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Internalization arc: fading vs. permanent scaffold</text><line x1="350" y1="72" x2="350" y2="380" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Fading scaffold</text><text x="509" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Permanent scaffold</text><rect x="40" y="102" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Starts at external regulator</text><rect x="366" y="102" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Starts at external regulator</text><rect x="40" y="146" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="159" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Curve rises toward internal</text><text x="191" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">control</text><rect x="366" y="146" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Stays flat at external</text><rect x="40" y="190" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Internalized self-regulation</text><text x="191" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">by week 16</text><rect x="366" y="190" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">Still externally regulated;</text><text x="509" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">gap is the loss</text><text x="350" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Who runs the regulatory loop, over time</text>
+</svg>

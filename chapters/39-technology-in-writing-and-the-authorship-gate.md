@@ -48,7 +48,14 @@ Read that provenance with Chapter 1's discipline and the conclusion is exact: **
 
 The surrender faction's syllogism fails at its middle term. "AI is writing technology" equivocates between technology *for* writing and technology *instead of* writing, and the d = 0.42 belongs exclusively to the first.
 
-<!-- → [TABLE: The writing-technology evidence base — three columns: Study, Technology, What students did. Bangert-Drowns (1993): word processors, students wrote drafts and revised. Writing Next (2007): word processing as one effective element, students composed and revised. Implicit shared feature labeled at bottom: student produced the words. Then a fourth row: LLM generation, student receives text. The visual point: every study in the d = 0.42 shares what the LLM use case breaks.] -->
+| Study / use case | Technology | What students did |
+|---|---|---|
+| Bangert-Drowns (1993) | Word processors | Wrote drafts and revised — the words were theirs |
+| Graham & Perin, *Writing Next* (2007) | Word processing (one effective element) | Composed and revised — the words were theirs |
+| *(Shared feature of the d = 0.42 bucket)* | Friction-reducing writing tools | **The student produced the words** |
+| LLM generation (the use case on the table) | Generative text model | Receives text — the words are the model's |
+
+*Every study inside the d = 0.42 shares the one feature the LLM use case breaks: the student produced the words.*
 
 ---
 
@@ -80,6 +87,9 @@ The safe set is real, substantial, and entirely on one side of a single line: **
 
 **Rhetorical sparring.** Generating the opposing brief for the student to rebut; producing deliberately flawed model paragraphs for diagnosis — the contrast-set move from Chapters 28 and 33, which puts machine fluency to work as the student's whetstone instead of their ghostwriter.
 
+![The authorship gate as a line labeled "produced by the student" — safe roles point at existing student text, conflict roles point at text not yet created and are blocked at the gate](images/39-technology-in-writing-and-the-authorship-gate-fig-01.png)
+*Figure 39.1 — The authorship gate as a line*
+
 <!-- → [DIAGRAM: The authorship gate as a line — left side (safe roles): feedback on student text, interrogative questions, reading support, mechanics check, opposing briefs. Right side (conflict zone): generating drafts, continuing sentences, rewriting student prose, producing text the student adopts. The line is labeled "produced by the student." Every safe role arrow points from AI toward student text already in existence; every conflict-zone arrow points from AI toward text that doesn't exist yet.] -->
 
 ---
@@ -88,7 +98,10 @@ The safe set is real, substantial, and entirely on one side of a single line: **
 
 The trap is the product working as designed. Every mainstream writing surface now drafts, continues, rewrites, and polishes by default; the substitution requires no intent, no policy violation, sometimes no keystroke beyond Tab. And the resulting text is good — calibrated to the assignment, fluent past any reader's suspicion.
 
-That last clause is now measured. Scarfe and colleagues (2024) injected fully AI-written submissions into a real university exam system, and **94 percent went undetected** while outscoring the real students' work on average. Detection-based policy is not a strict option that hard-liners can choose at some cost. It is a failed option. The detectors' false-positive problem — which falls hardest on second-language writers — only completes the indictment.
+That last clause is now measured. Scarfe and colleagues (2024) injected fully AI-written submissions into a real university exam system, and **94 percent went undetected** while outscoring the real students' work on average. Detection-based policy is not a strict option that hard-liners can choose at some cost. It is a failed option.
+
+![Proportional bar showing 94 percent of injected fully-AI submissions went undetected versus 6 percent detected in a real university exam system](images/39-technology-in-writing-and-the-authorship-gate-fig-02.png)
+*Figure 39.2 — The detection collapse: 94 percent undetected* The detectors' false-positive problem — which falls hardest on second-language writers — only completes the indictment.
 
 So the trap must be named at the level where it operates: not "students will cheat," but *the certifying artifact has detached from the capability it certified.* For a century, a competent essay was acceptable evidence of organized thought, because no path existed to the artifact except through the thinking. That inference is dead. A program that keeps grading take-home artifacts as if it held is not being cheated. It is publishing certificates it can no longer back.
 
@@ -105,6 +118,9 @@ The policy Amara carried to the senate on Friday rejected both factions in its f
 The first semester's quiet discovery: the reflective memos, written to document authorship, turned out to be the best metacognitive writing instruction the program had ever accidentally delivered.
 
 **The dangerous moment.** It had already happened, the previous spring, and it drove both factions to the table. A detection-faction instructor, armed with a detector subscription, had accused a first-generation student whose essay scored 98 percent "AI-likely." The student had written it alone, in the library, in her third language. The case collapsed — the detector's vendor declined to stand behind its score in a hearing — but not before four weeks of investigation and damage that cannot be audited. The surrender faction's future held its own dangerous moment in the data Amara presented Friday: in courses that had informally gone permissive the prior year, supervised in-class writing scores had slid against portfolio-course baselines [program-internal observation, uncontrolled — the reason to run the real comparison, not its result]. One faction's failure mode was injustice; the other's was hollowing. The gate exists because both are real.
+
+![Two failure timelines around a central authorship gate — detection's false-accusation path (week 1 accusation, week 4 collapse, student harmed) and surrender's hollowing path (take-home up, supervised down)](images/39-technology-in-writing-and-the-authorship-gate-fig-03.png)
+*Figure 39.3 — Two failure modes, one gate between them*
 
 <!-- → [DIAGRAM: Two timelines — left: detection-faction failure. Week 1: accusation. Week 4: case collapsed, student harmed, false positive confirmed. Right: surrender-faction failure. Month 1-4: take-home scores rise, supervised scores slide, divergence invisible until compared. Center: the authorship gate — witnessed writing, process portfolio, disclosure normalization. The visual point: both failure modes are real; the gate is designed to avoid both simultaneously.] -->
 
@@ -215,3 +231,16 @@ The questions are four. The gate is three sentences. The work stays where it alw
 5. Scarfe, P., et al. (2024). A real-world test of AI infiltration of a university examinations system. *PLOS ONE*, 19(6), e0305354. https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0305354
 6. Steiss, J., et al. (2024). Comparing the quality of human and ChatGPT feedback. *Learning and Instruction*. https://escholarship.org/uc/item/6k61v37f
 7. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 39.1 — The authorship gate as a line
+Build a left-to-right flowchart bisected by a single vertical gate line labeled "Authorship gate: 'produced by the student'". Left of the gate: a "Safe roles" node (feedback, questions, reading support, mechanics, opposing briefs) with an arrow pointing to "Existing student text" — annotate this arrow "points at text that already exists". Right of the gate: a "Conflict roles" node (generate drafts, continue sentences, rewrite, produce adopted text) with an arrow toward "Text that does not yet exist" — but render this crossing as blocked/barred at the gate, annotated "creates / blocked at the gate". Use forward arrows for safe roles and a barred glyph where conflict roles meet the gate. The structural point: every safe-side arrow points at existing text; every conflict-side arrow is blocked. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 39.2 — The detection collapse: 94 percent undetected
+Build a single horizontal 100%-stacked proportional bar of injected AI submissions. Two segments: "Undetected" (94%, highlighted as the dominant, alarming share) and "Detected" (6%). Label each segment with its percentage. The bar should make the near-total detection failure immediately legible. Add a caption citing Scarfe et al. 2024 and noting the AI submissions also outscored real student work on average. Use a warning fill for the undetected segment. The structural point: detection is a failed option, not a costly one. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 39.3 — Two failure modes, one gate between them
+Build a two-timeline comparison with a central gate node. Left timeline "Detection failure (false accusation)": three sequential markers — Week 1 accusation → Week 4 case collapses → student harmed. Right timeline "Surrender failure (hollowing)": three markers — take-home scores rise → supervised scores slide → divergence invisible until compared. Between the two timelines, place a central highlighted node "Authorship gate: witnessed writing, process portfolio, disclosure" with connectors showing it averts both failure paths. Use two distinct timeline fills (both in warning family) and a positive fill for the central gate. The structural point: both failure modes are real; the gate is designed to avoid both at once. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

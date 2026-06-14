@@ -1,0 +1,36 @@
+<!--
+  Three bands inside one drawer
+  Book: Visible Learning x AI
+  Chapter: 02-the-below-hinge-exploration-bucket
+  Figure: 01
+  Type: comparison panels (three stacked range bands)
+  Generated: 2026-06-08
+  Source: pantry/02-the-below-hinge-exploration-bucket-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Three bands inside one drawer — 02-the-below-hinge-exploration-bucket</title>
+<desc>The 130 below-hinge influences are three structurally different kinds — modest-but-real, negligible, and harmful — distinguished by effect-size band and by whether each entry is a choice or a condition.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="02-the-below-hinge-exploration-bucket"
+    figure-number="01"
+    figure-title="Three bands inside one drawer"
+    figure-slug="three-bands-inside-one-drawer"
+    figure-type="comparison panels (three stacked range bands)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/02-the-below-hinge-exploration-bucket-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Three bands inside one drawer</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">130 below-hinge influences split by effect-size band</text><rect x="62" y="96" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Below-hinge band</text><line x1="362" y1="116" x2="402" y2="116" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="116" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="120" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1</text><text x="430" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">81 influences, d 0.15-0…</text><rect x="62" y="148" width="300" height="40" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Negligible band</text><line x1="362" y1="168" x2="402" y2="168" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="168" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="172" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">2</text><text x="430" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">32 influences, d 0.01-0…</text><rect x="62" y="200" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Harmful band</text><line x1="362" y1="220" x2="402" y2="220" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="220" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="224" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">3</text><text x="430" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">17 influences, d -0.01 …</text>
+</svg>

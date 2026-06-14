@@ -1,0 +1,36 @@
+<!--
+  The authorship gate as a line
+  Book: Visible Learning x AI
+  Chapter: 39-technology-in-writing-and-the-authorship-gate
+  Figure: 01
+  Type: bisected schematic with directional role arrows
+  Generated: 2026-06-08
+  Source: pantry/39-technology-in-writing-and-the-authorship-gate-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The authorship gate as a line — 39-technology-in-writing-and-the-authorship-gate</title>
+<desc>A single line — 'produced by the student' — separates safe AI roles (feedback on existing text, interrogative questions, reading support, mechanics, opposing briefs) from the conflict zone (generating drafts, continuing sentences, rewriting, producing adoptable text).</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="39-technology-in-writing-and-the-authorship-gate"
+    figure-number="01"
+    figure-title="The authorship gate as a line"
+    figure-slug="the-authorship-gate-as-a-line"
+    figure-type="bisected schematic with directional role arrows"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/39-technology-in-writing-and-the-authorship-gate-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The authorship gate as a line</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Safe roles point at existing text; conflict roles at text being created</text><rect x="32" y="162" width="106.4" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="40" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">1</text><text x="85.2" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Safe roles:</text><text x="85.2" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">feedback,</text><text x="85.2" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">questions,…</text><line x1="142.4" y1="200" x2="158.4" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="151.4" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">points at</text><rect x="164.4" y="162" width="106.4" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="172.4" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">2</text><text x="217.60000000000002" y="189" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Existing</text><text x="217.60000000000002" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">student text</text><line x1="274.8" y1="200" x2="290.8" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="296.8" y="162" width="106.4" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="304.8" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">3</text><text x="350" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Authorship</text><text x="350" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">gate: 'produced</text><text x="350" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">by the student'</text><line x1="407.20000000000005" y1="200" x2="419.20000000000005" y2="200" stroke="#2a1a0e" stroke-width="1.5"/><line x1="419.20000000000005" y1="191" x2="419.20000000000005" y2="209" stroke="#2a1a0e" stroke-width="1.5"/><text x="416.20000000000005" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">crossed gate</text><rect x="429.20000000000005" y="162" width="106.4" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="437.20000000000005" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">4</text><text x="482.40000000000003" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Conflict roles:</text><text x="482.40000000000003" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">generate</text><text x="482.40000000000003" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">drafts,…</text><line x1="539.6" y1="200" x2="555.6" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="548.6" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">creates</text><rect x="561.6" y="162" width="106.4" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="569.6" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">5</text><text x="614.8000000000001" y="189" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Text that does</text><text x="614.8000000000001" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">not yet exist</text><text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Every safe-side arrow points at text that already exists; every conflict-side arrow is bl…</text>
+</svg>

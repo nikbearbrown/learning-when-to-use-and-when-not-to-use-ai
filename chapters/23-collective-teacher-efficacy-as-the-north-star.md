@@ -42,6 +42,9 @@ What survives the ledger: a strong, replicated association plus a credible mecha
 
 The dataset's own hypothesis about what survives automation is the bluntest in the classification: d ≈ 0.15 [HYPOTHESIS] — AI dashboard only; collective trust cannot be automated. From 1.57 to 0.15: the largest hypothesized collapse in the book.
 
+![Two-bar comparison against the 0.40 hinge: collective teacher efficacy measured at d = 1.57 versus its hypothesized survival of d = 0.15 under AI-dashboard-only delivery — the largest hypothesized collapse in the book](images/23-collective-teacher-efficacy-as-the-north-star-fig-02.png)
+*Figure 23.2 — The largest hypothesized collapse: 1.57 to 0.15*
+
 ## How the Mechanism Actually Works
 
 Grant the mechanism its best case and trace it, because the tracing is what exposes the dashboard.
@@ -49,6 +52,9 @@ Grant the mechanism its best case and trace it, because the tracing is what expo
 A faculty's shared belief in its collective capability changes behavior through channels any teacher will recognize. Teachers in high-efficacy schools attempt more — demanding instruction, stubborn re-teaching — because effort spent feels causally connected to outcomes. They persist longer through implementation dips. They attribute student struggle to instruction, which is actionable, rather than to students, which is final. And they cooperate at higher bandwidth: collective belief makes deprivatized practice feel like shared problem-solving instead of exposure.
 
 Every channel terminates in *teacher behavior toward students*. Belief is the fuel, not the engine. If the behavior never changes, the belief was decoration.
+
+![Causal fan-in diagram showing collective belief running through four behavioral channels — attempt more, persist longer, attribute struggle to instruction, cooperate at higher bandwidth — all converging on teacher behavior, which drives student outcomes](images/23-collective-teacher-efficacy-as-the-north-star-fig-03.png)
+*Figure 23.3 — Belief is the fuel, not the engine*
 
 Where does the fuel come from? Bandura's four sources, and the order matters:
 
@@ -59,6 +65,9 @@ Where does the fuel come from? Bandura's four sources, and the order matters:
 **Social persuasion** — leadership narrative and feedback: real, but weak alone, and parasitic on the first two. Persuasion without mastery experience is morale poster manufacturing.
 
 **Affective state** — the stress and emotional climate the work happens in. Chronic overload reads, group-wide, as evidence of incapability.
+
+![Top-down hierarchy of Bandura's four collective-efficacy sources ranked by strength — mastery experience (strongest, self-compounding), vicarious experience, social persuasion (weak alone; the only one the dashboard touches), affective state (degraded)](images/23-collective-teacher-efficacy-as-the-north-star-fig-01.png)
+*Figure 23.1 — Bandura's four efficacy sources, by strength*
 
 <!-- → [DIAGRAM: Bandura's four efficacy sources stacked vertically by strength — Mastery experience (strongest, self-compounding) → Vicarious experience → Social persuasion (weak alone) → Affective state; beside each source, a column showing "What AI can do" and "What requires humans/time/together"; at bottom, arrow showing how sources feed behavior change which feeds student outcomes — student should see that the dashboard only touches source 3 and does nothing for sources 1 and 2] -->
 
@@ -90,7 +99,14 @@ The safe zone is strictly infrastructural — everything that lowers the cost of
 
 **Chasing the number itself.** The meta-trap: 1.57 is not an available purchase. By Kraft's benchmarks, honest field interventions clear 0.20 rarely and 0.50 almost never. Any proposal promising motion on a 1.57-scale construct, by survey subscription, is quoting a correlational artifact as a product roadmap. The grander the number on the slide, the more certain it is describing something a vendor cannot sell — because things that large are properties of organizations, grown, not features, shipped.
 
-<!-- → [TABLE: Four substitution traps for collective efficacy — columns: Trap name, What it claims to do, What mechanism it actually touches, Observable failure signature; rows: Dashboard as the work, Synthetic persuasion, Score as label, Chasing the number — student should see that each trap produces artifacts of the mechanism without feeding any of Bandura's four sources] -->
+| Trap | What it claims to do | What mechanism it actually touches | Observable failure signature |
+|---|---|---|---|
+| Dashboard as the work | Measure collective efficacy so it can be improved | Source 3 only (survey language); leaves sources 1–2 untouched | Scores drift up while time, teams, and evidence go unchanged — Goodhart on schedule |
+| Synthetic persuasion | Build belief through AI-generated celebration messages | Counterfeits the weakest source (persuasion) while spending the credibility the strongest sources need | Staff discover the caring is automated; trust falls below where it started |
+| Score as label | Benchmark and circulate building-level efficacy scores | None — administers anti-efficacy through the labeling channel | "Low-efficacy school" tag spreads; best teachers leave the flagged building |
+| Chasing the number | Deliver motion on a 1.57-scale construct by subscription | None — quotes a correlational artifact as a product roadmap | Promised gains never materialize; a correlation was sold as a catalog item |
+
+*Each trap produces artifacts of the mechanism — scores, messages, benchmarks — without feeding any of Bandura's four sources.*
 
 ## The Case in Full
 
@@ -157,3 +173,14 @@ The construct is grouped here as a school-level property, but AI is changing wha
 **Challenge**
 
 9. *(Open — Measurement corruption reversal)* The chapter claims that any measurement of collective efficacy begins corrupting it — that observed beliefs become performed beliefs. Construct the strongest possible counterargument: conditions under which measuring collective efficacy regularly and transparently could *strengthen* it rather than distort it. Draw on the feedback literature from Chapter 5 and the formative evaluation row from Chapter 11. State the mechanism, the design features that would prevent Goodhart effects, and the falsification condition. Then evaluate honestly: does your proposed measurement design still feed Bandura's sources, or does it merely avoid corrupting them — and is that distinction enough to justify the measurement?
+
+## Prompts
+
+### Figure 23.1 — Bandura's four efficacy sources, by strength
+Build a top-down hierarchy with a single root "Sources of collective efficacy" branching to four ordered child nodes ranked by strength, top to bottom: "Mastery experience (strongest, self-compounding)," "Vicarious experience," "Social persuasion (weak alone; dashboard touches this)," "Affective state (degraded)." Render the vertical order as the strength ranking — make the ordering visually unambiguous (e.g., size or weight decreasing down the list). Highlight the social-persuasion node to mark it as the only source the dashboard touches. Annotate that the dashboard does nothing for sources 1 and 2 and plausibly degrades source 4. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 23.2 — The largest hypothesized collapse: 1.57 to 0.15
+Build a horizontal bar chart, two bars, value range 0 to ~1.6 in Cohen's d. Bars: "Collective teacher efficacy (measured)" = 1.57 (highlighted), "AI-dashboard-only (hypothesized)" = 0.15. Zero baseline at left. Vertical reference line at d = 0.40 labeled "0.40 hinge"; the measured bar towers above it, the hypothesized bar sits below it. Annotate the drop from 1.57 to 0.15 as the largest hypothesized collapse in the book. Label each bar with its value. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 23.3 — Belief is the fuel, not the engine
+Build a node-edge systems diagram arranged as a left-to-right causal fan-in. A single source node "Collective belief" (highlighted) on the left fans out to four parallel channel nodes: "Attempt more," "Persist longer," "Attribute struggle to instruction," "Cooperate at higher bandwidth." All four channels then converge (fan in) on one node "Teacher behavior toward students," which connects by a final arrow to "Student outcomes" on the right. Use directed arrows throughout. Make the convergence on teacher behavior the visual focal point — every channel must terminate there before outcomes. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

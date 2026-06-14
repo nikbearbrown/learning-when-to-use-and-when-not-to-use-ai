@@ -1,0 +1,36 @@
+<!--
+  Three acts on the production side
+  Book: Visible Learning x AI
+  Chapter: 28-summarization-is-learning-only-when-the-learner-does-it
+  Figure: 02
+  Type: production-side three-act schematic with deletion contrast (mechanism diagram)
+  Generated: 2026-06-08
+  Source: pantry/28-summarization-is-learning-only-when-the-learner-does-it-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Three acts on the production side — 28-summarization-is-learning-only-when-the-learner-does-it</title>
+<desc>Producing a summary forces three cognitive acts at once — selection, generation, self-testing — all of which a received summary deletes by completing them elsewhere.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="28-summarization-is-learning-only-when-the-learner-does-it"
+    figure-number="02"
+    figure-title="Three acts on the production side"
+    figure-slug="three-acts-on-the-production-side"
+    figure-type="production-side three-act schematic with deletion contrast (mechanism diagram)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/28-summarization-is-learning-only-when-the-learner-does-it-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Three acts on the production side</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">A received summary deletes all three acts</text><line x1="350" y1="72" x2="350" y2="380" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Producing a summary</text><text x="509" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Receiving a summary</text><rect x="40" y="102" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Selection: decide what matters</text><rect x="366" y="102" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="115" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Selection deleted (done</text><text x="509" y="127" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">elsewhere)</text><rect x="40" y="146" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="159" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Generation: restate in own</text><text x="191" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">words</text><rect x="366" y="146" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Generation deleted</text><rect x="40" y="190" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Self-testing: discover the</text><text x="191" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">gaps</text><rect x="366" y="190" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">Self-testing deleted</text><text x="350" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Three cognitive acts: run vs. deleted</text>
+</svg>

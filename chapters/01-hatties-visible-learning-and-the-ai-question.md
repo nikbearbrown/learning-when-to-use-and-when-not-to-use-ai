@@ -21,7 +21,21 @@ The list has grown by accretion ever since — 138 influences in 2009, 252 by 20
 
 One more thing about what the list *is*, because the misreading starts right here. The 252 entries are not 252 things you can buy. The list mixes interventions (worked examples, phonics instruction), practices (feedback, questioning), psychological conditions (self-efficacy, boredom), background factors (socioeconomic status, relative age within a class), structural variables (school size, tracking), and harms (corporal punishment, retention). "Deafness" appears on the list at d = −0.61. Nobody is proposing an intervention called deafness; the entry describes an association between a condition and measured achievement. A reader who treats the list as a menu has already made the category error that this entire book exists to prevent — and that AI vendors, as we will see, are commercially motivated to encourage.
 
-<!-- → [TABLE: Full 252-influence list organized by the seven-dimension classification (effect-size band, AI feasibility, human irreducibility, substitution risk, mechanism conflict, vendor activity, hypothetical AI effect) — the master reference table for the book, with the [HYPOTHESIS] column clearly labeled and visually distinguished from the measured effect-size column] -->
+| Influence | Effect-size band (MEASURED) | AI feasibility | Human irreducibility | Substitution risk | Mechanism conflict | Vendor activity | Hypothetical AI effect (HYPOTHESIZED) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Collective teacher efficacy (d = 1.57) | High | AI-RESISTANT | Very high | Low | Present | Low | — (cannot be purchased as software) |
+| Feedback (d = 0.70) | High | AI-AUGMENTED | Moderate | Moderate | Partial | High | d ≈ 0.50 [HYPOTHESIS]: fast task-level feedback legitimate; relational/self-regulation feedback must stay human |
+| Worked examples | Above hinge | AI-NATIVE | Low | High | Present | High | [HYPOTHESIS]: generation safe; must fade to avoid expertise reversal |
+| Classroom management | Above hinge | AI-RESISTANT | High | Low | Present | Low | — (presence and authority not delegable) |
+| Self-efficacy | Above hinge | AI-RESISTANT | High | High | Present | Moderate | [HYPOTHESIS]: track mastery evidence; never supply borrowed confidence |
+| Summarization (text) | Above hinge | AI-NATIVE | Low | High | Present | High | [HYPOTHESIS]: high substitution — student never compresses |
+| Spaced practice | Above hinge | AI-AUGMENTED | Low | Moderate | Absent | Moderate | [HYPOTHESIS]: AI runs logistics; learner keeps the retrieval moment |
+| Socioeconomic status (d ≈ 0.52) | Above hinge | AI-ADJACENT | n/a (condition) | n/a | n/a | Low | — (signal readable, lever unpullable) |
+| Relative age within class | Below hinge | AI-ADJACENT | n/a (condition) | n/a | n/a | Low | — (background factor, not intervention) |
+| School size | Below hinge | AI-ADJACENT | n/a (structural) | n/a | n/a | Low | — (structural variable) |
+| Retention (holding back) | Harmful (< 0) | AI-ADJACENT | n/a (policy) | n/a | n/a | Low | — (harm, not intervention) |
+| Deafness (d = −0.61) | Harmful (< 0) | AI-ADJACENT | n/a (condition) | n/a | n/a | Low | — (association, not a lever) |
+| … (representative selection from the 252-influence list; full classification applied row by row across all 252 entries) | | | | | | | |
 
 ---
 
@@ -34,6 +48,9 @@ Jacob Cohen, who invented the convention, proposed rough benchmarks in the 1980s
 Now consider what Matthew Kraft published in 2020, in a paper practitioners should attach to every vendor deck they receive. Examining effect sizes from well-designed field experiments — randomized trials, real schools, standardized achievement outcomes — Kraft found the realistic distribution sits far lower: on that evidence, less than 0.05 is small, 0.05 to 0.20 is medium, and 0.20 or above is large. A d of 0.20 from a year-long randomized trial on a state assessment is a genuinely big deal. The same 0.20 inside Hattie's synthesis looks like a failure.
 
 These are two different rulers, built from two different bodies of evidence. Hattie's corpus is dominated by the studies researchers actually publish: often small, brief, with researcher-designed tests administered close to the intervention — all conditions known to inflate effects. Kraft's benchmarks come from the harder world of large samples, long durations, and distal measures. Neither ruler is wrong. What's wrong is laying one against the other's measurements.
+
+![Same d=0.40 marker on Hattie's inflated synthesis distribution versus Kraft's realistic field-experiment distribution](images/01-hatties-visible-learning-and-the-ai-question-fig-02.png)
+*Figure 1.2 — Two rulers for the same effect size*
 
 <!-- → [CHART: Two-panel comparison — left panel shows distribution of effect sizes in Hattie's synthesis with benchmarks labeled (0.2 small, 0.4 hinge, 0.8 large); right panel shows Kraft's realistic field-experiment distribution with benchmarks shifted left (0.05 small, 0.20 large). Same d = 0.40 marked on both panels to show how the same number reads as "impressive" vs. "exceptional" depending on which ruler is in hand] -->
 
@@ -113,6 +130,9 @@ Learn to read that label now, because the failure mode is predictable. Those num
 
 The evidence-language discipline holds throughout this book: measured results are *associated with*; classifications are *classified as*; the seventh column is *hypothesized*. Nothing in that column is ever a finding.
 
+![One framework row carrying seven columns of three epistemic kinds — measured, classified, and quarantined hypothesized](images/01-hatties-visible-learning-and-the-ai-question-fig-04.png)
+*Figure 1.4 — Anatomy of one framework row*
+
 <!-- → [INFOGRAPHIC: Visual anatomy of one row in the seven-dimension framework — the feedback row — showing all seven columns labeled with their type (MEASURED vs. CLASSIFIED vs. HYPOTHESIZED), with the [HYPOTHESIS] column visually distinguished by color or border to make the epistemological distinction unmissable] -->
 
 ### What the Classification Reveals
@@ -120,6 +140,9 @@ The evidence-language discipline holds throughout this book: measured results ar
 Run the layer across all 252 influences and a structure appears that no tool-by-tool debate ever surfaces. AI-ADJACENT is the largest class — 97 influences, 38.5% — a plurality of Hattie's list consists of context and conditions no tool can buy you out of. AI-AUGMENTED covers 88 (34.9%), AI-RESISTANT 38 (15.1%), and AI-NATIVE — the zone where AI can actually perform the task — just 29 influences, 11.5%.
 
 Restrict to the 122 influences at or above the hinge: 81 are AI-AUGMENTED, 18 AI-RESISTANT, 14 AI-NATIVE, 9 AI-ADJACENT. In the High band (d ≥ 0.70, 32 influences), 24 are AI-AUGMENTED and only 4 are AI-NATIVE.
+
+![All 252 influences versus the above-hinge subset distributed across four AI-feasibility classes, the high-impact zone dominated by augmented not native](images/01-hatties-visible-learning-and-the-ai-question-fig-03.png)
+*Figure 1.3 — Four AI-feasibility classes across the list*
 
 <!-- → [CHART: Stacked bar or treemap showing the 252 influences distributed across the four AI-feasibility classes (AI-NATIVE, AI-AUGMENTED, AI-ADJACENT, AI-RESISTANT), with a second view filtered to the above-hinge subset (122 influences) — the visual should make immediately legible that the high-impact zone is dominated by AUGMENTED, not NATIVE] -->
 
@@ -144,6 +167,9 @@ That specification has a name in this book: the **phase gate**. Three blanks, fi
 > **AI may do X. The teacher and learner must do Y. Evidence that learning improved is Z.**
 
 X enumerates the safe support roles. Y names the cognitive and relational work that constitutes the mechanism — the work that may never cross to the machine. And Z is the discipline most adoptions skip: evidence of *learning*, defined in advance, and defined correctly. In-tool analytics — usage minutes, completion rates, scores on assisted work — are measures of the artifact and the activity. The Bastani students' practice metrics were spectacular. Z must be delayed, unassisted, ideally transfer-bearing performance: what the learner can do later, alone, on something new.
+
+![Identical AI technology producing opposite outcomes: practice gain versus unassisted-exam change across three experimental arms](images/01-hatties-visible-learning-and-the-ai-question-fig-01.png)
+*Figure 1.1 — Bastani three-arm outcome*
 
 <!-- → [DIAGRAM: Three-arm comparison diagram from the Bastani study — left arm (unrestricted GPT-4): practice +48%, exam −17pp; middle arm (no AI): baseline; right arm (guardrailed tutor): practice +127%, exam ≈ 0 harm — the visual should make the third arm's design lesson the focal point, not just the first arm's cautionary tale] -->
 
@@ -219,3 +245,19 @@ This chapter rests on claims that evidence could overturn, and honesty requires 
 8. VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46(4), 197–221. https://doi.org/10.1080/00461520.2011.611369
 9. Wang, R. E., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. arXiv:2410.03017. https://arxiv.org/abs/2410.03017
 10. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 1.1 — Bastani three-arm outcome
+Build a vertical bar chart of signed performance change across the three-arm Bastani math experiment. Five bars in one category axis: "Unrestricted GPT-4: practice" (+48), "Unrestricted GPT-4: exam" (−17), "No-AI control" (0), "Guardrailed tutor: practice" (+127, highlighted), "Guardrailed tutor: exam" (0). y-axis = signed performance change, zero baseline yes, with a visible reference line at 0 since bars cross it. Channels: x = arm/measure label, y = value, color = encode the guardrailed-practice highlight bar distinctly and use sign (positive vs. negative) to separate gain from harm. Do not sort; preserve the arm grouping so practice/exam pairs read together. Annotate the −17 exam bar ("the help left") and the +127 highlighted bar ("design, not model"). Title the design lesson, not the cautionary tale. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 1.2 — Two rulers for the same effect size
+Build a two-panel comparison. Left panel = Hattie synthesis distribution with benchmark markers at 0.20 (small), 0.40 (hinge), 0.80 (large); right panel = Kraft field-experiment distribution with markers at 0.05 (small), 0.20 (large). Each panel shows a single distribution curve/strip along a shared x-axis (Cohen's d). Place one fixed d=0.40 reference marker on BOTH panels: mid-pack on the left, far in the high tail on the right (highlight). Channels: x = effect size, panel = which ruler, color = the fixed-d marker vs. benchmark lines. Annotate that the same number reads "impressive" vs. "exceptional" depending on the ruler. zero baseline not applicable (it is a distribution, not bars). Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 1.3 — Four AI-feasibility classes across the list
+Build a two-panel comparison of stacked counts across four AI-feasibility classes. Left panel "All 252 influences": AI-ADJACENT 97, AI-AUGMENTED 88, AI-RESISTANT 38, AI-NATIVE 29. Right panel "Above-hinge subset (122)": AI-AUGMENTED 81 (highlight), AI-RESISTANT 18, AI-NATIVE 14, AI-ADJACENT 9. Marks: stacked or grouped bars per panel; counts range 9–97. Channels: y = count, color = AI-feasibility class (consistent across panels), panel = scope. Sort each panel descending by count. zero baseline yes. Annotate that the high-impact end is dominated by AUGMENTED, not NATIVE. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 1.4 — Anatomy of one framework row
+Build an annotated callout figure of a single framework row (the feedback row) with seven labeled cells. Center label "One framework row"; seven callouts tagged by epistemic kind: "Effect-size band (MEASURED)", "AI feasibility (CLASSIFIED)", "Human irreducibility (CLASSIFIED)", "Substitution risk (CLASSIFIED)", "Mechanism conflict (CLASSIFIED)", "Vendor activity (CLASSIFIED)", "Hypothetical AI effect (HYPOTHESIZED, quarantined)". Channels: color = the three epistemic kinds (measured / classified / hypothesized), with the hypothesized cell visually unmistakable from the measured cell via distinct border or fill. Layout: one horizontal row of seven cells with leader lines to callout labels. No axes, no zero baseline. Annotate the quarantine boundary around the hypothesized cell. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

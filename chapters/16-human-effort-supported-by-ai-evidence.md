@@ -40,11 +40,17 @@ AI's role here is the most cleanly evidentiary in the book: it can *see* effort,
 
 The trap, accordingly, is not theft of cognition but counterfeit of care — automation creeping from the evidence layer into the response layer, where it does not belong and does not work.
 
-<!-- → [TABLE: Two group influences — effort (d = 0.77), comprehensive instructional programs for teachers (d = 0.72) — with mechanism summary, the correlational provenance caveat for the effort row, and the specific detection/response split for each. The table should make clear that these are the same mechanism at two altitudes: a person deciding, repeatedly, that the hard work is worth continuing.] -->
+| Influence | Effect size (d) | Mechanism | Detection / response split |
+|---|---|---|---|
+| Effort | 0.77 | A learner disposition: engagement, persistence, willingness to spend oneself on hard tasks. Largely correlational — effort and achievement each produce the other, so the row names where leverage lives, not a purchasable intervention | AI detects flagging effort early from login and submission patterns; a named human must make the response that re-engages the student |
+| Comprehensive instructional programs for teachers | 0.72 | Sustained, multi-component professional development — content, modeled practice, classroom application, follow-through — whose active ingredients are the relational components: observation, feedback, coaching cycles | AI curates content and runs logistics; the coaching relationship carries the persistence, and a content library with completion tracking is not the program |
 
 ---
 
 ## The Two Rows
+
+![Horizontal dot plot against the 0.40 hinge: effort (0.77) and comprehensive instructional programs for teachers (0.72) sit high above the hinge — the same mechanism at two altitudes](images/16-human-effort-supported-by-ai-evidence-fig-03.png)
+*Figure 16.3 — Two high-band influences with effect sizes*
 
 **Effort (d = 0.77) — rank 19 of 252.** The honesty note comes first here, because this row is unusually easy to misread. Effort is not an intervention. It is a learner disposition-and-behavior — engagement, persistence, the willingness to spend oneself on hard tasks — and much of its evidence base is correlational: students who exert more effort achieve more, with the arrows running both directions. Effort produces achievement; achievement, by making effort feel worthwhile, produces effort. Nobody can buy d = 0.77 off a shelf, because the row names an outcome of good conditions as much as a cause of good results. What it tells a leader is where the leverage lives: in whatever makes sustained trying *rational* for a particular student.
 
@@ -61,6 +67,9 @@ Strip effort to its engine and you find a continuously re-evaluated calculation.
 For Renee's students, every term in that calculation has been damaged by history — expectancy by years of failure, value by curricula that never connected to anything they cared about, the cost of quitting by institutions that, in their prior experience, did not visibly notice when they left. What rebuilds the calculation, in the persistence research and in every practitioner's honest account, is overwhelmingly relational: tasks calibrated so success is genuinely reachable; progress made visible so the student can see the trend her discouragement hides; and — the load-bearing term at a school like Crossroads — a specific person who notices.
 
 Being noticed converts effort from a private gamble into a social fact. It raises the cost of quitting (someone will know, and that someone matters) and raises the value of trying (someone sees it). This is why the mechanism is human-irreducible at the response step: the noticing only works through the relationship it expresses. A genuinely interested person checking in because the data suggested you might be struggling is one thing. A message sequence triggered by a threshold and sent at 3 a.m. is another — and the second one, the moment its origin is understood, testifies to the *absence* of the first.
+
+![Triangle of three persistence terms — expectancy (task doable), value (worth doing), and cost of quitting (someone notices) — with AI repairing the first two via calibrated difficulty and a visible progress trend, while the third vertex requires a specific human noticing](images/16-human-effort-supported-by-ai-evidence-fig-01.png)
+*Figure 16.1 — Effort bargain: AI repairs two, third stays human*
 
 <!-- → [DIAGRAM: The effort bargain — three terms arranged as a triangle: Expectancy (task seems doable), Value (worth doing), Cost of quitting (someone would notice). Arrows show what damages each for at-risk students (prior failure, irrelevant curricula, institutions that didn't notice departures) and what repairs each. The AI repair paths are: calibrated difficulty → Expectancy; visible progress trend → Value. The human repair path is: a specific person noticing → Cost of quitting. The diagram should make unmistakable that the third vertex is human-dependent.] -->
 
@@ -105,6 +114,9 @@ Renee accepted the grant, took half the gift, and wrote the other half out of th
 Detection earned its license in week six. The platform flagged Marcus — twenty-four years old, two jobs, eight months of grinding consistency toward a diploma — on assignment-start latency: still logging in, but hovering, not starting. His advisor's caseload is fifty-one. No human had seen it. The flag produced a Tuesday conversation, the conversation produced the fact (his second job had moved to nights; he was opening assignments at 2 a.m., too exhausted to begin), and the fact produced a schedule rebuild that the platform could never have prescribed and the advisor could never have known to offer without it. Marcus is still enrolled.
 
 The advisory team's Monday huddle now opens with the platform's triage list — ten minutes of machine evidence allocating five days of human noticing. By December, the staff's flat assessment was that the flags were finding the quiet fades that used to surface only as withdrawal paperwork.
+
+![Left-to-right timeline of the Marcus case across a platform lane and a human lane: the platform flags a latency anomaly and sends a triage notification, then a named advisor holds the conversation, diagnoses the real cause, and rebuilds the schedule, with the platform tracking continued enrollment](images/16-human-effort-supported-by-ai-evidence-fig-02.png)
+*Figure 16.2 — Marcus workflow: detection feeds, human responds*
 
 <!-- → [INFOGRAPHIC: The Marcus case as a workflow — timeline shows: platform flags latency anomaly (Day 1) → advisor receives triage notification with pattern data (Day 2) → Tuesday conversation with specific facts available (Day 4) → schedule rebuild (Day 5) → continued enrollment tracked over following months. Labels distinguish what the platform did (detection, triage, evidence) from what the advisor did (conversation, diagnosis, prescription). The point: neither could have produced the outcome alone.] -->
 
@@ -197,3 +209,17 @@ On the PD side: if scaled AI-coached teacher development — model-in-the-loop o
 3. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
 4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
 5. Hattie, J. (2018). 252 Influences and Effect Sizes (effort d=0.77). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+## Prompts
+
+### Figure 16.1 — Effort bargain: AI repairs two, third stays human
+
+Build a node-edge conceptual diagram arranged as a triangle of three vertices: Expectancy (task doable), Value (worth doing), Cost of quitting (someone notices — highlighted). Connect three repair-source nodes with labeled "repairs" arrows: "AI: calibrated difficulty" → Expectancy; "AI: visible progress trend" → Value; "Human: a specific person notices" → Cost of quitting, the last marked as a human-dependent repair (distinct color). Make the third vertex visually dominant to show it is the irreducible, human-only term. Optionally annotate what damages each vertex for at-risk students (prior failure, irrelevant curricula, institutions that didn't notice departures). Title "Effort bargain: AI repairs two, third stays human". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 16.2 — Marcus workflow: detection feeds, human responds
+
+Build a left-to-right timeline flowchart with two horizontal lanes — a platform lane and a human lane. Five stages connected by arrows: (1) Latency anomaly flagged (platform), (2) Triage notification with pattern data (platform), (3) Conversation surfaces specific facts (human), (4) Schedule rebuilt (human), (5) Continued enrollment tracked (platform). Place each stage in its lane so the handoff from platform to human is visible partway across, then a return to the platform lane at the end. Color-code the two lanes. Caption: neither party could have produced the outcome alone. Title "Marcus workflow: detection feeds, human responds". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 16.3 — Two high-band influences with effect sizes
+
+Build a horizontal dot/lollipop plot of two influences against a Cohen's d x-axis from zero: Effort (0.77, highlighted), Comprehensive instructional programs for teachers (0.72). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; both dots sit well to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight effort by color. Label each dot with its value, and add a caption noting these are the same mechanism at two altitudes. Title "Two high-band influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

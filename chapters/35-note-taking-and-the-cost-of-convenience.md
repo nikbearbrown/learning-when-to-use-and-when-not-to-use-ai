@@ -58,6 +58,9 @@ Generative note-taking is selection, compression, and translation running live, 
 
 **A self-test running in the background.** The moment the stream outpaces understanding, the pen stalls. Note-takers discover confusion during the lecture — in time, at least in principle, to ask. A student whose notes are being taken by the cloud receives no such signal. Confusion is discovered, if ever, the night before the exam.
 
+![Two-path comparison — student note-taking runs selection, paraphrase, and a confusion stall signal, while AI note-taking fills a transcript with no confusion signal, both converging on the same artifact](images/35-note-taking-and-the-cost-of-convenience-fig-01.png)
+*Figure 35.1 — Two paths: encoding present vs. encoding absent*
+
 <!-- → [DIAGRAM: Two-path model — Path A: student takes notes (selection → paraphrase → stall signal when confused). Path B: AI takes notes (transcript fills in real time; student attends or drifts; no confusion signal). Path A: encoding occurs during lecture. Path B: encoding opportunity absent. Both paths converge on the same artifact quality, with Path B's artifact being superior. Annotation: "the substitution improves the visible output while eliminating the invisible process."] -->
 
 Now run the inversion on the petition's own argument. Remove the note-making and you remove all three operations. What the students call "freed to actually listen" is mechanically freed from selection, freed from translation, and freed from the stall signal. Some exceptional students will fill that space with active mental processing. The distribution will not: attention without a task degrades into the experience of attention — and the transcript's existence removes even the cost of drifting, because nothing is lost. Perfect storage, purchased at the price of encoding, is a bad trade for a learner. The storage was always the lesser function.
@@ -90,6 +93,9 @@ Sam Whitaker's recommendation took the form of a one-year structured pilot in tw
 
 The service's delivery order was inverted from its default. Students in attended lectures took their own notes — by hand or keyboard, the medium left free, per the replication literature. Transcripts and AI summaries unlocked four hours after each lecture, behind a three-question closed-note retrieval check keyed to that day's content. Students then diffed their notes against the transcript and logged one repair. The accessibility track ran parallel and unrestricted, replacing the volunteer note-taker lottery with professional-grade access — the disability services director called it the largest single-semester accommodation upgrade in her tenure.
 
+![Gated lecture-day timeline — Hour 0 student takes own notes (encoding), Hours 1-4 transcript locked behind a retrieval gate, Hour 4+ unlocks for diff-and-repair (storage)](images/35-note-taking-and-the-cost-of-convenience-fig-02.png)
+*Figure 35.2 — The gated lecture-day timeline*
+
 <!-- → [INFOGRAPHIC: Lecture-day timeline — Hour 0: lecture (student takes own notes). Hours 1–4: locked (retrieval gate active). Hour 4: transcript and summary unlock after retrieval attempt. Hour 4+: student diffs notes, logs one repair. Instructor receives confusion report next morning. Annotation at each stage showing which function is served: encoding (hours 0–1), retrieval (hours 1–4), storage (hours 4+).] -->
 
 The control the pilot almost lacked was supplied by accident. Two course sections, by scheduling error, ran the service in its default configuration — notes and summaries delivered instantly, no retrieval gate. By week six, observers counted a visible decline in students writing anything during lecture in those sections. Mid-semester, the sections' closed-book quiz performance lagged their gated counterparts while their self-reported preparedness ran higher. [pilot-internal observation, two sections, confounded by everything two sections can be confounded by — an anecdote with a moral, not a measurement] The student government's own representative, presenting the interim report, used the phrase that ended up in the final recommendation: "The default setting is a note-taking service that quietly abolishes note-taking."
@@ -106,7 +112,15 @@ Adoption conditions, written into the contract. The retrieval gate and four-hour
 
 **Evidence that learning improved is** closed-note retrieval and unassisted exam performance holding or rising after adoption, paraphrase-to-verbatim ratios in student notes maintained over time, and repair logs showing students catching their own gaps — never note completeness, transcript coverage, platform engagement, or self-reported preparedness, the metric the trap inflates most reliably.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Learner must / Instructor must / Valid evidence / What does not count. Does not count row: note completeness, transcript coverage, platform engagement minutes, self-reported preparedness, auto-flashcard pass rates. Student should see the contrast: the valid evidence is all unassisted and human-produced; the invalid evidence is all machine-generated or self-reported.] -->
+| Role | What it covers |
+|---|---|
+| AI may | Transcribe and store every lecture; serve transcripts and summaries after a retrieval attempt and a delay; evaluate student notes against the transcript for coverage and paraphrase quality; generate closed-note retrieval questions; provide ungated full access as a disability accommodation and absence safety net; report segment-level confusion patterns to instructors |
+| Learner must | Produce their own notes in every attended lecture — selection, paraphrase, and organization performed live — then verify and repair them against the machine record |
+| Instructor must | Keep retrieval events frequent enough that the encoding work can show its value; treat confusion reports as feedback to teaching |
+| Valid evidence | Closed-note retrieval and unassisted exam performance holding or rising after adoption; paraphrase-to-verbatim ratios maintained over time; repair logs showing students catching their own gaps |
+| What does not count | Note completeness; transcript coverage; platform engagement minutes; self-reported preparedness; auto-flashcard pass rates |
+
+*The valid evidence is all unassisted and human-produced; the invalid evidence is all machine-generated or self-reported.*
 
 ## What Evidence to Demand
 
@@ -183,3 +197,13 @@ The accessibility track is this chapter's untroubled good, but it raises a quest
 3. Morehead, K., Dunlosky, J., & Rawson, K. A. (2019). How much mightier is the pen than the keyboard for note-taking? *Educational Psychology Review*, 31, 753–780. https://eric.ed.gov/?id=EJ1225471
 4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316.
 5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 35.1 — Two paths: encoding present vs. encoding absent
+Build a two-path parallel-process comparison that converges on a shared artifact. Left path "Student takes notes (encoding present)": three sequential operations — selection under scarcity → paraphrase into own words → stall signal fires at confusion (highlighted). Right path "AI takes notes (encoding absent)": transcript fills in real time → student attends or drifts → no confusion signal (highlighted as the missing element). Both paths flow downward into a single shared terminal node "Same finished-notes artifact" — annotate that the right path's artifact is superior but hollow. Use two distinct path fills; mark the stall-signal/no-signal contrast as the load-bearing divergence. The structural point: same artifact, divergent process; only one path produced encoding. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 35.2 — The gated lecture-day timeline
+Build a horizontal timeline across one lecture day with phased function bands. Four markers left to right: Hour 0 "lecture" (sub: student takes own notes — encoding), Hours 1-4 "locked" (sub: retrieval gate active), Hour 4 "gate" (sub: transcript unlocks after retrieval attempt), Hour 4+ "diff-and-repair" (sub: student logs one repair — storage). Color the timeline into three function bands — encoding (hour 0-1), retrieval (hours 1-4), storage (hour 4+) — labeled beneath. Use a single horizontal axis with marker dots and stacked label/sub text. Annotate the inversion of the default delivery order. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

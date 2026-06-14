@@ -1,0 +1,36 @@
+<!--
+  The fading schedule across four essays
+  Book: Visible Learning x AI
+  Chapter: 04-augmentation-with-a-metacognitive-gate
+  Figure: 03
+  Type: timeline (declining-scaffold progression)
+  Generated: 2026-06-08
+  Source: pantry/04-augmentation-with-a-metacognitive-gate-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">The fading schedule across four essays — 04-augmentation-with-a-metacognitive-gate</title>
+<desc>Scaffold intensity must decline across successive tasks — full scaffold, reduced, student-self-critique-first, AI-as-check-only — so the prompts thin out as the learner demonstrates unprompted self-monitoring.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="04-augmentation-with-a-metacognitive-gate"
+    figure-number="03"
+    figure-title="The fading schedule across four essays"
+    figure-slug="the-fading-schedule-across-four-essays"
+    figure-type="timeline (declining-scaffold progression)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/04-augmentation-with-a-metacognitive-gate-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The fading schedule across four essays</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI scaffold contracts as learner-led work expands</text><line x1="52" y1="210" x2="648" y2="210" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="52" y1="204" x2="52" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="52" cy="210" r="4" fill="#2a1a0e"/><text x="52" y="166" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Essay 1</text><text x="52" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Full scaffold</text><line x1="240.66666666666666" y1="204" x2="240.66666666666666" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="240.66666666666666" cy="210" r="4" fill="#2a1a0e"/><text x="240.66666666666666" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Essay 2</text><text x="240.66666666666666" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Reduced scaffold</text><line x1="429.3333333333333" y1="204" x2="429.3333333333333" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="429.3333333333333" cy="210" r="4" fill="#2a1a0e"/><text x="429.3333333333333" y="166" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Essay 3</text><text x="429.3333333333333" y="175.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Student</text><text x="429.3333333333333" y="188.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">self-critiques…</text><line x1="618" y1="204" x2="618" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="618" cy="210" r="4" fill="#C8102E"/><text x="618" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Essay 4</text><text x="618" y="249.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI used only to</text><text x="618" y="262.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">check the…</text><text x="350" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Four successive essays</text>
+</svg>

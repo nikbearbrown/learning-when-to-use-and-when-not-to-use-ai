@@ -1,0 +1,36 @@
+<!--
+  Five features, five boundaries: safe use vs. substitution
+  Book: Visible Learning x AI
+  Chapter: 34-parental-involvement-without-platform-substitution
+  Figure: 02
+  Type: five-row feature matrix with a shared boundary axis
+  Generated: 2026-06-08
+  Source: pantry/34-parental-involvement-without-platform-substitution-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Five features, five boundaries: safe use vs. substitution — 34-parental-involvement-without-platform-substitution</title>
+<desc>Each platform feature (translation, drafting, conversation prompts, logistics, chatbot) has a clear boundary, and the boundary is always whether a human's actual knowledge of the child stands behind the message.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="34-parental-involvement-without-platform-substitution"
+    figure-number="02"
+    figure-title="Five features, five boundaries: safe use vs. substitution"
+    figure-slug="five-features-five-boundaries-safe-use-v"
+    figure-type="five-row feature matrix with a shared boundary axis"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/34-parental-involvement-without-platform-substitution-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Five features, five boundaries: safe use vs. substitution</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Does a human's knowledge of the child stand behind it?</text><line x1="350" y1="72" x2="350" y2="380" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Safe (human behind it)</text><text x="509" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Substitution (no human behi…</text><rect x="40" y="102" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Translation</text><rect x="366" y="102" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="121" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">—</text><rect x="40" y="146" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Logistics</text><rect x="366" y="146" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">—</text><rect x="40" y="190" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Conversation prompts (equips</text><text x="191" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">home channel)</text><rect x="366" y="190" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="209" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">—</text><rect x="40" y="234" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="253" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Drafting (for human review)</text><rect x="366" y="234" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="253" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Auto-personalized updates</text><rect x="40" y="278" width="294" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="191" y="297" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Chatbot scoped to facts</text><rect x="366" y="278" width="294" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="509" y="291" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">Chatbot answers 'how is my</text><text x="509" y="303" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#C8102E" text-anchor="middle">child doing'</text><text x="350" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Boundary: human's knowledge of the child</text>
+</svg>

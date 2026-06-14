@@ -1,0 +1,36 @@
+<!--
+  The gated lecture-day timeline
+  Book: Visible Learning x AI
+  Chapter: 35-note-taking-and-the-cost-of-convenience
+  Figure: 02
+  Type: horizontal timeline with phased function bands
+  Generated: 2026-06-08
+  Source: pantry/35-note-taking-and-the-cost-of-convenience-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">The gated lecture-day timeline — 35-note-taking-and-the-cost-of-convenience</title>
+<desc>The pilot inverts the delivery order across a lecture day — Hour 0 the student takes own notes (encoding), Hours 1-4 the transcript is locked behind a retrieval gate, Hour 4+ the transcript unlocks for diff-and-repair (storage).</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="35-note-taking-and-the-cost-of-convenience"
+    figure-number="02"
+    figure-title="The gated lecture-day timeline"
+    figure-slug="the-gated-lecture-day-timeline"
+    figure-type="horizontal timeline with phased function bands"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/35-note-taking-and-the-cost-of-convenience-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The gated lecture-day timeline</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Encoding to retrieval to storage</text><line x1="52" y1="210" x2="648" y2="210" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="52" y1="204" x2="52" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="52" cy="210" r="4" fill="#2a1a0e"/><text x="52" y="166" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Student takes own…</text><text x="52" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Hour 0: lecture</text><line x1="240.66666666666666" y1="204" x2="240.66666666666666" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="240.66666666666666" cy="210" r="4" fill="#2a1a0e"/><text x="240.66666666666666" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Retrieval gate ac…</text><text x="240.66666666666666" y="249.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Hours 1-4:</text><text x="240.66666666666666" y="262.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">locked</text><line x1="429.3333333333333" y1="204" x2="429.3333333333333" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="429.3333333333333" cy="210" r="4" fill="#2a1a0e"/><text x="429.3333333333333" y="166" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Transcript unlock…</text><text x="429.3333333333333" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Hour 4: gate</text><line x1="618" y1="204" x2="618" y2="216" stroke="#2a1a0e" stroke-width="1.5"/><circle cx="618" cy="210" r="4" fill="#C8102E"/><text x="618" y="240" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">Student logs one …</text><text x="618" y="249.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Hour 4+:</text><text x="618" y="262.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">diff-and-repair</text><text x="350" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">One lecture day</text>
+</svg>

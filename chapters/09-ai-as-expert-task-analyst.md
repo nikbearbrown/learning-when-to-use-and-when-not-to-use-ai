@@ -48,6 +48,9 @@ Learning accelerates when instruction is built from an accurate model of the tas
 
 Each row repairs part of that double blindness. CTA repairs the task model: it reconstructs the forty decisions, so the curriculum teaches what experts do rather than what they remember doing. Piagetian matching repairs the readiness model: tasks meet the learner where she demonstrably is. Conceptual change repairs the prior-knowledge model: it treats the learner's existing theory as the object of instruction rather than an empty space. Help seeking is the same repair run by the learner personally — the question is a self-issued diagnostic, the fastest possible alignment of instruction to need.
 
+![Four influences repairing one double-blindness — an accurate model of the task and the learner's current knowledge — each row fixing a different component](images/09-ai-as-expert-task-analyst-fig-02.png)
+*Figure 9.2 — Four rows, one repaired model*
+
 <!-- → [DIAGRAM: Four-row mechanism map — center node: "accurate model of task and learner." Four spokes leading to: CTA (repairs task model), Piagetian matching (repairs readiness model), conceptual change (repairs prior-knowledge model), help seeking (learner-run repair). Student should see the structural unity before reading the individual rows.] -->
 
 Why this group tolerates AI so well follows directly. The work being accelerated is model-building about tasks and minds — decomposition, pattern-matching across thousands of described performances, hypothesis generation about where novices break. That is teacher-side, design-time cognition. The learner's downstream effort — practicing the decomposed skill, fighting through the discrepant event, formulating the question — remains fully intact. No learner act is displaced. The structure-effort separability of Chapter 3 holds here at the high band.
@@ -59,6 +62,9 @@ And the mechanism dictates the non-negotiable clause. A task model is only as go
 Draft the decomposition. Generate first-pass task hierarchies, prerequisite chains, decision-point inventories, and novice-error predictions for any teachable skill. The draft's correct role: an interview instrument, not a deliverable.
 
 This reframing is the method's most important practical gift. Experts are dramatically better at correcting a concrete model than at free-recalling their own knowledge — the draft converts an extraction problem into an editing problem. Walk Ray through the AI's forty-step model and ask what is wrong, missing, or dangerously oversimplified. What surfaces is exactly what the consultant's structured interviews were trying to reach. The AI did not replace the expert; it gave the expert something wrong enough to argue with.
+
+![Expert free recall yielding an incomplete curriculum versus an AI draft corrected by the expert, with the delta log as the curriculum's most valuable column](images/09-ai-as-expert-task-analyst-fig-01.png)
+*Figure 9.1 — Draft-then-correct workflow and the delta log*
 
 <!-- → [DIAGRAM: Two-path comparison — Path A: expert free recall → curriculum. Path B: AI draft → expert correction → validated curriculum. Path B shows a "delta log" branching off at the correction stage. Annotate that the delta log is the curriculum's most valuable column — the tacit knowledge that only surfaces when there is a concrete wrong thing to correct.] -->
 
@@ -87,6 +93,9 @@ Two genuine AI catches went the other way: novice-error patterns from the wider 
 The dangerous moment came from the HVAC program, not the welding one. A veteran had already retired; no domain expert remained to validate. A draft decomposition had quietly entered use, and the certifying examiner flagged a refrigerant-handling sequence as out of order against EPA procedure. No one was hurt. The lesson was priced anyway. Drafts without a validating expert are not drafts. They are liabilities with page numbers.
 
 The AI help channel in the welding shop was discovered doing executive duty: students photographing failed welds and receiving full diagnoses, parameter corrections included. Practice welds improved; the first proctored certification mock collapsed, students unable to diagnose unaided the failures they had been photographing for weeks. The Bastani curve drawn in filler metal. The channel was rebuilt on a hint ladder — it may name the flaw's category and coach the next diagnostic step, never deliver the diagnosis — and Ray's apprenticeship norm ("bring me your weld and your theory of what went wrong") was taught as the program's help-seeking model.
+
+![An executive-help channel lifting supervised practice performance while unaided proctored certification flattens then drops — the Bastani divergence in domain form](images/09-ai-as-expert-task-analyst-fig-03.png)
+*Figure 9.3 — The Bastani curve in a help channel*
 
 <!-- → [CHART: Two-line chart — x-axis: weeks of AI-channel use; y-axis: score. Line 1: practice-weld performance (climbing). Line 2: proctored mock-certification score (flat then dropping). Annotate the divergence point. Student should see the Bastani curve in domain-specific form — the channel lifted the supervised metric while hollowing the unaided one.] -->
 
@@ -181,3 +190,16 @@ When the AI interviews the expert directly — elicitation chatbots are already 
 3. VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. *Educational Psychologist*, 46(4), 197–221. https://doi.org/10.1080/00461520.2011.611369
 4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
 5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 9.1 — Draft-then-correct workflow and the delta log
+Build a left-to-right flowchart comparing two paths with a branch output. Path A (weaker route): "Expert free recall" → "Incomplete curriculum (omitted tacit steps)". Path B: "AI draft" → "expert correction" → "Validated curriculum + delta log". At the correction stage, branch off a "delta log" node labeled the most valuable output. Use arrows; mark Path A "weaker route" and the correction→delta edge "delta log branches off correction". Channels: x = stage order, vertical position = Path A vs. B, color = incomplete vs. validated outcome and the delta-log emphasis. No axes, no zero baseline. Annotate that corrections surface tacit knowledge only against a concrete wrong thing — extraction becomes editing. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 9.2 — Four rows, one repaired model
+Build a node-edge conceptual map with a central node and four repair spokes. Center (highlighted): "Accurate model of task and learner". Four spoke nodes each connected by an arrow into the center: "CTA: repairs task model", "Piagetian matching: repairs readiness model", "Conceptual change: repairs prior-knowledge model", "Help seeking: learner-run repair". Channels: radial position = the four influences, arrow direction = into the shared center, color = uniform spokes with the center emphasized. No axes, no zero baseline. Annotate that all four repair part of one double-blindness, each fixing a different component of the model. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 9.3 — The Bastani curve in a help channel
+Build a two-line divergence chart. x-axis = weeks of AI-channel use, y-axis = score. Line 1 "Practice / supervised performance": climbs steadily (misleading supervised gain). Line 2 "Unaided proctored certification": flat early, then declines toward the right (real harm). Mark the divergence point (highlight). Channels: x = weeks, y = score, color = supervised vs. unaided. zero baseline yes for the score axis. Annotate that the channel lifts the supervised metric while hollowing the unaided one — the Bastani assisted/unassisted divergence in domain-specific form. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

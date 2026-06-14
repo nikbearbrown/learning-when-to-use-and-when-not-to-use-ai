@@ -36,11 +36,17 @@ The dataset's hypothesized AI-mediated effects discount the originals only modes
 
 Now hold the group's boundary line up to the light: *use AI for scalable practice and adaptive materials; do not confuse fluency with transfer or durable learning.* Low risk is a statement about substitution — there is no cognitive act here for the machine to steal. It is not a statement about displacement (what the tool's minutes replace), format drift (recognition creeping in where production belongs), or scope inflation (a practice tool quietly billed as instruction). Those are the three doors trouble uses when the front door is locked.
 
-<!-- → [TABLE: Two group influences — spelling programs (0.58), interactive video methods (0.54) — with mechanism summary (retrieval-based production practice; interrupted processing with embedded retrieval), the AI-hypothesized effect for each with [HYPOTHESIS] label, and the specific risk notes: recognition creep, displacement, scope inflation.] -->
+| Influence | Effect size (d) | AI-hypothesized effect | Mechanism | Risk notes |
+|---|---|---|---|---|
+| Spelling programs | 0.58 | d ≈ 0.50 [HYPOTHESIS] | Retrieval-based production practice — spelling from sound, corrected immediately, distributed, at the learner's edge | Recognition creep (multiple-choice modes); displacement (app eating writing time); scope inflation (practice billed as instruction) |
+| Interactive video methods | 0.54 | d ≈ 0.45 [HYPOTHESIS] | Interrupted processing with embedded retrieval — questions, pauses, branching convert viewing into intermittent retrieval | Recognition creep (tap-the-answer formats); friction smoothed away by over-optimized question placement; scope inflation |
 
 ---
 
 ## The Two Rows
+
+![Horizontal dot plot against the 0.40 hinge: spelling programs (0.58) and interactive video methods (0.54) sit above the hinge, each with a modest hypothesized AI-mediated discount to about 0.50 and 0.45](images/19-low-risk-ai-native-skill-practice-fig-03.png)
+*Figure 19.3 — Two above-hinge skill-practice influences*
 
 **Spelling programs (d = 0.58) — rank 51.** The influence covers structured spelling instruction and practice — systematic study of patterns and rules with feedback — and the evidence says formal instruction beats incidental pickup and beats no instruction, with gains that hold on related literacy measures. Two facts matter for adoption.
 
@@ -69,6 +75,9 @@ Both rows run on the same mechanism, and naming it precisely is what makes the g
 Now the reason the group is low-risk drops out of the four clauses: every one is something AI *administers* and the learner *performs*. The app schedules, the child spells. The video pauses, the learner answers. There is no version of this transaction where the machine performs the skill on the learner's behalf — an app that spelled for the child would be visibly absurd in a way that an app summarizing for a student is somehow not. The absurdity is protective.
 
 The group's risks therefore live entirely in the administration: an app can administer the *wrong practice* (recognition formats), at the *wrong time cost* (displacing writing or reading instruction), under the *wrong banner* (practice sold as instruction).
+
+![Four-stage practice loop — retrieval-based, immediately corrected, distributed, at-the-edge — with each stage showing what AI administers (generates items, schedules returns, tracks mastery, adjusts difficulty) and the irreducible action the learner performs (spells from sound, self-corrects, retrieves again, operates at own edge)](images/19-low-risk-ai-native-skill-practice-fig-02.png)
+*Figure 19.2 — Four-clause practice engine: AI administers, learner performs*
 
 <!-- → [DIAGRAM: Four-clause engine diagram — each clause (retrieval-based, immediately corrected, distributed, at-the-edge) shown as a stage in the practice loop. At each stage, labels show what AI administers (generates item, schedules return, tracks mastery, adjusts difficulty) and what the learner performs (spells from sound, self-corrects, retrieves again, operates at own edge). The diagram should make unmistakable that the learner action is irreducible at every stage.] -->
 
@@ -107,6 +116,9 @@ The gross trap — AI doing the learning for the student — is structurally una
 The second-grade team got their app, and Gwen got her conditions — all configuration and schedule, none of them heroic.
 
 The app took its fifteen minutes in production format: daily audio dictation, typed spellings, error logged by phonics feature. Week five brought the dashboard's first real gift. The error map showed something fifteen orphan minutes had never revealed: eleven of forty-six second graders were systematically confusing long-vowel teams — *ea/ee*, *ai/ay* — a pattern invisible in Friday-test scores, which children had been passing by memorizing that week's words as wholes. The team ran a two-week vowel-team small group on the strength of the map. The app's subsequent error data showed the confusion clearing. A full diagnose-teach-verify loop, run by teachers, fed by the machine.
+
+![Two-line time series across twenty weeks: in-app mastery and biweekly paper-dictation accuracy converge after targeted small-group instruction, then an inset shows the lines diverging after a mid-year update flips the app to recognition mode — in-app climbing while paper goes flat](images/19-low-risk-ai-native-skill-practice-fig-01.png)
+*Figure 19.1 — In-app mastery vs. paper: converge then diverge*
 
 <!-- → [CHART: Two lines from week one through week twenty — Line A: in-app mastery percentage for the vowel-team pattern; Line B: biweekly paper dictation accuracy for the same pattern. Show convergence after targeted small-group instruction in weeks five and six. A labeled inset shows the dangerous-moment version — the lines diverging after the update in week fourteen — to contrast convergence with the transfer-gap failure.] -->
 
@@ -199,3 +211,17 @@ Separately, evidence that early dependence on app-mediated practice degrades chi
 3. Ehri, L. C. (2014). Orthographic mapping in the acquisition of sight word reading, spelling memory, and vocabulary learning. Scientific Studies of Reading, 18(1), 5–21.
 4. Mayer, R. E. (2021). Multimedia Learning (3rd ed.). Cambridge University Press.
 5. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3), 249–255.
+
+## Prompts
+
+### Figure 19.1 — In-app mastery vs. paper: converge then diverge
+
+Build a two-line time-series chart across weeks 1–20 with a labeled divergence inset. Line A: biweekly paper-dictation accuracy (the trustworthy measure). Line B: in-app mastery percentage (the drifting metric). Both rise and converge after targeted small-group instruction around weeks 5–6. Then, after a week-14 update that flips the app to recognition mode, the lines diverge — in-app climbing, paper going flat. Use an inset or annotated bracket to mark the late divergence as "recognition creep". X-axis: weeks 1–20. Y-axis: pattern accuracy, zero baseline. Encode the two series by color; annotate the convergence point and the divergence point. Subtitle: "Convergence validates the tool; late divergence is recognition creep". Title "In-app mastery vs. paper: converge then diverge". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 19.2 — Four-clause practice engine: AI administers, learner performs
+
+Build a four-stage practice-loop flow diagram: (1) Retrieval-based (learner spells from sound), (2) Immediately corrected (learner self-corrects), (3) Distributed (learner retrieves again), (4) At-the-edge (learner operates at own edge), connected by arrows, optionally closing as a loop. At each stage, render a two-row split: a top "AI administers" row (generates items, schedules returns, tracks mastery, adjusts difficulty) and a bottom "learner performs" row, color-distinguished so the learner action reads as irreducible at every stage. Title "Four-clause practice engine: AI administers, learner performs". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 19.3 — Two above-hinge skill-practice influences
+
+Build a horizontal dot/lollipop plot against a Cohen's d x-axis from zero: Spelling programs (0.58, highlighted), Interactive video methods (0.54), and two hypothesized AI-mediated discounts — AI-mediated spelling (0.50) and AI-enhanced video (0.45). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all dots sit to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight spelling programs by color and mark the two hypothesis rows as modest discounts. Label each dot with its value. Title "Two above-hinge skill-practice influences". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

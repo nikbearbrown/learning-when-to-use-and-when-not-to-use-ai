@@ -42,7 +42,21 @@ The group contains twenty-one influences, and sorting them is the first useful s
 
 Some rows are ones AI can genuinely run. Spaced versus massed practice (d = 0.60) is this chapter's anchor, and the dataset's own notes call AI scheduling of spaced practice "a legitimate use case" — explicitly, with the caveat that the teacher ensures curriculum alignment and assesses transfer. Record keeping (d = 0.52) and time on task (d = 0.49) sit nearby. These are the clearest augmentation cases in the entire dataset: logistics automatable, cognitive act structurally protected.
 
-<!-- → [TABLE: Three-column classification of group rows — column 1: Row name and effect size; column 2: What AI can run or support; column 3: What must stay human. Group by the three types described in text. Student should see the pattern: as human irreducibility rises, AI role narrows to content and structure, never judgment or relationship.] -->
+| Row (and effect size) | What AI can run or support | What must stay human |
+| --- | --- | --- |
+| *Rows AI can genuinely run* | | |
+| Spaced vs. massed practice (d = 0.60) | Compute and run review intervals; resurface and interleave concepts | Curriculum alignment; deciding what enters the rotation; transfer assessment |
+| Record keeping (d = 0.52) | Track which concepts were retrieved, when, by whom, with what success | Reading the patterns and changing instruction in response |
+| Time on task (d = 0.49) | Flag time-on-task anomalies and disengagement | Ensuring time contains real practice, not mere occupancy |
+| *Programs AI can support but not constitute* | | |
+| Acceleration programs (d = 0.68) | Curate upward content matched to a placed student | Placement decision; mentorship and accountability |
+| Second/third-chance programs (d = 0.53) | Draft re-attempt pathways; schedule follow-up checks | Verifying that re-engagement is genuine |
+| Comprehension programs (d = 0.47) | Generate discussion scripts and materials | The meaning-making discussion under a teacher who reads hesitation |
+| Teaching communication skills (d = 0.43) | Supply structure and practice material | Diagnosis, feedback, relational pressure |
+| *Dispositions or conditions wearing program clothes* | | |
+| Field independence (d = 0.68) | Design tasks exercising field-independent processing | The trait itself — not a button to press |
+| Concentration / persistence / engagement (d = 0.56) | Low-stakes practice environments; competence feedback | Trust, classroom culture, tasks worth caring about |
+| Motivation / reduced anxiety / positive self-concept (d = 0.42–0.41) | Relevance framing; success experiences at the surface | The durable disposition, built through human relationship |
 
 Other rows are programs AI can support but not constitute. Acceleration programs (d = 0.68), enrichment programs (d = 0.53), second- and third-chance programs (d = 0.53), comprehension programs (d = 0.47), early years' interventions (d = 0.44), teaching communication skills (d = 0.43). The pattern in the dataset's notes is uniform across all of them: AI handles content supply, structure, and re-attempt logistics; mentorship, diagnosis, accountability, and meaning-making discussion stay with people. The distinction is not capability — an AI system can absolutely generate a discussion script — but *function*. The discussion's value in a comprehension program is that a student thinks through meaning under the pressure of a teacher who reads their hesitation. Generating the script and applying that pressure are different jobs, and only one of them is in this group's safe zone.
 
@@ -57,6 +71,9 @@ Take the anchor carefully, because its mechanism is the thing the AI tool will e
 Spaced practice outperforms massed practice — d = 0.60 for the comparison — for a reason that feels wrong the first time you hear it: spacing makes review *harder.* Mass your studying the night before an exam and every item feels fluent, because the material is still warm. Space it across weeks and each return forces effortful retrieval of something that has been partly forgotten. That strain is not friction on the way to learning. It *is* the learning.
 
 Roediger and Karpicke's retrieval-effort studies sharpen this into a finding worth sitting with: being made to retrieve produces more durable memory than restudying the same material, even though restudying feels more productive at the time. The feeling of fluency during a massed review session is a real cognitive experience — it is just not evidence of anything that will survive two weeks. What survives is the struggle. Forgetting, then effortful recall, then reconsolidation — the cycle strengthens exactly because it strains. 
+
+![Massed practice giving higher immediate recall but spaced practice giving durably higher delayed recall as the two retention curves cross](images/03-safe-augmentation-for-strong-learning-routines-fig-01.png)
+*Figure 3.1 — The spacing effect crossover*
 
 <!-- → [CHART: Line chart showing retention over time for massed vs. spaced practice — x-axis: days after study session; y-axis: recall accuracy. Two curves diverge after the first week. Student should see that spaced practice produces lower immediate recall but dramatically higher delayed recall — the spacing effect in a single image.] -->
 
@@ -78,6 +95,9 @@ AI can flag drift. Disengagement patterns, time-on-task anomalies, students whos
 
 AI can structure second chances: draft re-attempt pathways, regenerate practice for retakes, schedule the follow-up check — while the teacher holds the line on whether re-engagement is real. And AI can curate upward: enrichment and acceleration content matched to a student the teacher has already placed, for reasons the teacher understands.
 
+![AI running the separable logistics around a practice routine while the learner's retrieval moment and teacher's selection judgment stay protected](images/03-safe-augmentation-for-strong-learning-routines-fig-02.png)
+*Figure 3.2 — Division of labor: logistics vs. retrieval*
+
 Notice what every item in that list shares. AI is doing teacher-side logistics and material supply. Nothing on the list touches the student's retrieval moment. The book hypothesizes that AI involvement here can preserve most of the influence's value — for spaced practice the working estimate is d ≈ 0.55 [HYPOTHESIS] — but that is structured conjecture, not a measured result, and this chapter does not lean on it.
 
 ## The Three Traps
@@ -97,6 +117,9 @@ The fifth cohort meeting opened with Smart Review on the projector and a single 
 The pilot ran in two classrooms first. It was a genuine relief. The tool resurfaced eight-week-old concepts no teacher would have had bandwidth to rotate back in. It generated four variants of each retrieval prompt, killing the answer-memorization the index cards had produced. Its dashboard showed one teacher that her students' retention of unit rates was collapsing at the three-week mark, which redirected an entire re-teach that would otherwise have waited for the end-of-unit assessment.
 
 Item quality was uneven — about one prompt in six was misaligned or trivially answerable — so the cohort instituted a fifteen-minute weekly review where each teacher skimmed and pruned the coming week's items. Planning-period savings after pruning: roughly two hours per teacher per week, which Marisol contractually reclaimed for the cohort's student-work analysis protocol.
+
+![Planning-period hours shifting away from calendar-building and item-writing toward student-work analysis and feedback after an automated review tool](images/03-safe-augmentation-for-strong-learning-routines-fig-03.png)
+*Figure 3.3 — Reclaimed-hours accounting*
 
 <!-- → [INFOGRAPHIC: Time accounting before and after Smart Review adoption — show planning-period allocation shifting from calendar-building and item-writing toward student-work analysis and feedback. Annotate the "reclaimed hours" explicitly. Student should see that the value of the tool is visible only when someone accounts for where the time actually went.] -->
 
@@ -118,7 +141,12 @@ That last condition is the one that took the longest argument. Someone said: if 
 
 **Evidence that learning improved is** performance on delayed, cumulative, unaided assessment — material from weeks ago, retrieved cold — trending upward against pre-tool baseline, plus transfer items the review system never showed.
 
-<!-- → [TABLE: Phase gate summary — three rows (AI may / Teacher must / Learner must) with specific actions listed in each. Fourth row: valid evidence standard. Clean reference format a teacher could post near their planning station.] -->
+| Role | Actions |
+| --- | --- |
+| AI may | Compute and run spacing schedules; generate and vary retrieval prompts at teacher-set difficulty; maintain records of what was retrieved, when, and how successfully; flag disengagement and retention drift; draft re-attempt pathways and enrichment sequences for students the teacher has already placed |
+| The teacher must | Decide what enters the spacing rotation and why; review generated items for alignment and difficulty; control help settings to preserve effortful retrieval; verify that re-engagement is genuine; return recovered planning time to feedback, diagnosis, and relationship |
+| The learner must | Do every retrieval attempt unaided — the strain is not transferable |
+| Valid evidence standard | Performance on delayed, cumulative, unaided assessment (material from weeks ago, retrieved cold) trending upward against pre-tool baseline, plus transfer items the review system never showed |
 
 ## What Evidence to Demand
 
@@ -194,3 +222,16 @@ The dispositional rows — motivation, anxiety, self-concept — sit in this gro
 2. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
 3. Visible Learning MetaX. https://www.visiblelearningmetax.com/
 4. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 3.1 — The spacing effect crossover
+Build a two-line retention chart comparing massed vs. spaced practice. x-axis = days after study, y-axis = recall accuracy. Two curves: "Massed practice" (high immediate recall, steep decay, ends low) and "Spaced practice" (lower immediate recall, gentle decay, ends high/durable). The two lines must visibly cross — massed wins early, spaced wins late (highlight the crossover point). Channels: x = time, y = recall accuracy, color = practice type. zero baseline yes for the accuracy axis. Reference: mark the crossover. Annotate that the strain of spacing is the mechanism — lower immediate recall is the price of durable retention. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 3.2 — Division of labor: logistics vs. retrieval
+Build a node-edge systems diagram with a protected core. Central highlighted node "Learner's retrieval moment". Five perimeter nodes — "Scheduling intervals", "Varying retrieval prompts", "Keeping records", "Flagging drift", "Structuring second chances" — connect toward the core with BLOCKED edges (arrows that stop at a boundary ring, not crossing). One node "Teacher's selection judgment" connects with an arrow that CROSSES the boundary (labeled "crosses boundary"). Channels: position = perimeter vs. core, edge style = blocked vs. crossing, color = AI-logistics nodes vs. protected core vs. teacher judgment. Draw an explicit boundary ring around the core where AI arrows terminate. No axes, no zero baseline. Annotate that AI runs the separable logistics but never the retrieval act. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 3.3 — Reclaimed-hours accounting
+Build a before/after comparison of planning-period time allocation (two stacked bars). Left "Before adoption": Calendar-building (large), Item-writing (large), Student-work analysis (small). Right "After adoption": Calendar-building (small), Item-writing (small), Student-work analysis + feedback (large, ~2 hrs/week reclaimed, highlighted). Marks: stacked bars summing to the same total height. Channels: y = time allocation, color = task category (consistent across both bars), panel = before vs. after. zero baseline yes. Annotate the reclaimed ~2 hrs/week shifting into student-work analysis and feedback. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

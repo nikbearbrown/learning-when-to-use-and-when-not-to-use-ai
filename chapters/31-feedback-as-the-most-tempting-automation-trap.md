@@ -38,6 +38,9 @@ The working model for what makes feedback work comes from Hattie and Timperley (
 
 One sentence to carry out of this section: **feedback is not a vitamin whose value scales with dose and speed. It is a high-variance treatment whose sign depends on content.**
 
+![Feedback effect sizes against the 0.40 hinge — Hattie 0.70, Kluger-DeNisi 0.41, Wisniewski 0.48 — with the negative tail of harmful interventions](images/31-feedback-as-the-most-tempting-automation-trap-fig-01.png)
+*Figure 31.1 — Feedback distribution: centers and the negative tail*
+
 ## Why Content Decides Everything
 
 When feedback works, the mechanism is information a learner *uses* to close a gap: a clear picture of the goal, an accurate reading of current performance against it, and a usable next move — followed by the learner actually making that move.
@@ -50,7 +53,16 @@ Three implications fall out.
 
 **Speed is the wrong variable.** Latency matters at the margins — feedback on work the student no longer remembers writing is weaker — but a fast wrong-level comment is harm delivered promptly. The one dimension where AI wins automatically is the dimension least connected to the mechanism.
 
-<!-- → [TABLE: Three comment types on the same essay — columns: Comment text, Level (Hattie-Timperley), Attention directed to (Kluger-DeNisi), Predicted sign, Usable next move; rows: Person-directed praise, Task verdict without path, Task+process with next move — student should see that speed is constant across all three while mechanism and predicted sign vary completely] -->
+| Comment | Hattie-Timperley level | Attention directed to | Predicted sign | Usable next move? |
+|---|---|---|---|---|
+| "87% — great job, you're a strong writer!" | Self | Self | Harmful | No |
+| "Your thesis is unclear" | Task | Task | Mixed / weak | No |
+| "Your second paragraph asserts X but your quotation shows Y — reconcile them" | Task + process | Task | Helpful | Yes |
+
+*Speed is constant across all three — each is machine-generatable in under a minute. Mechanism and predicted sign vary completely.*
+
+![Three comments on one essay, identical speed, opposite predicted signs — praise versus task-and-process feedback](images/31-feedback-as-the-most-tempting-automation-trap-fig-02.png)
+*Figure 31.2 — Same essay, three comments, opposite signs*
 
 ## What AI Can Safely Do
 
@@ -75,6 +87,9 @@ The triage arithmetic answers the workload objection. AI drafts criteria-based c
 **Volume mistaken for value.** Ten times the comments with unchanged revision behavior is noise with a turnaround-time metric. And the plausible-surface problem makes the failure invisible: AI comments read like expert comments — Scarfe and colleagues showed AI-generated text passes expert readers undetected — so nobody notices the wrong-level, generic, or subtly inaccurate ones without deliberately looking.
 
 A compounding loop worth naming for the procurement context: if students draft with AI and the platform gives AI feedback on those drafts, the system is partly grading its own prose. Design must assume non-detection and move the stakes to supervised and revision-evidenced work.
+
+![Three parallel feedback-automation failure channels — unreviewed harm distribution, feedback becoming an answer channel, volume mistaken for value — each with its observable signature](images/31-feedback-as-the-most-tempting-automation-trap-fig-03.png)
+*Figure 31.3 — Three substitution failure modes and their signatures*
 
 <!-- → [DIAGRAM: Three substitution failure modes — three parallel vertical channels: (1) Unreviewed comments → Kluger-DeNisi distribution applies unfiltered → one-in-three harm rate; (2) Answer channel → Bastani +48/-17 signature → practice performance up, unassisted performance down; (3) Volume mistaken for value → plausible surface hides quality failures → revision behavior unchanged; each channel labeled with the failure's observable signature and what audit would catch it] -->
 
@@ -153,3 +168,16 @@ The compounding loop has no good answer yet: when drafts are partly AI-written a
 3. Steiss, J., et al. (2024). Comparing the quality of human and ChatGPT feedback of students writing. *Learning and Instruction*. https://escholarship.org/uc/item/6k61v37f
 4. Scarfe, P., et al. (2024). A real-world test of AI infiltration of a university examinations system. *PLOS ONE*, 19(6), e0305354.
 5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 31.1 — Feedback distribution: centers and the negative tail
+Build a horizontal dot/lollipop plot of three meta-analytic feedback centers on a Cohen's d x-axis, range 0 to 0.8, zero baseline. Three rows sorted descending: Hattie 2018 list value (0.70), Wisniewski et al. 2020 (0.48), Kluger & DeNisi 1996 (0.41, highlighted as the foundational center). Each row is a lead line from zero to a terminal dot. Draw a vertical reference line at d = 0.40 labeled "0.40 hinge". Add a secondary small horizontal proportion bar beneath the dots showing the negative tail — roughly one-third of feedback interventions decrease performance — split into a "decreased performance (~38%)" segment and the remainder, highlighting the harm segment. Annotate that the average conceals this distribution. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 31.2 — Same essay, three comments, opposite signs
+Build a three-column comparison panel (annotated example matrix). Each column is one machine-generatable comment on the same essay, delivered at identical speed (mark a shared "constant speed" band across the top). For each column show four stacked attribute cells: Hattie-Timperley level (Self / Task / Task+process), attention directed to (Self vs. Task), predicted sign (harmful / weak / helpful), and whether a usable next move is present (No / No / Yes). Order columns left-to-right from harm-prone praise to helpful task+process feedback. Use a diverging fill to encode predicted sign (harmful = warning color, helpful = positive color). Highlight the predicted-sign row as the payload. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 31.3 — Three substitution failure modes and their signatures
+Build a left-to-right flowchart with three parallel vertical failure channels, each a stacked sequence of nodes connected by arrows, with one channel using a block (barred) connector to mark collapse. Channel 1: unreviewed comments → harm distribution applies unfiltered → one-in-three harm outcome. Channel 2: feedback becomes answer channel → assisted up / unassisted down (Bastani +48 / -17 signature) → dependence. Channel 3: comment volume multiplies → plausible surface hides quality failures → revision behavior unchanged. Label each channel with its observable signature at the foot. Use arrows for progression and a distinct block glyph where the mechanism fails. Highlight the answer-channel signature. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

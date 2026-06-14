@@ -1,0 +1,36 @@
+<!--
+  The algorithmic Matthew effect loop and its exit
+  Book: Visible Learning x AI
+  Chapter: 25-prior-ability-as-context-not-destiny
+  Figure: 01
+  Type: cycle diagram with dotted exit branch (systems diagram)
+  Generated: 2026-06-08
+  Source: pantry/25-prior-ability-as-context-not-destiny-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The algorithmic Matthew effect loop and its exit — 25-prior-ability-as-context-not-destiny</title>
+<desc>An adaptive platform initialized on prior score serves easier content, generates less growth, and reads that as confirmation — a self-sealing loop that opens only through a structured exit (human override plus scheduled re-estimation).</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="25-prior-ability-as-context-not-destiny"
+    figure-number="01"
+    figure-title="The algorithmic Matthew effect loop and its exit"
+    figure-slug="the-algorithmic-matthew-effect-loop-and-"
+    figure-type="cycle diagram with dotted exit branch (systems diagram)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/25-prior-ability-as-context-not-destiny-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The algorithmic Matthew effect loop and its exit</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Self-sealing loop with a structured exit</text><line x1="379.698484809835" y1="126.21320343559643" x2="450.301515190165" y2="213.78679656440357" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="450.301515190165" y1="256.2132034355964" x2="379.698484809835" y2="343.7867965644036" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="320.301515190165" y1="343.7867965644036" x2="249.698484809835" y2="256.2132034355964" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="249.69848480983498" y1="213.7867965644036" x2="320.301515190165" y2="126.21320343559643" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="302" y="80" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Low prior</text><text x="350" y="113" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">score</text><rect x="432" y="210" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="480" y="225" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Lower-level</text><text x="480" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">content</text><text x="480" y="249" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">served</text><rect x="302" y="340" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="361" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Less growth</text><text x="350" y="373" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">generated</text><rect x="172" y="210.00000000000003" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="220" y="225.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Estimate</text><text x="220" y="237.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">confirmed or</text><text x="220" y="249.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">lowered</text>
+</svg>

@@ -1,0 +1,566 @@
+[
+  {
+    "chapterSlug": "01-hatties-visible-learning-and-the-ai-question",
+    "figureNumber": 1,
+    "figureTitle": "Bastani three-arm outcome",
+    "figureType": "statistical (grouped/paired bar chart)",
+    "priority": "Critical",
+    "desc": "Identical AI technology produces opposite learning outcomes depending on whether it is guardrailed: practice-period gain versus unassisted-exam change across three experimental arms.",
+    "subtitle": "Practice change vs. unassisted-exam change, signed against zero",
+    "render": "bar",
+    "data": {
+      "unit": "Performance change (signed)",
+      "items": [
+        { "label": "Unrestricted GPT-4: practice", "value": 48 },
+        { "label": "Unrestricted GPT-4: exam", "value": -17 },
+        { "label": "No-AI control", "value": 0 },
+        { "label": "Guardrailed tutor: practice", "value": 127, "highlight": true },
+        { "label": "Guardrailed tutor: exam", "value": 0 }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "01-hatties-visible-learning-and-the-ai-question",
+    "figureNumber": 2,
+    "figureTitle": "Two rulers for the same effect size",
+    "figureType": "comparison panels (two distribution panels)",
+    "priority": "Critical",
+    "desc": "The same d=0.40 reads as impressive or exceptional depending on whether it sits against Hattie's inflated synthesis distribution or Kraft's realistic field-experiment distribution.",
+    "subtitle": "One fixed d=0.40 marker on two distributions",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Hattie synthesis distribution",
+      "rightTitle": "Kraft field-experiment distribution",
+      "axisLabel": "Effect size (Cohen's d)",
+      "rows": [
+        { "left": "Small benchmark at 0.20", "right": "Small benchmark at 0.05" },
+        { "left": "Hinge benchmark at 0.40", "right": "Large benchmark at 0.20" },
+        { "left": "Large benchmark at 0.80", "right": "d=0.40 lands far in the high tail", "highlight": true },
+        { "left": "d=0.40 lands mid-pack", "right": "Distribution compressed near zero" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "01-hatties-visible-learning-and-the-ai-question",
+    "figureNumber": 3,
+    "figureTitle": "Four AI-feasibility classes across the list",
+    "figureType": "statistical (paired stacked bars)",
+    "priority": "Important",
+    "desc": "The 252 influences distribute unevenly across four AI-feasibility classes, and the high-impact subset is dominated by AUGMENTED rather than NATIVE — augmentation territory, not replacement territory.",
+    "subtitle": "All 252 influences vs. the above-hinge subset (122)",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "All 252 influences",
+      "rightTitle": "Above-hinge subset (122)",
+      "axisLabel": "Count by AI-feasibility class",
+      "rows": [
+        { "left": "AI-ADJACENT: 97 (38.5%)", "right": "AI-AUGMENTED: 81", "highlight": true },
+        { "left": "AI-AUGMENTED: 88 (34.9%)", "right": "AI-RESISTANT: 18" },
+        { "left": "AI-RESISTANT: 38 (15.1%)", "right": "AI-NATIVE: 14" },
+        { "left": "AI-NATIVE: 29 (11.5%)", "right": "AI-ADJACENT: 9" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "01-hatties-visible-learning-and-the-ai-question",
+    "figureNumber": 4,
+    "figureTitle": "Anatomy of one framework row",
+    "figureType": "annotated example (single row schematic)",
+    "priority": "Important",
+    "desc": "A single influence row carries seven columns of three epistemic kinds — measured, classified, and hypothesized — and the hypothesized cell must be visually unmistakable from the measured one.",
+    "subtitle": "Seven cells, three epistemic kinds",
+    "render": "annotated",
+    "data": {
+      "centerLabel": "One framework row",
+      "callouts": [
+        { "label": "Effect-size band (MEASURED)" },
+        { "label": "AI feasibility (CLASSIFIED)" },
+        { "label": "Human irreducibility (CLASSIFIED)" },
+        { "label": "Substitution risk (CLASSIFIED)" },
+        { "label": "Mechanism conflict (CLASSIFIED)" },
+        { "label": "Vendor activity (CLASSIFIED)" },
+        { "label": "Hypothetical AI effect (HYPOTHESIZED, quarantined)" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "02-the-below-hinge-exploration-bucket",
+    "figureNumber": 1,
+    "figureTitle": "Three bands inside one drawer",
+    "figureType": "comparison panels (three stacked range bands)",
+    "priority": "Critical",
+    "desc": "The 130 below-hinge influences are three structurally different kinds — modest-but-real, negligible, and harmful — distinguished by effect-size band and by whether each entry is a choice or a condition.",
+    "subtitle": "130 below-hinge influences split by effect-size band",
+    "render": "schematic",
+    "data": {
+      "layers": [
+        { "label": "Below-hinge band", "note": "81 influences, d 0.15-0.39" },
+        { "label": "Negligible band", "note": "32 influences, d 0.01-0.14" },
+        { "label": "Harmful band", "note": "17 influences, d -0.01 to -0.90; conditions vs. policy choices" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "02-the-below-hinge-exploration-bucket",
+    "figureNumber": 2,
+    "figureTitle": "Four routes to below-hinge",
+    "figureType": "conceptual map (four-route decision fan)",
+    "priority": "Critical",
+    "desc": "Every below-hinge number arrived by one of four distinct routes, each demanding an opposite response, so a single influence must be sorted by which route applies before any judgment.",
+    "subtitle": "One entry node fans to four route-to-response pairs",
+    "render": "conceptmap",
+    "data": {
+      "nodes": [
+        { "id": "entry", "label": "A below-hinge influence", "highlight": true },
+        { "id": "r1", "label": "Wrong ruler" },
+        { "id": "resp1", "label": "Re-judge on right ruler" },
+        { "id": "r2", "label": "Averaged-away moderator" },
+        { "id": "resp2", "label": "Chase the moderator" },
+        { "id": "r3", "label": "Not an intervention" },
+        { "id": "resp3", "label": "Reclassify as context" }
+      ],
+      "edges": [
+        { "from": "entry", "to": "r1", "kind": "arrow" },
+        { "from": "r1", "to": "resp1", "kind": "arrow" },
+        { "from": "entry", "to": "r2", "kind": "arrow" },
+        { "from": "r2", "to": "resp2", "kind": "arrow" },
+        { "from": "entry", "to": "r3", "kind": "arrow" },
+        { "from": "r3", "to": "resp3", "kind": "arrow" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "02-the-below-hinge-exploration-bucket",
+    "figureNumber": 3,
+    "figureTitle": "The fading worked-example sequence",
+    "figureType": "flowchart (three-stage horizontal progression)",
+    "priority": "Important",
+    "desc": "Worked examples should fade across three stages — full solution, completion problem, unsupported problem — with the expertise-reversal boundary marking where scaffolding must be retired.",
+    "subtitle": "Scaffolding shrinks; expertise-reversal divides stages 2 and 3",
+    "render": "flow",
+    "data": {
+      "stages": [
+        { "label": "Full worked solution", "num": 1 },
+        { "label": "Completion problem (blank to finish)", "num": 2 },
+        { "label": "Unsupported problem-solving", "num": 3 }
+      ],
+      "relations": ["arrow", "arrow"],
+      "relLabels": ["", "expertise-reversal boundary"],
+      "note": "Scaffolding region shrinks across the sequence"
+    }
+  },
+  {
+    "chapterSlug": "02-the-below-hinge-exploration-bucket",
+    "figureNumber": 4,
+    "figureTitle": "Phone-ban effect by subgroup",
+    "figureType": "statistical (bar chart by subgroup)",
+    "priority": "Supplementary",
+    "desc": "A mobile-phone-ban's average effect conceals strong heterogeneity — concentrated in low achievers, near-zero for high achievers — which the single mid-pack number hides entirely.",
+    "subtitle": "Beland & Murphy (2016), exam-gain effect size",
+    "render": "bar",
+    "data": {
+      "unit": "Cohen's d (effect size)",
+      "items": [
+        { "label": "Overall population", "value": 0.07 },
+        { "label": "Low achievers", "value": 0.14, "highlight": true },
+        { "label": "High achievers", "value": 0.0 }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "03-safe-augmentation-for-strong-learning-routines",
+    "figureNumber": 1,
+    "figureTitle": "The spacing effect crossover",
+    "figureType": "statistical (two-line retention chart)",
+    "priority": "Critical",
+    "desc": "Spaced practice produces lower immediate recall but dramatically higher delayed recall than massed practice — the two retention curves cross, and the strain is the mechanism.",
+    "subtitle": "Recall accuracy over days after study",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Massed practice",
+      "rightTitle": "Spaced practice",
+      "axisLabel": "Recall accuracy over time",
+      "rows": [
+        { "left": "High immediate recall", "right": "Lower immediate recall" },
+        { "left": "Steep decay", "right": "Gentle decay" },
+        { "left": "Wins early", "right": "Wins late", "highlight": true },
+        { "left": "Ends low", "right": "Ends high (durable)" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "03-safe-augmentation-for-strong-learning-routines",
+    "figureNumber": 2,
+    "figureTitle": "Division of labor: logistics vs. retrieval",
+    "figureType": "systems diagram (perimeter-and-core)",
+    "priority": "Important",
+    "desc": "AI runs the separable logistics around a practice routine — scheduling, varying, recording, flagging — while the learner's retrieval moment and the teacher's selection judgment stay structurally protected.",
+    "subtitle": "AI arrows stop at the boundary; teacher judgment crosses it",
+    "render": "network",
+    "data": {
+      "nodes": [
+        { "id": "core", "label": "Learner's retrieval moment", "highlight": true },
+        { "id": "sched", "label": "Scheduling intervals" },
+        { "id": "vary", "label": "Varying retrieval prompts" },
+        { "id": "record", "label": "Keeping records" },
+        { "id": "drift", "label": "Flagging drift" },
+        { "id": "second", "label": "Structuring second chances" },
+        { "id": "teacher", "label": "Teacher's selection judgment" }
+      ],
+      "edges": [
+        { "from": "sched", "to": "core", "kind": "block" },
+        { "from": "vary", "to": "core", "kind": "block" },
+        { "from": "record", "to": "core", "kind": "block" },
+        { "from": "drift", "to": "core", "kind": "block" },
+        { "from": "second", "to": "core", "kind": "block" },
+        { "from": "teacher", "to": "core", "kind": "arrow", "label": "crosses boundary" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "03-safe-augmentation-for-strong-learning-routines",
+    "figureNumber": 3,
+    "figureTitle": "Reclaimed-hours accounting",
+    "figureType": "statistical (before/after stacked bar)",
+    "priority": "Supplementary",
+    "desc": "The tool's value appears only when planning-period time is accounted for — hours shift away from calendar-building and item-writing toward student-work analysis and feedback.",
+    "subtitle": "Planning-period time before vs. after an automated review tool",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Before adoption",
+      "rightTitle": "After adoption",
+      "axisLabel": "Planning-period time allocation",
+      "rows": [
+        { "left": "Calendar-building (large)", "right": "Calendar-building (small)" },
+        { "left": "Item-writing (large)", "right": "Item-writing (small)" },
+        { "left": "Student-work analysis (small)", "right": "Student-work analysis + feedback (large, ~2 hrs/week reclaimed)", "highlight": true }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "04-augmentation-with-a-metacognitive-gate",
+    "figureNumber": 1,
+    "figureTitle": "Who does the transforming?",
+    "figureType": "flowchart (two-path causal fork)",
+    "priority": "Critical",
+    "desc": "When the student builds structure first and AI critiques it, transfer appears on a cold assessment; when AI generates structure and the student fills it in, transfer does not — the fork is who performs the transforming act.",
+    "subtitle": "Two paths from one transforming decision",
+    "render": "flow",
+    "data": {
+      "stages": [
+        { "label": "Fork: who does the transforming?", "num": 1 },
+        { "label": "Student builds structure / AI generates structure", "num": 2 },
+        { "label": "AI evaluates, student revises / student fills in", "num": 3 },
+        { "label": "Transfer appears vs. transfer blocked on cold assessment", "num": 4 }
+      ],
+      "relations": ["arrow", "arrow", "block"],
+      "relLabels": ["", "", "transfer blocked on Path B"],
+      "note": "Path A builds transfer; Path B blocks it"
+    }
+  },
+  {
+    "chapterSlug": "04-augmentation-with-a-metacognitive-gate",
+    "figureNumber": 2,
+    "figureTitle": "The self-regulation control loop",
+    "figureType": "cycle (closed control loop)",
+    "priority": "Critical",
+    "desc": "Metacognition is a closed control cycle — set goal, attempt, monitor, adjust, evaluate — and the learner must run every segment, or an external regulator runs the loop while the learner's capacity atrophies.",
+    "subtitle": "The learner powers every segment",
+    "render": "cycle",
+    "data": {
+      "stages": [
+        { "label": "Set goal" },
+        { "label": "Attempt" },
+        { "label": "Monitor progress" },
+        { "label": "Adjust" },
+        { "label": "Evaluate" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "04-augmentation-with-a-metacognitive-gate",
+    "figureNumber": 3,
+    "figureTitle": "The fading schedule across four essays",
+    "figureType": "timeline (declining-scaffold progression)",
+    "priority": "Important",
+    "desc": "Scaffold intensity must decline across successive tasks — full scaffold, reduced, student-self-critique-first, AI-as-check-only — so the prompts thin out as the learner demonstrates unprompted self-monitoring.",
+    "subtitle": "AI scaffold contracts as learner-led work expands",
+    "render": "timeline",
+    "data": {
+      "axisLabel": "Four successive essays",
+      "markers": [
+        { "label": "Full scaffold", "sub": "Essay 1" },
+        { "label": "Reduced scaffold", "sub": "Essay 2" },
+        { "label": "Student self-critiques first", "sub": "Essay 3" },
+        { "label": "AI used only to check the student's critique", "sub": "Essay 4" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "05-high-impact-self-regulation-without-outsourcing-thinking",
+    "figureNumber": 1,
+    "figureTitle": "Description vs. recipe",
+    "figureType": "comparison panels (two-column contrast)",
+    "priority": "Critical",
+    "desc": "The same d=1.33 warrants opposite readings — a correlational description of a student asset (judgment accuracy) versus a vendor's causal claim of a purchasable payoff.",
+    "subtitle": "One d=1.33 value, two structurally different readings",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "What the number measured",
+      "rightTitle": "What vendors claim",
+      "axisLabel": "Shared anchor: d = 1.33",
+      "rows": [
+        { "left": "Correlational / descriptive finding", "right": "Causal effect / expected payoff" },
+        { "left": "Judgment accuracy as a pre-existing asset", "right": "A manufactured, purchasable outcome" },
+        { "left": "Two quantities tracking together", "right": "Input drives output bar upward" },
+        { "left": "Legitimate reading", "right": "Misreading", "highlight": true }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "05-high-impact-self-regulation-without-outsourcing-thinking",
+    "figureNumber": 2,
+    "figureTitle": "The calibration flywheel",
+    "figureType": "cycle (flywheel loop with error node)",
+    "priority": "Critical",
+    "desc": "A self-regulated learner runs a loop — predict, plan, attempt, monitor, evaluate, adjust — where each cycle improves the work and sharpens the model of self, and the prediction-error is the loop's most valuable output.",
+    "subtitle": "Prediction-error is the curriculum",
+    "render": "cycle",
+    "data": {
+      "stages": [
+        { "label": "Predict" },
+        { "label": "Plan" },
+        { "label": "Attempt" },
+        { "label": "Monitor" },
+        { "label": "Evaluate" },
+        { "label": "Adjust" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "05-high-impact-self-regulation-without-outsourcing-thinking",
+    "figureNumber": 3,
+    "figureTitle": "Safe role vs. forbidden substitution",
+    "figureType": "structural schematic (paired-column ladder)",
+    "priority": "Important",
+    "desc": "At each loop segment AI has a legitimate logistics-and-feedback role and a forbidden first-person substitution, and the gate runs cleanly between them.",
+    "subtitle": "Safe AI role (left) vs. forbidden substitution (right), per segment",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Safe AI role (logistics/feedback)",
+      "rightTitle": "Forbidden first-person substitution",
+      "axisLabel": "Loop segment",
+      "rows": [
+        { "left": "Prediction: log and surface patterns", "right": "Make the prediction for the learner" },
+        { "left": "Gap confrontation: present the gap", "right": "Explain away the gap", "highlight": true },
+        { "left": "Reflection: prompt structured review", "right": "Reflect on the learner's behalf" },
+        { "left": "Efficacy building: track mastery evidence", "right": "Supply borrowed confidence" },
+        { "left": "Peer teaching: organize logistics", "right": "Do the teaching act" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "06-context-signals-ai-can-read-but-not-repair",
+    "figureNumber": 1,
+    "figureTitle": "Detection pipeline vs. response pipeline",
+    "figureType": "systems diagram (two-pipeline flow with single handoff)",
+    "priority": "Critical",
+    "desc": "AI completes the detection pipeline entirely (context variables, model, risk score, flag) but touches nothing in the response pipeline; the two systems connect only at human review.",
+    "subtitle": "Single handoff: flag to human review",
+    "render": "network",
+    "data": {
+      "nodes": [
+        { "id": "ctx", "label": "Context variables" },
+        { "id": "model", "label": "Model" },
+        { "id": "score", "label": "Risk score" },
+        { "id": "flag", "label": "Flag", "highlight": true },
+        { "id": "review", "label": "Human review" },
+        { "id": "decision", "label": "Instructional decision" },
+        { "id": "support", "label": "Support / trajectory change" }
+      ],
+      "edges": [
+        { "from": "ctx", "to": "model", "kind": "arrow" },
+        { "from": "model", "to": "score", "kind": "arrow" },
+        { "from": "score", "to": "flag", "kind": "arrow" },
+        { "from": "flag", "to": "review", "kind": "arrow", "label": "only handoff" },
+        { "from": "review", "to": "decision", "kind": "arrow" },
+        { "from": "decision", "to": "support", "kind": "arrow" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "06-context-signals-ai-can-read-but-not-repair",
+    "figureNumber": 2,
+    "figureTitle": "Working-memory load reduction in a task",
+    "figureType": "annotated example (before/after structural schematic)",
+    "priority": "Important",
+    "desc": "The group's one genuine lever is task redesign — the same multi-step procedure made to fit a narrower working-memory channel by externalizing steps and adding an adjacent worked example.",
+    "subtitle": "Before: four steps held in mind. After: steps externalized",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Before (overload)",
+      "rightTitle": "After (redesigned)",
+      "axisLabel": "Same multi-step task",
+      "rows": [
+        { "left": "Four steps held simultaneously in mind", "right": "Steps externalized as an ordered list", "highlight": true },
+        { "left": "No external supports", "right": "Adjacent worked example beside the problem" },
+        { "left": "Split attention", "right": "Split attention removed" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "07-human-relationships-ai-must-not-replace",
+    "figureNumber": 1,
+    "figureTitle": "The asymmetry of trust",
+    "figureType": "statistical (two-timeline trajectory chart)",
+    "priority": "Critical",
+    "desc": "Authentic relational investment compounds slowly into high trust, while a simulated relationship's metrics rise then collapse below the starting baseline in a single discovery event.",
+    "subtitle": "Slow compounding vs. instantaneous collapse below baseline",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Authentic relationship",
+      "rightTitle": "Simulated relationship",
+      "axisLabel": "Trust over time",
+      "rows": [
+        { "left": "Low start", "right": "Metrics rise early" },
+        { "left": "Compounds in small steps", "right": "Single discovery event" },
+        { "left": "Gradual upward climb", "right": "Near-vertical collapse", "highlight": true },
+        { "left": "Ends high", "right": "Ends below baseline (negative)" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "07-human-relationships-ai-must-not-replace",
+    "figureNumber": 2,
+    "figureTitle": "AI on the perimeter, human at the event",
+    "figureType": "systems diagram (before/after perimeter around a protected core)",
+    "priority": "Important",
+    "desc": "AI's legitimate role sits before and after the human relational event — translating, freeing time, detecting gaps, preparing, documenting — but never constitutes the event itself.",
+    "subtitle": "AI arrows stop at the boundary; only human presence crosses",
+    "render": "network",
+    "data": {
+      "nodes": [
+        { "id": "core", "label": "Human relational event", "highlight": true },
+        { "id": "translate", "label": "Translate communication" },
+        { "id": "free", "label": "Free relational time" },
+        { "id": "detect", "label": "Detect contact gaps" },
+        { "id": "prepare", "label": "Prepare / rehearse" },
+        { "id": "document", "label": "Document outcomes" },
+        { "id": "followup", "label": "Answer transactional follow-ups" }
+      ],
+      "edges": [
+        { "from": "translate", "to": "core", "kind": "block" },
+        { "from": "free", "to": "core", "kind": "block" },
+        { "from": "detect", "to": "core", "kind": "block" },
+        { "from": "prepare", "to": "core", "kind": "block" },
+        { "from": "core", "to": "document", "kind": "block" },
+        { "from": "core", "to": "followup", "kind": "block" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "08-instructional-clarity-with-moderate-substitution-risk",
+    "figureNumber": 1,
+    "figureTitle": "Two halves, two owners, two learners",
+    "figureType": "structural schematic (split panel with two learner rows)",
+    "priority": "Critical",
+    "desc": "Instructional clarity splits into an AI-delegable planned half and a human-only live half, and the same delegation builds the live half for a novice through struggle but is mere time-saving for an expert.",
+    "subtitle": "Planned half (delegable) vs. live half (human-only)",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Planned half (AI-delegable)",
+      "rightTitle": "Live half (human-only)",
+      "axisLabel": "Same delegation, two learners",
+      "rows": [
+        { "left": "Script, examples, organizer, misconception list", "right": "Check, detect, adjust, re-explain" },
+        { "left": "Novice: planned-half work builds the live half", "right": "Build-arrow crosses through struggle", "highlight": true },
+        { "left": "Expert: planned half is detached time-cost", "right": "Live half already built; pure time arbitrage" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "08-instructional-clarity-with-moderate-substitution-risk",
+    "figureNumber": 2,
+    "figureTitle": "The live-half feedback loop",
+    "figureType": "cycle (real-time feedback loop with emphasized detection node)",
+    "priority": "Important",
+    "desc": "Expert clarity is a real-time loop — explain, check, detect, adjust, re-explain — whose detection step is the heart and which a script-bound teacher structurally cannot run.",
+    "subtitle": "Detect is the heart; a script reaches explain but is blocked from detect",
+    "render": "cycle",
+    "data": {
+      "stages": [
+        { "label": "Explain" },
+        { "label": "Check" },
+        { "label": "Detect (the heart)" },
+        { "label": "Adjust" },
+        { "label": "Re-explain" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "09-ai-as-expert-task-analyst",
+    "figureNumber": 1,
+    "figureTitle": "Draft-then-correct workflow and the delta log",
+    "figureType": "flowchart (two-path comparison with branch output)",
+    "priority": "Critical",
+    "desc": "Expert free recall yields an incomplete curriculum, but an AI draft corrected by the expert converts extraction into editing — and the corrections themselves (the delta log) are the curriculum's most valuable column.",
+    "subtitle": "Path A free recall vs. Path B AI draft then expert correction",
+    "render": "flow",
+    "data": {
+      "stages": [
+        { "label": "Path A: expert free recall", "num": 1 },
+        { "label": "Incomplete curriculum (omitted tacit steps)", "num": 2 },
+        { "label": "Path B: AI draft then expert correction", "num": 3 },
+        { "label": "Validated curriculum + delta log (most valuable output)", "num": 4 }
+      ],
+      "relations": ["arrow", "arrow", "arrow"],
+      "relLabels": ["weaker route", "", "delta log branches off correction"],
+      "note": "Corrections surface tacit knowledge only against a concrete wrong thing"
+    }
+  },
+  {
+    "chapterSlug": "09-ai-as-expert-task-analyst",
+    "figureNumber": 2,
+    "figureTitle": "Four rows, one repaired model",
+    "figureType": "conceptual map (central node with four repair spokes)",
+    "priority": "Important",
+    "desc": "All four influences repair part of one double-blindness — an accurate model of the task and of the learner's current knowledge — with each row fixing a different component.",
+    "subtitle": "Four repair spokes into one shared model",
+    "render": "conceptmap",
+    "data": {
+      "nodes": [
+        { "id": "center", "label": "Accurate model of task and learner", "highlight": true },
+        { "id": "cta", "label": "CTA: repairs task model" },
+        { "id": "piaget", "label": "Piagetian matching: repairs readiness model" },
+        { "id": "concept", "label": "Conceptual change: repairs prior-knowledge model" },
+        { "id": "help", "label": "Help seeking: learner-run repair" }
+      ],
+      "edges": [
+        { "from": "cta", "to": "center", "kind": "arrow" },
+        { "from": "piaget", "to": "center", "kind": "arrow" },
+        { "from": "concept", "to": "center", "kind": "arrow" },
+        { "from": "help", "to": "center", "kind": "arrow" }
+      ]
+    }
+  },
+  {
+    "chapterSlug": "09-ai-as-expert-task-analyst",
+    "figureNumber": 3,
+    "figureTitle": "The Bastani curve in a help channel",
+    "figureType": "statistical (two-line divergence chart)",
+    "priority": "Supplementary",
+    "desc": "An executive-help AI channel lifts the supervised metric (practice performance) while the unaided metric (proctored certification) flattens then drops — the same assisted/unassisted divergence in domain-specific form.",
+    "subtitle": "Practice performance vs. unaided certification over weeks",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Practice / supervised performance",
+      "rightTitle": "Unaided proctored certification",
+      "axisLabel": "Score over weeks of AI-channel use",
+      "rows": [
+        { "left": "Climbs steadily", "right": "Flat early" },
+        { "left": "Misleading supervised gain", "right": "Declines toward the right", "highlight": true },
+        { "left": "Rising line", "right": "Falling line (real harm)" }
+      ]
+    }
+  }
+]

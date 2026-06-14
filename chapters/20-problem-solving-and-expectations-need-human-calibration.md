@@ -32,6 +32,9 @@ That is the partial conflict flag. AI's default behavior — helpfulness on requ
 
 The deep symmetry: both mechanisms die from premature certainty. The rescue is certainty about the *solution*. The prediction is certainty about the *student*. Calibration — of difficulty, of belief — is the practice of withholding certainty while the evidence is still arriving. Machines are bad at withholding; that is what they are for. So the humans must do it on purpose.
 
+![Two-column comparison showing problem-solving teaching and teacher expectations as the same calibration problem, each with mechanism, opposing AI default, and resulting conflict](images/20-problem-solving-and-expectations-need-human-calibration-fig-02.png)
+*Figure 20.2 — Two parallel calibration problems*
+
 <!-- → [DIAGRAM: Two parallel calibration problems — left column "Problem-solving teaching": mechanism = calibrated productive struggle; AI default = helpfulness on request; conflict = rescue removes the struggle; right column "Teacher expectations": mechanism = tuned belief → opportunity allocation; AI default = prediction from priors; conflict = prediction manufactures the expectation; bottom row for both: "Calibration = withholding certainty while evidence arrives"] -->
 
 ## The Influences
@@ -46,6 +49,9 @@ The leverage is the causal slice, and the mediating channel is behavioral, not t
 
 The rows interlock at the point of André's unease: *who gets the rich task* is simultaneously a problem-solving decision and an expectations decision. Every routing of demand is a bet about a student, and the bets compound.
 
+![Horizontal bar chart of two influences against the 0.40 hinge: problem-solving teaching at 0.68 and teacher expectations at 0.43, both above the line with a gap between them](images/20-problem-solving-and-expectations-need-human-calibration-fig-03.png)
+*Figure 20.3 — Two influences against the Hattie hinge*
+
 ## Why the Struggle Must Stay Intact
 
 The skill being built is what to do when you do not know what to do — and that skill is constructed only in its own presence. A student who is rescued at the first stall practices being rescued. The research grammar behind productive struggle is consistent: attempting before instruction, even attempting *wrong*, prepares the mind to learn from the resolution. The struggle generates the questions that the explanation then answers.
@@ -59,6 +65,9 @@ But the same analysis locates AI's legitimate seat: *upstream* of the struggle. 
 The expectations mechanism is opportunity allocation, which means it is auditable — expectations leave fingerprints in observable behavior: who got called on, who got the follow-up probe, who got the rich task versus the worksheet. This is where AI helps, because fingerprints are exactly the kind of distributed, high-volume pattern humans cannot see in themselves and machines count effortlessly.
 
 And it is where AI harms, because a *predicted proficiency* column is a manufactured expectation with a weekly refresh — prior achievement laundered into prophecy and handed to the person whose openness was the influence. Route rich tasks by prediction and the loop closes by itself: the predicted-low student receives the scaffolded routine, never meets the demanding task, learns less of the problem-solving repertoire, performs as predicted, and the model — vindicated — predicts lower still. Chapter 18 called this the labeling machine. Here it has a curriculum attached.
+
+![Cycle diagram of the self-sealing prediction loop — predicted low, scaffolded routine, less repertoire built, performs as predicted, prediction lowered — beside an open evidence-updating chain for the high-expectation teacher](images/20-problem-solving-and-expectations-need-human-calibration-fig-01.png)
+*Figure 20.1 — The self-sealing prediction loop vs. the provisional alternative*
 
 <!-- → [DIAGRAM: Prediction loop — circular flow: "Student predicted low" → "Receives scaffolded routine" → "Less problem-solving repertoire built" → "Performs as predicted" → "Prediction updated lower" → back to start; adjacent to loop, linear chain showing high-expectation teacher alternative: "Demand for all" → "Support calibrated in the moment" → "Performance data updates belief provisionally" — student should see why the prediction loop is self-sealing in a way the teacher's provisional belief is not] -->
 
@@ -147,3 +156,14 @@ The task factory's kill log made teachers better task designers. Does the factor
 **Challenge**
 
 9. *(Open — The hint ladder reversal)* The Still Puzzling section raises the possibility that a well-tuned machine hint policy might be better calibrated than a tired human teacher's at 1:45 p.m. Construct the strongest possible argument that AI hint delivery during problem solving should eventually *replace* rather than merely inform human hint calibration — that the machine's consistency and error-history data make it the superior instrument. State the mechanism, identify the evidence that would confirm it, and name the falsification condition. Then evaluate honestly: what does the Liljedahl classroom-structure literature say about whether hint timing is the binding constraint, or whether the social and accountability structures of the thinking classroom are doing work that no hint policy — human or machine — can replicate?
+
+## Prompts
+
+### Figure 20.1 — The self-sealing prediction loop vs. the provisional alternative
+Build a closed-loop cycle diagram paired with an open linear chain. The cycle has five nodes connected by arrows returning to the start: "Student predicted low" → "Receives scaffolded routine" → "Less problem-solving repertoire built" → "Performs as predicted" → "Prediction updated lower" → back to start. Render the closing arrow prominently so the self-sealing nature reads instantly. Beside the cycle, lay out a left-to-right linear chain with three nodes and a terminal open arrow (no return): "Demand for all" → "Support calibrated in the moment" → "Performance data updates belief provisionally" →. Annotate the cycle as "self-confirming" and the chain as "open, never seals." Use distinct fills for the two structures. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 20.2 — Two parallel calibration problems
+Build a two-panel comparison with a shared base row spanning both columns. Left column titled "Problem-solving teaching," right column titled "Teacher expectations." Each column holds three stacked rows aligned across panels: Mechanism, AI default, Conflict — left = (calibrated productive struggle / helpfulness on request / rescue removes the struggle), right = (tuned belief allocates opportunity / prediction from priors / prediction manufactures the expectation). Highlight no single row; instead emphasize the shared base row spanning the full width: "Calibration = withholding certainty while evidence arrives." Use a clear vertical divider between panels and consistent row backgrounds. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 20.3 — Two influences against the Hattie hinge
+Build a horizontal bar chart, two bars, value range 0 to ~0.8 in Cohen's d. Bars: "Problem-solving teaching" = 0.68 (highlighted), "Teacher expectations" = 0.43. Zero baseline at left. Add a vertical reference line at d = 0.40 labeled "0.40 hinge"; both bars cross it. Sort descending by value. Annotate the gap between the two bars to make the spread legible. Label each bar with its numeric value at the bar end. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

@@ -48,7 +48,16 @@ How does the same literature yield Hattie's 0.50? Three honest answers. First, a
 
 The reconciliation is not a compromise. It is a mechanism claim: **highlighting works exactly to the degree that it forces discrimination, and not at all when it doesn't.** Both literatures agree. The disagreement was only ever about how often real-world highlighting forces discrimination — and the answer, untrained and unguided, is rarely.
 
-<!-- → [TABLE: Three conditions with outcome profile — (1) constrained marking (one sentence per paragraph, justified): selection quality forces discrimination, meaningful benefit; (2) free marking (paint the page): minimal benefit over plain reading, Dunlosky low-utility rating; (3) AI pre-marked text: discrimination removed, fluency illusion pre-installed. Columns: mechanism running? judgment of learning calibrated? Dunlosky rating? Hattie contribution? The table should make the three-condition comparison unmistakable.] -->
+![Three marking conditions compared — constrained marking runs the discrimination mechanism with no illusion, free marking is minimal, AI pre-marked removes discrimination and pre-installs the fluency illusion](images/36-highlighting-underlining-and-false-fluency-fig-03.png)
+*Figure 36.3 — Three marking conditions and the mechanism profile*
+
+| Condition | Discrimination mechanism running? | Fluency illusion installed? | Dunlosky utility | Outcome |
+|---|---|---|---|---|
+| Constrained marking (one sentence per paragraph, justified) | Yes — forced choice | No | The bright-spot version | Meaningful benefit |
+| Free marking (paint the page) | Minimal | Mild | Low utility | Little or no benefit over plain reading |
+| AI pre-marked text | No — choosing already done | Yes (pre-installed) | Below low utility | Engine removed, exhaust kept |
+
+*The three-condition comparison reads from healthy to illusory: discrimination runs only under constraint, and AI pre-marking deletes it while shipping the failure mode.*
 
 ---
 
@@ -63,6 +72,9 @@ Constraint creates the value. An unlimited highlighter requires no choices, and 
 And here the second mechanism matters, because highlighting's failure mode is among the most instructive in the study-skills literature. Marked text is *easier to reread*, and ease of processing is what the cognitive system uses as its signal of knowing. Koriat and Bjork (2005) named these **illusions of competence**: the learner's judgment of learning is driven by fluency at study time, which is at best weakly related to retrieval strength later. Rereading one's highlights is a fluency machine — each pass makes the text smoother, the smoothness reads as mastery, and the student walks into the exam having repeatedly experienced the *feeling* of knowing without once testing the *fact* of it.
 
 This is why the marker rates low while feeling indispensable. It manufactures its own evidence of effectiveness, in yellow.
+
+![Two-path mechanism diagram — constrained marking forces a judgment and is tested by closed-book retrieval (illusion broken), while free or pre-marked text is reread until confidence rises (retrieval untested)](images/36-highlighting-underlining-and-false-fluency-fig-02.png)
+*Figure 36.2 — Two paths: discrimination retained vs. fluency illusion*
 
 <!-- → [DIAGRAM: Two-path diagram — Path A (constrained marking): student judges importance → marks one sentence per paragraph → reviews by closing book and retrieving. At the retrieval stage, label: "fluency illusion broken; storage strength tested." Path B (free or pre-marked): text comes highlighted → student rereads → rereading feels smooth → confidence rises. At the quiz stage, label: "fluency was the signal; retrieval is the test; the gap is the illusion."] -->
 
@@ -107,6 +119,9 @@ Dale began by conceding the new instructor's point in public: the seminar had be
 The redesigned module ran on scarcity and retrieval. Students read with a hard three-highlights-per-page limit, each mark requiring a one-line justification; the platform's AI critiqued selections against passage structure overnight — gently, and in the aggregate, giving each instructor a section-level report of selection quality. Twice a week, students faced closed-book prompts generated from their own marks. The contrast exercise became a section favorite: two pre-marked versions of the same anatomy passage, one marking the argument, one marking the memorable trivia, argued over in pairs.
 
 Mid-semester, the platform reports showed the thing Dale had never been able to measure on paper: selection quality rising across ten weeks — students' marks migrating from vivid details toward structural claims [pilot-internal observation; interpret cautiously].
+
+![Two-line time series over ten weeks — selection quality rising under constraint plus AI critique, staying flat or declining in sections where Smart Highlights pre-marks are visible](images/36-highlighting-underlining-and-false-fluency-fig-01.png)
+*Figure 36.1 — Selection quality over ten weeks*
 
 <!-- → [CHART: Two lines across ten weeks — Line A: proportion of marks on claims versus examples/trivia, rising from week one to week ten; Line B: proportion of marks in sections where Smart Highlights was on (pre-marks visible), flat or declining. The visual point: constraint plus critique produces measurable discrimination improvement; pre-marks suppress it.] -->
 
@@ -205,3 +220,16 @@ Evidence that reading AI pre-marked text produces equal or better *novel-text* i
 3. Bjork, R. A., Dunlosky, J., & Kornell, N. (2013). Self-regulated learning: Beliefs, techniques, and illusions. *Annual Review of Psychology*, 64, 417–444.
 4. Melumad, S., & Yun, J. H. (2025). *PNAS Nexus*, 4(10), pgaf316.
 5. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 36.1 — Selection quality over ten weeks
+Build a two-line time series. X-axis: weeks 1 through 10. Y-axis: proportion of student marks landing on structural claims (0 to 1, zero baseline). Line A "Constrained + AI critique": starts low at week 1, rises steadily to high by week 10. Line B "Pre-marked (Smart Highlights visible)": starts at the same low point, stays flat or declines slightly. Use distinct line colors/styles; highlight Line A as the favorable condition. Mark week markers at 1, 4, 7, 10 with the divergence widening visibly after week 4. Because the data is illustrative pilot observation, label the y-axis as proportion and note illustrative. Annotate the growing gap between the lines. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 36.2 — Two paths: discrimination retained vs. fluency illusion
+Build a two-path mechanism diagram with divergent terminal states. Left path "Constrained marking": judge importance → mark one sentence per paragraph → closed-book retrieval review → terminal "illusion broken, storage tested" (highlighted as the healthy endpoint). Right path "Free / pre-marked": text arrives already highlighted → reread → rereading feels smooth, confidence rises → terminal "retrieval untested — the gap is the illusion" (highlighted as the failure endpoint). Both paths begin from the same act of marking that splits into two routes. Use downward arrows within each path and contrasting fills for the two terminal states. The structural point: same surface behavior, divergent endpoints. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 36.3 — Three marking conditions and the mechanism profile
+Build a three-row condition matrix with two evaluated columns: "Discrimination running?" and "Fluency illusion installed?". Rows top to bottom from healthy to illusory: Constrained marking (yes / no), Free marking (minimal / mild), AI pre-marked (no / yes — pre-installed, highlighted). Encode the two columns as small status cells — positive fill for desirable states (discrimination yes, illusion no), warning fill for undesirable (discrimination no, illusion yes). Highlight the AI pre-marked row as the worst profile: mechanism off, illusion on. The structural point: only constrained marking runs the mechanism without the illusion. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

@@ -38,6 +38,9 @@ The group rule, in one line: AI may inform the judgment; it must not pre-form it
 
 ## The Two Rows
 
+![Horizontal dot plot against the 0.40 hinge: deep motivation and approach (0.69) and teachers not labeling students (0.61) both sit above the hinge](images/18-motivation-and-labels-as-human-judgment-problems-fig-03.png)
+*Figure 18.3 — Two above-hinge influences with effect sizes*
+
 Deep motivation and approach (d = 0.69) — rank 33. The construct comes from the student-approaches-to-learning tradition — Marton and Säljö's deep/surface distinction, carried into measurement by Biggs and others. A deep approach means engaging material for meaning: connecting it to prior knowledge, driven by genuine interest. A surface approach means minimum-effort reproduction, driven by fear or compliance. The honesty note is structural: this is a disposition, not an intervention, and its evidence base is heavily correlational — students with deep orientations achieve more, and achievement plausibly feeds the orientation in return. Nobody can purchase d = 0.69. The row tells you where leverage lives, and the research on where deep approaches come from points consistently at slow human variables: teaching that demands and rewards meaning-making, assessment that cannot be satisfied by reproduction, and academic identity formed in relationships with adults who treat the student as a thinker.
 
 Teachers not labeling students (d = 0.61) — rank 44. The strangest entry in the dataset's top fifty: an absence coded as an influence. Its evidence base is the expectancy literature read in reverse — Rosenthal and Jacobson's Pygmalion studies and their long, genuinely contested afterlife. [contested — the original study's statistics drew decades of criticism; meta-analyses find expectancy effects real but smaller than the legend, and concentrated in early grades and stigmatized groups] The mechanism is not mystical transmission. Labels change teacher behavior — task rigor offered, wait time given, feedback depth, warmth, grouping — and the changed behavior changes learning. Steele's stereotype-threat research adds the student's side: a label in the air degrades the performance of those it targets, which then confirms the label. The influence's d says: classrooms where teachers resist fixing students into categories outperform those where they do not.
@@ -51,6 +54,9 @@ Run the mechanism for each row, because they interlock.
 Deep motivation works the way compound interest works. A student approaching material for meaning processes it more elaborately — connecting, questioning, organizing, the operations that produce durable and transferable learning — which yields better outcomes, which makes meaning-seeking feel worth its higher cost, which deepens the orientation. The engine's inputs are mostly environmental: tasks worth engaging deeply, assessment that detects depth, and the load-bearing input — adults who know the student well enough to connect the work to what the student actually cares about. Notice the grain size. *Knowing what a specific seventeen-year-old cares about* is not a data field. It is the product of conversations.
 
 Not-labeling works by keeping a feedback loop open. A prediction about a student, once it hardens into a category, starts allocating that student's opportunities: who gets the demanding version of the task, who gets called on for the hard question, whose wrong answer gets a follow-up probe versus a polite redirect. The student reads the allocation perfectly — students are professional readers of teacher expectation — and adjusts effort accordingly. The genius of "not labeling" as an influence is that it names the discipline rather than the sentiment. The teacher still predicts; prediction is unavoidable, it is what expertise does. But she holds every prediction provisional, checked against fresh evidence, and never lets it travel ahead of the student into rooms the student hasn't entered yet.
+
+![A closed-loop cycle: teacher forms a prediction, task rigor and wait time are allocated accordingly, the student reads the allocation and adjusts effort, the outcome confirms or challenges the prediction — shown in an open version updated by evidence and a closed version reinforced regardless, with a label as the switch](images/18-motivation-and-labels-as-human-judgment-problems-fig-01.png)
+*Figure 18.1 — Expectancy feedback loop: open vs. closed*
 
 <!-- → [DIAGRAM: Expectancy feedback loop — start node: teacher forms prediction; arrow to: task rigor and wait time allocated accordingly; arrow to: student reads allocation, adjusts effort; arrow to: outcome confirms or challenges prediction; arrow back to start. Label two versions of the loop: "open" (prediction updated by fresh evidence) and "closed" (prediction reinforced regardless of evidence). The label converts an open loop into a closed one.] -->
 
@@ -81,6 +87,9 @@ Vary the work toward surfaced interests. Generate task variants and entry points
 ## What Happened at Eastgate
 
 The SST adopted the platform. The configuration meeting took longer than the purchase.
+
+![Two-branch comparison of the same platform: the vendor default labels at scale with persistent motivation chips, school-wide tier visibility, auto-referral, and no blind grading, while the adopted settings inform only — expiring flags, triage-only visibility, no persistent classifications, and an active blind-grading module](images/18-motivation-and-labels-as-human-judgment-problems-fig-02.png)
+*Figure 18.2 — Same tool, two configurations: default vs. adopted*
 
 <!-- → [INFOGRAPHIC: Configuration decision tree — the rep's default settings on the left (persistent chips, school-wide tier visibility, auto-referral); the SST's adopted settings on the right (expiring flags, triage-only visibility, no persistent classifications, blind-grading module active). Each branch labeled with which influence it serves or violates. Student should see the same tool producing two opposite configurations.] -->
 
@@ -177,3 +186,17 @@ Deep motivation forms in relationships, and relationships take adult time the de
 3. Marton, F., & Säljö, R. (1976). On qualitative differences in learning. British Journal of Educational Psychology, 46(1), 4–11.
 4. Steele, C. M. (2010). Whistling Vivaldi. W. W. Norton.
 5. Biggs, J., & Tang, C. (2011). Teaching for Quality Learning at University (4th ed.). Open University Press.
+
+## Prompts
+
+### Figure 18.1 — Expectancy feedback loop: open vs. closed
+
+Build a closed-loop cycle diagram with four nodes connected by arrows back to the start: (1) Teacher forms a prediction, (2) Task rigor and wait time allocated, (3) Student reads allocation, adjusts effort, (4) Outcome confirms or challenges prediction. Render the loop in two labeled versions side by side or as a toggle: "Open" (the arrow from outcome back to prediction is labeled "updated by evidence") and "Closed" (the same arrow labeled "reinforced regardless"). Mark the label as the switch that converts the open loop into the closed one. Use color to distinguish the two versions. Subtitle: "Same loop runs two ways; a label is the switch". Title "Expectancy feedback loop: open vs. closed". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 18.2 — Same tool, two configurations: default vs. adopted
+
+Build a two-branch comparison / decision-tree schematic from a single root node ("same early-warning platform") splitting into two configuration paths. Left branch "Vendor default (labels at scale)": persistent motivation chips, school-wide tier visibility, auto-referral, no blind grading. Right branch "Adopted settings (informs only)": expiring flags, triage-only visibility, no persistent classifications, blind-grading module active. Pair the rows across branches so each setting contrasts directly; highlight the blind-grading row as the platform's one genuinely positive contribution. Color-code the two branches to show the same tool producing opposite effects. Title "Same tool, two configurations: default vs. adopted". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 18.3 — Two above-hinge influences with effect sizes
+
+Build a horizontal dot/lollipop plot against a Cohen's d x-axis from zero: Deep motivation and approach (0.69, highlighted), Teachers not labeling students (0.61). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; both dots sit to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight deep motivation by color. Label each dot with its value. Title "Two above-hinge influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

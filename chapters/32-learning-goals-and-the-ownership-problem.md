@@ -52,6 +52,9 @@ Now the mechanism's three constituent acts, because each one is doing real work:
 
 **The goal becomes the reference standard for self-monitoring.** Once a student owns a specific goal, every quiz and assignment becomes interpretable as progress or gap — the comparator in the self-regulation loop. A goal the student never internalized cannot serve as a comparator, because comparison happens in the head, not in the dashboard.
 
+![Three-stage ownership chain — formulation to commitment to self-monitoring — with an AI-generated goal bypassing formulation and joining at commitment, marked uncertain](images/32-learning-goals-and-the-ownership-problem-fig-01.png)
+*Figure 32.1 — Three-stage ownership chain and the AI bypass*
+
 <!-- → [DIAGRAM: Three-stage ownership chain — Stage 1: formulation (student self-diagnoses gap, selects target, writes goal). Stage 2: commitment (goal is regarded as mine; Locke-Latham mechanisms activate: attention, effort, persistence, strategy). Stage 3: self-monitoring (goal serves as comparator for every subsequent performance). Arrow from AI-generated goal bypasses Stage 1 and lands at Stage 2 with dotted line — "commitment uncertain." Student should see that the platform delivers the artifact but not the chain.] -->
 
 ## What AI Can Safely Do
@@ -86,6 +89,9 @@ The vendor's settings allowed suggestion mode to be disabled. Renee disabled it.
 
 Several advisors reported the same surprise — the conferences got better, because they began from a sentence the student recognized as their own and could be held to. The platform's best feature turned out to be the revision trail: watching "pass chemistry" become "be able to do the stoichiometry problems without copying Marisol" told an advisor more than any dashboard metric.
 
+![Two conference-prep panels — a green-completion dashboard that describes the platform versus a student revision trail that describes the student](images/32-learning-goals-and-the-ownership-problem-fig-02.png)
+*Figure 32.2 — Conference prep: dashboard vs. revision trail*
+
 <!-- → [INFOGRAPHIC: Side-by-side advisory conference prep — Left: advisor enters conference with dashboard showing green completion indicators. Right: advisor enters conference with revision trail showing "pass chemistry" → "get an 80 in chemistry" → "be able to do stoichiometry problems without copying Marisol." Annotation: the trail tells the advisor something about the student; the dashboard tells the advisor something about the platform.] -->
 
 Week three, a vendor update quietly re-enabled suggestion mode "to reduce onboarding friction." One advisory ran a full cycle on it before anyone noticed. The accidental A/B test became the pilot's most cited finding: in the suggestion-mode advisory, the majority of students accepted the AI's first proposed goal verbatim, and two weeks later most could not state their goal when asked at the door. In the interview-mode advisories, a clear majority could. Same students, same platform, same influence citation. The only difference was which side of the formulation the AI stood on. [pilot-internal observation, n of four advisories — an anecdote with a control group, not a study]
@@ -102,7 +108,13 @@ Adoption conditions, written into the renewal contract. Suggestion mode contract
 
 **Evidence that learning improved is** students stating their goals accurately and unprompted weeks after setting them, goal-referenced behavior changes visible to advisors, and movement on the unassisted performance the goals named — never the count, formatting quality, or dashboard completion rate of the goals themselves.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Learner must / Advisor must / Valid evidence / What does not count. Evidence row: door-question recall, goal-referenced behavior (strategy changes, help-seeking, self-initiated progress checks), unassisted performance movement. Does not count: SMART-ness scores of machine-drafted goals, dashboard completion, student satisfaction with onboarding flow, number of goals set.] -->
+| Role | What it covers |
+|---|---|
+| AI may | Interview students toward formulation with Socratic prompts; critique student-drafted goals against quality criteria; surface the student's own performance data during goal-setting; track progress; prompt scheduled reflection; prepare advisor summaries and stale-goal alerts |
+| Learner must | Formulate every goal in their own words (the self-diagnosis and commitment work is the influence); revise it against critique |
+| Advisor must | Hold the accountability conversations; supply rationale and buy-in when goals need steering; watch for performance-goal drift in what the platform rewards |
+| Valid evidence | Door-question recall (goal stated accurately, unprompted, weeks later); goal-referenced behavior (strategy changes, help-seeking, self-initiated progress checks); movement on the unassisted performance the goals named |
+| What does not count | SMART-ness scores of machine-drafted goals; dashboard completion rate; student satisfaction with the onboarding flow; number of goals set |
 
 ## What Evidence to Demand
 
@@ -176,3 +188,13 @@ Goal-setting programs show some of their largest effects for the lowest-performi
 2. Morisano, D., et al. (2010). Setting, elaborating, and reflecting on personal goals improves academic performance. *Journal of Applied Psychology*, 95(2), 255–264.
 3. Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81–112.
 4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 32.1 — Three-stage ownership chain and the AI bypass
+Build a left-to-right process flowchart of three sequential stages connected by arrows: Stage 1 Formulation (self-diagnose the gap, write the goal) → Stage 2 Commitment (goal is mine; Locke-Latham mechanisms activate — attention, effort, persistence, strategy) → Stage 3 Self-monitoring (goal serves as the comparator for every later performance). Below or above the main chain, add a second entry node "AI-generated goal" with a dotted/dashed bypass arrow that skips Stage 1 and joins at Stage 2, labeled "commitment uncertain". Use a solid arrow style for the owned chain and a distinct dashed style for the bypass. Highlight that the platform delivers the artifact but not the chain. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 32.2 — Conference prep: dashboard vs. revision trail
+Build a two-panel side-by-side comparison. Left panel "Green-completion dashboard": a stack of uniform "complete" indicator rows (flat, content-free signals) — what the advisor learns is about the platform. Right panel "Student's revision trail": a vertical progression of three evolving goal statements — "pass chemistry" → "get an 80 in chemistry" → "do the stoichiometry problems without copying Marisol" — connected by downward arrows showing refinement. The structural contrast: left is property of the platform, right is property of the student. Highlight the final, most specific revision. Annotate that the trail reveals the student while the dashboard reveals the platform. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

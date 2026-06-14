@@ -1,0 +1,36 @@
+<!--
+  AI feasibility of 252 Hattie influences
+  Book: Visible Learning x AI
+  Chapter: 93-hattie-ai-analysis-summary
+  Figure: 01
+  Type: Small-multiple horizontal bar chart (four stacked-category panels) — counts out of 252.
+  Generated: 2026-06-08
+  Source: pantry/93-hattie-ai-analysis-summary-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">AI feasibility of 252 Hattie influences — 93-hattie-ai-analysis-summary</title>
+<desc>Across 252 Hattie influences, AI feasibility skews toward support and amplification rather than native automation: 97 are AI-adjacent and 88 AI-augmented, while only 29 are AI-native and 38 AI-resistant.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="93-hattie-ai-analysis-summary"
+    figure-number="01"
+    figure-title="AI feasibility of 252 Hattie influences"
+    figure-slug="ai-feasibility-of-252-hattie-influences"
+    figure-type="Small-multiple horizontal bar chart (four stacked-category panels) — counts out of 252."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/93-hattie-ai-analysis-summary-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">AI feasibility of 252 Hattie influences</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Most influences fall into support, not AI-native categories</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">97</text><rect x="106.5" y="64" width="64" height="292" fill="#C8102E" rx="0"/><text x="138.5" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">97</text><text x="138.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Adjacent</text><rect x="255.5" y="91.09278350515461" width="64" height="264.9072164948454" fill="#787878" rx="0"/><text x="287.5" y="85.09278350515461" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">88</text><text x="287.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Augmented</text><rect x="404.5" y="241.6082474226804" width="64" height="114.39175257731961" fill="#2a1a0e" rx="0"/><text x="436.5" y="235.6082474226804" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">38</text><text x="436.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Resistant</text><rect x="553.5" y="268.70103092783506" width="64" height="87.29896907216494" fill="#787878" rx="0"/><text x="585.5" y="262.70103092783506" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">29</text><text x="585.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Native</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">count of influences (of 252)</text>
+</svg>

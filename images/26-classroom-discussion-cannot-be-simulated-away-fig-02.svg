@@ -1,0 +1,36 @@
+<!--
+  AI at the edges of the talk, never its center
+  Book: Visible Learning x AI
+  Chapter: 26-classroom-discussion-cannot-be-simulated-away
+  Figure: 02
+  Type: weekly timeline with role-placement arrows (cycle/flow diagram)
+  Generated: 2026-06-08
+  Source: pantry/26-classroom-discussion-cannot-be-simulated-away-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">AI at the edges of the talk, never its center — 26-classroom-discussion-cannot-be-simulated-away</title>
+<desc>Across a seminar week AI appears at three points — Monday rehearsal, Thursday analytics, weekend prep — all pointing toward the single live seminar on Wednesday, never replacing it.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="26-classroom-discussion-cannot-be-simulated-away"
+    figure-number="02"
+    figure-title="AI at the edges of the talk, never its center"
+    figure-slug="ai-at-the-edges-of-the-talk-never-its-ce"
+    figure-type="weekly timeline with role-placement arrows (cycle/flow diagram)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/26-classroom-discussion-cannot-be-simulated-away-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">AI at the edges of the talk, never its center</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Every AI stage serves the Wednesday seminar</text><line x1="379.698484809835" y1="126.21320343559643" x2="450.301515190165" y2="213.78679656440357" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="450.301515190165" y1="256.2132034355964" x2="379.698484809835" y2="343.7867965644036" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="320.301515190165" y1="343.7867965644036" x2="249.698484809835" y2="256.2132034355964" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="249.69848480983498" y1="213.7867965644036" x2="320.301515190165" y2="126.21320343559643" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="302" y="80" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="95" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Monday: AI</text><text x="350" y="107" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">rehearsal</text><text x="350" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(student…</text><rect x="432" y="210" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="480" y="225" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Wednesday:</text><text x="480" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">live seminar</text><text x="480" y="249" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(the human…</text><rect x="302" y="340" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="355" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Thursday: AI</text><text x="350" y="367" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">analytics</text><text x="350" y="379" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(talk map to…</text><rect x="172" y="210.00000000000003" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="220" y="225.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Weekend:</text><text x="220" y="237.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">instructor</text><text x="220" y="249.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">prep</text>
+</svg>

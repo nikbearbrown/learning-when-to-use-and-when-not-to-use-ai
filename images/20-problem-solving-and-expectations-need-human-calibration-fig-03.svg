@@ -1,0 +1,36 @@
+<!--
+  Two influences against the Hattie hinge
+  Book: Visible Learning x AI
+  Chapter: 20-problem-solving-and-expectations-need-human-calibration
+  Figure: 03
+  Type: horizontal bar chart with reference line
+  Generated: 2026-06-08
+  Source: pantry/20-problem-solving-and-expectations-need-human-calibration-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Two influences against the Hattie hinge — 20-problem-solving-and-expectations-need-human-calibration</title>
+<desc>The group's two influences — problem-solving teaching (d = 0.68) and teacher expectations (d = 0.43) — both sit above the d = 0.40 hinge, but with a meaningful gap between them.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="20-problem-solving-and-expectations-need-human-calibration"
+    figure-number="03"
+    figure-title="Two influences against the Hattie hinge"
+    figure-slug="two-influences-against-the-hattie-hinge"
+    figure-type="horizontal bar chart with reference line"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/20-problem-solving-and-expectations-need-human-calibration-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Two influences against the Hattie hinge</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Both clear the hinge, with a gap between them</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.8</text><line x1="64" y1="210" x2="660" y2="210" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="660" y="205" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.40 hinge</text><rect x="181" y="107.80000000000001" width="64" height="248.2" fill="#C8102E" rx="0"/><text x="213" y="101.80000000000001" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.68</text><text x="213" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Problem-solving</text><text x="213" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">teaching</text><rect x="479" y="199.05" width="64" height="156.95" fill="#787878" rx="0"/><text x="511" y="193.05" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.43</text><text x="511" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Teacher</text><text x="511" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">expectations</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

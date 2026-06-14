@@ -1,0 +1,36 @@
+<!--
+  Two above-hinge skill-practice influences
+  Book: Visible Learning x AI
+  Chapter: 19-low-risk-ai-native-skill-practice
+  Figure: 03
+  Type: Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.
+  Generated: 2026-06-08
+  Source: pantry/19-low-risk-ai-native-skill-practice-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Two above-hinge skill-practice influences — 19-low-risk-ai-native-skill-practice</title>
+<desc>Spelling programs (0.58) and interactive video methods (0.54) sit above the 0.40 hinge, each with a modest hypothesized AI-mediated discount (~0.50 and ~0.45).</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="19-low-risk-ai-native-skill-practice"
+    figure-number="03"
+    figure-title="Two above-hinge skill-practice influences"
+    figure-slug="two-above-hinge-skill-practice-influence"
+    figure-type="Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero."
+    priority="Supplementary"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/19-low-risk-ai-native-skill-practice-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Two above-hinge skill-practice influences</text><rect x="170" y="64" width="474" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="170" y1="64" x2="170" y2="364" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="170" y="380" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">0</text><line x1="644" y1="64" x2="644" y2="364" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="644" y="380" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">0.6</text><line x1="486.00000000000006" y1="64" x2="486.00000000000006" y2="364" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="486.00000000000006" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">0.40 hinge</text><text x="160" y="105.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">Spelling programs</text><line x1="170" y1="101.5" x2="628.2" y2="101.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="628.2" cy="101.5" r="5" fill="#C8102E"/><text x="618.2" y="105.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">0.58</text><text x="160" y="180.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">Interactive video methods</text><line x1="170" y1="176.5" x2="596.6000000000001" y2="176.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="596.6000000000001" cy="176.5" r="5" fill="#2a1a0e"/><text x="586.6000000000001" y="180.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">0.54</text><text x="160" y="255.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">AI-mediated spelling (hyp…</text><line x1="170" y1="251.5" x2="565" y2="251.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="565" cy="251.5" r="5" fill="#2a1a0e"/><text x="555" y="255.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">0.5</text><text x="160" y="330.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">AI-enhanced video (hypoth…</text><line x1="170" y1="326.5" x2="525.5" y2="326.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="525.5" cy="326.5" r="5" fill="#2a1a0e"/><text x="535.5" y="330.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">0.45</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

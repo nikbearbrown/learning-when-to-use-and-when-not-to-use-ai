@@ -46,9 +46,15 @@ Producing a summary forces three cognitive acts at once, and all three live on t
 
 Now run the inversion. A summary that arrives finished delivers none of these. The selection was done elsewhere. The generation was done elsewhere. The self-test never happens — worse, the polished page produces a *feeling* of mastery because it is easy to read. Cognitive scientists call it fluency. The cleaner the summary, the stronger the illusion.
 
+![Two-path comparison: Student A reads an AI summary five times (recognition only) while Student B writes from memory, checks against the chapter, and fixes gaps — engaging retrieval, generation, monitoring, and error correction. B is more prepared though A feels more prepared](images/28-summarization-is-learning-only-when-the-learner-does-it-fig-01.png)
+*Figure 28.1 — Two students, two preparation paths*
+
 <!-- → [DIAGRAM: Two-student preparation scenario — Student A: reads AI summary five times (mechanism: recognition); Student B: writes mediocre summary from memory, checks against chapter, fixes gaps in different color (mechanisms: retrieval → generation → monitoring → error correction); outcome prediction from established research: B wins on transfer; caption: "A feels more prepared walking in. B is more prepared walking in."] -->
 
 One sentence carries the whole chapter: **the summary is exhaust; producing it is the engine-run.**
+
+![Two-panel schematic contrasting producing a summary — which runs three cognitive acts (selection, generation, self-testing) — against receiving a summary, which deletes all three by completing them elsewhere](images/28-summarization-is-learning-only-when-the-learner-does-it-fig-02.png)
+*Figure 28.2 — Three acts on the production side*
 
 The AI-era evidence has begun to arrive, pointing the predicted direction. Melumad and Yun (2025, *PNAS Nexus*) ran seven experiments comparing people who learned topics from LLM syntheses against people who learned via standard web search: the LLM-summary learners developed measurably shallower knowledge, felt less invested in the advice they went on to write, and produced advice that was sparser and less original. Strikingly, adding source links to the LLM summaries did not restore depth — the format itself, not access to sources, removes the synthesis work. Boundaries travel with the citation: these were adults learning everyday topics over short horizons, so this is mechanism evidence, not a classroom effect size. It triangulates with Kosmyna and colleagues' EEG study finding reduced neural engagement and impaired recall when an LLM did the composing [verify — preprint, small sample], and with Bastani and colleagues' field experiment showing the assisted-performance/unassisted-capability split whenever help is unguardrailed. Three methods, one direction: offloading the generative act removes the learning the act produced. Direction with confidence; magnitude with humility — no classroom RCT on AI-summary consumption in school populations exists yet.
 
@@ -139,3 +145,11 @@ The biggest hole in the literature: no classroom RCT on AI-summary consumption i
 **Challenge**
 
 9. *(Open — Consumption reversal)* The chapter's What Would Change My Mind section identifies the experiment that would gut the central claim: students who study high-quality AI summaries performing as well as students who produce their own, on delayed transfer measures. Design that experiment: the population, the random assignment, the AI-summary condition (including what students do with the summary after receiving it), the self-produced-summary condition, the outcome measures and their timing, and the sample size reasoning. Then evaluate honestly: what is the single most important confound your design must control for, and does your design actually control it — or does it only appear to?
+
+## Prompts
+
+### Figure 28.1 — Two students, two preparation paths
+Build a two-panel comparison contrasting two preparation paths. Left panel "Student A (reads AI summary)": stacked rows — "Reads AI summary five times," "(no generation)," "(no monitoring)," "Outcome: recognition only." Right panel "Student B (writes from memory)": aligned rows — "Retrieval: write from memory," "Generation: own words," "Monitoring: check against chapter," "Error correction, then transfer" (highlight this last right row). Shared axis label spanning both: "Recognition vs. transfer." Annotate that B is more prepared though A feels more prepared. Visually oppose the empty/absent left rows against the active right rows. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 28.2 — Three acts on the production side
+Build a two-panel comparison of three cognitive acts run versus deleted. Left panel "Producing a summary": three rows — "Selection: decide what matters," "Generation: restate in own words," "Self-testing: discover the gaps" (highlight this third row). Right panel "Receiving a summary": aligned rows — "Selection deleted (done elsewhere)," "Generation deleted," "Self-testing deleted." Shared axis label: "Three cognitive acts: run vs. deleted." Render the left acts as active and the right as struck-through or grayed to show deletion. Annotate that a received summary deletes all three by completing them elsewhere. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

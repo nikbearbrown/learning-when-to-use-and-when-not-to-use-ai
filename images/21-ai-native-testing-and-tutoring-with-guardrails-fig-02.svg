@@ -1,0 +1,36 @@
+<!--
+  The pilot loop: diagnosis, teaching, verification
+  Book: Visible Learning x AI
+  Chapter: 21-ai-native-testing-and-tutoring-with-guardrails
+  Figure: 02
+  Type: three-panel horizontal flow with return loop (systems diagram)
+  Generated: 2026-06-08
+  Source: pantry/21-ai-native-testing-and-tutoring-with-guardrails-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">The pilot loop: diagnosis, teaching, verification — 21-ai-native-testing-and-tutoring-with-guardrails</title>
+<desc>The chemistry pilot's value came from a three-stage loop — platform diagnoses, humans teach, platform verifies — feeding human decisions rather than replacing them.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="21-ai-native-testing-and-tutoring-with-guardrails"
+    figure-number="02"
+    figure-title="The pilot loop: diagnosis, teaching, verification"
+    figure-slug="the-pilot-loop-diagnosis-teaching-verifi"
+    figure-type="three-panel horizontal flow with return loop (systems diagram)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/21-ai-native-testing-and-tutoring-with-guardrails-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The pilot loop: diagnosis, teaching, verification</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">The platform feeds human decisions, not replaces them</text><line x1="371" y1="130.98076211353316" x2="441.58330249197707" y2="274.01923788646684" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="420.58330249197707" y1="300" x2="279.416697508023" y2="300.00000000000006" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="258.416697508023" y1="274.0192378864669" x2="329" y2="130.98076211353316" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="302" y="80" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="95" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Platform</text><text x="350" y="107" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">diagnoses</text><text x="350" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(error…</text><rect x="414.58330249197707" y="275" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="462.58330249197707" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Humans teach</text><text x="462.58330249197707" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(reteach</text><text x="462.58330249197707" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">step,…</text><rect x="189.416697508023" y="275.00000000000006" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="237.416697508023" y="290.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Platform</text><text x="237.416697508023" y="302.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">verifies</text><text x="237.416697508023" y="314.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(cluster…</text>
+</svg>

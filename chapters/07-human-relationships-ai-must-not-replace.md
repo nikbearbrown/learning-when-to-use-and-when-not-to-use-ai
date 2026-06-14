@@ -36,7 +36,16 @@ The signature contains a paradox worth sitting with. AI-RESISTANT plus high subs
 
 This is the book's first fully AI-RESISTANT group. The pattern it establishes holds through every chapter that follows: AI before and after the human event, never as the event.
 
-<!-- → [TABLE: Eight group influences with effect sizes, mechanism summary (one phrase each), and the specific substitution risk note — teacher-student relationships as anchor row, with the "AI frees time for relationships, cannot be the relationship" note highlighted] -->
+| Influence | Effect size | Mechanism (one phrase) | Substitution risk note |
+| --- | --- | --- | --- |
+| Behavioral intervention programs | d = 0.62 | Relational authority and embodied social judgment | AI monitoring is peripheral by mechanics, not policy |
+| Tactile stimulation programs | d = 0.58 | Physical touch | No API for touch |
+| Service learning | d = 0.58 | Embodied civic action that matters to a real community | "AI-mediated" loses the someone-affected stakes |
+| Cooperative vs. individualistic learning | d = 0.55 | Genuine shared stakes among classmates | No model can owe you anything |
+| Positive peer influences | d = 0.53 | Peer-norm transmission and withheld regard | A bot cannot withhold approval |
+| Positive family/home dynamics | d = 0.52 | Warmth, stability, family-school trust | School builds the trust; cannot install the home |
+| **Teacher-student relationships** | **d = 0.52** | **Empathetic, trusting human connection** | **AI frees teacher time for relationships; AI cannot be the relationship** |
+| Play programs | d = 0.50 | Embodied, social play | Screen time wearing play's name |
 
 ---
 
@@ -70,11 +79,17 @@ Three properties of the channel explain the AI-RESISTANT label at mechanism leve
 
 **It compounds through authenticity and collapses through discovery.** Trust is built in layers, and one discovered fake collapses the stack. This is why the birthday-card story is not an anecdote about a clumsy administrative decision but about how relational capital fails: catastrophically, not gradually, and concentrated among the families whose trust was hardest-won in the first place. A simulated relationship is not a partial relationship. Once detected, it is a negative one.
 
+![Authentic relational investment compounding slowly into high trust while a simulated relationship's metrics rise then collapse below baseline at discovery](images/07-human-relationships-ai-must-not-replace-fig-01.png)
+*Figure 7.1 — The asymmetry of trust*
+
 <!-- → [DIAGRAM: Two-timeline diagram — Timeline A (authentic): small relational investments compound over months into high trust, high risk-tolerance, high disclosure. Timeline B (simulated): metrics rise (messages, reply rates, connection score), then one discovery event collapses trust below starting baseline. The visual point is asymmetry: the compounding is slow; the collapse is immediate.] -->
 
 ---
 
 ## What AI Can Safely Do
+
+![AI's legitimate role sitting before and after the human relational event — translating, preparing, documenting — but never constituting the event itself](images/07-human-relationships-ai-must-not-replace-fig-02.png)
+*Figure 7.2 — AI on the perimeter, human at the event*
 
 The perimeter here is large. AI does substantial work in this group — just not the relational work.
 
@@ -90,7 +105,15 @@ The perimeter here is large. AI does substantial work in this group — just not
 
 **Document what happens.** Meeting notes, contact logs, behavior-pattern summaries for the human team that decides what they mean.
 
-<!-- → [TABLE: Safe AI roles mapped to each group influence — two columns: what AI does before/after the human event, what must remain the human event. Teacher-student relationships row should show the contrast most sharply: AI frees hours / teacher spends hours in actual contact.] -->
+| Influence | What AI does before/after the human event | What must remain the human event |
+| --- | --- | --- |
+| Teacher-student relationships | Frees hours by automating admin; drafts conversation-openers for approval | The teacher spends those hours in actual contact, in their own voice |
+| Positive family/home dynamics | Translates communication; detects no-contact families | The human conference, the trust earned face to face |
+| Behavioral intervention programs | Documents behavior patterns for the team | The proximity, the look, the repair conversation |
+| Cooperative vs. individualistic learning | Prepares materials and role cards | The interdependent group work with real shared stakes |
+| Positive peer influences | Surfaces students with no visible peer connections | The peer regard that can actually be withheld |
+| Service learning | Handles logistics so contact hours go to contact | The embodied work in a real community |
+| Tactile stimulation / play | None of the mechanism | Physical presence and touch |
 
 ---
 
@@ -200,3 +223,13 @@ The claim under load is that simulated relational interaction cannot deliver the
 3. Visible Learning MetaX — Teacher-student relationships. https://www.visiblelearningmetax.com/influences
 4. U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and the Future of Teaching and Learning*. https://tech.ed.gov/ai/
 5. UNESCO (2023). *Guidance for Generative AI in Education and Research*.
+
+---
+
+## Prompts
+
+### Figure 7.1 — The asymmetry of trust
+Build a two-line trajectory chart of trust over time. x-axis = time (months), y-axis = trust level, with a zero/baseline line. Line A "Authentic relationship": low start, compounding in small steps, gradual upward climb, ends high. Line B "Simulated relationship": metrics rise early, then a single near-vertical collapse at a discovery event, ending below the starting baseline (into negative territory). Mark the discovery event on Line B (highlight the collapse). Channels: x = time, y = trust, color = authentic vs. simulated. zero baseline yes — Line B must cross below it. Annotate the asymmetry: slow compounding vs. instantaneous collapse below baseline. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 7.2 — AI on the perimeter, human at the event
+Build a node-edge systems diagram with a protected core. Central highlighted node "Human relational event". Perimeter nodes — "Translate communication", "Free relational time", "Detect contact gaps", "Prepare / rehearse" — connect toward the core with BLOCKED edges that stop at a boundary ring (AI supports up to the boundary, never crossing). Two nodes flow outward FROM the core with blocked edges — "Document outcomes", "Answer transactional follow-ups" — showing AI's after-the-event role. Channels: position = perimeter vs. core, edge style = blocked at boundary, color = AI-perimeter nodes vs. protected human core. Draw an explicit boundary ring; only human presence crosses it. No axes, no zero baseline. Annotate that AI sits before and after the event, never as it. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

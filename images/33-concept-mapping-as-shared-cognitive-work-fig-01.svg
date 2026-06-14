@@ -1,0 +1,36 @@
+<!--
+  Three mapping conditions and relative transfer
+  Book: Visible Learning x AI
+  Chapter: 33-concept-mapping-as-shared-cognitive-work
+  Figure: 01
+  Type: ranked comparison panels (three conditions on a shared relative-outcome scale)
+  Generated: 2026-06-08
+  Source: pantry/33-concept-mapping-as-shared-cognitive-work-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Three mapping conditions and relative transfer — 33-concept-mapping-as-shared-cognitive-work</title>
+<desc>Outcomes split by who does the relational work: closed-book student construction yields highest delayed transfer, open-book is intermediate (Karpicke-Blunt warning), and studying AI-generated or expert maps yields the lowest relational transfer.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="33-concept-mapping-as-shared-cognitive-work"
+    figure-number="01"
+    figure-title="Three mapping conditions and relative transfer"
+    figure-slug="three-mapping-conditions-and-relative-tr"
+    figure-type="ranked comparison panels (three conditions on a shared relative-outcome scale)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/33-concept-mapping-as-shared-cognitive-work-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Three mapping conditions and relative transfer</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Relative delayed-relational-transfer outcome</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">1</text><rect x="131.33333333333331" y="64" width="64" height="292" fill="#C8102E" rx="0"/><text x="163.33333333333331" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1</text><text x="163.33333333333331" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Student</text><text x="163.33333333333331" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">construction,…</text><rect x="330" y="180.8" width="64" height="175.2" fill="#787878" rx="0"/><text x="362" y="174.8" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.6</text><text x="362" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Student</text><text x="362" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">construction,…</text><rect x="528.6666666666666" y="283" width="64" height="73" fill="#2a1a0e" rx="0"/><text x="560.6666666666666" y="277" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.25</text><text x="560.6666666666666" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Studying</text><text x="560.6666666666666" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-generated /…</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Relative delayed-relational-transfer (illustrative)</text>
+</svg>

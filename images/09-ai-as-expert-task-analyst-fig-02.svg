@@ -1,0 +1,36 @@
+<!--
+  Four rows, one repaired model
+  Book: Visible Learning x AI
+  Chapter: 09-ai-as-expert-task-analyst
+  Figure: 02
+  Type: conceptual map (central node with four repair spokes)
+  Generated: 2026-06-08
+  Source: pantry/09-ai-as-expert-task-analyst-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Four rows, one repaired model — 09-ai-as-expert-task-analyst</title>
+<desc>All four influences repair part of one double-blindness — an accurate model of the task and of the learner's current knowledge — with each row fixing a different component.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="09-ai-as-expert-task-analyst"
+    figure-number="02"
+    figure-title="Four rows, one repaired model"
+    figure-slug="four-rows-one-repaired-model"
+    figure-type="conceptual map (central node with four repair spokes)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/09-ai-as-expert-task-analyst-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Four rows, one repaired model</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Four repair spokes into one shared model</text><line x1="483.1479122813215" y1="195.3900966300059" x2="350" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="432.28993532094626" y1="320.60990336999413" x2="350" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="267.71006467905374" y1="320.60990336999413" x2="350" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="216.8520877186785" y1="195.3900966300059" x2="350" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="296" y="93" width="108" height="50" fill="#C8102E" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">Accurate model</text><text x="350" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">of task and</text><text x="350" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">learner</text><rect x="429.1479122813215" y="170.3900966300059" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="483.1479122813215" y="191.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">CTA: repairs</text><text x="483.1479122813215" y="203.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">task model</text><rect x="378.28993532094626" y="295.60990336999413" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="432.28993532094626" y="310.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Piagetian</text><text x="432.28993532094626" y="322.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">matching:</text><text x="432.28993532094626" y="334.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">repairs…</text><rect x="213.71006467905374" y="295.60990336999413" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="267.71006467905374" y="310.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Conceptual</text><text x="267.71006467905374" y="322.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">change: repairs</text><text x="267.71006467905374" y="334.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">prior-knowledge…</text><rect x="162.8520877186785" y="170.3900966300059" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="216.8520877186785" y="185.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Help seeking:</text><text x="216.8520877186785" y="197.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">learner-run</text><text x="216.8520877186785" y="209.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">repair</text>
+</svg>

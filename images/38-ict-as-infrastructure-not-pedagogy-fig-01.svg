@@ -1,0 +1,36 @@
+<!--
+  The three channels of technology's contribution
+  Book: Visible Learning x AI
+  Chapter: 38-ict-as-infrastructure-not-pedagogy
+  Figure: 01
+  Type: three-column channel model with a bundle input
+  Generated: 2026-06-08
+  Source: pantry/38-ict-as-infrastructure-not-pedagogy-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The three channels of technology's contribution — 38-ict-as-infrastructure-not-pedagogy</title>
+<desc>Technology contributes through three indirect channels — access (binary, utility standard, equity instrument), amplification (the effect belongs to the mechanism, not the device), and displacement (every device-hour replaces something) — and a bundle prevents separate evaluation.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="38-ict-as-infrastructure-not-pedagogy"
+    figure-number="01"
+    figure-title="The three channels of technology's contribution"
+    figure-slug="the-three-channels-of-technology-s-contr"
+    figure-type="three-column channel model with a bundle input"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/38-ict-as-infrastructure-not-pedagogy-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The three channels of technology's contribution</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Bundle fans into all three</text><line x1="350" y1="118" x2="490" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="350" y1="118" x2="350" y2="342" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="350" y1="118" x2="210" y2="230" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="296" y="93" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">The bundle</text><text x="350" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(prevents</text><text x="350" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">separate…</text><rect x="436" y="205" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="490" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Access (binary,</text><text x="490" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">utility</text><text x="490" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">standard,…</text><rect x="296" y="317" width="108" height="50" fill="#C8102E" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">Amplification</text><text x="350" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">(effect belongs</text><text x="350" y="356" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">to the…</text><rect x="156" y="205" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="210" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Displacement</text><text x="210" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(every</text><text x="210" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">device-hour…</text>
+</svg>

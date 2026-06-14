@@ -1,0 +1,36 @@
+<!--
+  Three channels of parental involvement and AI's reach
+  Book: Visible Learning x AI
+  Chapter: 34-parental-involvement-without-platform-substitution
+  Figure: 01
+  Type: three parallel vertical channels with access/reach annotation
+  Generated: 2026-06-08
+  Source: pantry/34-parental-involvement-without-platform-substitution-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Three channels of parental involvement and AI's reach — 34-parental-involvement-without-platform-substitution</title>
+<desc>High-value parental involvement runs through three channels — expectations (inside the family, no school access), home learning behavior (school equips, family performs), and home-school trust (the school owns it) — and AI threatens the third if counterfeited.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="34-parental-involvement-without-platform-substitution"
+    figure-number="01"
+    figure-title="Three channels of parental involvement and AI's reach"
+    figure-slug="three-channels-of-parental-involvement-a"
+    figure-type="three parallel vertical channels with access/reach annotation"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/34-parental-involvement-without-platform-substitution-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Three channels of parental involvement and AI's reach</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Which channels AI touches</text><line x1="267.71006467905374" y1="320.60990336999413" x2="483.1479122813215" y2="195.3900966300059" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="375.4289884801876" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">equips prompts</text><line x1="267.71006467905374" y1="320.60990336999413" x2="432.28993532094626" y2="320.60990336999413" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="350" y="314.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">supports parts</text><line x1="267.71006467905374" y1="320.60990336999413" x2="308.8550323395269" y2="219.30495168499706" stroke="#2a1a0e" stroke-width="1.5"/><line x1="316.267024367097" y1="222.3153294325956" x2="301.44304031195674" y2="216.29457393739852" stroke="#2a1a0e" stroke-width="1.5"/><text x="308.8550323395269" y="213.30495168499706" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">cannot touch</text><line x1="216.8520877186785" y1="195.3900966300059" x2="324.5710115198124" y2="258" stroke="#2a1a0e" stroke-width="1.5"/><line x1="320.55088182424527" y1="264.9165422886598" x2="328.5911412153795" y2="251.0834577113402" stroke="#2a1a0e" stroke-width="1.5"/><text x="324.5710115198124" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">threatens</text><rect x="296" y="93" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Expectations /</text><text x="350" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">aspirations</text><text x="350" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(inside family,…</text><rect x="429.1479122813215" y="170.3900966300059" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="483.1479122813215" y="185.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Home learning</text><text x="483.1479122813215" y="197.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">behavior</text><text x="483.1479122813215" y="209.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(school equips,…</text><rect x="378.28993532094626" y="295.60990336999413" width="108" height="50" fill="#C8102E" stroke="#2a1a0e" stroke-width="1.25"/><text x="432.28993532094626" y="310.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">Home-school</text><text x="432.28993532094626" y="322.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">trust (school</text><text x="432.28993532094626" y="334.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">owns it)</text><rect x="213.71006467905374" y="295.60990336999413" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="267.71006467905374" y="322.60990336999413" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI / platform</text><rect x="162.8520877186785" y="170.3900966300059" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="216.8520877186785" y="191.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Counterfeit</text><text x="216.8520877186785" y="203.3900966300059" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">personalization</text>
+</svg>

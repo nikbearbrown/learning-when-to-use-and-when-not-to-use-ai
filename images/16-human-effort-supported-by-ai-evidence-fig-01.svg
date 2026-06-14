@@ -1,0 +1,36 @@
+<!--
+  Effort bargain: AI repairs two, third stays human
+  Book: Visible Learning x AI
+  Chapter: 16-human-effort-supported-by-ai-evidence
+  Figure: 01
+  Type: Three-vertex conceptual diagram (triangle) with damage and repair paths.
+  Generated: 2026-06-08
+  Source: pantry/16-human-effort-supported-by-ai-evidence-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Effort bargain: AI repairs two, third stays human — 16-human-effort-supported-by-ai-evidence</title>
+<desc>Persistence rests on three terms — expectancy (doable), value (worth doing), and cost of quitting (someone would notice). AI can repair expectancy and value, but the third vertex requires a specific person noticing.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="16-human-effort-supported-by-ai-evidence"
+    figure-number="01"
+    figure-title="Effort bargain: AI repairs two, third stays human"
+    figure-slug="effort-bargain-ai-repairs-two-third-stay"
+    figure-type="Three-vertex conceptual diagram (triangle) with damage and repair paths."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/16-human-effort-supported-by-ai-evidence-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Effort bargain: AI repairs two, third stays human</text><line x1="350" y1="342" x2="350" y2="118" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="350" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">repairs</text><line x1="228.75644347017862" y1="286.00000000000006" x2="471.2435565298214" y2="174" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="350" y="224.00000000000003" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">repairs</text><line x1="228.7564434701786" y1="174" x2="471.24355652982143" y2="286" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><text x="350" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="400" fill="#545454" text-anchor="middle">human-dependent r…</text><rect x="296" y="93" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Expectancy</text><text x="350" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(task doable)</text><rect x="417.2435565298214" y="149" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="471.2435565298214" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Value (worth</text><text x="471.2435565298214" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">doing)</text><rect x="417.24355652982143" y="261" width="108" height="50" fill="#C8102E" stroke="#2a1a0e" stroke-width="1.25"/><text x="471.24355652982143" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">Cost of</text><text x="471.24355652982143" y="288" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">quitting</text><text x="471.24355652982143" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="middle">(someone…</text><rect x="296" y="317" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI: calibrated</text><text x="350" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">difficulty</text><rect x="174.75644347017862" y="261.00000000000006" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="228.75644347017862" y="282.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI: visible</text><text x="228.75644347017862" y="294.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">progress trend</text><rect x="174.7564434701786" y="149" width="108" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="228.7564434701786" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Human: a</text><text x="228.7564434701786" y="176" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">specific person</text><text x="228.7564434701786" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">notices</text>
+</svg>

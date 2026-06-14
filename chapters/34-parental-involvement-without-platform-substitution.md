@@ -42,6 +42,9 @@ Parental involvement in its high-value forms works through three channels, and n
 
 **Home–school trust.** The channel the school actually owns. Families engage when they believe the school knows their child, tells them the truth, and welcomes them — and disengage, often permanently, when communication feels like surveillance, boilerplate, or condescension. Trust is built in genuine, specific, accountable communication, and it is the precondition for the other two channels accepting any input from the school at all.
 
+![Node-edge diagram of three parental-involvement channels — expectations, home learning, home-school trust — showing AI can equip and support two but cannot touch expectations and threatens trust if counterfeited](images/34-parental-involvement-without-platform-substitution-fig-01.png)
+*Figure 34.1 — Three channels of parental involvement and AI's reach*
+
 <!-- → [DIAGRAM: Three-channel model of parental involvement — three parallel vertical channels: (1) Expectations/aspirations: runs inside family, school has no access, school cannot perform; (2) Home learning behavior: school can equip with prompts, family performs; (3) Home-school trust: school owns this channel, built by authentic specific communication; annotation showing which channels AI supports (parts of 2 and 3) and which it cannot touch (1) or actively threatens (3 if counterfeited)] -->
 
 Now place the platform against the channels. Auto-translation widens channel three — for a multilingual district, genuinely and dramatically. Well-designed prompts equip channel two; that is the Kraft-Rogers result. But auto-*generated* personalization aims at channel three with a counterfeit of its currency: messages that perform knowing-the-child without anyone knowing the child.
@@ -74,7 +77,18 @@ First, drafts-for-review become drafts-sent-as-is, because review is the step un
 
 **The surveillance default.** Platforms wired to gradebooks naturally generate homework-and-grades content, steering families toward exactly the monitoring behaviors the meta-analytic literature ranks weakest — and tipping home interactions toward conflict. A system that automates the lowest-value component of an influence while eroding the precondition for its highest-value components is not a partial win. It is the trap, fully realized.
 
-<!-- → [TABLE: Safe AI uses vs. substitution traps by channel — rows: Translation, Drafting, Conversation prompts, Logistics, Chatbot; columns: What AI does, Channel it serves, Safe use condition, Where it crosses into substitution — student should see that each feature has a clear boundary, and that the boundary is always about whether a human's actual knowledge of the child is behind the message] -->
+![Five-feature matrix — translation, drafting, conversation prompts, logistics, chatbot — each placed on the safe/substitution boundary defined by whether a human's knowledge of the child stands behind it](images/34-parental-involvement-without-platform-substitution-fig-02.png)
+*Figure 34.2 — Five features, five boundaries: safe use vs. substitution*
+
+| Feature | What AI does | Channel served | Safe-use condition | Where it crosses into substitution |
+|---|---|---|---|---|
+| Translation | Two-way, multi-language conversion | Trust (access) | Human's words conveyed; human spot-check on high-stakes content | Never crosses — it carries words, does not author them |
+| Logistics | Scheduling, reminders, no-contact flags | Trust / coordination | Coordination only; no child-specific claims | Generating child-specific content from data |
+| Conversation prompts | Curriculum-tied dinner-table questions | Home learning behavior | Equips the parent to act; parent performs involvement | Replacing the parent's activity with platform activity |
+| Drafting | Assembles gradebook facts into a message | Trust | Named teacher reviews, edits, and could defend it at conference | Drafts sent as-is under a name no human reviewed |
+| Chatbot | Answers questions | Trust / service | Scoped to facts: events, policies, calendars | Answers "how is my child doing" — performs a relationship |
+
+*Each feature has a clear boundary, and the boundary is always the same question: does a human's actual knowledge of the child stand behind the message?*
 
 ## The Case in Full
 
@@ -148,3 +162,13 @@ The involvement literature is overwhelmingly correlational, and aspiration-rich 
 2. Kraft, M. A., & Rogers, T. (2015). The underutilized potential of teacher-to-parent communication. *Economics of Education Review*, 47, 49–63.
 3. York, B. N., Loeb, S., & Doss, C. (2019). One step at a time: an early literacy text-messaging program. *Journal of Human Resources*, 54(3).
 4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 34.1 — Three channels of parental involvement and AI's reach
+Build a node-edge systems diagram. Place three channel nodes as parallel vertical columns: Expectations/aspirations (inside family, no school access), Home learning behavior (school equips, family performs), and Home-school trust (school owns it, highlighted). Add two source nodes: "AI / platform" and "Counterfeit personalization". Draw directed edges: AI → home learning ("equips prompts", arrow), AI → trust ("supports parts", arrow), AI → expectations ("cannot touch", block/barred edge), Counterfeit → trust ("threatens", block/barred edge). Use arrow glyphs for supported relations and a distinct barred glyph for blocked/threatening relations. Highlight the trust node as the contested channel. The structural point: AI reaches two channels, cannot reach expectations, and endangers trust if it counterfeits the relationship. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 34.2 — Five features, five boundaries: safe use vs. substitution
+Build a two-column comparison matrix with a shared boundary axis: left "Safe (human behind it)" vs. right "Substitution (no human behind it)". Five feature rows: Translation, Logistics, Conversation prompts, Drafting, Chatbot. Place each feature's safe form in the left column and its substitution form in the right where one exists (Translation, Logistics, Conversation prompts have only safe forms — mark the right cell with an em-dash; Drafting splits into "for human review" vs. "auto-personalized updates"; Chatbot splits into "scoped to facts" vs. "answers how is my child doing"). Label the dividing axis "Boundary: does a human's knowledge of the child stand behind it?". Use a positive fill left, warning fill right. Highlight the Chatbot row as the sharpest boundary. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

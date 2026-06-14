@@ -30,6 +30,9 @@ The tradition's founding document is the 1966 Coleman Report — still arguably 
 
 Hold both halves honestly. d = 0.48 is above the hinge: schools are not interchangeable, and which one a child attends is associated with real differences — an aggregate of everything this book has spent thirty-six chapters disaggregating: the feedback culture, the collective efficacy, the discussion quality, the goal ownership, all of it summed into one institutional residue. That is precisely why the number is not a lever. **"School effects" is not a thing schools do; it is the accounting category for everything they do.** A board cannot buy 0.48 of it, because the row has no mechanism of its own — it is the ledger line where the other 251 rows are totaled by address.
 
+![Proportional bar showing most achievement variance lies within schools (around 85 percent) and only a small share between schools (around 15 percent)](images/37-school-effects-as-system-context-fig-01.png)
+*Figure 37.1 — Where the variance lives: between vs. within schools*
+
 One more reading discipline before the deck comes back out: school-level composites are noisy, and small schools' year-to-year swings are heavily luck. League tables built from them reliably reward enrollment size and demographic stability as if they were quality. Kraft's (2020) benchmarks apply with full force — at the school level, on real assessments, effects of 0.10 to 0.20 from genuine improvement efforts are substantial, which calibrates how seriously to take a dashboard that displays inter-school gaps to two decimal places.
 
 ## The Braid Inside the Number
@@ -41,6 +44,9 @@ Why does the influence exist at all — what makes one school's residue differen
 **Concentration effects.** Composition is not just a confound; it is partly causal. Peer effects, the operational drag of high mobility, the difficulty of staffing high-poverty schools — disadvantage concentrated is more than disadvantage summed. This strand is real, and it is *structural*: it responds to assignment policies, staffing incentives, and resource allocation — board-level work — not to anything an analytics license touches.
 
 **Institutional practice.** The residue that genuinely belongs to the school: the aggregate of teaching quality, leadership, coherence, and culture — the rows this book has chapters for. This is the strand a board most wants to see, and it is the *smallest and hardest to isolate* of the three, visible only after serious statistical effort to strip the first two strands out.
+
+![Three-strand braid decomposing the school-effects number — composition the thickest confound, concentration the structural middle strand, institutional practice the thinnest and only true quality strand](images/37-school-effects-as-system-context-fig-02.png)
+*Figure 37.2 — The three-strand braid inside the school-effects number*
 
 <!-- → [DIAGRAM: Three-strand braid model of school effects — three parallel strands labeled Composition, Concentration, and Institutional practice; Composition strand labeled "dominates raw rankings; maps to housing"; Concentration strand labeled "structural, responds to board-level policy"; Institutional practice strand labeled "smallest, hardest to isolate, only strand 'quality' honestly describes"; bottom annotation: "Raw composite index = all three strands braided, presented as strand three"] -->
 
@@ -70,7 +76,13 @@ With no learner in the loop, the trap mutates. What gets substituted is not cogn
 
 **The dashboard as substitute for the visit.** Subtlest of all: board members stop asking superintendents hard questions because the platform appears to have asked them. Attention, the board's scarcest resource, migrates from schools to screens. The metric layer was supposed to provoke governance; it absorbs it.
 
-<!-- → [TABLE: Three substitution failure modes — columns: Trap name, What the board believes the platform delivers, What it actually delivers, Observable failure signature; rows: Ranking mistaken for diagnosis, Lever illusion, Dashboard as substitute for visit — student should see that each trap involves the platform performing institutional judgment rather than informing it] -->
+| Trap | What the board believes it delivers | What it actually delivers | Observable failure signature |
+|---|---|---|---|
+| Ranking mistaken for diagnosis | A verdict on school quality | A composite of composition + concentration + practice, presented as practice | Labels travel into press, real estate, and the staffing market; the flagged school gets harder to staff |
+| Lever illusion | Capacity to improve schools | A generic description ("improve attendance," "strengthen Tier 1") that observational data can license | Recommendations adopted, nothing changes; an expensive restatement of the known |
+| Dashboard as substitute for the visit | Governance performed | The appearance that hard questions were already asked | Board attention migrates from schools to screens; site visits decline |
+
+*Each trap involves the platform performing institutional judgment rather than informing it.*
 
 ## The Case in Full
 
@@ -144,3 +156,13 @@ The observer effect has no fix: any school measure a district governs by becomes
 2. Hattie, J. (2015). *What doesnt work in education: The politics of distraction*. Pearson.
 3. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4), 241–253.
 4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 37.1 — Where the variance lives: between vs. within schools
+Build a single horizontal 100%-stacked proportional bar representing all achievement variance. Two segments: "Within schools" (~85%, highlighted as the dominant share) and "Between schools" (~15%). Label each segment with its approximate percentage and name. The bar should make the gross imbalance immediately legible — the within-school segment dwarfs the between-school segment. Add a short caption noting the share varies by system and method (higher between-school variance in heavily tracked systems). Use two distinct fills; emphasize the within-schools segment. The structural point: the lever the platform sells (between-school) is the small slice. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 37.2 — The three-strand braid inside the school-effects number
+Build a layered-decomposition schematic showing the between-school composite index broken into three stacked horizontal strands of unequal thickness. Top to bottom by thickness: Composition (thickest) — note "confound, dominates raw rankings, maps to housing"; Concentration (medium) — note "structural, responds only to board-level policy"; Institutional practice (thinnest, highlighted) — note "smallest, hardest to isolate — the only 'quality' strand". Encode relative thickness to reflect each strand's share of the composite. Add a top annotation: "Raw composite index = all three braided, presented as strand three". Use distinct fills per strand; highlight institutional practice as the strand the board wants but the hardest to see. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

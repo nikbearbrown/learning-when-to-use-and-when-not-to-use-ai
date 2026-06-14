@@ -1,0 +1,36 @@
+<!--
+  The three-part memory engineering model
+  Book: Visible Learning x AI
+  Chapter: 17-memory-tools-that-can-stay-ai-native
+  Figure: 01
+  Type: Three-band horizontal schematic with a per-band AI/learner split.
+  Generated: 2026-06-08
+  Source: pantry/17-memory-tools-that-can-stay-ai-native-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The three-part memory engineering model — 17-memory-tools-that-can-stay-ai-native</title>
+<desc>Memory for arbitrary material has three parts — encoding structure (AI-manufactured, received), retrieval effort (learner-only), and spacing schedule (AI-automated). Because the machine's and learner's work differ, there is no cognitive-work conflict.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="17-memory-tools-that-can-stay-ai-native"
+    figure-number="01"
+    figure-title="The three-part memory engineering model"
+    figure-slug="the-three-part-memory-engineering-model"
+    figure-type="Three-band horizontal schematic with a per-band AI/learner split."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/17-memory-tools-that-can-stay-ai-native-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The three-part memory engineering model</text><rect x="62" y="96" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Encoding structure</text><line x1="362" y1="116" x2="402" y2="116" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="116" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="120" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1</text><text x="430" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI manufactures; learne…</text><rect x="62" y="148" width="300" height="40" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Retrieval effort</text><line x1="362" y1="168" x2="402" y2="168" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="168" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="172" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">2</text><text x="430" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Learner-only; the irred…</text><rect x="62" y="200" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Spacing schedule</text><line x1="362" y1="220" x2="402" y2="220" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="220" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="224" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">3</text><text x="430" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI automates the timing…</text>
+</svg>

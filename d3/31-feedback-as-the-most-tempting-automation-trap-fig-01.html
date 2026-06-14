@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback distribution: centers and the negative tail</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --color-white: #FFFFFF; --color-ink: #2a1a0e; --color-red: #C8102E;
+    --color-secondary: #545454; --color-border: #D4D4D4; --color-ochre: #C8860E; --color-fill: #F5F5F5;
+    --gray-1: #787878; --gray-2: #ADADAD;
+    --font-display: 'EB Garamond','Garamond',Georgia,serif;
+    --font-body: 'Inter',-apple-system,'Helvetica Neue',sans-serif;
+    --font-mono: 'JetBrains Mono','Fira Code','Courier New',monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --color-white:#111111; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C;
+      --color-border:#2E2E2E; --color-ochre:#D49A30; --color-fill:#1A1A1A; --gray-1:#9a9a9a; --gray-2:#6f6f6f; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--color-white); color: var(--color-ink); font-family: var(--font-body); padding: 24px; }
+  #fig-title { font-family: var(--font-display); font-size: 20px; font-weight: 400; margin-bottom: 2px; }
+  #fig-sub { font-size: 13px; color: var(--color-secondary); margin-bottom: 12px; }
+  #chart { width: 100%; max-width: 760px; }
+  .axis-tick text, text.tick-label { font-family: var(--font-mono); font-size: 11px; fill: var(--color-secondary); }
+  text.item-label, text.node-label { font-family: var(--font-body); font-size: 12px; fill: var(--color-ink); }
+  text.val-label { font-family: var(--font-mono); font-size: 11px; fill: var(--color-ink); }
+  .gridline { stroke: var(--color-border); stroke-opacity: 0.6; stroke-width: 0.75; }
+  .tooltip { position: absolute; pointer-events: none; opacity: 0; background: var(--color-ink); color: var(--color-white);
+    font-family: var(--font-body); font-size: 13px; padding: 6px 9px; border-radius: 4px; transition: opacity 150ms; max-width: 240px; }
+  .mark { transition: opacity 200ms cubic-bezier(0.2,0.8,0.2,1); }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  caption, .src { font-family: var(--font-body); font-size: 10px; letter-spacing: 0.08em; color: var(--color-secondary); }
+</style>
+</head>
+<body>
+  <div id="fig-title">Feedback distribution: centers and the negative tail</div>
+  <div id="fig-sub">Effect sizes against the 0.40 hinge</div>
+  <div id="chart" role="img" aria-labelledby="t d"></div>
+  <span id="t" hidden>Feedback distribution: centers and the negative tail</span><span id="d" hidden>The most-cited feedback number (d=0.70) runs high against the field's meta-analytic centers (Kluger-DeNisi d=0.41, Wisniewski d=0.48), and over one-third of feedback interventions decrease performance — the distribution the average conceals.</span>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script>
+  const DATA = {"render":"dotplot","title":"Feedback distribution: centers and the negative tail","subtitle":"Effect sizes against the 0.40 hinge","desc":"The most-cited feedback number (d=0.70) runs high against the field's meta-analytic centers (Kluger-DeNisi d=0.41, Wisniewski d=0.48), and over one-third of feedback interventions decrease performance — the distribution the average conceals.","unit":"Cohen's d (effect size)","baseline":0.4,"baselineLabel":"0.40 hinge","items":[{"label":"Hattie 2018 list value","value":0.7},{"label":"Kluger & DeNisi 1996","value":0.41,"highlight":true},{"label":"Wisniewski et al. 2020","value":0.48}]};
+  const C = { white:'var(--color-white)', ink:'var(--color-ink)', red:'var(--color-red)', secondary:'var(--color-secondary)',
+    border:'var(--color-border)', ochre:'var(--color-ochre)', fill:'var(--color-fill)', g1:'var(--gray-1)', g2:'var(--gray-2)' };
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const tooltip = d3.select('body').append('div').attr('class','tooltip');
+  function tip(event, html){ tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(reduce?0:150).style('opacity',1); }
+  function tipMove(event){ tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px'); }
+  function tipHide(){ tooltip.transition().duration(reduce?0:100).style('opacity',0); }
+  function clear(){ d3.select('#chart').selectAll('*').remove(); }
+  function svgRoot(W,H){
+    const svg = d3.select('#chart').append('svg').attr('viewBox','0 0 '+W+' '+H).attr('width','100%').attr('role','img').attr('aria-labelledby','t d');
+    svg.append('title').attr('id','t').text(DATA.title);
+    svg.append('desc').attr('id','d').text(DATA.desc);
+    svg.append('defs').html('<marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="'+'currentColor'+'"/></marker>');
+    return svg;
+  }
+  function wrap(text, width){
+    text.each(function(){
+      const t=d3.select(this); const words=(t.text()||'').split(/\s+/).reverse(); let word, line=[], lineNo=0;
+      const lh=1.1, x=t.attr('x'), y=t.attr('y'), dy=parseFloat(t.attr('dy')||0);
+      let tspan=t.text(null).append('tspan').attr('x',x).attr('y',y).attr('dy',dy+'em');
+      while(word=words.pop()){ line.push(word); tspan.text(line.join(' '));
+        if(tspan.node().getComputedTextLength()>width && line.length>1){ line.pop(); tspan.text(line.join(' ')); line=[word];
+          tspan=t.append('tspan').attr('x',x).attr('y',y).attr('dy',(++lineNo*lh+dy)+'em').text(word); } }
+    });
+  }
+  // ---- chart renderers ----
+  function niceMax(v){ const s=[0.2,0.25,0.4,0.5,0.6,0.8,1,1.2,1.5,1.6,2,2.5,3,4,5,10,20,30,40,50,60,70,80,90,100,130]; for(const x of s) if(v<=x) return x; return Math.ceil(v); }
+
+  function drawBar(){
+    const W=700,H=420,m={top:56,right:40,bottom:70,left:64};
+    const items=(DATA.items||[]).slice(0,8);
+    const svg=svgRoot(W,H), g=svg.append('g');
+    const x=d3.scaleBand().domain(items.map((d,i)=>i)).range([m.left,W-m.right]).padding(0.35);
+    const minV=Math.min(0,d3.min(items,d=>+d.value)||0);
+    const maxV=niceMax(Math.max(DATA.baseline||0, d3.max(items,d=>+d.value)||0.001));
+    const y=d3.scaleLinear().domain([minV,maxV]).range([H-m.bottom,m.top]);
+    svg.append('rect').attr('x',m.left).attr('y',m.top).attr('width',W-m.left-m.right).attr('height',H-m.top-m.bottom).attr('fill',C.fill).attr('stroke',C.border).attr('stroke-width',0.75);
+    [0,maxV].concat(minV<0?[minV]:[]).forEach(t=>{ svg.append('line').attr('class','gridline').attr('x1',m.left).attr('x2',W-m.right).attr('y1',y(t)).attr('y2',y(t));
+      svg.append('text').attr('class','tick-label').attr('x',m.left-8).attr('y',y(t)+4).attr('text-anchor','end').text(Math.round(t*100)/100); });
+    if(DATA.baseline!=null){ svg.append('line').attr('x1',m.left).attr('x2',W-m.right).attr('y1',y(DATA.baseline)).attr('y2',y(DATA.baseline)).attr('stroke',C.ink).attr('stroke-width',0.75).attr('stroke-dasharray','5 4');
+      svg.append('text').attr('class','item-label').attr('x',W-m.right).attr('y',y(DATA.baseline)-5).attr('text-anchor','end').attr('fill',C.secondary).text(DATA.baselineLabel||('baseline '+DATA.baseline)); }
+    const bars=g.selectAll('rect.mark').data(items).join('rect').attr('class','mark')
+      .attr('x',(d,i)=>x(i)).attr('width',x.bandwidth())
+      .attr('y',d=>y(Math.max(0,+d.value))).attr('height',d=>Math.abs(y(+d.value)-y(0)))
+      .attr('fill',(d,i)=>d.highlight?C.red:(i%2?C.g1:C.ink))
+      .attr('tabindex',0).attr('aria-label',d=>d.label+': '+d.value)
+      .on('mouseover',(e,d)=>{bars.attr('opacity',0.35);d3.select(e.currentTarget).attr('opacity',1);tip(e,'<strong>'+d.label+'</strong>: '+d.value);})
+      .on('mousemove',tipMove).on('mouseout',()=>{bars.attr('opacity',1);tipHide();});
+    g.selectAll('text.val').data(items).join('text').attr('class','val-label').attr('x',(d,i)=>x(i)+x.bandwidth()/2).attr('y',d=>y(Math.max(0,+d.value))-6).attr('text-anchor','middle').text(d=>Math.round(+d.value*100)/100);
+    g.selectAll('text.cat').data(items).join('text').attr('class','item-label').attr('x',(d,i)=>x(i)+x.bandwidth()/2).attr('y',H-m.bottom+16).attr('dy',0).attr('text-anchor','middle').text(d=>d.label).call(wrap,x.bandwidth()+10);
+    if(DATA.unit) svg.append('text').attr('class','item-label').attr('x',m.left).attr('y',H-14).attr('fill',C.secondary).text(DATA.unit);
+  }
+
+  function drawDot(){
+    const items=(DATA.items||[]).slice(0,8);
+    const W=700,m={top:48,right:56,bottom:48,left:180}, rowH=38, H=Math.max(420,m.top+m.bottom+items.length*rowH);
+    const svg=svgRoot(W,H);
+    const minV=Math.min(0,d3.min(items,d=>+d.value)||0), maxV=niceMax(Math.max(DATA.baseline||0,d3.max(items,d=>+d.value)||0.001));
+    const x=d3.scaleLinear().domain([minV,maxV]).range([m.left,W-m.right]);
+    const y=d3.scalePoint().domain(items.map((d,i)=>i)).range([m.top+rowH/2,H-m.bottom-rowH/2]);
+    svg.append('rect').attr('x',m.left).attr('y',m.top).attr('width',W-m.left-m.right).attr('height',H-m.top-m.bottom).attr('fill',C.fill).attr('stroke',C.border).attr('stroke-width',0.75);
+    [0,maxV].concat(minV<0?[minV]:[]).forEach(t=>{ svg.append('line').attr('class','gridline').attr('x1',x(t)).attr('x2',x(t)).attr('y1',m.top).attr('y2',H-m.bottom);
+      svg.append('text').attr('class','tick-label').attr('x',x(t)).attr('y',H-m.bottom+16).attr('text-anchor','middle').text(Math.round(t*100)/100); });
+    if(DATA.baseline!=null){ svg.append('line').attr('x1',x(DATA.baseline)).attr('x2',x(DATA.baseline)).attr('y1',m.top).attr('y2',H-m.bottom).attr('stroke',C.ink).attr('stroke-width',0.75).attr('stroke-dasharray','5 4');
+      svg.append('text').attr('class','item-label').attr('x',x(DATA.baseline)).attr('y',m.top-6).attr('text-anchor','middle').attr('fill',C.secondary).text(DATA.baselineLabel||DATA.baseline); }
+    const rows=svg.append('g').selectAll('g').data(items).join('g').attr('class','mark').attr('tabindex',0).attr('aria-label',d=>d.label+': '+d.value)
+      .on('mouseover',(e,d)=>{rows.attr('opacity',0.35);d3.select(e.currentTarget).attr('opacity',1);tip(e,'<strong>'+d.label+'</strong>: '+d.value);})
+      .on('mousemove',tipMove).on('mouseout',()=>{rows.attr('opacity',1);tipHide();});
+    rows.append('text').attr('class','item-label').attr('x',m.left-10).attr('y',(d,i)=>y(i)+4).attr('text-anchor','end').text(d=>d.label);
+    rows.append('line').attr('x1',x(0)).attr('x2',d=>x(+d.value)).attr('y1',(d,i)=>y(i)).attr('y2',(d,i)=>y(i)).attr('stroke',C.border).attr('stroke-width',1);
+    rows.append('circle').attr('cx',d=>x(+d.value)).attr('cy',(d,i)=>y(i)).attr('r',5).attr('fill',d=>d.highlight?C.red:C.ink);
+    rows.append('text').attr('class','val-label').attr('x',d=>x(+d.value)+(+d.value<0?-10:10)).attr('y',(d,i)=>y(i)+4).attr('text-anchor',d=>+d.value<0?'end':'start').text(d=>Math.round(+d.value*100)/100);
+    if(DATA.unit) svg.append('text').attr('class','item-label').attr('x',m.left).attr('y',H-14).attr('fill',C.secondary).text(DATA.unit);
+  }
+
+  function boxNodes(svg, nodes, color){
+    const sel=svg.append('g').selectAll('g').data(nodes).join('g').attr('class','mark').attr('tabindex',0).attr('aria-label',d=>d.label)
+      .on('mouseover',(e,d)=>{sel.attr('opacity',0.35);d3.select(e.currentTarget).attr('opacity',1);if(d.tipText)tip(e,d.tipText);})
+      .on('mousemove',tipMove).on('mouseout',()=>{sel.attr('opacity',1);tipHide();});
+    sel.append('rect').attr('x',d=>d.x-d.w/2).attr('y',d=>d.y-d.h/2).attr('width',d=>d.w).attr('height',d=>d.h).attr('fill',d=>d.fill||C.white).attr('stroke',C.ink).attr('stroke-width',1.25);
+    sel.append('text').attr('class','node-label').attr('x',d=>d.x).attr('y',d=>d.y-d.h/2+16).attr('dy',0).attr('text-anchor','middle').attr('fill',d=>d.tcol||C.ink).text(d=>d.label).call(wrap,90);
+    // vertically center-ish: shift text group not trivial; acceptable top-anchored wrap
+    return sel;
+  }
+
+  function drawFlow(){
+    const stages=(DATA.stages||[]).slice(0,6); const W=700,H=420, n=stages.length||1;
+    const svg=svgRoot(W,H); const gap=26, bw=Math.min(150,(W-64-gap*(n-1))/n), bh=78, cy=210;
+    let x=(W-(bw*n+gap*(n-1)))/2;
+    const nodes=stages.map((s,i)=>{ const o={x:x+bw/2,y:cy,w:bw,h:bh,label:(s.num!=null?s.num+'. ':'')+s.label,fill:C.white}; x+=bw+gap; return o; });
+    // connectors
+    for(let i=0;i<n-1;i++){ const a=nodes[i], b=nodes[i+1]; const x1=a.x+bw/2+4, x2=b.x-bw/2-4, my=cy; const rel=(DATA.relations&&DATA.relations[i])||'arrow';
+      if(rel==='block'){ const mid=(x1+x2)/2; svg.append('line').attr('x1',x1).attr('x2',mid).attr('y1',my).attr('y2',my).attr('stroke',C.ink).attr('stroke-width',1.5);
+        svg.append('line').attr('x1',mid).attr('x2',mid).attr('y1',my-10).attr('y2',my+10).attr('stroke',C.ink).attr('stroke-width',1.5); }
+      else svg.append('line').attr('x1',x1).attr('x2',x2-2).attr('y1',my).attr('y2',my).attr('stroke',C.ink).attr('stroke-width',1.5).attr('color',C.ink).attr('marker-end','url(#arrow)');
+      if(DATA.relLabels&&DATA.relLabels[i]) svg.append('text').attr('class','item-label').attr('x',(x1+x2)/2).attr('y',my-12).attr('text-anchor','middle').attr('fill',C.secondary).style('font-size','10px').text(DATA.relLabels[i]); }
+    boxNodes(svg,nodes);
+    if(DATA.note) svg.append('text').attr('class','item-label').attr('x',32).attr('y',H-16).attr('fill',C.secondary).text(DATA.note);
+  }
+
+  function drawCompare(){
+    const rows=(DATA.rows||[]).slice(0,7); const W=700, top=92, rowH=46, H=Math.max(420, top+rows.length*rowH+30);
+    const svg=svgRoot(W,H); const mid=W/2, colL=32+(mid-32)/2, colR=mid+(W-32-mid)/2;
+    svg.append('line').attr('x1',mid).attr('x2',mid).attr('y1',top-18).attr('y2',H-30).attr('stroke',C.border).attr('stroke-width',1);
+    svg.append('text').attr('class','node-label').attr('x',colL).attr('y',top).attr('text-anchor','middle').style('font-weight',700).text(DATA.leftTitle||'Before');
+    svg.append('text').attr('class','node-label').attr('x',colR).attr('y',top).attr('text-anchor','middle').style('font-weight',700).text(DATA.rightTitle||'After');
+    rows.forEach((r,i)=>{ const y=top+24+i*rowH;
+      svg.append('rect').attr('x',40).attr('y',y-16).attr('width',mid-64).attr('height',34).attr('fill',C.fill).attr('stroke',C.border);
+      svg.append('text').attr('class','node-label').attr('x',colL).attr('y',y+2).attr('dy',0).attr('text-anchor','middle').style('font-size','11px').text(r.left).call(wrap,mid-90);
+      svg.append('rect').attr('x',mid+16).attr('y',y-16).attr('width',W-40-mid-16).attr('height',34).attr('fill',C.white).attr('stroke',C.border);
+      svg.append('text').attr('class','node-label').attr('x',colR).attr('y',y+2).attr('dy',0).attr('text-anchor','middle').style('font-size','11px').attr('fill',r.highlight?C.red:C.ink).text(r.right).call(wrap,W-40-mid-50); });
+    if(DATA.axisLabel) svg.append('text').attr('class','item-label').attr('x',W/2).attr('y',H-14).attr('text-anchor','middle').attr('fill',C.secondary).text(DATA.axisLabel);
+  }
+
+  function drawTimeline(){
+    const marks=(DATA.markers||[]).slice(0,7); const W=700,H=420, y=210, x0=52,x1=W-52, n=marks.length||1;
+    const svg=svgRoot(W,H); svg.append('line').attr('x1',x0).attr('x2',x1).attr('y1',y).attr('y2',y).attr('stroke',C.ink).attr('stroke-width',1.5).attr('color',C.ink).attr('marker-end','url(#arrow)');
+    const step=(x1-x0-30)/Math.max(1,n-1);
+    marks.forEach((mk,i)=>{ const x=n===1?(x0+x1)/2:x0+step*i; const above=i%2===0;
+      svg.append('line').attr('x1',x).attr('x2',x).attr('y1',y-6).attr('y2',y+6).attr('stroke',C.ink).attr('stroke-width',1.5);
+      svg.append('circle').attr('cx',x).attr('cy',y).attr('r',4).attr('fill',i===n-1?C.red:C.ink);
+      if(mk.sub) svg.append('text').attr('class','tick-label').attr('x',x).attr('y',above?y-44:y+30).attr('text-anchor','middle').text(mk.sub);
+      svg.append('text').attr('class','node-label').attr('x',x).attr('y',above?y-28:y+46).attr('dy',0).attr('text-anchor','middle').text(mk.label).call(wrap,110); });
+    if(DATA.axisLabel) svg.append('text').attr('class','item-label').attr('x',W/2).attr('y',H-16).attr('text-anchor','middle').attr('fill',C.secondary).text(DATA.axisLabel);
+  }
+
+  function drawTree(){
+    const root=DATA.root||{label:DATA.title,children:[]}; const kids=(root.children||[]).slice(0,6);
+    const W=700,H=420, rootY=108, childY=250; const svg=svgRoot(W,H);
+    const n=kids.length||1, avail=W-64, cbw=Math.min(110,(avail-(n-1)*18)/n), totalW=cbw*n+18*(n-1); let x=(W-totalW)/2;
+    const rootNode={x:W/2,y:rootY,w:130,h:56,label:root.label,fill:C.white};
+    const childNodes=kids.map(c=>{ const o={x:x+cbw/2,y:childY,w:cbw,h:56,label:c.label,fill:C.fill}; x+=cbw+18; return o; });
+    childNodes.forEach(c=> svg.append('line').attr('x1',rootNode.x).attr('y1',rootY+28).attr('x2',c.x).attr('y2',childY-28).attr('stroke',C.border).attr('stroke-width',1));
+    const rs=boxNodes(svg,[rootNode]); rs.select('text').style('font-weight',700);
+    boxNodes(svg,childNodes);
+  }
+
+  function drawNetwork(){
+    const nodes=(DATA.nodes||[]).slice(0,7); const edges=DATA.edges||[]; const W=700,H=420, cx=W/2, cy=230, R=140;
+    const svg=svgRoot(W,H); const pos={};
+    nodes.forEach((nd,i)=>{ if(nd.x!=null&&nd.y!=null){pos[nd.id]={x:nd.x,y:nd.y};return;} const a=-Math.PI/2+2*Math.PI*i/nodes.length; pos[nd.id]={x:cx+R*Math.cos(a),y:cy+R*Math.sin(a)*0.8}; });
+    edges.forEach(e=>{ const a=pos[e.from],b=pos[e.to]; if(!a||!b)return;
+      if(e.kind==='block'){ const mx=(a.x+b.x)/2,my=(a.y+b.y)/2,dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1;
+        svg.append('line').attr('x1',a.x).attr('y1',a.y).attr('x2',mx).attr('y2',my).attr('stroke',C.ink).attr('stroke-width',1.5);
+        svg.append('line').attr('x1',mx-dy/len*8).attr('y1',my+dx/len*8).attr('x2',mx+dy/len*8).attr('y2',my-dx/len*8).attr('stroke',C.ink).attr('stroke-width',1.5); }
+      else svg.append('line').attr('x1',a.x).attr('y1',a.y).attr('x2',b.x).attr('y2',b.y).attr('stroke',C.ink).attr('stroke-width',1.5).attr('color',C.ink).attr('marker-end','url(#arrow)');
+      if(e.label) svg.append('text').attr('class','item-label').attr('x',(a.x+b.x)/2).attr('y',(a.y+b.y)/2-6).attr('text-anchor','middle').attr('fill',C.secondary).style('font-size','10px').text(e.label); });
+    const bn=nodes.map(nd=>({x:pos[nd.id].x,y:pos[nd.id].y,w:108,h:50,label:nd.label,fill:nd.highlight?C.red:C.white,tcol:nd.highlight?C.white:C.ink}));
+    boxNodes(svg,bn);
+  }
+
+  function drawCycle(){
+    const stages=(DATA.stages||[]).slice(0,6); const W=700,H=420, cx=W/2, cy=230, R=130, n=stages.length||1;
+    const svg=svgRoot(W,H); const pos=stages.map((_,i)=>{const a=-Math.PI/2+2*Math.PI*i/n; return {x:cx+R*Math.cos(a),y:cy+R*Math.sin(a)};});
+    for(let i=0;i<n;i++){ const a=pos[i],b=pos[(i+1)%n],dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1,ux=dx/len,uy=dy/len;
+      svg.append('line').attr('x1',a.x+ux*42).attr('y1',a.y+uy*30).attr('x2',b.x-ux*42).attr('y2',b.y-uy*30).attr('stroke',C.ink).attr('stroke-width',1.5).attr('color',C.ink).attr('marker-end','url(#arrow)'); }
+    boxNodes(svg,pos.map((p,i)=>({x:p.x,y:p.y,w:96,h:50,label:stages[i].label,fill:C.white})));
+  }
+
+  function drawSchematic(){
+    const layers=(DATA.layers||[]).slice(0,6); const W=700, H=Math.max(420,110+layers.length*52+30); const svg=svgRoot(W,H);
+    const lw=300, lx=62; let y=92;
+    layers.forEach((l,i)=>{ svg.append('rect').attr('x',lx).attr('y',y).attr('width',lw).attr('height',40).attr('fill',i%2?C.fill:C.white).attr('stroke',C.ink).attr('stroke-width',1);
+      svg.append('text').attr('class','node-label').attr('x',lx+12).attr('y',y+24).text(l.label);
+      svg.append('line').attr('x1',lx+lw).attr('y1',y+20).attr('x2',lx+lw+40).attr('y2',y+20).attr('stroke',C.border);
+      svg.append('circle').attr('cx',lx+lw+50).attr('cy',y+20).attr('r',10).attr('fill',C.white).attr('stroke',C.ink);
+      svg.append('text').attr('class','val-label').attr('x',lx+lw+50).attr('y',y+24).attr('text-anchor','middle').text(i+1);
+      if(l.note) svg.append('text').attr('class','item-label').attr('x',lx+lw+68).attr('y',y+24).attr('fill',C.secondary).style('font-size','11px').text(l.note);
+      y+=52; });
+  }
+
+  function drawAnnotated(){
+    const cos=(DATA.callouts||[]).slice(0,6); const W=700,H=420, cx=W/2, cy=230; const svg=svgRoot(W,H);
+    const n=cos.length||1;
+    cos.forEach((c,i)=>{ const a=-Math.PI/2+2*Math.PI*i/n, ex=cx+250*Math.cos(a), ey=cy+150*Math.sin(a), sx=cx+75*Math.cos(a), sy=cy+40*Math.sin(a);
+      svg.append('line').attr('x1',sx).attr('y1',sy).attr('x2',ex).attr('y2',ey).attr('stroke',C.border);
+      svg.append('circle').attr('cx',ex).attr('cy',ey).attr('r',3).attr('fill',C.ink);
+      svg.append('text').attr('class','node-label').attr('x',ex+(ex<cx?-8:8)).attr('y',ey+4).attr('dy',0).attr('text-anchor',ex<cx?'end':'start').style('font-size','11px').text(c.label).call(wrap,150); });
+    boxNodes(svg,[{x:cx,y:cy,w:150,h:80,label:DATA.centerLabel||DATA.title,fill:C.fill}]).select('text').style('font-weight',700);
+  }
+
+  const R={ bar:drawBar, dotplot:drawDot, flow:drawFlow, comparison:drawCompare, timeline:drawTimeline, tree:drawTree, network:drawNetwork, conceptmap:drawNetwork, cycle:drawCycle, schematic:drawSchematic, annotated:drawAnnotated };
+  function draw(){ clear(); (R[DATA.render]||drawFlow)(); }
+  draw();
+  const ro=new ResizeObserver(()=>{}); ro.observe(document.getElementById('chart')); // viewBox handles scaling; observer present per spec
+  </script>
+</body>
+</html>

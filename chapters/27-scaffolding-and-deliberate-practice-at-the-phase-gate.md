@@ -36,7 +36,10 @@ The "partial" conflict means the work divides. Some of it — diagnosing errors,
 
 This is the chapter where the book's central tool — the phase gate — meets its canonical application, because both influences in this group are, at bottom, contracts about when help must stop.
 
-<!-- → [TABLE: Two group influences — scaffolding (d = 0.82), deliberate practice (d = 0.79) — with mechanism summary (contingent support that fades; targeted practice at the weakness edge with tight feedback), the honesty notes for each (scaffolding's thin effectiveness base; Macnamara's 4%-in-education correction), and the specific conflict: fading and unaided-attempt requirements that commercial systems routinely bypass.] -->
+| Influence | d (rank) | Mechanism | Honesty note | The conflict |
+|---|---|---|---|---|
+| Scaffolding | 0.82 (rank 16) | Contingent support calibrated to the learner's current state that fades as competence grows, transferring responsibility to the learner | The controlled-effectiveness base is thin relative to the construct's fame (van de Pol et al.); the d aggregates a broad construct | Fading is rarely implemented — commercial systems keep help permanently available, so the muscles never grow |
+| Deliberate practice | 0.79 (rank 17) | Targeted, effortful practice aimed at the learner's specific weakness with immediate informative feedback — design, not dosage | Macnamara's correction: deliberate practice explains only ~4% of performance variance in education [contested] | Mastery measured from assisted answers — the unaided attempt is bypassed, and platforms have no incentive to require it |
 
 ---
 
@@ -50,6 +53,9 @@ Two honesty notes travel with the number: van de Pol and colleagues themselves o
 
 But the Macnamara correction belongs here too. Macnamara, Hambrick, and Oswald (2014), across 88 studies, found deliberate practice explains about 26% of performance variance in games, 21% in music, 18% in sports — and only about 4% in education. The Ericsson–Macnamara dispute over definitions ran for years and remains live [contested]. Present it as such: practice design matters enormously; practice quantity is nowhere near the whole story in education, where prior knowledge, instruction quality, and ability carry most of the variance. Every practice-platform pitch should be made to confront the 4%.
 
+![Horizontal bar chart of the percentage of performance variance deliberate practice explains by domain — games 26%, music 21%, sports 18%, education only 4% — capping the practice-quantity story exactly where practice platforms are sold](images/27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-03.png)
+*Figure 27.3 — The Macnamara correction: variance explained*
+
 ---
 
 ## Why It Works: Expert-Calibrated Challenge at the Edge
@@ -59,6 +65,9 @@ The two influences share one mechanism: expert-calibrated challenge at the edge 
 Scaffolding works because of contingency — the help is matched, moment to moment, to what this learner can almost do. Matched help keeps the learner working in the zone where effort produces growth instead of either boredom (task too easy) or shutdown (task too far). But contingency is only half the contract. The other half is fading: the support exists to make itself unnecessary. A hint that is always available is not a scaffold; it is a load-bearing wall, and the structure cannot stand without it.
 
 Deliberate practice works for the parallel reason: it replaces undirected repetition with practice aimed at the learner's specific current weakness, under feedback tight enough to correct errors before they consolidate. Two students can each do forty problems; if one does forty she mostly gets right and the other does twelve chosen to attack her particular factoring error, with immediate feedback and a retry rule, the difference is design, not dosage.
+
+![Two-phase progression flowchart of the scaffolding contract — Phase 1 supported (high contingency, help at the edge), a fading schedule, then Phase 2 faded (support withdraws, independent performance) — with a divergent failure branch where Phase 1 runs forever and mastery is declared from assisted answers](images/27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-02.png)
+*Figure 27.2 — The scaffolding contract: two phases and the failure mode*
 
 <!-- → [DIAGRAM: Two-phase contract diagram — Phase 1 (supported): high contingency, help calibrated to current ability, learner working at edge. Phase 2 (faded): support withdraws as competence rises, responsibility transfers, learner performs independently. Between phases: the fading schedule. Off to the side, the commercial failure mode: Phase 1 continues indefinitely, no fading, "mastery" declared from assisted answers. Label this "dependence with good UX."] -->
 
@@ -107,6 +116,9 @@ The pilot charter named the influences explicitly: "contingent support, on a fad
 Configured well, it did what Priya's stretched team could not. It caught a third grader's specific error pattern — subtracting the smaller digit from the larger regardless of position — within two sessions, a diagnosis that used to wait weeks for an interventionist's caseload to cycle around. It served each child practice at their actual edge instead of the group's middle. And it returned interventionist time for the work only they could do: validating diagnoses, modeling new strategies, deciding when a child was ready for less help.
 
 The cold set was the decisive instrument. When the team ran a no-hint check across the pilot group — same problem types, no ladder, mixed and transfer items — a third of platform-certified masteries failed it. Not edge cases. One in three. The assisted line had been rising; the unassisted line had not moved.
+
+![Two-line trend chart of accuracy over weeks: the assisted (hint-available) line climbs from week one while the unassisted (cold-set) line stays flat until a week-eight configuration change — attempt-first, fading active, cold-set mastery — after which it finally rises](images/27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-01.png)
+*Figure 27.1 — The two-line graph: assisted vs. unassisted*
 
 <!-- → [CHART: The two-line graph — X-axis: weeks of use; Y-axis: accuracy. Line A (assisted, hint-available practice): climbs steadily from week one. Line B (unassisted, cold set): flat until the default configuration changes in week eight, then rises. The annotation marks the policy change — attempt-first required, fading schedule active, mastery requires cold-set pass — as the inflection point where the two lines begin converging. This is the only graph that matters.] -->
 
@@ -189,3 +201,14 @@ A replicated study showing that always-available, high-quality hints do *not* im
 ### Challenge
 
 **9.** You are Priya, presenting the cold-set results to the district's curriculum director: one-third of platform-certified masteries failing the no-hint check. The vendor's representative is also in the room, and argues: "Cold sets are not ecologically valid — students always have access to resources in real classroom and work settings, and our platform reflects that reality. Mastery under supported conditions is the appropriate standard." Write the response you deliver in the meeting: address the ecological-validity argument directly, explain why unassisted transfer performance is the correct evidentiary standard for this group's influences, distinguish between support students will genuinely have in future learning contexts versus support that substitutes for the cognitive act the practice was designed to build, and close with the one question you ask the vendor that their ecological-validity argument cannot answer. *(Difficulty: challenge. Tests: defending the unassisted-transfer standard under adversarial conditions, addressing a specific and sophisticated counter-argument, and identifying the logical gap in the vendor's position.)*
+
+## Prompts
+
+### Figure 27.1 — The two-line graph: assisted vs. unassisted
+Build a two-line time-series chart with x-axis "weeks of use" and y-axis "accuracy." Line A (assisted, hint-available) climbs steadily from week one. Line B (unassisted, cold set) stays flat and low until a vertical inflection marker at week eight labeled "configuration change: attempt-first, fading active, cold-set mastery," after which Line B rises and converges toward Line A. Mark the four phases along the bottom: Week 1, Weeks 2-7, Week 8 (change), After change. Highlight the cold-set line as the one that matters. Distinct line styles with a legend; zero-anchored y-axis. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 27.2 — The scaffolding contract: two phases and the failure mode
+Build a left-to-right flowchart with three sequential stages connected by arrows: "Phase 1: supported (high contingency, help at the edge)" → "Fading schedule (transition)" → "Phase 2: faded (support withdraws, independent performance)." From the fading-schedule node, draw a divergent branch (block-style, labeled "diverges") down to a failure node: "Failure mode: Phase 1 forever, mastery declared from assisted answers," captioned "dependence with good UX." Number the legitimate stages 1-2-3 and mark the failure branch as never fading. Visually separate the legitimate horizontal path from the divergent failure branch. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 27.3 — The Macnamara correction: variance explained
+Build a horizontal bar chart, value range 0 to ~30 in percent. Bars sorted descending: "Games" = 26, "Music" = 21, "Sports" = 18, "Education" = 4 (highlighted). Zero baseline at left. Unit axis label: "% of performance variance explained." Annotate the education bar to mark that 4% caps the practice-quantity story exactly where practice platforms are sold. Label each bar with its percentage. No reference line needed. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

@@ -36,7 +36,10 @@ High band, **AI-AUGMENTED**, high human irreducibility, medium substitution risk
 
 In plain language: AI can genuinely help here, because the work involves gathering and weighing evidence, and machines are good at gathering. But the thing the effect size actually describes — a teacher's accurate, contextual knowledge of each student — cannot be transferred to a tool. There is no cognitive-work conflict because the cognitive work in question is not the student's; it is the teacher's. The substitution risk is medium rather than high because the danger is quiet and gradual: not a tool doing students' thinking for them, but a dashboard slowly doing teachers' judging for them.
 
-<!-- → [TABLE: Two group influences — teacher estimates of achievement (d = 1.29), teacher clarity (d = 0.75) — with mechanism summary, the provenance note for each (Südkamp meta-analysis for estimates; Fendick dissertation for clarity), and the specific AI role versus human-irreducible component. The table should make clear that estimates is a measurement of existing knowledge, not an intervention, and that clarity is a design property of instruction, not a talent.] -->
+| Influence | d (rank) | Mechanism | Provenance note | AI role | Human-irreducible component |
+|---|---|---|---|---|---|
+| Teacher estimates of achievement | 1.29 (rank 3) | A measurement of existing knowledge — how accurately a teacher already knows where each student stands — not an intervention | Südkamp, Kaiser & Möller (2012): 75 studies, mean r = .63, converted to d | Aggregate and surface evidence; flag slow drifts; maintain calibration records | The accurate, contextual estimate itself, strongest where data is thinnest |
+| Teacher clarity | 0.75 (rank 24) | A design property of instruction — goals, explanations, examples, practice, and checks that line up — not a talent for plain talk | Fendick (1990) dissertation, r ≈ .35 [verify]; converges with the explicit-teaching literature | Draft learning intentions, success criteria, worked examples and non-examples | Live delivery and in-room checking of understanding |
 
 ---
 
@@ -47,6 +50,9 @@ In plain language: AI can genuinely help here, because the work involves gatheri
 **Teacher clarity (d = 0.75) — rank 24.** This figure traces to a single unpublished doctoral dissertation — Fendick (1990) — which defined clarity as four components: organization, explanation, examples and guided practice, and assessment of student learning, and reported a correlation of roughly r = .35 [verify — full dissertation text not obtained; claims here are limited to what secondary analyses report]. The thin provenance is worth knowing, but the construct converges with the much larger explicit-teaching literature: clarity is a design property of instruction — goals, explanations, examples, practice, and checks that line up — not a talent for talking plainly.
 
 One disambiguation before proceeding: teacher *estimates* (how accurately teachers know their students) is a different influence from teacher *expectations* (beliefs that can become self-fulfilling, which sit lower on the list). One is a measurement story; the other is a prophecy story. This chapter is about the first.
+
+![Horizontal bar chart of two influences against the 0.40 hinge: teacher estimates of achievement at 1.29 near the top of the whole list and teacher clarity at 0.75, both far in the High band](images/24-teacher-judgment-with-ai-evidence-fig-03.png)
+*Figure 24.3 — Two influences against the hinge*
 
 ---
 
@@ -61,6 +67,9 @@ The honest complication is that teacher judgment, while good on average, is unev
 Eegdeman, Cornelisz, van Klaveren, and Meeter (2022) ran a head-to-head in Dutch vocational education: who predicts student dropout better, teachers or machine-learning models? At the start of the program, *teachers won* — they identified very-high-risk students who were invisible in the data, because their knowledge was relational and contextual. Once first-period grades arrived, the algorithms caught up and then outperformed the teachers on average. A combined ranking — teacher judgment plus model — showed better sensitivity than either alone, though not better precision.
 
 One study, one context. Treat it as an existence proof of complementarity, not a law. But the shape of the result is exactly what this group's classification predicts: the teacher's contribution is strongest precisely where the data is thinnest — new students, transitions, life events, things no LMS captures — and the machine's contribution grows as structured evidence accumulates. They are not competing for the same information. They are processing different kinds.
+
+![Multi-line trend chart across the school year: teacher judgment starts high and plateaus, the model starts low and rises steeply to overtake at the first grading period, and the combined ranking runs above both after that crossover](images/24-teacher-judgment-with-ai-evidence-fig-01.png)
+*Figure 24.1 — Teacher-model complementarity over the school year*
 
 <!-- → [DIAGRAM: Teacher-model complementarity timeline — X-axis: time into the school year; Y-axis: prediction accuracy for student risk. Two lines: teacher judgment (starts high, plateaus) and model (starts low, rises steeply). A combined-ranking line runs above both after the first grading period. The key label: "teacher wins here" marks the information-poor start; "model catches up here" marks when structured evidence accumulates. The visual makes the timing asymmetry — and the complementarity — legible.] -->
 
@@ -107,6 +116,9 @@ In week six, the module flagged a student whose math quiz scores had drifted dow
 In week nine, Dana noticed the data-meeting conversation had changed. Teachers had begun opening the meeting by reading dashboard colors aloud — "I've got four reds and a yellow" — instead of describing students. One teacher admitted she had stopped writing her own pre-meeting notes because the module "already ranks them." The team had crossed the gate without noticing. The tool's output was becoming the estimate rather than informing it.
 
 Two students made the problem concrete. A quiet high performer was flagged red purely from an absence artifact — a recorded family emergency that the LMS had no way to interpret. A student in real trouble showed green because he submitted everything: late, minimal, and copied. The teachers knew both stories. The model knew neither. And because the pre-meeting notes had stopped, those stories had no formal channel to the table.
+
+![Side-by-side comparison of two week-nine cases: a quiet high performer the model flags red from an absence artifact while the teacher knows the flag is wrong, and a struggling student the model shows green from completion while the teacher suspects copied work](images/24-teacher-judgment-with-ai-evidence-fig-02.png)
+*Figure 24.2 — The two-student audit: where model and teacher disagree*
 
 <!-- → [DIAGRAM: Two-student audit — Side-by-side comparison of model output versus teacher knowledge for the two week-nine cases. Left student: model flags red (absence artifact); teacher knows this is incorrect. Right student: model shows green (assignment completion); teacher suspects this is incorrect. The diagram makes concrete why teacher judgment and model output must remain distinct — and why their disagreement is the most valuable signal in the system.] -->
 
@@ -187,3 +199,14 @@ A well-designed multi-site study showing that teachers who work with verdict-sty
 ### Challenge
 
 **9.** You are Dana, presenting to the principal in December. The vendor has attended the meeting and disputes the independent-judgment rule: "Our platform's accuracy is 87% on risk identification. Requiring teachers to form independent estimates before seeing our output introduces unnecessary cognitive friction and delays intervention for at-risk students. The research says teacher judgment is variable; our consistency is the point." Using the Südkamp meta-analysis, the Eegdeman timing result, the automation-bias mechanism, and the two week-nine students, write the three-minute presentation that responds to each of the vendor's claims — and closes with the one question the principal should ask the vendor before deciding whether to adopt the independent-judgment rule. *(Difficulty: challenge. Tests: integrating the chapter's complete empirical and mechanism framework into an adversarial institutional argument, under time pressure, for a decision-maker who is not a researcher.)*
+
+## Prompts
+
+### Figure 24.1 — Teacher-model complementarity over the school year
+Build a horizontal timeline / multi-line trend chart with x-axis "time into the school year" and y-axis "prediction accuracy." Plot three lines: teacher judgment (starts high, plateaus), model (starts low, rises steeply, overtakes teacher at the first grading period), and a combined ranking (runs above both after the first grading period). Mark four timeline points along the bottom: "Information-poor start (teacher judgment highest)," "First grading period (model overtakes — crossover)," "Mid-year (combined runs above both)," "Year-end (model highest single signal)." Annotate the crossover point explicitly. Use distinct line styles per signal with a legend. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 24.2 — The two-student audit: where model and teacher disagree
+Build a two-case side-by-side comparison panel. Left case "Quiet high performer": two rows — "Model: red flag (absence artifact)" and "Teacher: knows the flag is wrong" (highlight the teacher row). Right case "Struggling student": aligned rows — "Model: green (assignment completion)" and "Teacher: suspects copied work" (highlight the teacher row). Shared axis label spanning both: "Model output vs. teacher knowledge." Visually oppose the model row and teacher row within each case so the disagreement reads as the signal. Annotate that the disagreement is the most valuable signal in the system. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 24.3 — Two influences against the hinge
+Build a horizontal bar chart, two bars, value range 0 to ~1.4 in Cohen's d. Bars: "Teacher estimates of achievement" = 1.29 (highlighted), "Teacher clarity" = 0.75. Zero baseline at left. Vertical reference line at d = 0.40 labeled "0.40 hinge"; both bars sit far above it in the High band. Sort descending. Annotate that estimates sits near the top of the entire 252-influence list. Label each bar with its value. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

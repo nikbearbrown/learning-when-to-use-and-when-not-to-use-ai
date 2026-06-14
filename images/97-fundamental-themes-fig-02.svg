@@ -1,0 +1,36 @@
+<!--
+  Friction findings: practice gain vs. exam collapse
+  Book: Visible Learning x AI
+  Chapter: 97-fundamental-themes
+  Figure: 02
+  Type: Two-panel proportional bar chart — Panel A paired before/after-style bars (Bastani), Panel B a single magnitude bar (Kosmyna).
+  Generated: 2026-06-08
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Friction findings: practice gain vs. exam collapse — 97-fundamental-themes</title>
+<desc>Free AI use during practice produced a 48% apparent gain but a 17-point loss on the unassisted exam, and AI-assisted writing cut functional brain connectivity by up to 55%. Output fluency diverged sharply from the neural events of learning.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="97-fundamental-themes"
+    figure-number="02"
+    figure-title="Friction findings: practice gain vs. exam collapse"
+    figure-slug="friction-findings-practice-gain-vs-exam-"
+    figure-type="Two-panel proportional bar chart — Panel A paired before/after-style bars (Bastani), Panel B a single magnitude bar (Kosmyna)."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/97-fundamental-themes-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Friction findings: practice gain vs. exam collapse</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Apparent benefit vs. real cost of AI in practice</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="210" x2="660" y2="210" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">55</text><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">-55</text><rect x="131.33333333333331" y="82.58181818181816" width="64" height="127.41818181818184" fill="#C8102E" rx="0"/><text x="163.33333333333331" y="76.58181818181816" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">48</text><text x="163.33333333333331" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Practice-phase</text><text x="163.33333333333331" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">gain (Bastani)</text><rect x="330" y="210" width="64" height="146" fill="#787878" rx="0"/><text x="362" y="204" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">-55</text><text x="362" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Brain</text><text x="362" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">connectivity…</text><rect x="528.6666666666666" y="210" width="64" height="45.127272727272725" fill="#2a1a0e" rx="0"/><text x="560.6666666666666" y="204" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">-17</text><text x="560.6666666666666" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Unassisted-exam</text><text x="560.6666666666666" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">drop (Bastani,…</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">% change</text>
+</svg>

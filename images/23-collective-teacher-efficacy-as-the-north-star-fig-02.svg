@@ -1,0 +1,36 @@
+<!--
+  The largest hypothesized collapse: 1.57 to 0.15
+  Book: Visible Learning x AI
+  Chapter: 23-collective-teacher-efficacy-as-the-north-star
+  Figure: 02
+  Type: two-bar comparison chart with hinge reference line
+  Generated: 2026-06-08
+  Source: pantry/23-collective-teacher-efficacy-as-the-north-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">The largest hypothesized collapse: 1.57 to 0.15 — 23-collective-teacher-efficacy-as-the-north-star</title>
+<desc>Collective teacher efficacy carries the dataset's largest effect size (d = 1.57) as a converted correlation, but hypothesized survival under AI-dashboard-only delivery is d ~ 0.15 — the largest hypothesized collapse in the book.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="23-collective-teacher-efficacy-as-the-north-star"
+    figure-number="02"
+    figure-title="The largest hypothesized collapse: 1.57 to 0.15"
+    figure-slug="the-largest-hypothesized-collapse-1-57-t"
+    figure-type="two-bar comparison chart with hinge reference line"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/23-collective-teacher-efficacy-as-the-north-star-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The largest hypothesized collapse: 1.57 to 0.15</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Measured 1.57 vs. AI-dashboard-only survival 0.15</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">1.6</text><line x1="64" y1="283" x2="660" y2="283" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="660" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.40 hinge</text><rect x="181" y="69.47500000000002" width="64" height="286.525" fill="#C8102E" rx="0"/><text x="213" y="63.47500000000002" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1.57</text><text x="213" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Collective</text><text x="213" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">teacher…</text><rect x="479" y="328.625" width="64" height="27.375" fill="#787878" rx="0"/><text x="511" y="322.625" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.15</text><text x="511" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-dashboard-only</text><text x="511" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(hypothesized)</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

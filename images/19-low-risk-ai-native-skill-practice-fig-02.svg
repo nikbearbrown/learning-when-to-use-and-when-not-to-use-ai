@@ -1,0 +1,36 @@
+<!--
+  Four-clause practice engine: AI administers, learner performs
+  Book: Visible Learning x AI
+  Chapter: 19-low-risk-ai-native-skill-practice
+  Figure: 02
+  Type: Four-stage practice-loop diagram with a per-clause AI/learner split.
+  Generated: 2026-06-08
+  Source: pantry/19-low-risk-ai-native-skill-practice-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Four-clause practice engine: AI administers, learner performs — 19-low-risk-ai-native-skill-practice</title>
+<desc>Skill practice works when it is retrieval-based, immediately corrected, distributed, and at the learner's edge. At every clause the learner's action is irreducible while AI only administers.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="19-low-risk-ai-native-skill-practice"
+    figure-number="02"
+    figure-title="Four-clause practice engine: AI administers, learner performs"
+    figure-slug="four-clause-practice-engine-ai-administe"
+    figure-type="Four-stage practice-loop diagram with a per-clause AI/learner split."
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/19-low-risk-ai-native-skill-practice-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Four-clause practice engine: AI administers, learner performs</text><rect x="32" y="162" width="139.5" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="40" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">1</text><text x="101.75" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Retrieval-based</text><text x="101.75" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">(learner spells</text><text x="101.75" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">from sound)</text><line x1="175.5" y1="200" x2="191.5" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="197.5" y="162" width="139.5" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="205.5" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">2</text><text x="267.25" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Immediately</text><text x="267.25" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">corrected (learner</text><text x="267.25" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">self-corrects)</text><line x1="341" y1="200" x2="357" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="363" y="162" width="139.5" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="371" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">3</text><text x="432.75" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">Distributed</text><text x="432.75" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">(learner retrieves</text><text x="432.75" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">again)</text><line x1="506.5" y1="200" x2="522.5" y2="200" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="528.5" y="162" width="139.5" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" rx="0"/><text x="536.5" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="start">4</text><text x="598.25" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">At-the-edge</text><text x="598.25" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">(learner operates</text><text x="598.25" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="middle">at own edge)</text><text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI generates items, schedules returns, tracks mastery, adjusts difficulty; learner action…</text>
+</svg>

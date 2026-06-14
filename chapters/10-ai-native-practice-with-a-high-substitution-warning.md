@@ -40,11 +40,19 @@ And then the warning light — high substitution risk, the highest of any AI-NAT
 
 In the AI-resistant groups, substitution announces itself — a chatbot is obviously not a peer. In AI-native territory, substitution is silent. The practice session looks identical from the outside whether the student retrieved the word or the word helper retrieved it for them. The filled practice box is the same rectangle either way.
 
-<!-- → [TABLE: The four group influences — vocabulary programs (0.62), technology with learning-needs students (0.57), technology in other subjects (0.55), technology with elementary students (0.44) — with effect size, mechanism summary, and the specific substitution warning for each row. Note the pre-generative provenance on the two broad technology rows.] -->
+| Influence | Effect size (d) | Mechanism | Substitution warning |
+|---|---|---|---|
+| Vocabulary programs | 0.62 | Spaced, productive retrieval and use of high-value words across varied contexts | Answer button supplies the sentence the retrieval was meant to produce |
+| Technology with learning-needs students | 0.57 | Assistive access — text-to-speech, speech-to-text, interface adaptation — removes a barrier in front of the target cognition | Access feature drifts into performing the cognition (e.g., sentence starters that compose for the student); pre-generative provenance |
+| Technology in other subjects | 0.55 | Medium is nearly inert; effects track what the tech gets students to *do* — more practice, feedback, attempts | Pre-generative provenance; generative tool can complete the very task it was meant to provoke |
+| Technology with elementary students | 0.44 | Same practice-density mechanism, youngest learners | Pre-generative provenance; least metacognitive equipment to notice *I produced this* vs. *it appeared* |
 
 ---
 
 ## The Four Rows
+
+![Horizontal dot plot of the group's four influences from d = 0.44 to 0.62, all above the 0.40 hinge reference line, with vocabulary programs highest](images/10-ai-native-practice-with-a-high-substitution-warning-fig-04.png)
+*Figure 10.4 — Four group influences with effect sizes*
 
 **Vocabulary programs (d = 0.62).** Rank 40 of 252. Deliberate, structured vocabulary instruction — direct teaching of high-value words, repeated exposure across contexts, morphological work, generative use — outperforms incidental pickup. The number belongs to *programs*: multi-week, multi-encounter designs in which students repeatedly retrieve, use, and transform target words. Not word lists. Not definitions copied once. The dataset hypothesizes that spaced-retrieval vocabulary practice at scale is genuinely AI-native — d ≈ 0.55 [HYPOTHESIS] — among the most permissive estimates in the appendix, and still a structured conjecture, not a finding.
 
@@ -63,6 +71,9 @@ Vocabulary growth requires somewhere between several and many encounters with a 
 Classroom reality has always rationed this mechanism. One teacher, twenty-five students, fifteen target words per unit: the encounters-per-word-per-student number is small, the feedback on productive use smaller. The bottleneck is not pedagogical design — most teachers know what good vocabulary instruction looks like. It is throughput.
 
 This is exactly the bottleneck software relieves, which is why the group is AI-NATIVE on the merits. A generative model produces unlimited fresh contexts — the tenth encounter with *reluctant* is not the first one re-read. It schedules retrieval at expanding intervals. It checks responses instantly and gives feedback in the seconds after the attempt, when it is worth most. For learning-needs students, the same generativity personalizes the access layer: decodable text at the right level, read-aloud on demand, response modes that route around the disability rather than through it.
+
+![A word moves left to right through first exposure, three spaced retrieval-plus-feedback cycles, and unprompted use weeks later, with AI generating and scheduling while the learner performs the retrieval](images/10-ai-native-practice-with-a-high-substitution-warning-fig-02.png)
+*Figure 10.2 — The vocabulary-encounter pipeline*
 
 <!-- → [DIAGRAM: The vocabulary-encounter pipeline — shows a single word moving through: first exposure → spaced retrieval attempt 1 → feedback → spaced retrieval attempt 2 → feedback → ... → unprompted use weeks later. Labels each stage with what AI can do (generate exposure, schedule timing, check attempt) and what must remain the learner's action (the retrieval, the composition, the meaning-making). The productive attempt is labeled as "the mechanism" at each retrieval stage.] -->
 
@@ -96,9 +107,15 @@ The demo Carmen watched contained it: *write a sentence for me*. Every general-p
 
 Name what is lost precisely. A vocabulary encounter has a receptive half (meet the word) and a productive half (retrieve and use it), and the productive half carries most of the durable learning. The substitution deletes only the productive half — which means usage statistics, completion rates, and immediate quiz scores survive the deletion intact. The student who asks the helper for the sentence still completes the item, still gets the exposure, still passes Friday's recognition quiz. What fails to form is the retrieval pathway, invisible until the word is needed unprompted, in writing, weeks later.
 
+![Before/after comparison of one encounter: the receptive half is retained while the load-bearing productive half is hollowed out, yet usage, completion, and quiz-pass metrics stay identical](images/10-ai-native-practice-with-a-high-substitution-warning-fig-03.png)
+*Figure 10.3 — Receptive half, productive half, silent deletion*
+
 The equity problem compounds it. Students with the thinnest vocabularies find retrieval most aversive and lean on the helper hardest. The tool delivers its non-teaching most efficiently to the students the purchase was justified by. And for elementary grades specifically, the developmental caution doubles down — young children have the least metacognitive equipment to notice the difference between *I produced this* and *it appeared*.
 
 One clarification keeps the trap from swallowing the group's legitimate core. Assistive use is not substitution. Text-to-speech for a print-disabled student removes a barrier in front of the target cognition; the answer button removes the cognition. The test is the one this book applies everywhere: name the operation the practice exists to strengthen, then ask whether the feature performs *that operation* or something in front of it.
+
+![Two-panel comparison: attempt-first practice and unassisted scores stay together, while answer-available practice climbs +48% as the unassisted exam falls −17%](images/10-ai-native-practice-with-a-high-substitution-warning-fig-01.png)
+*Figure 10.1 — Bastani divergence: assisted vs. unassisted*
 
 <!-- → [CHART: Two diverging lines — X-axis: weeks of use; Y-axis: vocabulary performance. Line A (attempt-first configuration): practice scores and unassisted assessment scores move together. Line B (answer-available configuration): practice scores climb, unassisted assessment scores diverge downward. Annotate with the Bastani study's numbers as the empirical anchor. The visual point: the divergence is invisible in in-tool metrics and only appears in the external check.] -->
 
@@ -199,3 +216,21 @@ Separately: if attempt-first guardrails in real deployments turn out to be trivi
 1. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
 2. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x
 3. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. Visible Learning. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+## Prompts
+
+### Figure 10.1 — Bastani divergence: assisted vs. unassisted
+
+Build a two-panel comparison chart contrasting two configurations of an AI vocabulary tool. Left panel "Attempt-first": two lines (in-tool practice score, external unassisted score) rising together with a small stable gap. Right panel "Answer-available": the practice line climbs to +48% while the unassisted-exam line diverges downward to −17%, producing a widening gap labeled "hidden in platform metrics". X-axis: weeks of use. Y-axis: vocabulary performance, zero baseline. Encode the two series by color, hold both panels on a shared y-scale so the divergence reads visually. Add a dashed annotation marking the gap on the right panel and short callouts ("+48% practice", "−17% unassisted"). Title the figure "Bastani divergence: assisted vs. unassisted". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 10.2 — The vocabulary-encounter pipeline
+
+Build a left-to-right process flowchart of five stages: (1) First exposure, (2) Retrieval attempt 1 + feedback, (3) Retrieval attempt 2 + feedback, (4) Retrieval attempt 3 + feedback, (5) Unprompted use (weeks later). Connect stages with right-pointing arrows. Give each stage a two-band split: a top band labeled "AI generates, schedules, checks" and a bottom band labeled "Learner: retrieval and meaning-making", visually distinguished by color, so the human band reads as the irreducible core. Mark the retrieval stages as "the mechanism". Equal-width stage nodes, consistent horizontal spacing, single flow line. Title "The vocabulary-encounter pipeline". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 10.3 — Receptive half, productive half, silent deletion
+
+Build a two-state before/after comparison panel of a single vocabulary encounter. Left state "Intact encounter": three stacked rows — receptive half (meet the word), productive half (retrieve and use), metrics row (usage logged, completion, quiz pass). Right state "After substitution": same three rows, but the productive half is visually hollowed/struck-through while the receptive and metrics rows are unchanged. Highlight the productive row as the load-bearing element that vanishes. Keep the metrics row visually identical across both states to make the point that dashboards cannot detect the loss. Subtitle: "Metrics row is identical though the productive half vanished". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 10.4 — Four group influences with effect sizes
+
+Build a horizontal dot/lollipop plot of four influences against a Cohen's d x-axis from zero: Vocabulary programs (0.62, highlighted), Technology with learning-needs students (0.57), Technology in other subjects (0.55), Technology with elementary students (0.44). Sort descending by value. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all four dots sit to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem to the axis; highlight the top row by color. Flag the two broad technology rows with a small "pre-generative provenance" marker. Label each dot with its value. Title "Four group influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

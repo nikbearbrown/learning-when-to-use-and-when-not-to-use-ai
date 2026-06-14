@@ -1,0 +1,36 @@
+<!--
+  The self-sealing prediction loop vs. the provisional alternative
+  Book: Visible Learning x AI
+  Chapter: 20-problem-solving-and-expectations-need-human-calibration
+  Figure: 01
+  Type: cycle diagram with adjacent linear chain (systems/causal diagram)
+  Generated: 2026-06-08
+  Source: pantry/20-problem-solving-and-expectations-need-human-calibration-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The self-sealing prediction loop vs. the provisional alternative — 20-problem-solving-and-expectations-need-human-calibration</title>
+<desc>Routing tasks by predicted proficiency creates a circular, self-confirming loop, whereas a high-expectation teacher's provisional belief runs a linear, evidence-updating chain that never seals.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="20-problem-solving-and-expectations-need-human-calibration"
+    figure-number="01"
+    figure-title="The self-sealing prediction loop vs. the provisional alternative"
+    figure-slug="the-self-sealing-prediction-loop-vs-the-"
+    figure-type="cycle diagram with adjacent linear chain (systems/causal diagram)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/20-problem-solving-and-expectations-need-human-calibration-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The self-sealing prediction loop vs. the provisional alternative</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Self-confirming loop versus open evidence-updating chain</text><line x1="383.9787137637478" y1="122.6335575687742" x2="439.65863335462217" y2="177.19423316248265" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="460.65863335462217" y1="223.35948622011145" x2="439.3907965617693" y2="311.6405137798886" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="384.4120827980215" y1="340.1722092687432" x2="315.5879172019785" y2="340.1722092687432" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="260.6092034382307" y1="311.6405137798886" x2="239.34136664537783" y2="223.35948622011148" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><line x1="260.34136664537783" y1="177.19423316248267" x2="316.0212862362522" y2="122.6335575687742" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="302" y="80" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="350" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Student</text><text x="350" y="113" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">predicted low</text><rect x="425.63734711837" y="169.82779073125684" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="473.63734711837" y="184.82779073125684" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Receives</text><text x="473.63734711837" y="196.82779073125684" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">scaffolded</text><text x="473.63734711837" y="208.82779073125684" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">routine</text><rect x="378.4120827980215" y="315.1722092687432" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="426.4120827980215" y="330.1722092687432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Less</text><text x="426.4120827980215" y="342.1722092687432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">problem-solving</text><text x="426.4120827980215" y="354.1722092687432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">repertoire…</text><rect x="225.58791720197848" y="315.1722092687432" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="273.5879172019785" y="336.1722092687432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Performs as</text><text x="273.5879172019785" y="348.1722092687432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">predicted</text><rect x="178.36265288163003" y="169.82779073125687" width="96" height="50" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/><text x="226.36265288163003" y="190.82779073125687" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Prediction</text><text x="226.36265288163003" y="202.82779073125687" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">updated lower</text>
+</svg>

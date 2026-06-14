@@ -42,6 +42,9 @@ The field-scale complement is Applebee, Langer, Nystrand, and Gamoran (2003), wh
 
 The vendor's deck quoted the 0.82 and skipped the asymmetry. That omission is the chapter's first lesson: the number is an average across approaches, most of which do not reliably produce critical thinking, and the simulation almost certainly draws from the weaker half.
 
+![Two-bar comparison against the 0.40 hinge showing the asymmetry the aggregate 0.82 hides: reliable text-comprehension gains versus rare, unreliable critical-thinking gains](images/26-classroom-discussion-cannot-be-simulated-away-fig-03.png)
+*Figure 26.3 — The asymmetry vendors omit*
+
 ## Three Properties a Chatbot Cannot Have
 
 Strip discussion to its mechanism and three properties stand out — the same three a private chatbot conversation lacks by construction.
@@ -51,6 +54,9 @@ Strip discussion to its mechanism and three properties stand out — the same th
 **It is plural.** Real discussion contains multiple simultaneous minds with genuinely different commitments. The friction between them — the classmate who actually believes you are wrong, and stays wrong at you — is what developmental psychologists call socio-cognitive conflict, and it is the engine. A language model produces simulated disagreement with no stake in the outcome. It accommodates, eventually, because accommodating is what it is built to do. A skeptical AI avatar and a skeptical classmate are not the same stimulus, and no evidence suggests they produce the same response.
 
 **It builds shared context.** Discussion deposits a community's running referents — "remember what Maria argued last week" — which become the substrate of classroom cohesion and group norms. A student–chatbot dialogue deposits nothing anyone else can build on. The room's accumulating history is invisible to the AI and irrelevant to it; the room itself, as a learning unit, does not persist across private sessions.
+
+![Three-panel comparison contrasting the live seminar (public, plural, shared-context-building) with a private student-AI dialogue (private, simulated disagreement, no shared deposit), with the d = 0.82 studies pointing only to the live panel](images/26-classroom-discussion-cannot-be-simulated-away-fig-01.png)
+*Figure 26.1 — Three properties a chatbot cannot have*
 
 <!-- → [DIAGRAM: Three-panel comparison — left: live seminar (arrows between multiple student nodes, labeled: public/social stakes, genuine disagreement, shared referents accumulating). Center: student-AI dialogue (single student node connected to AI node, labeled: private/no social stakes, simulated disagreement, no shared deposit). Right: the d = 0.82 studies column, pointing left only. Annotation: "the number was earned by the left panel."] -->
 
@@ -86,6 +92,9 @@ The program kept both weekly seminars and deployed the AI as structured rehearsa
 
 Meanwhile, the discourse-analytics tool gave one instructor a number she did not enjoy: she answered her own questions within four seconds on average, and six students had not spoken in three weeks. She adopted wait-time moves and a cold-call structure; the next month's participation map showed the distribution widening. Both gains are exactly what the classification predicts: AI before the talk and after the talk.
 
+![Weekly seminar cycle with AI at the edges — Monday AI rehearsal, Wednesday live seminar at the human core, Thursday AI analytics, weekend instructor prep — every AI stage pointing toward the single live seminar, never replacing it](images/26-classroom-discussion-cannot-be-simulated-away-fig-02.png)
+*Figure 26.2 — AI at the edges of the talk, never its center*
+
 <!-- → [INFOGRAPHIC: Timeline of a seminar week with AI role annotated — Monday: AI rehearsal (student generates claim, AI cross-examines). Wednesday: live seminar (instructor facilitates, students build on each other). Thursday: AI analytics (talk map surfaced privately to instructor). Weekend: instructor prepares based on analytics. Loop restarts. AI appears at three points; seminar appears at one; arrow from each AI stage points toward the seminar, never replacing it.] -->
 
 Mid-semester, the associate dean circulated a revised budget scenario: since rehearsal dialogues were going well, drop the second seminar and let the AI session count as discussion. The original proposal returning through the side door, now wearing the pilot's own engagement data. Engagement data was all it had — time-on-task and student satisfaction, no learning outcomes. And the program's own analytics showed that in two sections where instructors had informally let attendance slide "because they're doing the dialogues," live participation had thinned and the seminars that remained were flatter. The norms needed weekly exercise.
@@ -100,7 +109,12 @@ The adoption conditions written into program policy: AI dialogues are pre-work f
 
 **Evidence that learning improved is** the quality and distribution of live student talk over time — broader participation, more uptake of peers' ideas, more reasons per claim, measured from actual seminar recordings — together with performance on independent measures of comprehension and written argument about texts the AI never discussed with the student.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Teacher and learners must / Valid evidence. Evidence row explicitly lists what does not count: dialogue minutes inside the simulation, simulated-conversation quality scores, student satisfaction with the bot, any metric generated entirely inside the product.] -->
+| Role | What it covers |
+|---|---|
+| AI may | Help plan discussions (candidate questions, anticipated misconceptions, passage selection); provide rehearsal in which the student generates claims and the machine applies pressure; analyze recordings afterward — mapping participation, uptake, and facilitation patterns for the teacher. |
+| The teacher and learners must | Hold the discussion itself: students compose and deliver their own reasoning, listen to actual peers, and revise positions in real time; the teacher facilitates, models intellectual moves, enforces accountable-talk norms, and acts on what the analytics reveal. Every contribution that counts is human-composed and human-delivered, in the presence of others. |
+| Valid evidence | The quality and distribution of live student talk over time — broader participation, more uptake of peers' ideas, more reasons per claim, measured from actual seminar recordings — plus performance on independent comprehension and written-argument measures about texts the AI never discussed with the student. |
+| Does **not** count | Dialogue minutes inside the simulation; simulated-conversation quality scores; student satisfaction with the bot; any metric generated entirely inside the product. |
 
 ## What Evidence to Demand
 
@@ -165,3 +179,14 @@ For genuinely isolated learners — homeschooled students, remote programs, midn
 **Challenge**
 
 9. (Advanced) *Tests the simulation-gap and the isolated-learner problem.* The chapter acknowledges that for genuinely isolated learners — homeschooled students, remote programs — a simulated interlocutor is probably better than nothing, but that no rigorous evidence exists on how much better and on which outcomes. Design the study that would answer this question. Specify: the population, the comparison conditions (simulated vs. live vs. no-discussion control), the outcome measures and their timing, and the result pattern that would lead you to recommend the simulation for isolated learners as a legitimate — if imperfect — substitute rather than merely a stopgap. Address the ethical constraint that your design cannot deprive a control group of the intervention if the intervention is believed to be beneficial.
+
+## Prompts
+
+### Figure 26.1 — Three properties a chatbot cannot have
+Build a three-panel structural comparison. Left panel "Live seminar": a cluster of multiple student nodes with arrows between them, labeled across three rows — "Public (social stakes)," "Plural (genuine disagreement)," "Shared context accumulates." Center panel "Student-AI dialogue": a single student node connected to one AI node, with aligned rows — "Private (no stakes)," "Simulated disagreement," "No shared deposit" (highlight this third row). Right panel: a slim column representing the d = 0.82 studies, with an arrow pointing only left to the live-seminar panel. Annotate: "the number was earned by the live form." Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 26.2 — AI at the edges of the talk, never its center
+Build a closed-loop weekly cycle with four stages: "Monday: AI rehearsal (student generates, AI cross-examines)," "Wednesday: live seminar (the human core)," "Thursday: AI analytics (talk map to instructor)," "Weekend: instructor prep," looping back to Monday. Visually distinguish the Wednesday live-seminar node as the human core (different fill, larger). From each of the three AI stages, draw an arrow pointing toward the Wednesday seminar to show every AI stage serves it, never replaces it. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 26.3 — The asymmetry vendors omit
+Build a horizontal bar chart, value range 0 to ~0.85 in Cohen's d. Bars sorted descending: "Classroom discussion (aggregate)" = 0.82, "Text-comprehension gains (reliable)" = 0.78, "Critical-thinking gains (rare, ~approx)" = 0.18 (highlighted). Zero baseline at left. Vertical reference line at d = 0.40 labeled "0.40 hinge"; comprehension clears it, critical-thinking sits far below. Annotate that the aggregate number hides this asymmetry — comprehension reliable, critical thinking rare and unreliable. Label each bar with its value. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

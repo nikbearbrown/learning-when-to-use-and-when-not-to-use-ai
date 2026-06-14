@@ -30,6 +30,9 @@ The mechanism is **frequent evidence about a specific learner — or a specific 
 
 The loop runs the same anatomy twice. RTI and learning-needs interventions run it on students: gather data, diagnose, intervene, measure response, adjust. Micro-teaching runs the identical loop on teachers, with the teacher's own practice as the patient. Both sit in the same group not because they resemble each other superficially but because they share the same structure — and, therefore, the same failure mode.
 
+![Two parallel closed-loop cycles sharing one structure: a student intervention loop (Screen, Diagnose, Intervene, Measure response, Adjust) beside a teacher learning loop (Teach, Record, Watch, Diagnose, Re-teach), connected by a bridge labeled same mechanism, same vulnerability](images/14-diagnosis-intervention-and-teacher-learning-loops-fig-01.png)
+*Figure 14.1 — One mechanism, two parallel loops*
+
 <!-- → [DIAGRAM: Two parallel loops — left loop labeled "Student intervention loop" (Screen → Diagnose → Intervene → Measure response → Adjust), right loop labeled "Teacher learning loop" (Teach → Record → Watch → Diagnose → Re-teach); both loops annotated showing which steps AI can feed and which steps require human judgment; arrow connecting them labeled "Same mechanism, same vulnerability"] -->
 
 Notice what the loop runs on at each joint. The evidence steps — collection, aggregation, comparison — run on clerical cognition, high-volume and error-prone in human hands. Software does this better. The decision steps run on something else entirely: causal diagnosis, contextual knowledge, and professional accountability. *Is this child's flat trajectory a decoding problem, an attendance problem, an instruction problem, or a wrong-intervention problem?* The screener cannot see the family disruption behind the attendance dip. The platform cannot see the mismatch between this child's error pattern and the recommended package. And the delivery steps — the intervention itself, for the students who need it most — are trained-educator work the dataset does not hedge on.
@@ -37,6 +40,9 @@ Notice what the loop runs on at each joint. The evidence steps — collection, a
 Micro-teaching adds one brutal feature: the evidence is *you*. Its effect size lives in the confrontation — the gap between the lesson you remember teaching and the lesson the camera recorded — and in what that gap does to a teacher who examines it with a colleague. The confrontation is effortful and mildly painful, which is exactly why the AI summary sells. It offers the findings without the watching. But the findings were never the mechanism. The *seeing* was. A teacher told she talks 71 percent of the time has received a statistic. A teacher who watches herself talk over the same student's third attempt to answer has received a reason to change. The summary is to micro-teaching what the AI summary was to summarization: the artifact of an act whose value was in the performing.
 
 ## The Influences
+
+![Horizontal dot plot of three high-band influences far above the 0.40 hinge — response to intervention at 1.29, micro-teaching/video review at 0.88, and interventions for learning-needs students at 0.77](images/14-diagnosis-intervention-and-teacher-learning-loops-fig-03.png)
+*Figure 14.3 — Three high-band influences with effect sizes*
 
 **Response to intervention (d = 1.29)** — rank 5 of 252, and the number demands its caveat before its celebration. RTI is not a thing you buy. It is a whole-school system — universal screening, tiered support of increasing intensity, frequent progress monitoring, and data-based decision rules. The 1.29 comes substantially from studies of well-implemented systems under research conditions. Implementation dependence is the defining fact of this row: the same framework, run with infrequent monitoring, drifting decision rules, or interventions delivered by whoever was free, produces a fraction of the headline. By Kraft's benchmark realism, 1.29 should be read as *what the loop can deliver at high fidelity*, not what the label delivers on contact.
 
@@ -60,13 +66,20 @@ The safe zone is the loop's evidence steps — the surveillance and aggregation 
 
 ## The Substitution Trap
 
+![Three-row matrix of substitution traps — rubber-stamped tier, platform minutes logged as Tier 2, and self-watch recorded as complete — each keeping the loop's paperwork intact while the cognition is removed](images/14-diagnosis-intervention-and-teacher-learning-loops-fig-02.png)
+*Figure 14.2 — Three substitution traps that keep the paperwork*
+
 **The rubber-stamped tier.** The platform drafts a placement. The team — six tired professionals at 3:40 on a Thursday — approves it. The minutes record a data-based decision. Automation bias does the rest: each approved draft makes the next approval easier, until the team is a ratification body and the diagnosis step has migrated into the model, where it consists of pattern-matching on the variables the platform can see. What the model cannot see is most of what the table exists for: the screener artifacts, the family context behind the attendance dip, the mismatch between this child's error pattern and the recommended package. The loop still closes. It closes on thinner causation, with no one's judgment actually engaged — and for the students at the margins of every distribution, thinner causation is misplacement.
 
 **Platform minutes as Tier 2.** The delivery-side trap and the budget office's favorite: redefining the intervention itself as software time. *Tier 2 = 30 adaptive-platform minutes daily* is an arithmetic dream and a mechanism deletion. The d = 0.77 for learning-needs interventions belongs to structured, intensive, human-delivered instruction. The dataset's row says so without hedging. Adaptive practice can be a component. The moment it becomes the definition, the school is billing the influence's effect size for a different and weaker product.
 
 **The unwatched self.** A teacher receives her AI lesson report, reads "consider increasing wait time," nods, files it. Next month, same. The PLC's watch-and-discuss hour becomes a report-discussion hour. The camera keeps rolling. Nobody watches anything. Every artifact of micro-teaching survives — recordings, analyses, reflection forms — except the confrontation that was the point. This trap is especially seductive because the avoided act is genuinely unpleasant. The tool isn't saving time so much as selling anesthesia, and practice that doesn't hurt a little usually isn't changing.
 
-<!-- → [TABLE: Three substitution traps — columns: Trap name, What the loop looks like, What actually happened to the mechanism, Failure signature observable in data; rows: Rubber-stamped tier, Platform minutes as Tier 2, The unwatched self — student should see that each trap preserves the loop's paperwork while removing its cognition] -->
+| Trap | What the loop looks like | What happened to the mechanism | Failure signature in the data |
+|---|---|---|---|
+| Rubber-stamped tier | A data-based placement decision is recorded; minutes show the team met | Diagnosis migrated into the model; the team became a ratification body | Near-zero override rate; placements track only platform-visible variables; margin cases misplaced |
+| Platform minutes as Tier 2 | Tier 2 = 30 adaptive-platform minutes daily; dosage logged | Human-delivered structured instruction redefined as software time | Intervention "delivered" with no human-minutes line; weak response among highest-need students |
+| The unwatched self | Recordings, AI analyses, and reflection forms all filed | The self-confrontation — the seeing — was skipped; only findings remain | PLC hour becomes report-discussion; no observed instructional change at re-teach |
 
 ## The Case in Full
 
@@ -144,3 +157,17 @@ Teacher video analytics sit one policy memo away from surveillance. The same tag
 2. Hattie, J., & Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1), 81–112.
 3. Hattie, J. Visible Learning ranking (RTI d=1.29; micro-teaching d=0.88). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
 4. Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher, 49(4), 241–253. https://journals.sagepub.com/doi/10.3102/0013189X20912798
+
+## Prompts
+
+### Figure 14.1 — One mechanism, two parallel loops
+
+Build two side-by-side closed-loop cycle diagrams sharing one visual grammar. Left cycle "Student intervention loop": five nodes — Screen, Diagnose, Intervene, Measure response, Adjust — connected by clockwise arrows back to the start. Right cycle "Teacher learning loop": five nodes — Teach, Record, Watch, Diagnose, Re-teach — same clockwise closure. Draw a horizontal bridge connecting the two cycles labeled "Same mechanism, same vulnerability". Annotate each cycle to distinguish AI-feedable steps (evidence/collection) from human-judgment steps (diagnose/decide) by color. Keep both cycles the same size and node count so the shared structure reads instantly. Subtitle: "Same mechanism, same vulnerability in both rings". Title "One mechanism, two parallel loops". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 14.2 — Three substitution traps that keep the paperwork
+
+Build a three-row structured matrix. Rows: Rubber-stamped tier, Platform minutes logged as Tier 2, Self-watch recorded as complete. Columns: "Loop looks intact" (the preserved paperwork) and "Mechanism removed (failure signature)" (the cognition that vanished). Highlight the middle row (platform minutes as Tier 2) as an accent. Visually contrast the intact-looking left column against the hollowed right column so each row reads as paperwork-kept / cognition-lost. Title "Three substitution traps that keep the paperwork". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 14.3 — Three high-band influences with effect sizes
+
+Build a horizontal dot/lollipop plot of three influences against a Cohen's d x-axis from zero: Response to intervention (1.29, highlighted), Micro-teaching / video review (0.88), Interventions for learning-needs students (0.77). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all three dots sit far to its right, so let the x-axis extend to about 1.4. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight response to intervention as the standout. Label each dot with its value. Title "Three high-band influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

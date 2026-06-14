@@ -46,6 +46,9 @@ Two clarifications keep the mechanism honest. Fluency is not speed. The construc
 
 Why is the listener so important? Because unmonitored repeated reading consolidates errors. The child who misreads "through" as "thorough" four times has practiced the mistake. The feedback loop — error caught, word corrected, line reread — is what separates practice from rehearsal of failure. That loop is exactly what one adult cannot run for twenty-six children simultaneously, and exactly what speech recognition can.
 
+![Before/after capacity-partition comparison: under heavy decoding load a child's working memory is mostly consumed by decoding with little left for comprehension; after repeated reading automatizes decoding, capacity is released and comprehension expands](images/29-repeated-reading-as-ai-supported-fluency-practice-fig-01.png)
+*Figure 29.1 — Automaticity: working-memory reallocation*
+
 <!-- → [DIAGRAM: Mechanism diagram — left: child's working memory under heavy decoding load (decoding large, comprehension small). Right: same child after automaticity training (decoding small, comprehension large). Center arrow: "repeated reading with error feedback." Annotation: "the gain that matters is cold-read transfer, not rehearsed-passage rate."] -->
 
 ## Building the Substitution Ledger
@@ -63,6 +66,9 @@ The prosody model — someone whose expressive reading the child can hear — is
 The motivation and relationship — the reason a six-year-old reads aloud to an adult — is human. Children perform partly because the adult cares. A machine's attention is not the same attention.
 
 Most chapters in this book need a gate. This one needs a roster.
+
+![Five-row classification roster of repeated reading's roles with their substitutability verdicts — reader (never), text (AI-generatable with QC), listener/error-catcher (AI with caveats), prosody model (human-preferred), motivation/relationship (human-required)](images/29-repeated-reading-as-ai-supported-fluency-practice-fig-02.png)
+*Figure 29.2 — The substitution ledger: five roles, three verdicts*
 
 ## What AI Can Safely Do
 
@@ -90,6 +96,9 @@ The grade-level team designed the pilot themselves, which was the condition the 
 
 Each child read aloud to the tool three times a week, ten minutes a session — every minute of decoding the child's own. The tool caught the consolidation errors human scarcity used to miss: one boy had been misreading "what" as "want" for weeks without anyone catching it consistently; the system flagged it on day two. The freed hours mattered as much as the errors: with drill supervision offloaded, Lena's actual human listening time — the scarcest resource in the room — was reallocated to her eight lowest readers and to weekly whole-class prosody modeling, the two ledger roles the team had marked human.
 
+![Before/after allocation comparison of listening time across 26 children: before AI the teacher's listening is spread thin across all 26; after, AI listens to the 18 stronger readers while the teacher concentrates on the 8 lowest, expanding the listening economy rather than replacing its human share](images/29-repeated-reading-as-ai-supported-fluency-practice-fig-03.png)
+*Figure 29.3 — The listening economy, before and after*
+
 <!-- → [INFOGRAPHIC: Before/after listening-economy diagram — before: Lena's listening time distributed across 26 children, thin; after: Lena's listening time concentrated on 8 lowest readers, AI listening for remaining 18. Annotation: "the machine expanded the listening economy rather than replacing its human share."] -->
 
 Two gate-crossings surfaced mid-pilot. A well-intentioned aide began steering frustrated readers to the app's listen-along mode — engagement up, decoding practice silently zeroed. The team caught it in usage logs: the children logging the most minutes included two doing the least reading. And the dashboard's headline metric was rehearsed-passage growth, which flattered everyone; the team's own cold-read checks told a different story for three students whose curves were flat. One of them, a Vietnamese-American girl whose English was excellent but accented, was receiving steady false error feedback — the system was marking correctly read words wrong. Her errors were the machine's.
@@ -106,7 +115,15 @@ Adoption conditions, written into the pilot charter. Listen-along mode disabled 
 
 **Evidence that learning improved is** cold-read fluency and comprehension on novel passages, trending upward — Therrien's transfer measure, checked by humans on texts the platform never rehearsed with the child. Not rehearsed-passage gains, which partly measure rehearsal, and never minutes of use, which measure only the schedule.
 
-<!-- → [TABLE: Substitution ledger and phase gate combined — rows: Reader / Text / Listener/error-catcher / Prosody model / Motivation and relationship. Columns: Role, Substitutability verdict, Condition or caveat. Bottom section: valid evidence (cold-read transfer) vs. what does not count (rehearsed gains, minutes, engagement streaks, vendor studies without funding disclosure).] -->
+| Role | Substitutability verdict | Condition or caveat |
+|---|---|---|
+| Reader (the child) | Never substitutable | The decoding is the intervention; text-to-speech turns it into repeated *listening* |
+| The text | AI-generatable | With quality control; matched to the phonics scope and sequence at calibrated decodability |
+| Listener / error-catcher | AI-substitutable | With caveats — the bottleneck role, mostly procedural, but watch the recognition gap for dialect and L2 speakers |
+| Prosody model | Human-preferred | Children should regularly hear skilled fluent reading under meaning; a synthesis voice does not model it |
+| Motivation / relationship | Human-required | A six-year-old reads aloud partly because the adult cares; a machine's attention is not the same attention |
+
+*Valid evidence is cold-read transfer — fluency and comprehension on novel passages the platform never rehearsed. What does **not** count: rehearsed-passage gains, minutes on platform, engagement streaks, or vendor-funded studies quoted without their funding line and ESSA rating.*
 
 ## What Evidence to Demand
 
@@ -173,3 +190,14 @@ What is the motivational half-life of reading aloud to a machine? Second graders
 **Challenge**
 
 9. (Advanced) *Tests the repeated-versus-wide-reading puzzle and the still-unsettled comparison.* The chapter notes that some studies find wide reading — equivalent time on varied texts — matches repeated reading's fluency gains, but that the comparison literature is inconclusive. Design the study that would settle the question for the AI context specifically: not which approach is better in general, but which approach is better when the listener is an AI system rather than a human. Specify your populations, conditions, dosage, outcome measures, and the result pattern that would lead you to recommend each approach for AI-supervised practice. Address the practical constraint that the study must be feasible in real schools with real teachers who cannot be asked to withhold a credible intervention from a control group.
+
+## Prompts
+
+### Figure 29.1 — Automaticity: working-memory reallocation
+Build a before/after capacity-partition comparison (mechanism cross-section). Represent a fixed total working-memory capacity as a bounded region, split into two parts. Left panel "Heavy decoding load": decoding fills most of the region, comprehension is a thin sliver. Right panel "After automaticity": decoding shrinks to a small region, comprehension expands to fill the released capacity (highlight the expanded comprehension area). Keep the total region size identical across panels so the reallocation is visible. Place a center arrow between panels labeled "repeated reading with error feedback." Annotate the axis: "Fixed working-memory capacity (LaBerge & Samuels)." Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 29.2 — The substitution ledger: five roles, three verdicts
+Build a five-row layered schematic (classification roster). Each row is a role with a verdict note: "Reader (the child)" — "Never substitutable — human core"; "The text" — "AI-generatable with quality control"; "Listener / error-catcher" — "AI-substitutable with caveats"; "Prosody model" — "Human-preferred"; "Motivation / relationship" — "Human-required." Use a three-level color encoding for the verdict (never / AI-with-caveats / human-required versus AI-generatable) so the roster reads as a graded ledger, not a binary gate. Stack the rows top to bottom in the order given. Annotate that this is a roster of roles, not a single gate. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 29.3 — The listening economy, before and after
+Build a before/after allocation comparison (proportional schematic) of listening time across 26 children. Left panel "Before AI": teacher listening spread thin across all 26 children (highlight this row to mark the thin distribution). Right panel "After AI": teacher concentrates on the 8 lowest readers while AI listens to the 18 stronger readers — show the split visually as two proportional blocks (8 human, 18 machine). Use proportional widths so the reallocation is legible. Annotate that AI expands the listening economy rather than replacing its human share. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

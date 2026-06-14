@@ -1,0 +1,36 @@
+<!--
+  Phonics mechanism stack and the AI/teacher split
+  Book: Visible Learning x AI
+  Chapter: 30-phonics-support-without-replacing-instruction
+  Figure: 02
+  Type: vertical layered stack with two parallel role columns
+  Generated: 2026-06-08
+  Source: pantry/30-phonics-support-without-replacing-instruction-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Phonics mechanism stack and the AI/teacher split — 30-phonics-support-without-replacing-instruction</title>
+<desc>Phonics learning runs as five interdependent layers — phonemic awareness through automaticity — and at each layer AI can support practice and assessment while only a human teacher performs first teaching, error diagnosis, and reteaching.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="30-phonics-support-without-replacing-instruction"
+    figure-number="02"
+    figure-title="Phonics mechanism stack and the AI/teacher split"
+    figure-slug="phonics-mechanism-stack-and-the-ai-teach"
+    figure-type="vertical layered stack with two parallel role columns"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/30-phonics-support-without-replacing-instruction-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Phonics mechanism stack and the AI/teacher split</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Five layers, two roles</text><rect x="62" y="96" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Automaticity</text><line x1="362" y1="116" x2="402" y2="116" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="116" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="120" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1</text><text x="430" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI: practice / tracking…</text><rect x="62" y="148" width="300" height="40" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Orthographic mapping</text><line x1="362" y1="168" x2="402" y2="168" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="168" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="172" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">2</text><text x="430" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI: assessment · Teache…</text><rect x="62" y="200" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Blending</text><line x1="362" y1="220" x2="402" y2="220" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="220" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="224" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">3</text><text x="430" y="224" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI: practice generation…</text><rect x="62" y="252" width="300" height="40" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Grapheme-phoneme mapping</text><line x1="362" y1="272" x2="402" y2="272" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="272" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="276" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">4</text><text x="430" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI: progress tracking ·…</text><rect x="62" y="304" width="300" height="40" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="74" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="start">Phonemic awareness (base)</text><line x1="362" y1="324" x2="402" y2="324" stroke="#D4D4D4" stroke-width="1"/><circle cx="412" cy="324" r="10" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/><text x="412" y="328" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">5</text><text x="430" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">AI: support · Teacher: …</text>
+</svg>

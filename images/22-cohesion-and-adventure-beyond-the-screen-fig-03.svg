@@ -1,0 +1,36 @@
+<!--
+  Nora's assembled evidence file
+  Book: Visible Learning x AI
+  Chapter: 22-cohesion-and-adventure-beyond-the-screen
+  Figure: 03
+  Type: four-quadrant component layout (conceptual map)
+  Generated: 2026-06-08
+  Source: pantry/22-cohesion-and-adventure-beyond-the-screen-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Nora's assembled evidence file — 22-cohesion-and-adventure-beyond-the-screen</title>
+<desc>AI assembled four components for the program's defense: a participation-outcome correlation table, an equity-gap map, alumni theme clusters, and an administrative-hour audit converting recovered hours into expanded sessions.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="22-cohesion-and-adventure-beyond-the-screen"
+    figure-number="03"
+    figure-title="Nora's assembled evidence file"
+    figure-slug="nora-s-assembled-evidence-file"
+    figure-type="four-quadrant component layout (conceptual map)"
+    priority="Supplementary"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/22-cohesion-and-adventure-beyond-the-screen-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Nora's assembled evidence file</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Four AI-assembled components build the defense</text><rect x="290" y="82" width="120" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/><text x="350" y="105" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Nora's evidence</text><text x="350" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">file</text><line x1="350" y1="138" x2="158" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="103" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="158" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Participation-outcome</text><text x="158" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">correlation</text><text x="158" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">table (9…</text><line x1="350" y1="138" x2="286" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="231" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="286" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Equity-gap map</text><text x="286" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(under-enrolled</text><text x="286" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">ZIPs and groups)</text><line x1="350" y1="138" x2="414" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="359" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="414" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Alumni theme</text><text x="414" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">clusters (30</text><text x="414" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">years of survey…</text><line x1="350" y1="138" x2="542" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="487" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Admin-hour</text><text x="542" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">audit: recovered</text><text x="542" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">hours to…</text>
+</svg>

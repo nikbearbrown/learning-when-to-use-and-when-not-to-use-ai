@@ -1,0 +1,36 @@
+<!--
+  The Macnamara correction: variance explained
+  Book: Visible Learning x AI
+  Chapter: 27-scaffolding-and-deliberate-practice-at-the-phase-gate
+  Figure: 03
+  Type: horizontal bar chart (percentage of variance explained)
+  Generated: 2026-06-08
+  Source: pantry/27-scaffolding-and-deliberate-practice-at-the-phase-gate-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">The Macnamara correction: variance explained — 27-scaffolding-and-deliberate-practice-at-the-phase-gate</title>
+<desc>Deliberate practice explains about 26% of performance variance in games, 21% in music, 18% in sports — and only about 4% in education — capping the practice-quantity story exactly where practice platforms are sold.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="27-scaffolding-and-deliberate-practice-at-the-phase-gate"
+    figure-number="03"
+    figure-title="The Macnamara correction: variance explained"
+    figure-slug="the-macnamara-correction-variance-explai"
+    figure-type="horizontal bar chart (percentage of variance explained)"
+    priority="Supplementary"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/27-scaffolding-and-deliberate-practice-at-the-phase-gate-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The Macnamara correction: variance explained</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Education's 4% caps the practice-quantity story</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">26</text><rect x="106.5" y="64" width="64" height="292" fill="#2a1a0e" rx="0"/><text x="138.5" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">26</text><text x="138.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Games</text><rect x="255.5" y="120.15384615384616" width="64" height="235.84615384615384" fill="#787878" rx="0"/><text x="287.5" y="114.15384615384616" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">21</text><text x="287.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Music</text><rect x="404.5" y="153.84615384615384" width="64" height="202.15384615384616" fill="#2a1a0e" rx="0"/><text x="436.5" y="147.84615384615384" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">18</text><text x="436.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Sports</text><rect x="553.5" y="311.0769230769231" width="64" height="44.923076923076906" fill="#C8102E" rx="0"/><text x="585.5" y="305.0769230769231" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">4</text><text x="585.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Education</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">% of performance variance explained</text>
+</svg>

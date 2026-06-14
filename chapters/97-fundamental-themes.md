@@ -25,6 +25,9 @@ This is why the Bastani finding is so precise: students who used AI freely durin
 
 The Kosmyna EEG study makes this visible: up to 55% reduction in functional brain connectivity during AI-assisted writing vs. brain-only writing. The neural networks that constitute comprehension, synthesis, and memory formation simply did not activate at the same rate. The students borrowed cognitive capability from the machine rather than building it in themselves.
 
+![Bar chart of friction findings — Bastani 48% practice gain against a 17-point unassisted-exam drop, and a 55% reduction in brain connectivity (Kosmyna)](images/97-fundamental-themes-fig-02.png)
+*Figure 97.2 — Friction findings: practice gain vs. exam collapse*
+
 The implication: cognitive struggle is not the price of learning. It is the mechanism of learning. AI that removes the struggle removes the mechanism. AI that makes the struggle more productive — better feedback, better calibration, better questions — accelerates learning without removing its cause.
 
 **The Frictional principle:** The struggle is the point. AI should make the struggle more productive, not eliminate it.
@@ -67,6 +70,9 @@ The answer requires a taxonomy — not a vague claim that "some things are irred
 ## The Irreducibly Human Taxonomy
 
 AI has decisively won Tier 1. For everything else, the situation is more complicated — and the complication is precisely what the books in this series teach.
+
+![Tiered hierarchy of human cognitive capacity — AI superhuman at Tier 1 pattern work, structurally weak-to-absent at Tiers 4-7, with a phase gate dividing the boundary](images/97-fundamental-themes-fig-01.png)
+*Figure 97.1 — The Irreducibly Human tier taxonomy*
 
 ---
 
@@ -206,6 +212,9 @@ Neither replaces the other. The teacher who uses AI for preparation does more te
 
 **The phase gate follows from the taxonomy:** The gate is at the boundary between what AI can do (Tier 1) and what requires human cognition (Tiers 4–7). AI stops at the gate not because it is distrusted but because the cognitive work on the other side of the gate is the work that produces the human capability that makes AI safe to use.
 
+![Two-zone systems diagram of the phase gate — AI handles Tier 1 work (structure, retrieval, feedback, error flagging) while the human keeps Tier 4-7 work (auditing, formulation, causal identification, accountability)](images/97-fundamental-themes-fig-03.png)
+*Figure 97.3 — The phase gate: Tier 1 delegation vs. Tier 4-7 protection*
+
 ---
 
 ## The Unified Argument
@@ -253,6 +262,9 @@ This is the Irreducibly Human taxonomy applied to employment economics. The Tier
 
 The credential matters less. The demonstrated capability matters more. This is the market telling educators what to teach.
 
+![Bar chart of the AI+1 labor-market signal — 56% AI wage premium in 2024 up from 25%, with AI-skill postings up 7.5% while total postings fell 11.3%](images/97-fundamental-themes-fig-04.png)
+*Figure 97.4 — The AI+1 labor-market signal*
+
 ---
 
 ### The Wrong Arrow and the Right One
@@ -264,6 +276,9 @@ The wrong arrow also delivers the wrong product. A LegalTech engineer is an engi
 The right arrow runs: *your domain + AI superpowers*. The domain identity is preserved. The AI capability is added on top. The lawyer still practices. The teacher still teaches. The designer still designs. AI handles what AI does well in that domain. The human handles the Tier 4–7 work that AI cannot — the judgment, the plausibility audit, the causal argument, the relationship, the accountability.
 
 This arrow holds for every domain. It produces an entry in every row of the curriculum matrix. It is what the 56% premium is actually paying for.
+
+![Two-panel comparison of career models — the wrong arrow routes a domain expert out to become a generic technologist, the right arrow keeps the domain and layers AI capability on top](images/97-fundamental-themes-fig-05.png)
+*Figure 97.5 — The wrong arrow vs. the right arrow*
 
 ---
 
@@ -501,3 +516,22 @@ The argument is one. The applications are many. The tools will change. The taxon
 1. Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS* 122(26), 2025. https://www.pnas.org/doi/10.1073/pnas.2422633122
 2. Kosmyna, N., et al. Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. MIT Media Lab, arXiv:2506.08872, 2025. https://arxiv.org/abs/2506.08872
 3. PwC. The Fearless Future: 2025 Global AI Jobs Barometer, June 2025. https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html
+
+---
+
+## Prompts
+
+### Figure 97.1 — The Irreducibly Human tier taxonomy
+Build a top-down hierarchy / stacked-tier schematic of human cognitive capacity, with a root "Human cognitive capacity" branching to tier nodes ordered top (most human) to bottom (most machine): Tier 7 Existential & wisdom (AI absent), Tier 6 Collective & distributed (AI absent), Tier 5 Causal & counterfactual (AI unreliable), Tier 4 Metacognitive & supervisory (AI weak), Tier 2 Embodied & sensorimotor (physics-bounded), Tier 1 Pattern & association (AI wins). Draw a marked horizontal boundary line — a phase gate — between Tier 4 and Tier 1, labeled to divide "where machines win" (below) from "where humans are irreducible" (above). Use distinct fills for AI-wins tiers vs. human-irreducible tiers. The structural point: AI is superhuman at the bottom and absent at the top. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 97.2 — Friction findings: practice gain vs. exam collapse
+Build a proportional bar chart, % change on the axis with a zero baseline (bars extend up for gains, down for losses). Three bars: Practice-phase gain (Bastani) +48 (highlighted), Unassisted-exam drop (Bastani) -17 points, Brain connectivity reduction (Kosmyna) -55. Use a positive fill for the gain bar and a warning fill for the two loss bars, making the divergence between apparent practice benefit and real cost stark. Label the axis "% change". Annotate that output fluency diverged sharply from the neural events of learning. The structural point: apparent benefit vs. real cost. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 97.3 — The phase gate: Tier 1 delegation vs. Tier 4-7 protection
+Build a horizontal two-zone systems diagram with a central gate and left-to-right flow. Left zone "AI zone (Tier 1)": generate structure, retrieve information, adjust complexity, produce calibrated feedback, flag errors, execute estimation. Right zone "Human zone (Tier 4-7)": plausibility auditing, problem formulation, causal identification, hold/defend a position, institutional judgment, accountability. Place a central vertical gate at the Tier 1 / Tier 4 boundary; AI is blocked from crossing it (barred glyph). Render the two zones as paired columns of rows. Use two distinct zone fills. The structural point: AI handles Tier 1; humans hold Tier 4-7, and the gate is impassable to AI. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 97.4 — The AI+1 labor-market signal
+Build a proportional bar chart, % on the axis, zero baseline. Four bars: AI wage premium 2024 = 56 (highlighted), AI wage premium prior year = 25, AI-skill job postings growth = +7.5, Total job postings change = -11.3 (warning fill, below baseline). Group the two wage-premium bars (year-over-year jump) and the two job-trend bars (diverging) visually. Label the axis "%". The structural point: a sharp and rising wage premium for AI-fluent domain experts, with AI-skill demand rising while overall postings fall. Highlight the 56% bar. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 97.5 — The wrong arrow vs. the right arrow
+Build a two-panel before/after comparison schematic, each panel a horizontal arrow path. Left panel "Wrong arrow": domain expert leaves the domain → becomes generic technologist → domain identity abandoned → market does not pay this path (highlighted as the failure). Right panel "Right arrow": domain expert keeps the domain → adds AI capability on top → domain identity preserved + augmented → what the 56% premium pays for (highlighted as the payoff). Render each path as a sequence of nodes joined by a single directional arrow. Use a warning fill for the wrong arrow and a positive fill for the right arrow. The structural point: leave the domain vs. augment it. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

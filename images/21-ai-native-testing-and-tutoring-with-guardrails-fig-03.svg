@@ -1,0 +1,36 @@
+<!--
+  Tutoring effect sizes vs. hinge and human-tutor benchmark
+  Book: Visible Learning x AI
+  Chapter: 21-ai-native-testing-and-tutoring-with-guardrails
+  Figure: 03
+  Type: horizontal dot/bar plot with two reference lines
+  Generated: 2026-06-08
+  Source: pantry/21-ai-native-testing-and-tutoring-with-guardrails-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Tutoring effect sizes vs. hinge and human-tutor benchmark — 21-ai-native-testing-and-tutoring-with-guardrails</title>
+<desc>ITS systems average d = 0.48 but reach d = 0.76 under step-level conditions — near the human-tutor benchmark of d = 0.79 — while the group's three rows all clear the 0.40 hinge.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="21-ai-native-testing-and-tutoring-with-guardrails"
+    figure-number="03"
+    figure-title="Tutoring effect sizes vs. hinge and human-tutor benchmark"
+    figure-slug="tutoring-effect-sizes-vs-hinge-and-human"
+    figure-type="horizontal dot/bar plot with two reference lines"
+    priority="Supplementary"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/21-ai-native-testing-and-tutoring-with-guardrails-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Tutoring effect sizes vs. hinge and human-tutor benchmark</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Step-level ITS (0.76) nears the human-tutor mark (0.79)</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.8</text><line x1="64" y1="210" x2="660" y2="210" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="660" y="205" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.40 hinge</text><rect x="91.6" y="158.89999999999998" width="64" height="197.10000000000002" fill="#2a1a0e" rx="0"/><text x="123.6" y="152.89999999999998" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.54</text><text x="123.6" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Practice</text><text x="123.6" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">testing</text><rect x="210.8" y="180.8" width="64" height="175.2" fill="#787878" rx="0"/><text x="242.8" y="174.8" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.48</text><text x="242.8" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Intelligent</text><text x="242.8" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">tutoring…</text><rect x="330" y="78.60000000000002" width="64" height="277.4" fill="#C8102E" rx="0"/><text x="362" y="72.60000000000002" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.76</text><text x="362" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">ITS,</text><text x="362" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">step-level…</text><rect x="449.2" y="202.70000000000002" width="64" height="153.29999999999998" fill="#787878" rx="0"/><text x="481.2" y="196.70000000000002" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.42</text><text x="481.2" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Technology</text><text x="481.2" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">with college…</text><rect x="568.4" y="67.64999999999998" width="64" height="288.35" fill="#2a1a0e" rx="0"/><text x="600.4" y="61.64999999999998" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.79</text><text x="600.4" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Human-tutor</text><text x="600.4" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">benchmark</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

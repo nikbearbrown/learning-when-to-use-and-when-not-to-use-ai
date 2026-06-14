@@ -54,6 +54,9 @@ Technology contributes to learning through exactly three channels, all indirect.
 
 **Displacement.** Every device-hour displaces something. Every dollar displaces something. Every unit of teacher attention spent managing platforms displaces a unit spent reading student work. The OECD's heavy-user finding is best read here — past a threshold, technology displaces higher-value instructional interaction. Displacement is why "more technology" has no default sign, and why the heaviest-investing systems showed nothing.
 
+![Node-edge diagram of technology's three indirect channels — access, amplification, displacement — fed by a single bundle input that prevents separate evaluation](images/38-ict-as-infrastructure-not-pedagogy-fig-01.png)
+*Figure 38.1 — The three channels of technology's contribution*
+
 <!-- → [DIAGRAM: Three-channel model — left column: Access (binary, utility standard, equity instrument); center column: Amplification (effect belongs to mechanism, not device; oven/recipe annotation); right column: Displacement (replaces something; OECD curve). Arrow from "bundle" pointing to all three channels simultaneously, labeled: "the bundle prevents the channels from being evaluated separately." Student should see why unbundling is the decision-rule, not a negotiating preference.] -->
 
 The decision rule falls out of the three channels: fund access on a utility standard; evaluate amplification mechanism by mechanism; account for displacement explicitly. A bundle prevents all three from being done separately. That is what a bundle is for.
@@ -94,6 +97,9 @@ The suite nearly came in anyway through the side door bundles are built for: the
 
 The answer, honestly given, was no, no, and no.
 
+![One-question provenance audit — a cited d = 0.47 tested against three columns (this product? this category? any LLM-era product?), all three empty, scoring 0 of 3](images/38-ict-as-infrastructure-not-pedagogy-fig-02.png)
+*Figure 38.2 — The one-question provenance audit*
+
 <!-- → [INFOGRAPHIC: The one-question audit — three columns: "This product?", "This category?", "Any LLM-era product?" Vendor claim: d = 0.47. Checkboxes in each column: all three empty. Below: "Score: 0 for 3. This is the norm." Side annotation: "The question that ended the meeting in one sentence." Student should see the provenance test as a portable tool for any procurement room.] -->
 
 The suite went to pilot instead of district-wide default. The tutor ran under Chapter 21's guardrail conditions in two schools. The writing assistant was held entirely pending the writing program's authorship-gate work. Auto-grading configured under Chapter 31's teacher-review gate.
@@ -110,7 +116,18 @@ Adoption conditions written into the framework: devices and connectivity renewed
 
 **Evidence that the spending worked is,** for the infrastructure ledger: access gaps closed, uptime, cost per functioning device, accessibility compliance — utility metrics, honestly sufficient. For the pedagogy ledger: each activated component's own evidence, from its own chapter — delayed, unassisted, transfer-bearing performance, defined before activation. Never device counts, deployment speed, platform engagement, or an aggregate effect size assembled before the product category existed.
 
-<!-- → [TABLE: Two-ledger structure — left column: Infrastructure Ledger (standard: utility; metrics: uptime, cost, coverage, accessibility; evaluated by: IT director, annually). Right column: Pedagogy Ledger (standard: mechanism and learning; metrics: chapter-specific delayed unassisted performance; evaluated by: curriculum team, per component, pre-registered). Bottom row: "What does not count in either ledger: d = 0.47, device counts, login rates, vendor case studies from unnamed districts."] -->
+![Two-ledger comparison — infrastructure judged on a utility standard (uptime, cost, coverage, accessibility) versus pedagogy judged on mechanism and learning, with no contract permitted to merge them](images/38-ict-as-infrastructure-not-pedagogy-fig-03.png)
+*Figure 38.3 — The two-ledger structure*
+
+| | Infrastructure ledger (utility) | Pedagogy ledger (learning) |
+|---|---|---|
+| Standard | Utility — access, reliability, cost | Mechanism and learning |
+| Metrics | Uptime; cost per functioning device; coverage; accessibility | Delayed, unassisted, transfer-bearing performance, defined before activation |
+| Evaluated by | IT director, annually | Curriculum team, per component, pre-registered |
+| Unit | The whole infrastructure layer | Each component, routed to its own chapter's phase gate |
+| Counts in neither ledger | Aggregate d (e.g. d = 0.47), device counts, login rates, vendor case studies from unnamed districts | Aggregate d (e.g. d = 0.47), device counts, login rates, vendor case studies from unnamed districts |
+
+*No contract may force the two ledgers to merge — a proposal that cannot be split is a proposal to bypass every gate at once.*
 
 ## What Evidence to Demand
 
@@ -188,3 +205,16 @@ Displacement remains the channel nobody instruments. The tooling now exists to m
 2. Zheng, B., Warschauer, M., Lin, C.-H., & Chang, C. (2016). Learning in one-to-one laptop environments: A meta-analysis. *Review of Educational Research*, 86(4), 1052–1084. https://journals.sagepub.com/doi/10.3102/0034654316628645
 3. Cuban, L. (2001). *Oversold and Underused: Computers in the Classroom*. Harvard University Press.
 4. Hattie, J. (2018 update). https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 38.1 — The three channels of technology's contribution
+Build a node-edge systems diagram. Place a single source node "The bundle (prevents separate evaluation)" at the left or top, with three directed arrows fanning out to three channel nodes arranged as columns: Access (binary, utility standard, equity), Amplification (effect belongs to the mechanism — highlighted), and Displacement (every device-hour replaces something). Each arrow is a forward arrow labeled to show the bundle distributing into all three at once. Annotate Amplification with the oven/recipe note (the device takes no credit for the recipe) and Displacement with the OECD heavy-user curve. The structural point: the bundle fans into all three channels simultaneously, preventing each from being evaluated on its own standard. Highlight the amplification node. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 38.2 — The one-question provenance audit
+Build an annotated callout schematic: a central labeled element "Cited aggregate d = 0.47 — scores 0 of 3" with three callout cells arranged as a checkbox audit, each representing one provenance test: "This product? Empty / failed", "This product category? Empty / failed", "Any language-model-era product? Empty / failed". Render each test as an empty/unchecked box with a failed marker. Use a warning fill across all three to show the unanimous failure. The structural point: a pre-LLM aggregate applied to a 2026 AI suite passes none of the three provenance columns. Annotate as "the question that ends the meeting in one sentence". Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 38.3 — The two-ledger structure
+Build a two-panel ledger comparison. Left panel "Infrastructure ledger (utility)": stacked rows — uptime, cost per functioning device, coverage, accessibility — judged on a utility standard. Right panel "Pedagogy ledger (learning)": stacked rows — delayed unassisted performance, transfer-bearing performance, evaluated per component, mechanism-and-learning standard. Add a shared bottom row spanning both panels, highlighted: "Counts in neither: aggregate d, device counts, login rates." Use two distinct panel fills; mark the dividing rule "No contract may merge them" between the panels. The structural point: two separate standards kept deliberately apart. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

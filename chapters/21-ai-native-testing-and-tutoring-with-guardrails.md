@@ -40,6 +40,9 @@ Intelligent tutoring systems (d = 0.48) — rank 89. Worth reading at two altitu
 
 Technology with college students (d = 0.42) — rank 115. The broadest and blandest row: decades of educational-technology comparisons in higher education, averaging modestly above hinge. Its job in this group is contextual — college students are the population where self-directed tool use is highest, oversight is thinnest, and the gap between a tool's guardrailed and unguardrailed selves matters most. The dataset's hypothesis: d ≈ 0.35 [HYPOTHESIS] for AI content delivery as a legitimate use case, with conflict risk concentrated exactly where Camille found it in ninety seconds — problem-solving tasks where "support" and "completion" share a text box.
 
+![Horizontal dot plot of tutoring effect sizes against the 0.40 hinge: practice testing 0.54, ITS average 0.48, step-level high-fidelity ITS 0.76 near the human-tutor benchmark 0.79, technology with college students 0.42](images/21-ai-native-testing-and-tutoring-with-guardrails-fig-03.png)
+*Figure 21.3 — Tutoring effect sizes vs. hinge and human-tutor benchmark*
+
 ## Why the Settings Matter This Much
 
 The group's engine is effortful retrieval, immediate step-level feedback, spacing, and difficulty calibration. These are legitimate automatables in well-structured domains. What makes this group different from Chapter 19's is the addition of two things that explain both the higher ceiling and the conflict flag.
@@ -47,6 +50,9 @@ The group's engine is effortful retrieval, immediate step-level feedback, spacin
 Step-level visibility is what gave VanLehn's systems near-parity with human tutors. An answer-level system knows *that* you failed; a step-level system knows *where* — which line of the derivation, which misapplied rule — and puts feedback on the step while the student is still inside the attempt. That is most of what a good human tutor does, and it is legitimately automable in algebra, chemistry stoichiometry, formal logic, code. It thins fast in ill-structured territory — essays, design, interpretation — which is where the genre's marketing goes to overreach.
 
 Desirable difficulty, held. The testing effect and the tutoring effect share a load-bearing discomfort: both work through effort the learner would decline if offered an exit. Retrieval feels worse than rereading; being held at a step feels worse than being shown the step. The entire value of the configuration is that it removes the exit. This is the precise sense in which the group has a cognitive-work conflict: the chat pane is an exit-installation device. Every capability the LLM adds — fluent explanation on demand, full worked solutions, answers to pasted homework — is an off-ramp from the difficulty that was the product.
+
+![Two-panel comparison of the configuration fork — guardrailed practice and exam curves converging (+127% practice, ~0 exam) versus unguardrailed diverging (+48% practice, -17% exam)](images/21-ai-native-testing-and-tutoring-with-guardrails-fig-01.png)
+*Figure 21.1 — The configuration fork: guardrailed vs. unguardrailed*
 
 <!-- → [CHART: Two-curve diagram — x-axis: weeks in platform; y-axis: performance score. Four curves: guardrailed practice, guardrailed exam, unguardrailed practice, unguardrailed exam. Guardrailed curves converge over time. Unguardrailed curves diverge — practice rising, exam falling. Annotate Bastani's specific numbers: +48% practice / −17% exam (unguardrailed); +127% practice / ≈0 exam (guardrailed). Student should see the fork visually — same model, same students, same material, split by configuration.] -->
 
@@ -84,6 +90,9 @@ The pilot ran in four sections of general chemistry. The step-level tutor earned
 
 The spaced quizzing module, attempt-first enforced, did what the static practice-exam library never had: cumulative retention practice that followed each student's forgetting curve rather than the syllabus calendar. And a Tutor CoPilot-style experiment — session summaries routed to the center's human tutors before appointments — let a thin tutor corps arrive already knowing where each student's derivations had broken.
 
+![Three-panel flow loop of the chemistry pilot — platform diagnoses (error clustering, mastery map), humans teach (reteach step, pre-brief tutors), platform verifies (cluster dissolution, exam performance)](images/21-ai-native-testing-and-tutoring-with-guardrails-fig-02.png)
+*Figure 21.2 — The pilot loop: diagnosis, teaching, verification*
+
 <!-- → [INFOGRAPHIC: Three-panel pilot structure — Panel 1: platform diagnosis layer (error clustering, mastery map). Panel 2: human teaching layer (retaught step, tutor pre-briefed by session summaries). Panel 3: platform verification layer (cluster dissolution, exam performance). Arrows connecting panels show the loop. Student should see that the platform's value in the pilot came from feeding human decisions, not replacing them.] -->
 
 Week eleven, problem set nine: the usage signature appeared. Chat-pane queries tripling in the six hours before the deadline, paste-shaped inputs. The vendor's default chat was on in two sections — a configuration error; it had been contracted off. Those sections' practice-completion numbers were the best in the pilot. Their unit-exam mean came in four points under the guardrailed sections'. One configuration error had run the Bastani experiment locally, with the predicted sign. [verify — local n was small; the center treated it as directional, consistent with the literature, not a finding]
@@ -100,7 +109,13 @@ License renewed, with configuration written into the contract as deliverables. C
 
 **Evidence that learning improved is** unassisted exam performance and gateway-course completion trending against multi-year baselines — together with practice data and exam data converging rather than diverging, since divergence is the −17 announcing itself.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Learner must / Instructor and center must / Valid evidence. Evidence row explicitly lists what does not count: practice-problem completion, in-platform mastery percentages, minutes engaged, student satisfaction with the chat pane, any figure accompanied by the phrase "two sigma."] -->
+| Role | What it covers |
+|---|---|
+| AI may | Generate and schedule retrieval practice with enforced attempt-before-reveal; tutor at step level in checkable domains with laddered, attempt-gated hints; cluster errors and surface mastery maps to instructors; summarize sessions for human tutors and coach the tutor corps; deliver content explanations outside the assessed workspace. |
+| The learner must | Perform every retrieval before any reveal; attempt every step before any hint; sit assessments with the platform out of reach. |
+| The instructor and center must | Read the error maps and teach to them; keep the human tutoring layer funded and informed; audit usage signatures for exit-seeking each term. |
+| Valid evidence | Unassisted exam performance and gateway-course completion trending against multi-year baselines; practice data and exam data converging rather than diverging. |
+| Does **not** count | Practice-problem completion; in-platform mastery percentages; minutes engaged; student satisfaction with the chat pane; any figure accompanied by the phrase "two sigma." |
 
 ## What Evidence to Demand
 
@@ -167,3 +182,14 @@ Tutor CoPilot helped the weakest human tutors most. The unmeasured question from
 **Challenge**
 
 9. (Advanced) *Tests the guardrailed-arm ceiling and the still-puzzling question.* The Bastani guardrailed arm produced large practice gains but approximately zero transfer to the unassisted exam. This chapter interprets the finding as "no harm," but an alternative interpretation is that the guardrailed design itself is the ceiling — that coached stepping during practice, however well-constrained, cannot produce the independent retrieval capacity that unassisted practice builds. Design a study that would distinguish between these two interpretations. Specify the conditions, the populations, the timing of assessments, and the result pattern that would confirm each account. Then propose a modified platform design — one specific change to the guardrailed tutor's behavior — that your study's framework would let you evaluate.
+
+## Prompts
+
+### Figure 21.1 — The configuration fork: guardrailed vs. unguardrailed
+Build a two-panel comparison, each panel a small line chart with x-axis "weeks in platform" and y-axis "performance score." Left panel titled "Guardrailed (converge)": two lines, practice rising to +127% and exam tracking flat at ~0, ending close together (converging). Right panel titled "Unguardrailed (diverge)": two lines, practice rising to +48% and exam falling to -17%, ending far apart (diverging) — highlight the falling exam line as the Bastani signature. Annotate each line's terminal value. Use a shared y-scale across panels so the divergence is visually comparable. Caption both panels: same model, same students, same material, split by one configuration setting. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 21.2 — The pilot loop: diagnosis, teaching, verification
+Build a three-panel left-to-right flow with a return loop arrow closing back to the start. Nodes: "Platform diagnoses (error clustering, mastery map)" → "Humans teach (reteach step, pre-brief tutors)" → "Platform verifies (cluster dissolution, exam performance)" → loop back. Distinguish the machine panels (1 and 3) from the human panel (2) by fill so the alternation reads instantly. Label the connecting arrows to show data feeding human decisions and results feeding back. Annotate that the platform feeds human decisions rather than replacing them. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 21.3 — Tutoring effect sizes vs. hinge and human-tutor benchmark
+Build a horizontal dot/lollipop plot, value range 0 to ~0.85 in Cohen's d. Rows sorted descending by value: "Human-tutor benchmark" 0.79, "ITS, step-level high fidelity" 0.76 (highlighted), "Practice testing" 0.54, "Intelligent tutoring systems" 0.48, "Technology with college students" 0.42. Two vertical reference lines: one at d = 0.40 labeled "0.40 hinge," one at d = 0.79 labeled "human-tutor benchmark." Zero baseline at left. Annotate the near-parity gap between step-level ITS (0.76) and the human benchmark (0.79). Label each dot with its value. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

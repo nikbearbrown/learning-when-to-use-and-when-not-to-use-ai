@@ -38,11 +38,21 @@ The danger-zone label is earned by one structural fact. These influences are all
 
 What makes this group more dangerous than Chapter 10's is recursion. There, AI could substitute for a single practice attempt. Here, AI can substitute for the *regulatory loop itself* — the planning, monitoring, and adjusting that schedule every future attempt. A student who outsources retrieval loses an encounter. A student who outsources self-regulation loses the machinery that decides all the other encounters. And she feels, the entire time, like an unusually organized student.
 
-<!-- → [TABLE: Six group influences — mastery learning (0.57), self-verbalization/self-questioning (0.55), self-regulation strategies (0.52), questioning (0.48), study skills (0.46), writing programs (0.45) — with mechanism summary and the specific conflict note for each. The writing-programs row should carry the bluntest note: AI ghostwriting is the antithesis of a writing program.] -->
+| Influence | Effect size (d) | Mechanism | Conflict note |
+|---|---|---|---|
+| Mastery learning | 0.57 | Reach criterion per unit before advancing, with feedback-and-correct loops | Software mastery assesses procedural retrieval; teacher must validate transfer and unstick the stuck |
+| Self-verbalization and self-questioning | 0.55 | Learner explains to and interrogates themselves | AI must *require* the verbalization, never supply it — answering the question is doing the influence on the wrong side of the table |
+| Self-regulation strategies | 0.52 | Goal-setting, monitoring, strategy adjustment — the executive loop | Perpetual scaffolding prevents internalization; systematic fading is required |
+| Questioning | 0.48 | Generating and pursuing questions about the material | AI generates question sets, but live adaptive questioning belongs to a human tracking the student's thinking |
+| Study skills | 0.46 | Tactics of the regulatory loop, best taught embedded in real content | AI scaffolds practice but must not execute the skills — execution *is* the practice |
+| Writing programs | 0.45 | Composing more, with structure and feedback, fuses planning, organizing, revising into thought | AI ghostwriting is the *antithesis* of a writing program |
 
 ---
 
 ## The Six Rows
+
+![Horizontal dot plot of six learner-side process influences from d = 0.45 to 0.57, all above the 0.40 hinge reference line, with writing programs flagged because AI ghostwriting is the antithesis of the mechanism](images/13-self-regulated-learning-in-the-danger-zone-fig-02.png)
+*Figure 13.2 — Six self-regulation influences with effect sizes*
 
 **Mastery learning (d = 0.57).** Instruction organized so students reach criterion on each unit before advancing, with feedback-and-correct loops in place of fixed pacing. The dataset's caution is specific: software-defined mastery typically assesses procedural retrieval; vendors' claims of "100 percent mastery" are unsupported; deep transfer and the accountability of self-pacing need human oversight. Hypothesis: AI mastery-gating is legitimate at d ≈ 0.50 [HYPOTHESIS]; the teacher validates transfer and unsticks the stuck.
 
@@ -65,6 +75,9 @@ Two facts about this loop carry the chapter.
 First, it is trainable. This is among the most replicated practical findings in education, and the reason the group sits above the hinge. Strategy instruction works. Self-questioning training works. The Education Endowment Foundation's evidence reviews consistently put metacognitive and self-regulation approaches among the highest-yield, lowest-cost interventions available. The mechanism is real and the effect is real.
 
 Second, it is trained *by being run, effortfully, by the learner* — with support that fades. The literature's load-bearing concept is internalization: external regulation — a teacher's pacing, a worksheet's prompts, a tutor's scheduling — becomes self-regulation only through a managed handoff. Scaffolding that never fades is not scaffolding. It is a permanent prosthetic, and the capacity underneath atrophies on schedule.
+
+![Two-path trajectory chart: a fading scaffold curves from external regulation toward internalized self-regulation, while a permanent scaffold stays flat at external, with the week-sixteen gap labeled as the difference the effect sizes describe](images/13-self-regulated-learning-in-the-danger-zone-fig-01.png)
+*Figure 13.1 — Internalization arc: fading vs. permanent scaffold*
 
 <!-- → [DIAGRAM: The internalization arc — X-axis: time; Y-axis: who runs the loop (external regulator on one end, internalized self-regulation on the other). Two paths: Path A (fading scaffold) curves from external toward internal; Path B (permanent scaffold) stays flat at external. The gap between them at week sixteen is labeled "the difference the d values describe."] -->
 
@@ -102,6 +115,9 @@ The trap here is uniquely comfortable, because every act of substitution is indi
 **Ghostwritten thinking.** The writing row carries its own alarm. Each delegated paragraph is a session of the loop's hardest workout, skipped. The draft improves; the writer does not. The artifact carries an A; the capacity that earned it belongs to the tool.
 
 **The fading that never comes.** The structural trap beneath all three: no commercial assistant has an incentive to fade. Engagement metrics reward dependence. The product that successfully internalizes the loop loses its user — which means the influence's most important design requirement and the vendor's business model point in opposite directions, and only the institution's configuration choices stand between them.
+
+![Comparison of two configurations over weeks of use: in coach mode generative-request frequency declines as internalization develops and independence improves; in the unconfigured default requests stay flat or rise, engagement climbs but learning stalls](images/13-self-regulated-learning-in-the-danger-zone-fig-03.png)
+*Figure 13.3 — Dependence trajectory: engagement vs. independence*
 
 <!-- → [CHART: Dependence trajectory — X-axis: weeks of use; Y-axis: frequency of generative requests (plan-generation, explanation-seeking, draft-generation). Three curves: (A) coach-mode configuration trending downward as internalization develops; (B) unconfigured assistant staying flat or rising; (C) the assessment-performance correlate for each. The visual point: the business metric (engagement) and the learning metric (independence) move in opposite directions in the default configuration.] -->
 
@@ -205,3 +221,17 @@ I would also update on the trap's other edge: if coach-mode configurations show 
 4. Education Endowment Foundation. Metacognition and Self-Regulation. EEF Teaching and Learning Toolkit. https://educationendowmentfoundation.org.uk/
 
 *Note: The Poulidis, Bastani & Bastani chess-academy working paper (cited in-text) is UNVERIFIED against a published record — the author flags it as unreviewed; verify exact title/URL near publication.*
+
+## Prompts
+
+### Figure 13.1 — Internalization arc: fading vs. permanent scaffold
+
+Build a two-path trajectory line chart. X-axis: time (weeks 0–16). Y-axis: who runs the regulatory loop, from "external regulator" at the bottom to "internalized self-regulation" at the top. Path A (fading scaffold) starts at external and curves upward toward internal control. Path B (permanent scaffold) starts at external and stays flat. Both begin at the same point. Annotate the vertical gap between the two paths at week 16 with a bracket labeled "the difference the d values describe". Encode the two paths by color; keep the y-scale labeled at its endpoints. Title "Internalization arc: fading vs. permanent scaffold". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 13.2 — Six self-regulation influences with effect sizes
+
+Build a horizontal dot/lollipop plot of six influences against a Cohen's d x-axis from zero: Mastery learning (0.57, highlighted), Self-verbalization / self-questioning (0.55), Self-regulation strategies (0.52), Questioning (0.48), Study skills (0.46), Writing programs (0.45). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all six dots sit to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight the top row by color and add a flag on the writing-programs row noting "ghostwriting is the antithesis". Label each dot with its value. Title "Six self-regulation influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 13.3 — Dependence trajectory: engagement vs. independence
+
+Build a two-panel comparison of generative-request frequency over weeks of use. Left panel "Coach-mode configuration": a line of generative requests declining over time, annotated "internalization developing / learning (independence) improves". Right panel "Unconfigured assistant default": a line staying flat or rising, annotated "dependence persisting / engagement up, learning stalls". X-axis: weeks of use. Y-axis: generative-request frequency, zero baseline, shared across panels. The visual argument: the business metric (engagement) and the learning metric (independence) move in opposite directions in the default. Encode the two configurations by color. Title "Dependence trajectory: engagement vs. independence". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

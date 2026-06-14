@@ -1,0 +1,36 @@
+<!--
+  Effect band by AI feasibility
+  Book: Visible Learning x AI
+  Chapter: 93-hattie-ai-analysis-summary
+  Figure: 02
+  Type: Grouped horizontal bar chart (effect band on the vertical axis, four feasibility groups per band), counts.
+  Generated: 2026-06-08
+  Source: pantry/93-hattie-ai-analysis-summary-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">Effect band by AI feasibility — 93-hattie-ai-analysis-summary</title>
+<desc>The strongest learning effects cluster in amplification, not automation. In the High band, AI-Augmented influences dominate (24 of 32), while the Below-hinge band is led by AI-Adjacent (51). The top-impact effects concentrate where AI amplifies rather than substitutes.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="93-hattie-ai-analysis-summary"
+    figure-number="02"
+    figure-title="Effect band by AI feasibility"
+    figure-slug="effect-band-by-ai-feasibility"
+    figure-type="Grouped horizontal bar chart (effect band on the vertical axis, four feasibility groups per band), counts."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/93-hattie-ai-analysis-summary-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Effect band by AI feasibility</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">High-impact effects concentrate in AI-Augmented</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">24</text><rect x="106.5" y="64" width="64" height="292" fill="#C8102E" rx="0"/><text x="138.5" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">24</text><text x="138.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Augmented</text><rect x="255.5" y="307.3333333333333" width="64" height="48.666666666666686" fill="#787878" rx="0"/><text x="287.5" y="301.3333333333333" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">4</text><text x="287.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Native</text><rect x="404.5" y="319.5" width="64" height="36.5" fill="#2a1a0e" rx="0"/><text x="436.5" y="313.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">3</text><text x="436.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Resistant</text><rect x="553.5" y="343.8333333333333" width="64" height="12.166666666666686" fill="#787878" rx="0"/><text x="585.5" y="337.8333333333333" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">1</text><text x="585.5" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">AI-Adjacent</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">count in High effect band</text>
+</svg>

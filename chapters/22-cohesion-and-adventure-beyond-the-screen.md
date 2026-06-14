@@ -40,7 +40,15 @@ The low substitution-risk rating reflects the dataset's judgment that, mostly, n
 
 The dataset's hypothesis states the committee's real choice: d ≈ 0.05 [HYPOTHESIS] for both rows if the influence is delivered through AI, because classroom community is built through shared physical experience and outdoor challenge is entirely embodied. Not a discount. A deletion.
 
-<!-- → [TABLE: Two group influences — strong classroom cohesion (d = 0.44), outdoor/adventure programs (d = 0.43) — with mechanism summary, the correlational provenance note for cohesion, the follow-up persistence finding for adventure, and the d ≈ 0.05 [HYPOTHESIS] entry for AI-mediated delivery of each. The table should make legible that the hypothesis is not a modest discount but a near-zero estimate.] -->
+![Grouped horizontal bar chart showing classroom cohesion (0.44) and outdoor/adventure (0.43) clearing the 0.40 hinge as embodied effects, both collapsing to a hypothesized 0.05 when delivered through AI](images/22-cohesion-and-adventure-beyond-the-screen-fig-01.png)
+*Figure 22.1 — Mechanism deletion: embodied vs. AI-mediated delivery*
+
+| Influence | Mechanism | Provenance note | Embodied d | AI-mediated d [HYPOTHESIS] |
+|---|---|---|---|---|
+| Strong classroom cohesion (rank 101) | A shared, class-level "we" — mutual trust and low social risk that lets students attempt, ask, and disagree in public | Largely correlational at the classroom level; direction of travel plausibly two-way | 0.44 | ≈ 0.05 |
+| Outdoor/adventure programs (rank 105) | Embodied shared challenge with real consequences and enforced interdependence; updates the student's model of self and groups | Hattie, Marsh, Neill & Richards (1997): gains persisted and in some analyses grew at follow-up | 0.43 | ≈ 0.05 |
+
+*The AI-mediated column is not a modest discount on the embodied effect — it is a near-zero estimate, a near-total deletion of the mechanism rather than a degraded version of it.*
 
 ---
 
@@ -59,6 +67,9 @@ Note what both rows share with Chapter 7's relationships and Chapter 23's collec
 **Cohesion changes the economics of participation.** In a low-trust classroom, every public attempt is a gamble with social capital: a wrong answer costs standing, so rational students minimize attempts, and the classroom's total cognitive output drops to the floor that safety allows. Cohesion collapses the gamble. When the group's norm is "we are doing something hard together," wrong answers become contributions, help-seeking loses its stigma, and the high-value cognitive behaviors — discussion, debate, genuine question-asking — become possible at all. Cohesion is not a warm feeling adjacent to learning. It is the risk-tolerance infrastructure that serious learning runs on.
 
 And it is built the way trust is always built: incrementally, through shared experience where people see each other act. That cannot be batch-processed, accelerated, or delegated, because what is being accumulated is *evidence about each other* — who shows up when things get hard, who is honest when honesty costs something, who holds the rope.
+
+![Side-by-side comparison of a low-cohesion classroom where participation is a social gamble exiting through a social-cost door, versus a high-cohesion classroom where the gamble collapses and discussion, debate, and genuine questions become available](images/22-cohesion-and-adventure-beyond-the-screen-fig-02.png)
+*Figure 22.2 — Cohesion as risk-tolerance infrastructure*
 
 <!-- → [DIAGRAM: Risk-tolerance infrastructure diagram — shows two classroom states side by side. Left (low cohesion): participation is a gamble with social capital; the floor of cognitive output is set by the lowest safety tolerance in the room; wrong answers exit through the social-cost door. Right (high cohesion): the gamble is collapsed; high-value behaviors (discussion, debate, genuine questions) become structurally available. The visual point: cohesion is not adjacent to learning; it is the precondition for the learning behaviors that carry the highest effects.] -->
 
@@ -107,6 +118,9 @@ The conflict flag forbids AI from the event. The perimeter is wide open, and the
 Nora arrived with numbers she had never had before.
 
 Her preparation was the group's safe-AI list, executed in three weeks. The district's data office, with an AI analysis assist, linked nine cohorts of expedition participation against attendance, discipline referrals, and eighth-to-ninth-grade persistence — finding the program's participation gaps (two ZIP codes, special-education students under-enrolled) *and* the suggestive associations her testimony had always gestured at. The associations were labeled as associations, not causation, in her own slides — because the committee deserved the strongest honest version of the claim, not the strongest version. AI-processed alumni survey text put thirty years of "the thing I remember" into the committee packet as themes with counts instead of anecdotes. And the logistics audit was the sleeper hit: AI workflow drafts showed the program could cut roughly a third of its administrative hours, which Nora converted, in the proposal itself, into two additional expedition sessions serving the under-enrolled groups the data had just exposed. The program walked in cheaper per student than it had been in five years.
+
+![Four-component tree of Nora's AI-assembled evidence file — participation-outcome correlation table across nine cohorts, equity-gap map of under-enrolled ZIPs and groups, alumni theme clusters from thirty years of surveys, and an admin-hour audit converting recovered hours into expanded sessions](images/22-cohesion-and-adventure-beyond-the-screen-fig-03.png)
+*Figure 22.3 — Nora's assembled evidence file*
 
 <!-- → [INFOGRAPHIC: Nora's evidence file — shows four components assembled by AI assist: (1) participation-outcome correlation table across nine cohorts with labeled uncertainty; (2) equity gap map — which ZIP codes and student groups are under-enrolled; (3) alumni theme clusters from thirty years of survey text; (4) administrative-hour audit with recovered hours converted to expanded expedition sessions. The visual point: AI built the case; the program earned it.] -->
 
@@ -190,3 +204,14 @@ Separately: if the 1997 follow-up findings fail verification or replication, the
 ### Challenge
 
 **9.** You are Nora, three years after Thursday's successful defense. The committee is satisfied with the program, the equity expansion is running, and the annual evidence report is becoming routine. A new assistant superintendent arrives and proposes a hybrid model: the four-day expedition continues, but is "bookended" by a belonging-analytics platform that tracks cohesion changes before and after the expedition, and "sustains the climate gains" through weekly virtual check-ins and algorithmically suggested connection activities in the months between expeditions. The ASC's argument: the platform turns the expedition's one-time impact into a continuous intervention, making the per-student investment go further. Using the conflict analysis, the Goodhart warning, and the comparable-line-item trap, write the one-page memo you present to the committee: acknowledge what the hybrid model gets right, explain precisely where it goes wrong, propose the one measurement addition that would actually strengthen the program's evidence base without importing the platform's risks, and close with the question the committee should ask the ASC before approving. *(Difficulty: challenge. Tests: applying the chapter's complete framework under a well-intentioned but mechanistically confused proposal from a sympathetic institutional leader.)*
+
+## Prompts
+
+### Figure 22.1 — Mechanism deletion: embodied vs. AI-mediated delivery
+Build a grouped horizontal bar chart, value range 0 to ~0.5 in Cohen's d. Four bars in two groups: an embodied group — "Classroom cohesion (embodied)" 0.44 and "Outdoor/adventure (embodied)" 0.43 — and an AI-mediated group — "Classroom cohesion (AI-mediated)" 0.05 (highlighted) and "Outdoor/adventure (AI-mediated)" 0.05. Group the embodied bars together at top, AI-mediated below. Zero baseline at left. Vertical reference line at d = 0.40 labeled "0.40 hinge"; embodied bars clear it, AI-mediated bars sit far below. Annotate the collapse from ~0.44 to ~0.05 as a near-total deletion, not a discount. Label each bar with its value. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 22.2 — Cohesion as risk-tolerance infrastructure
+Build a two-panel side-by-side comparison of two classroom states. Left panel "Low cohesion": two stacked rows — "Output floor set by lowest safety tolerance" and "Participation exits via social-cost door." Right panel "High cohesion": aligned rows — "Floor removed; gamble collapses" and "Discussion, debate, genuine questions available" (highlight this second right row). Use a shared axis label spanning both: "Participation as a social gamble." Visually contrast the panels — a constrained, low region on the left versus an opened region on the right — so the collapse of the gamble reads structurally. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 22.3 — Nora's assembled evidence file
+Build a top-down hierarchy (tree) with a single root "Nora's evidence file" branching to four leaf nodes: "Participation-outcome correlation table (9 cohorts)," "Equity-gap map (under-enrolled ZIPs and groups)," "Alumni theme clusters (30 years of survey text)," "Admin-hour audit: recovered hours to expanded sessions." Connect root to each leaf with clean edges. Give each leaf a consistent card treatment. Annotate that AI assembled the four components while the program earned the underlying record. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

@@ -1,0 +1,36 @@
+<!--
+  Mechanism deletion: embodied vs. AI-mediated delivery
+  Book: Visible Learning x AI
+  Chapter: 22-cohesion-and-adventure-beyond-the-screen
+  Figure: 01
+  Type: grouped horizontal bar chart with reference line
+  Generated: 2026-06-08
+  Source: pantry/22-cohesion-and-adventure-beyond-the-screen-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Mechanism deletion: embodied vs. AI-mediated delivery — 22-cohesion-and-adventure-beyond-the-screen</title>
+<desc>Through embodied co-presence, cohesion (0.44) and adventure (0.43) clear the hinge as large effects; delivered through AI both collapse to a hypothesized d ~ 0.05 — a near-total deletion, not a discount.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="22-cohesion-and-adventure-beyond-the-screen"
+    figure-number="01"
+    figure-title="Mechanism deletion: embodied vs. AI-mediated delivery"
+    figure-slug="mechanism-deletion-embodied-vs-ai-mediat"
+    figure-type="grouped horizontal bar chart with reference line"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/22-cohesion-and-adventure-beyond-the-screen-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Mechanism deletion: embodied vs. AI-mediated delivery</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Embodied effects collapse to near zero through AI</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.5</text><line x1="64" y1="122.39999999999998" x2="660" y2="122.39999999999998" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="660" y="117.39999999999998" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0.40 hinge</text><rect x="106.5" y="99.04000000000002" width="64" height="256.96" fill="#2a1a0e" rx="0"/><text x="138.5" y="93.04000000000002" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.44</text><text x="138.5" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Classroom</text><text x="138.5" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">cohesion…</text><rect x="255.5" y="104.88" width="64" height="251.12" fill="#787878" rx="0"/><text x="287.5" y="98.88" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.43</text><text x="287.5" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Outdoor/adventure</text><text x="287.5" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(embodied)</text><rect x="404.5" y="326.8" width="64" height="29.19999999999999" fill="#C8102E" rx="0"/><text x="436.5" y="320.8" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.05</text><text x="436.5" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Classroom</text><text x="436.5" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">cohesion…</text><rect x="553.5" y="326.8" width="64" height="29.19999999999999" fill="#787878" rx="0"/><text x="585.5" y="320.8" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0.05</text><text x="585.5" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Outdoor/adventure</text><text x="585.5" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(AI-mediated)</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

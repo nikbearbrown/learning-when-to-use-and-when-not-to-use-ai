@@ -1,0 +1,36 @@
+<!--
+  The one-question provenance audit
+  Book: Visible Learning x AI
+  Chapter: 38-ict-as-infrastructure-not-pedagogy
+  Figure: 02
+  Type: three-column checkbox audit schematic
+  Generated: 2026-06-08
+  Source: pantry/38-ict-as-infrastructure-not-pedagogy-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">The one-question provenance audit — 38-ict-as-infrastructure-not-pedagogy</title>
+<desc>A vendor's d=0.47 citation must pass a three-column provenance test — this product? this category? any LLM-era product? — and for a pre-LLM aggregate applied to a 2026 AI suite, all three columns come up empty (0 of 3).</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="38-ict-as-infrastructure-not-pedagogy"
+    figure-number="02"
+    figure-title="The one-question provenance audit"
+    figure-slug="the-one-question-provenance-audit"
+    figure-type="three-column checkbox audit schematic"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/38-ict-as-infrastructure-not-pedagogy-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The one-question provenance audit</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cited d = 0.47 scores 0 of 3</text><rect x="275" y="190" width="150" height="80" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/><text x="350" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Cited aggregate d</text><text x="350" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">= 0.47 — scores 0</text><text x="350" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">of 3</text><line x1="350" y1="190" x2="350" y2="80" stroke="#D4D4D4" stroke-width="1"/><circle cx="350" cy="80" r="3" fill="#2a1a0e"/><text x="358" y="78" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">This product?</text><text x="358" y="90" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">Empty / failed</text><line x1="414.9519052838329" y1="250" x2="566.5063509461097" y2="305" stroke="#D4D4D4" stroke-width="1"/><circle cx="566.5063509461097" cy="305" r="3" fill="#2a1a0e"/><text x="574.5063509461097" y="303" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">This product</text><text x="574.5063509461097" y="315" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">category? Empty /…</text><line x1="285.0480947161671" y1="250" x2="133.49364905389038" y2="305.00000000000006" stroke="#D4D4D4" stroke-width="1"/><circle cx="133.49364905389038" cy="305.00000000000006" r="3" fill="#2a1a0e"/><text x="125.49364905389038" y="303.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">Any</text><text x="125.49364905389038" y="315.00000000000006" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">language-model-era…</text>
+</svg>

@@ -1,0 +1,36 @@
+<!--
+  The Irreducibly Human tier taxonomy
+  Book: Visible Learning x AI
+  Chapter: 97-fundamental-themes
+  Figure: 01
+  Type: Vertical hierarchy / stacked-tier schematic with a marked boundary line.
+  Generated: 2026-06-08
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">The Irreducibly Human tier taxonomy — 97-fundamental-themes</title>
+<desc>Human cognitive capacity is organized into tiers. AI is superhuman at the bottom (Tier 1 pattern and association) and structurally weak-to-absent at the top (Tiers 4-7), with a phase gate at the Tier 1 / Tier 4 boundary dividing where machines win from where humans are irreplace…</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="97-fundamental-themes"
+    figure-number="01"
+    figure-title="The Irreducibly Human tier taxonomy"
+    figure-slug="the-irreducibly-human-tier-taxonomy"
+    figure-type="Vertical hierarchy / stacked-tier schematic with a marked boundary line."
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/97-fundamental-themes-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The Irreducibly Human tier taxonomy</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Where machines win, where humans are irreplaceable</text><rect x="290" y="82" width="120" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/><text x="350" y="105" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Human cognitive</text><text x="350" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">capacity</text><line x1="350" y1="138" x2="77.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="32" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="77.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 7 —</text><text x="77.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Existential &amp;</text><text x="77.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">wisdom (AI…</text><line x1="350" y1="138" x2="186.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="141" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="186.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 6 —</text><text x="186.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Collective &amp;</text><text x="186.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">distributed…</text><line x1="350" y1="138" x2="295.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="250" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="295.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 5 —</text><text x="295.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Causal &amp;</text><text x="295.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">counterfactual…</text><line x1="350" y1="138" x2="404.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="359" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="404.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 4 —</text><text x="404.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Metacognitive</text><text x="404.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">&amp; supervisory…</text><line x1="350" y1="138" x2="513.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="468" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="513.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 2 —</text><text x="513.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Embodied &amp;</text><text x="513.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">sensorimotor…</text><line x1="350" y1="138" x2="622.5" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="577" y="222" width="91" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="622.5" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Tier 1 —</text><text x="622.5" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Pattern &amp;</text><text x="622.5" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">association…</text>
+</svg>

@@ -46,7 +46,17 @@ The moderator every adoption committee should memorize sits inside the NRP work:
 
 By field-experiment standards — Kraft's (2020) realistic benchmarks — 0.41 from rigorous experiments is a strong result. The direction is not in dispute. But "what works" has a *when* attached, and the 0.70 versus 0.41 discrepancy is not a contradiction to be resolved by picking the higher number. It is a lesson about how pooling choices inflate effect sizes, and why both figures belong in the room.
 
-<!-- → [TABLE: The two-numbers comparison — 0.70 (Hattie 2018, broad pooling) and 0.41 (NRP meta-analysis, tight design), with the timing moderator: 0.55 in K-1, 0.27 after Grade 1. Third row: by Kraft's field-experiment benchmarks, what each value means. The table should make the grade-band moderator unmissable, not an asterisk.] -->
+| Source / condition | Effect size (d) | Study design | What it means by Kraft's benchmarks |
+|---|---|---|---|
+| Hattie 2018 list value | 0.70 | Broad pooling of multiple phonics meta-analyses, wide inclusion criteria | A large effect — but inflated by breadth of pooling, not a single rigorous estimate |
+| NRP / Ehri et al. (overall) | 0.41 | 66 treatment-control comparisons, 38 tight experiments | A strong result from rigorous experiments — the defensible anchor |
+| NRP — instruction begun in K-1 | 0.55 | Subset, early grades | The intervention working where the evidence concentrates it |
+| NRP — instruction begun after Grade 1 | 0.27 | Subset, later grades | Roughly half the effect — remediation-by-exposure is the weak version |
+
+*The grade-band moderator (0.55 in K-1 falling to 0.27 after Grade 1) is the line no vendor brochure prints. It belongs on the committee's wall, not in a footnote.*
+
+![Phonics effect sizes plotted against the 0.40 hinge: Hattie 0.70, NRP 0.41, K-1 0.55, after Grade 1 0.27](images/30-phonics-support-without-replacing-instruction-fig-01.png)
+*Figure 30.1 — Two phonics numbers and the grade-band moderator*
 
 Honesty also requires the live dispute. Bowers (2020) reviewed twelve meta-analyses and concluded the evidence that systematic phonics is *superior to alternative methods* is weak to nonexistent. The replies — Fletcher, Savage, and Vaughn (2021), among others — charge him with miscast comparisons and the wrong question, since no serious party proposes zero phonics [contested]. The defensible convergence point, which is all this chapter needs: explicit phonics instruction reliably helps beginning readers; claims of superiority over every alternative mixture, and of phonics-first exclusivity, are where genuine dispute lives. A committee that can state that distinction will read every vendor brochure in the stack more accurately, because "the science of reading is settled" is precisely the kind of flattened claim that AI products inherit and amplify.
 
@@ -57,6 +67,9 @@ Honesty also requires the live dispute. Bowers (2020) reviewed twelve meta-analy
 English writing is a code: letters and letter combinations map to sounds. Some children crack the code from exposure; many do not, and for them the mapping must be taught — explicitly, in a planned sequence, with immediate corrective feedback. The mechanism runs in layers: phonemic awareness (hearing the sounds inside words) → grapheme-phoneme mapping (which letters spell which sounds) → blending (assembling sounds into words) → orthographic mapping (words becoming sight words *through* successful decoding) → automaticity. Phonics is the on-ramp, not the destination. Decoding feeds fluency feeds comprehension, and the effect size measures the on-ramp's value, concentrated in the early grades.
 
 The load-bearing distinction of the whole chapter: **instruction versus practice.** Systematic phonics is a taught intervention — explicit modeling of new correspondences, guided blending with the teacher's immediate correction, and responsive error analysis: when a child misreads, is it a letter-sound gap, a blending failure, or a phonemic-awareness gap underneath? Each diagnosis calls for different teaching. Apps deliver practice and assessment well. Most apps do not deliver instruction — they exercise what someone has taught. The question is always: who taught the correspondence the app is practicing?
+
+![Five-layer phonics mechanism stack with parallel AI-support and teacher-only role columns at each layer](images/30-phonics-support-without-replacing-instruction-fig-02.png)
+*Figure 30.2 — Phonics mechanism stack and the AI/teacher split*
 
 <!-- → [DIAGRAM: The phonics mechanism stack — vertical layers from phonemic awareness at the base through grapheme-phoneme mapping, blending, orthographic mapping, to automaticity at the top. Two parallel columns alongside: what AI can support at each layer (assessment, practice generation, progress tracking) and what requires a human teacher at each layer (first modeling of new correspondences, diagnosis of error type, responsive reteaching). The diagram should make unmistakable that AI supports the stack; it does not build it.] -->
 
@@ -99,6 +112,9 @@ In the pilot classrooms, the support stack earned its place. ASR screening produ
 The dangerous moment arrived dressed as the solution to the staffing problem. One principal, down a literacy coach and two veteran teachers, proposed running the "AI-delivered lessons" mode as the core phonics block in her three least-experienced classrooms: "the app's lessons are more systematic than what my second-year teachers improvise." It was the strongest version of the substitution argument, and the committee took it seriously rather than dismissing it. Inconsistent human instruction is a real cost.
 
 The minute-audit reframed it. The proposal did not add the app's systematicity to those classrooms' instruction; it removed the teachers from first teaching at the precise career stage where they would have learned to deliver it — manufacturing, within three years, a faculty that had never taught decoding. And the children in those rooms — disproportionately the district's highest-need — would receive exposure where the evidence prescribes instruction.
+
+![Before/after minute-audit of a weekly literacy block — teacher-led-plus-app keeps a large explicit-instruction segment, app-as-core leaves first-teaching near zero while total minutes hold constant](images/30-phonics-support-without-replacing-instruction-fig-03.png)
+*Figure 30.3 — Minute-audit: two configurations of the literacy block*
 
 <!-- → [INFOGRAPHIC: The minute-audit comparison — shows a week of a K-2 literacy block in two configurations: (A) teacher-led + app supplement (explicit instruction minutes vs. practice minutes labeled separately); (B) app-as-core-instruction (practice minutes up, explicit instruction minutes near zero). The visual point: adoption of the app as core instruction does not add systematicity — it removes the first-teaching column entirely.] -->
 
@@ -188,3 +204,16 @@ A well-designed independent trial showing app-delivered phonics instruction matc
 2. Bowers, J. S. (2020). Reconsidering the evidence that systematic phonics is more effective than alternative methods. *Educational Psychology Review*, 32(3), 681–705. https://link.springer.com/article/10.1007/s10648-019-09515-y
 3. Fletcher, J. M., Savage, R., & Vaughn, S. (2021). A commentary on Bowers (2020). *Educational Psychology Review*, 33. https://eric.ed.gov/?id=EJ1310133
 4. Hattie, J. (2018 update). Ranking of influences. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 30.1 — Two phonics numbers and the grade-band moderator
+Build a horizontal dot/lollipop plot comparing four phonics effect sizes on a shared x-axis in Cohen's d, range 0 to 0.8, zero baseline shown. Four rows, sorted descending by value: Hattie 2018 broad pooling (0.70), NRP/Ehri overall (0.41, highlighted), NRP K-1 subset (0.55), NRP after Grade 1 (0.27). Each row is a labeled lead line from zero to a terminal dot; encode value by dot x-position. Draw a vertical reference line at d = 0.40 labeled "0.40 hinge". Highlight the 0.41 row (the defensible anchor) with the accent color. Annotate the K-1 vs after-Grade-1 pair to make the timing moderator visible (e.g. a bracket noting "same intervention, half the effect"). Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 30.2 — Phonics mechanism stack and the AI/teacher split
+Build a layered schematic: a vertical stack of five horizontal layer-bands from base to top — Phonemic awareness (base), Grapheme-phoneme mapping, Blending, Orthographic mapping, Automaticity (top). Bottom-to-top reading order indicates dependency. Alongside each band run two parallel role columns: left column = what AI supports at that layer (support, progress tracking, error/practice generation, assessment, practice/tracking), right column = what only a human teacher does (first teaching, first modeling, error diagnosis, reteaching, builds it). Use two distinct fills for the two role columns; layer bands share a neutral fill. The structural point: AI columns flank the stack but the teacher column builds it. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.
+
+### Figure 30.3 — Minute-audit: two configurations of the literacy block
+Build a two-panel before/after stacked-bar comparison. Each panel is a single full-height stacked bar representing one weekly literacy block of constant total minutes (identical bar heights across panels — the constant is the point). Left panel "Teacher-led + app supplement": large explicit-instruction segment plus a small app-practice segment. Right panel "App-as-core": explicit-instruction segment near zero plus app-practice filling the bar. Use two segment fills (instruction vs. app practice); highlight the collapse of the explicit-instruction segment between panels. Shared y-axis labeled "One weekly literacy block (minutes)", zero baseline. Annotate that total minutes are unchanged while first-teaching vanishes. Deliverable: single standalone HTML file, inline CSS, D3 v7 pinned CDN, brutalist palette via CSS variables.

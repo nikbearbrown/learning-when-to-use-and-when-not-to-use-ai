@@ -1,0 +1,36 @@
+<!--
+  Bastani three-arm outcome
+  Book: Visible Learning x AI
+  Chapter: 01-hatties-visible-learning-and-the-ai-question
+  Figure: 01
+  Type: statistical (grouped/paired bar chart)
+  Generated: 2026-06-08
+  Source: pantry/01-hatties-visible-learning-and-the-ai-question-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Bastani three-arm outcome — 01-hatties-visible-learning-and-the-ai-question</title>
+<desc>Identical AI technology produces opposite learning outcomes depending on whether it is guardrailed: practice-period gain versus unassisted-exam change across three experimental arms.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="01-hatties-visible-learning-and-the-ai-question"
+    figure-number="01"
+    figure-title="Bastani three-arm outcome"
+    figure-slug="bastani-three-arm-outcome"
+    figure-type="statistical (grouped/paired bar chart)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/01-hatties-visible-learning-and-the-ai-question-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Bastani three-arm outcome</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Practice change vs. unassisted-exam change, signed against zero</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="321.52777777777777" x2="660" y2="321.52777777777777" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="325.52777777777777" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">127</text><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">-17</text><rect x="91.6" y="224.19444444444443" width="64" height="97.33333333333334" fill="#2a1a0e" rx="0"/><text x="123.6" y="218.19444444444443" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">48</text><text x="123.6" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Unrestricted</text><text x="123.6" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">GPT-4:…</text><rect x="210.8" y="321.52777777777777" width="64" height="34.47222222222223" fill="#787878" rx="0"/><text x="242.8" y="315.52777777777777" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">-17</text><text x="242.8" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Unrestricted</text><text x="242.8" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">GPT-4: exam</text><rect x="330" y="321.52777777777777" width="64" height="1" fill="#2a1a0e" rx="0"/><text x="362" y="315.52777777777777" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0</text><text x="362" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">No-AI control</text><rect x="449.2" y="64" width="64" height="257.52777777777777" fill="#C8102E" rx="0"/><text x="481.2" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">127</text><text x="481.2" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Guardrailed</text><text x="481.2" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">tutor:…</text><rect x="568.4" y="321.52777777777777" width="64" height="1" fill="#2a1a0e" rx="0"/><text x="600.4" y="315.52777777777777" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">0</text><text x="600.4" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Guardrailed</text><text x="600.4" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">tutor: exam</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Performance change (signed)</text>
+</svg>

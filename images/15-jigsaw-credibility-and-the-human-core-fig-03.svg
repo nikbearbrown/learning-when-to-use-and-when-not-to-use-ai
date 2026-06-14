@@ -1,0 +1,36 @@
+<!--
+  Jigsaw, credibility, and AI-replacement hypotheses
+  Book: Visible Learning x AI
+  Chapter: 15-jigsaw-credibility-and-the-human-core
+  Figure: 03
+  Type: Horizontal dot plot spanning a zero crossing, against the 0.40 hinge.
+  Generated: 2026-06-08
+  Source: pantry/15-jigsaw-credibility-and-the-human-core-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
+<title id="fig-title-03">Jigsaw, credibility, and AI-replacement hypotheses — 15-jigsaw-credibility-and-the-human-core</title>
+<desc>Jigsaw (1.20) and teacher credibility (0.90) sit near the top, while AI-replacement hypotheses drop sharply — jigsaw to ~0.30 and credibility to ~−0.15, the only negative estimate in this part of the book.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="15-jigsaw-credibility-and-the-human-core"
+    figure-number="03"
+    figure-title="Jigsaw, credibility, and AI-replacement hypotheses"
+    figure-slug="jigsaw-credibility-and-ai-replacement-hy"
+    figure-type="Horizontal dot plot spanning a zero crossing, against the 0.40 hinge."
+    priority="Supplementary"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/15-jigsaw-credibility-and-the-human-core-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Jigsaw, credibility, and AI-replacement hypotheses</text><rect x="170" y="64" width="474" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="222.66666666666669" y1="64" x2="222.66666666666669" y2="364" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="222.66666666666669" y="380" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">0</text><line x1="644" y1="64" x2="644" y2="364" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="644" y="380" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">1.2</text><line x1="170" y1="64" x2="170" y2="364" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="170" y="380" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">-0.15</text><line x1="363.11111111111114" y1="64" x2="363.11111111111114" y2="364" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="5 4"/><text x="363.11111111111114" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="middle">0.40 hinge</text><text x="160" y="105.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">Jigsaw method</text><line x1="222.66666666666669" y1="101.5" x2="644" y2="101.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="644" cy="101.5" r="5" fill="#2a1a0e"/><text x="634" y="105.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">1.2</text><text x="160" y="180.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">Teacher credibility</text><line x1="222.66666666666669" y1="176.5" x2="538.6666666666667" y2="176.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="538.6666666666667" cy="176.5" r="5" fill="#2a1a0e"/><text x="548.6666666666667" y="180.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">0.9</text><text x="160" y="255.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">AI-replaced jigsaw (hypot…</text><line x1="222.66666666666669" y1="251.5" x2="328" y2="251.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="328" cy="251.5" r="5" fill="#2a1a0e"/><text x="338" y="255.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="start">0.3</text><text x="160" y="330.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="400" fill="#2a1a0e" text-anchor="end">AI-proxy credibility (hyp…</text><line x1="222.66666666666669" y1="326.5" x2="170" y2="326.5" stroke="#D4D4D4" stroke-width="1"/><circle cx="170" cy="326.5" r="5" fill="#C8102E"/><text x="160" y="330.5" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="end">-0.15</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Cohen's d (effect size)</text>
+</svg>

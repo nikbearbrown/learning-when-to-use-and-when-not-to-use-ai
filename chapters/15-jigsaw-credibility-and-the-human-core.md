@@ -38,6 +38,9 @@ What unites them is that both are constituted by human relationship rather than 
 
 ## The Two Rows
 
+![Horizontal dot plot against the 0.40 hinge: jigsaw (1.20) and teacher credibility (0.90) near the top, with AI-replacement hypotheses dropping sharply to about 0.30 for jigsaw and to −0.15 for AI-proxy credibility, the only negative estimate](images/15-jigsaw-credibility-and-the-human-core-fig-03.png)
+*Figure 15.3 — Jigsaw, credibility, and AI-replacement hypotheses*
+
 Jigsaw (d = 1.2) — rank 7 of 252. The cooperative-learning design from Aronson's desegregation-era classrooms: expert groups master a segment, home groups depend on each expert's teaching, assessment holds individuals accountable for the whole. Two honesty notes must travel with the spectacular number. First, provenance: the 2018 list's figure rests on a notably thin meta-analytic base for a claim this large [verify — more recent syntheses, including the 2023 Frontiers review, report positive but more heterogeneous effects]. Second, specificity: what evidence exists rewards faithfully implemented jigsaw — real expertise asymmetry, real accountability — not the casual "split the reading" version that borrows the name. The dataset's hypothesis for AI replacement is the sharpest in the book's first half: with AI handling only group composition and logistics, perhaps d ≈ 0.30 [HYPOTHESIS] of structural support remains; the peer teaching exchange is the causal mechanism and must be human.
 
 Teacher credibility (d = 0.9) — rank 12. Not a teaching technique — a student perception, built from competence, trustworthiness, and perceived goodwill, with dynamism as a contested fourth factor in the communication literature. [Finn and colleagues' meta-analytic work is the standard reference.] The d = 0.9 says students learn dramatically more from teachers they believe in. Two cautions: as a perception variable, it is correlational by nature — credibility is partly earned by being effective, so the arrow runs both ways — and it is fragile in a way technique is not. One caught lie, one unfair grade, one unkept promise moves it. The dataset's hypothesis is the only negative one in this part of the book: substituting an AI proxy for the teacher's presence is hypothesized to degrade outcomes — d ≈ −0.15 [HYPOTHESIS] — because AI fluency is not teacher credibility, and students know the difference.
@@ -49,6 +52,9 @@ Jigsaw works because it manufactures necessity.
 In an ordinary discussion, any member can coast — the group's knowledge is redundant by design. Jigsaw deletes the redundancy. When Fontaine's candidate is the only person in her home group who studied reliability, three things fire at once. Her preparation acquires stakes: four people's understanding depends on it, which recruits the same explain-to-learn engine as peer tutoring, under stronger obligation. Her teaching becomes real teaching: she must field questions, repair misunderstanding, notice glazed eyes, with no script to hide behind. And her audience attends differently, because this material is coming from nowhere else and the assessment knows it.
 
 The structure converts social accountability into cognitive effort at every seat in the room. That conversion is the influence — which is why the AI-prepared notes were not a shortcut through the jigsaw but a hole in its hull. Detection by artifact is hopeless here, as everywhere the substitution is content-quality-preserving: the fix is structural. Mastery gates before teaching. No-notes teaching. Follow-up questions only a genuine expert survives.
+
+![Two-stage jigsaw structure: expert nodes each master one segment and teach it into a home group that depends on each as its only source, with a labeled bypass arrow from an AI-prepared document delivering fluent content while expertise never forms](images/15-jigsaw-credibility-and-the-human-core-fig-01.png)
+*Figure 15.1 — Jigsaw structure and the courier bypass*
 
 <!-- → [DIAGRAM: Jigsaw structure showing expert group and home group stages. Expert stage: each node masters one segment. Home group stage: each node teaches their segment to four others who know nothing else. Annotation: "necessity is structural — redundancy is deleted by design." Arrow from the AI-prepared document bypass showing where the mechanism breaks: fluent content delivered, expertise never formed.] -->
 
@@ -90,6 +96,9 @@ She rebuilt the unit with AI on the permitted side of the line. The machine now 
 
 The simulation platform found its honest niche: candidates use it for rehearsal of classroom moves before their practicum — a flight simulator, explicitly framed as one, with the program's language policed so that simulated practice is never logged as field experience.
 
+![Left-to-right four-stage flow of the rebuilt unit: AI builds the expert packet, the candidate rehearses with AI and passes a closed-notes mastery gate, the human home-group exchange runs with AI absent at the center, and AI returns afterward only to document the session for reflection](images/15-jigsaw-credibility-and-the-human-core-fig-02.png)
+*Figure 15.2 — Revised unit: AI wraps around human exchange*
+
 <!-- → [DIAGRAM: Revised unit flow — three stages with AI role annotated at each. Stage 1: AI builds expert packet, candidate studies. Stage 2: candidate rehearses with AI, takes mastery gate (closed notes, oral). Stage 3: human home-group exchange — AI absent. Post-session: AI documents for reflection. The AI-absent center stage is the mechanism. Student should see that AI wraps around the human exchange rather than entering it.] -->
 
 She also ran the experiment the moment deserved. With consent, one home-group cycle included a comparison: two groups received their missing segment from a candidate-expert; two from a polished AI-generated video covering identical content. On the immediate check, the video groups scored marginally higher — fluency buys recall. On the transfer task a week later — design a rubric applying the segment's principles — the human-taught groups were clearly stronger. In the debrief, the video groups' members could not name a single question they had asked, because they had asked none; there had been no one to ask whose answer could be probed.
@@ -106,7 +115,11 @@ Adoption conditions, written into the program charter. Expert preparation is per
 
 **Evidence that learning improved is** individual performance on the full content after jigsaw cycles (every member, every segment, unassisted), transfer of taught principles to novel application, and stable or rising student perceptions of instructor credibility measured alongside any expansion of AI use.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Humans must / Valid evidence. Evidence row explicitly lists what does not count: session smoothness, expert-material polish, avatar engagement minutes, simulation completion rates, content-delivery scores without transfer tasks, credibility ratings before sustained observation.] -->
+| Role | What it covers |
+|---|---|
+| AI may | Compose groups; assemble expert source packets; run mastery checks; serve as rehearsal audience for expert teaching and classroom practice; draft administrative scaffolding; document human exchanges for later reflection |
+| Humans must | Build their own expertise; teach their own segments to peers who genuinely depend on them; stand at the front of their own classrooms accruing the slow evidence of competence, trustworthiness, and goodwill — the interdependent exchange and the audited relation are the influences, and neither exists in simulation |
+| Valid evidence | Individual performance on the full content after jigsaw cycles (every member, every segment, unassisted); transfer of taught principles to novel application; stable or rising student perceptions of instructor credibility measured alongside any expansion of AI use. **Does not count:** session smoothness, expert-material polish, avatar engagement minutes, simulation completion rates, content-delivery scores without transfer tasks, or credibility ratings taken before sustained observation |
 
 ## What Evidence to Demand
 
@@ -183,3 +196,17 @@ Credibility has a cold-start problem the research barely touches: it is built ov
 4. Johnson, D. W., & Johnson, R. T. (2009). Social interdependence theory and cooperative learning. Educational Researcher, 38(5), 365–379.
 
 *Note: The "2023 Frontiers in Psychology jigsaw systematic review" (cited in-text) is UNVERIFIED to an exact DOI in this pass — the author flags it [verify]; confirm the precise citation near publication.*
+
+## Prompts
+
+### Figure 15.1 — Jigsaw structure and the courier bypass
+
+Build a node-edge systems diagram in two stages. Expert nodes A and B each master one segment; draw arrows from each into a central highlighted "Home group" node, labeled "teaches segment", showing each home-group member depends on exactly one source (redundancy deleted). Add an "AI-prepared document" node with a visually distinct bypass arrow (dashed, accent color) into the home group, labeled "bypass: skips expert formation". Annotate that "necessity is structural — redundancy is deleted by design", and mark where the bypass breaks the mechanism: fluent content delivered, expertise never formed. Title "Jigsaw structure and the courier bypass". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 15.2 — Revised unit: AI wraps around human exchange
+
+Build a left-to-right four-stage process flowchart: (1) AI builds expert packet; candidate studies, (2) Rehearse with AI; pass closed-notes mastery gate, (3) Human home-group exchange (AI absent), (4) AI documents session for reflection. Connect with right-pointing arrows. Visually mark stages 1, 2, and 4 as AI-present and stage 3 as AI-absent (distinct color or a clear "AI absent" band) so the center stage reads as the protected human core. Add a caption: "AI present before and after; absent in the center stage". Keep equal node widths and consistent spacing. Title "Revised unit: AI wraps around human exchange". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 15.3 — Jigsaw, credibility, and AI-replacement hypotheses
+
+Build a horizontal dot/lollipop plot against a Cohen's d x-axis that spans a zero crossing (from about −0.3 to 1.4): Jigsaw method (1.20), Teacher credibility (0.90), AI-replaced jigsaw hypothesis (0.30), AI-proxy credibility hypothesis (−0.15, highlighted). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge" and a distinct zero line; stems originate from the zero line so the single negative value reads as crossing below zero. Highlight the −0.15 AI-proxy credibility row by color and mark it as the only negative estimate and a hypothesis. Label each dot with its value. Title "Jigsaw, credibility, and AI-replacement hypotheses". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

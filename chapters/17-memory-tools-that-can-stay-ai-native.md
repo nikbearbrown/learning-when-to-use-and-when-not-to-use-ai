@@ -40,11 +40,17 @@ Memory for arbitrary material is an engineering problem with three load-bearing 
 
 **Spacing against forgetting.** Massed rehearsal feels productive and decays fast. Spaced rehearsal feels halting and lasts. Students systematically prefer the feeling to the fact, which is why externally scheduled spacing — the one thing software has always done better than willpower — earns its keep.
 
+![Three-band horizontal schematic: encoding structure (AI manufactures, learner legitimately receives), retrieval effort (learner-only, the irreducible core that cannot be delegated), and spacing schedule (AI automates the timing, learner follows), showing no cognitive-work conflict](images/17-memory-tools-that-can-stay-ai-native-fig-01.png)
+*Figure 17.1 — The three-part memory engineering model*
+
 <!-- → [DIAGRAM: Three-part memory engineering model — three horizontal bands: Encoding structure (AI-manufactured, legitimately received), Retrieval effort (learner-only, cannot be delegated), Spacing schedule (AI-automated, legitimately delegated); for each band, a short column showing "what AI does" and "what learner does" — student should see that the division of labor produces no conflict because the machine's work and the learner's work are genuinely different work] -->
 
 Map the three parts onto the AI tool and the classification's verdict drops out cleanly. The AI supplies encoding structure — legitimately received. It manufactures practice volume and runs the spacing schedule — legitimately delegated. The student supplies the retrieval effort — and the tool's whole format, done right, *demands* that effort card by card. No cognitive-work conflict. That is the signature of a group where AI-native is actually safe, and it is worth learning to recognize because it is the pattern every vendor claims and few possess.
 
 ## The Influences
+
+![Horizontal dot plot against the 0.40 hinge: mnemonics (0.76) and rehearsal and memorization (0.73) sit high above the hinge, with a small hypothesized AI-delivery discount for mnemonics to about 0.70](images/17-memory-tools-that-can-stay-ai-native-fig-03.png)
+*Figure 17.3 — Two high-band memory influences with effect sizes*
 
 **Mnemonics (d = 0.76)** — rank 21 on the 2018 list. The research base is old and solid in its niche: keyword-method studies in vocabulary and science learning, method-of-loci and first-letter techniques for ordered material, with effects strongest for verbatim, paired-associate, and list-type content.
 
@@ -72,6 +78,9 @@ Free faculty hours for the irreducible parts. Every hour anatomy faculty do not 
 
 ## The Substitution Trap
 
+![Three-row matrix of substitution traps — recognition creep, fluency mistaken for the course, and unreviewed scaffolds — each with an observable signature and an auditable fix, none of them a structural limit of the technology](images/17-memory-tools-that-can-stay-ai-native-fig-02.png)
+*Figure 17.2 — Three substitution traps, all auditable*
+
 A low-substitution-risk classification means the trap is small, not absent. It has three forms here, and all three are subtle precisely because the gross form — AI remembers *for* you — is impossible. Memory is the one cognitive act that cannot be outsourced and still claimed. There is no button that installs recall. What can be hollowed out is the practice around it.
 
 **Recognition creep.** The tool drifts toward making review pleasant: multiple-choice cards, hint-rich prompts, reveal-on-tap. Each drift swaps retrieval (effortful, learning-rich) for recognition (easy, learning-poor) while the session statistics improve. The student completes more cards, feels more fluent, retains less. This is the group's local version of the fluency illusion — and it is a *design setting*, which means it is auditable.
@@ -80,7 +89,11 @@ A low-substitution-risk classification means the trap is small, not absent. It h
 
 **Unreviewed scaffolds.** AI-generated mnemonics at scale, unreviewed, will occasionally encode a wrong order or a confabulated branch — and a mnemonic is a *retention* device, so the error is retained with professional efficiency. In a medical curriculum this failure mode has a patient attached to it eventually.
 
-<!-- → [TABLE: Three substitution traps for memory tools — columns: Trap name, Mechanism hollowed, Observable signature, Auditable fix; rows: Recognition creep, Fluency mistaken for the course, Unreviewed scaffolds — student should see that all three are auditable design or policy choices, not structural limits of the technology] -->
+| Trap | Mechanism hollowed | Observable signature | Auditable fix |
+|---|---|---|---|
+| Recognition creep | Retrieval (effortful) swapped for recognition (easy) | More cards completed, higher fluency feeling, lower retention; multiple-choice and reveal-on-tap defaults | Require productive recall in design; disable recognition modes for credit-bearing practice |
+| Fluency mistaken for the course | Transfer and meaning-making, which the d = 0.76 never measured | Flawless structure-naming alongside failure on what a structure does or what its damage causes; assessment drifting toward the automatable layer | Test transfer beyond the tool — application questions and novel specimens no mnemonic reaches |
+| Unreviewed scaffolds | Accuracy of the received encoding structure | A wrong order or confabulated branch retained with professional efficiency | Policy to review and retire scaffolds — rotating faculty accuracy review of generated content |
 
 ## The Case in Full
 
@@ -154,3 +167,17 @@ The dataset hypothesizes a small discount (0.76 → ≈0.70 [HYPOTHESIS]) for AI
 2. Dunlosky, J., et al. (2013). Improving students' learning with effective learning techniques. Psychological Science in the Public Interest, 14(1), 4–58.
 3. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3), 249–255.
 4. Atkinson, R. C. (1975). Mnemotechnics in second-language learning. American Psychologist, 30(11), 821–828.
+
+## Prompts
+
+### Figure 17.1 — The three-part memory engineering model
+
+Build a three-band horizontal schematic, one stacked band per layer: Encoding structure, Retrieval effort, Spacing schedule. Within each band, split into two columns — "what AI does" and "what learner does". Encoding structure: AI manufactures, learner legitimately receives. Retrieval effort: AI absent, learner-only (mark as the irreducible core, accent color). Spacing schedule: AI automates the timing, learner follows. Use the column split to make visible that the machine's work and the learner's work are genuinely different work, so there is no cognitive-work conflict. Emphasize the retrieval-effort band as the load-bearing, non-delegable layer. Title "The three-part memory engineering model". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 17.2 — Three substitution traps, all auditable
+
+Build a three-row structured matrix. Rows: Recognition creep, Fluency mistaken for the course, Unreviewed scaffolds. Columns: "Mechanism hollowed (signature)" and "Auditable fix available". Highlight the middle row (fluency mistaken for the course). Make every fix-column cell visibly filled to support the subtitle's point — these are choices, not structural limits. Subtitle: "Every fix column is filled: these are choices, not limits". Title "Three substitution traps, all auditable". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 17.3 — Two high-band memory influences with effect sizes
+
+Build a horizontal dot/lollipop plot against a Cohen's d x-axis from zero: Mnemonics (0.76, highlighted), Rehearsal and memorization (0.73), and AI-delivered mnemonics as a hypothesis (0.70). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all dots sit well to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight mnemonics by color and mark the AI-delivered row as a small hypothesized discount. Label each dot with its value. Title "Two high-band memory influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

@@ -54,9 +54,15 @@ Unpack the tutor's side first, because it is the side the spreadsheet cannot see
 
 The tutee's side has a social engine too. Explanations from a near-peer arrive in reachable language, from someone who recently held the same confusion. And asking a peer is cheaper than asking the teacher — but not free. The mild social cost is load-bearing: it keeps help-seeking deliberate, and being helped by someone who chose to show up creates an obligation to try that no software license generates. Cooperative structures generalize the same force — in a well-built group, my preparation matters because my teammates will be examined on what only I was assigned to learn.
 
+![Two-node bidirectional systems diagram: tutor and tutee exchange flows through a central "consequential interdependence" node — tutor contributing retrieval, reorganization, examples, monitoring; tutee contributing near-peer language, social cost, obligation — with AI support shown as an outside ring that never enters the center](images/12-cooperation-is-the-intervention-fig-01.png)
+*Figure 12.1 — Consequential interdependence: two-sided exchange*
+
 <!-- → [DIAGRAM: Two-sided exchange diagram — tutor role and tutee role as separate nodes, with labeled arrows showing flows in both directions. Tutor arrows: retrieval, reorganization, example generation, real-time monitoring. Tutee arrows: near-peer language, social cost of asking, obligation to try. Center node: "consequential interdependence." AI support shown as external ring, never entering the center. Student should see at a glance why the mechanism requires two humans.] -->
 
 Now the necessary complication, because this book does not wave it away. On the tutee's side alone, machine tutoring is genuinely competitive. VanLehn's review put human tutoring at d = 0.79 and step-based intelligent tutoring systems at a statistically comparable 0.76 — the folklore gap between human and machine tutoring has not survived measurement. If peer tutoring were only an explanation-delivery service, the budget analyst would be right, and this chapter would be shorter. The resistance classification rests on what else the structure produces: the tutor's learning, the obligation that gets a sophomore to show up Tuesday, the belonging that a waiting list signals. The chatbot replicates the transcript. It replicates nothing else in the machine.
+
+![Horizontal dot plot against the 0.40 hinge: human tutoring (0.79) and step-based ITS (0.76) sit close together, peer tutoring at 0.53, while AI-replaced peer tutoring is hypothesized to fall to about 0.10](images/12-cooperation-is-the-intervention-fig-03.png)
+*Figure 12.3 — Human tutoring vs. ITS vs. AI-replaced peer*
 
 ## What AI Can Safely Do
 
@@ -88,6 +94,9 @@ She proposed to keep the chatbot. And she proposed to keep the center. The quest
 
 Her counter-proposal put the chatbot to work in the three places the classification permits. Tutor training first: new tutors now rehearse against the model playing a frustrated freshman — wrong in realistic ways, impatient, occasionally hostile — before facing a real one. Training days that used to consume her stipend budget run themselves. Coordination second: matching, scheduling, and session-log summaries that used to eat her Sundays. And a CoPilot-style experiment third: tutors who hit a wall mid-session can flag the coordinator's tablet, where the model drafts three possible next moves — *ask her to draw it; go back to the table of values; try the ramp example* — for the tutor to choose from. Her veteran tutors mostly ignore it. Her newest tutors call it the difference between drowning and swimming.
 
+![Comparison panel: the priced columns show chatbot explanation delivery at $11/student against center stipends, coordinator, and training, beside an "invisible assets" column listing tutor learning, the obligation network, help-seeking formation, and belonging that no line item captures](images/12-cooperation-is-the-intervention-fig-02.png)
+*Figure 12.2 — Budget case: what the chatbot buys vs. center*
+
 <!-- → [INFOGRAPHIC: The two-line budget case — show center costs (stipends, coordinator, training) next to chatbot cost ($11/student), then add a third column: "what the chatbot buys" vs. "what the center buys." Center column explicitly lists tutor learning, obligation network, help-seeking formation, belonging. Bottom line: total cost of both, scoped correctly, versus cost of chatbot alone with invisible losses itemized. The argument Aisha made in one slide.] -->
 
 The near-miss came from success. Off-hours chatbot usage grew so fast that by November a dozen of the center's regulars had stopped booking sessions entirely — the machine was easier, no scheduling, no social cost, no waiting list. Two of them were students Aisha knew: the kind for whom Tuesday's obligation had been the structural thread holding a week together. Easier had quietly become alone. The chatbot had not malfunctioned. It had substituted, one convenient evening at a time, and the only metric that caught it was a human coordinator noticing absence.
@@ -104,7 +113,12 @@ The budget meeting kept both lines, re-scoped. The chatbot is infrastructure: tr
 
 **Evidence that learning improved is** tutee performance on unassisted classroom and district measures, tutor academic trajectories and program persistence, and the health of the structure itself — sessions kept, pairs sustained, help-seeking rates. None of which is a chatbot usage statistic.
 
-<!-- → [TABLE: Phase gate — rows: AI may / Students must / Coordinator must / Valid evidence. Two-column format. The evidence row explicitly lists what does not count alongside what does: chatbot session counts, conversation lengths, satisfaction ratings, collaborative artifacts assembled from individual AI outputs.] -->
+| Role | What it covers |
+|---|---|
+| AI may | Train and rehearse tutors against a simulated tutee; coach tutors with mid-session suggestions; run matching, scheduling, and reminders; prepare session materials; summarize logs for the coordinator; provide clearly-labeled off-hours practice support |
+| Students must | Do the tutoring, the explaining, the asking, and the group work *with each other* — the peer exchange, interdependence, and mutual accountability are the intervention on both sides |
+| Coordinator must | Keep watching for drift from supported-by to replaced-by, which no log flags automatically; notice absence when chatbot use rises and human sessions fall |
+| Valid evidence | Tutee performance on unassisted measures; tutor academic trajectories and program persistence; structure health (sessions kept, pairs sustained, help-seeking rates). **Does not count:** chatbot session counts, conversation lengths, satisfaction ratings, or collaborative artifacts assembled from individual AI outputs |
 
 ## What Evidence to Demand
 
@@ -181,3 +195,17 @@ For genuinely isolated learners — rural schools, homebound students, midnight 
 3. Johnson, D. W., & Johnson, R. T. (2009). An educational psychology success story: Social interdependence theory and cooperative learning. Educational Researcher, 38(5), 365–379.
 4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
 5. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+## Prompts
+
+### Figure 12.1 — Consequential interdependence: two-sided exchange
+
+Build a node-edge systems diagram with a central highlighted node "Consequential interdependence". Place a Tutor node and a Tutee node flanking it, each with a labeled arrow into the center: tutor arrow labeled "retrieval, reorganization, examples, monitoring"; tutee arrow labeled "near-peer language, social cost, obligation". Add return arrows from the center back to each role to show the bidirectional exchange. Place an "AI support" node on an outer ring connected only to the tutor with the label "never enters the center", visually distinguished (dashed, muted) to show it stays outside the mechanism. Make clear at a glance that the mechanism requires two humans. Title "Consequential interdependence: two-sided exchange". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 12.2 — Budget case: what the chatbot buys vs. center
+
+Build a two-panel comparison. Left panel "Priced": rows for chatbot explanation delivery ($11/student) and center costs (stipends, coordinator, training) — the visible, costed line items. Right panel "What the center actually buys": rows for tutor learning (flagged as the largest asset), obligation network, help-seeking formation, belonging — none of which appear on any line item. Highlight the tutor-learning row as the single largest invisible asset. Visually contrast the priced/visible left against the unpriced/invisible right (e.g., muted vs. accent treatment). Title "Budget case: what the chatbot buys vs. center". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 12.3 — Human tutoring vs. ITS vs. AI-replaced peer
+
+Build a horizontal dot/lollipop plot against a Cohen's d x-axis from zero: Human tutoring (0.79), Step-based ITS (0.76), Peer tutoring as classified (0.53), AI-replaced peer tutoring as hypothesis (0.10, highlighted). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; the AI-replaced point sits well below it. X-axis from zero baseline. Encode value by dot x-position with a connecting stem; highlight the AI-replaced hypothesis row by color and mark it as a hypothesis. Label each dot with its value. The visual point: human and machine tutoring are comparable on the tutee side, but removing the peer exchange collapses the influence. Title "Human tutoring vs. ITS vs. AI-replaced peer". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

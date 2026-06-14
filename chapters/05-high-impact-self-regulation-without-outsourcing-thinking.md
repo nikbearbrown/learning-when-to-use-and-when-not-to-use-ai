@@ -32,6 +32,9 @@ What the row licenses: prediction, comparison, recalibration — the loop that t
 
 This is the book's single best teaching case for the distinction between description and recipe. A large d is a description of where learning was found, not a formula for manufacturing it. The bigger the effect, the more expensive it is to hollow out.
 
+![The same d=1.33 read two ways: a correlational description of judgment accuracy versus a vendor's causal claim of a purchasable payoff](images/05-high-impact-self-regulation-without-outsourcing-thinking-fig-01.png)
+*Figure 5.1 — Description vs. recipe*
+
 <!-- → [DIAGRAM: Two-column contrast — left: "What d = 1.33 measured" (judgment accuracy, correlational finding, description of a student asset); right: "What vendors claim" (causal effect, expected payoff, purchasable outcome) — student should see why the same number warrants opposite interpretations] -->
 
 ## Eight Influences, One Engine
@@ -51,6 +54,9 @@ This group collects eight influences: self-reported grades (1.33), strategy to i
 One engine drives all eight rows: **calibration under ownership**. A self-regulated learner runs a loop — predict, plan, attempt, monitor, evaluate, adjust — and every cycle does two jobs. It improves the work. And it improves the *model of self* doing the work.
 
 The student who predicts a 78, scores a 64, and confronts the 14-point gap is not failing. They are debugging their own judgment of learning. Over cycles, the judgment sharpens. Sharpened judgment redirects effort toward actual weakness. Redirected effort produces mastery experiences. Mastery feeds efficacy. Efficacy funds the persistence the next cycle needs. The group's eight influences are this flywheel measured at different entry points.
+
+![A self-regulated learner's loop — predict, plan, attempt, monitor, evaluate, adjust — where prediction-error is the loop's most valuable output](images/05-high-impact-self-regulation-without-outsourcing-thinking-fig-02.png)
+*Figure 5.2 — The calibration flywheel*
 
 Two properties of the flywheel are the chapter's core claims, and both have direct implications for what any tool may do.
 
@@ -74,7 +80,16 @@ The safe zone is the loop's logistics and its feedback. Never the first-person a
 
 **Flag efficacy collapses.** Patterns suggesting a student has stopped attempting — flat-zero predictions on everything, scored well — surfaced for a counselor or advisor to act on. The detection is legitimate. The response requires a human.
 
-<!-- → [TABLE: Safe AI uses vs. substitution traps — three columns: Loop segment, Safe AI role, Forbidden substitution; rows: Prediction, Gap confrontation, Reflection, Efficacy building, Peer teaching — student should see the line between augmentation and mechanism deletion at each segment] -->
+![At each loop segment, AI's legitimate logistics-and-feedback role beside its forbidden first-person substitution, with the gate running cleanly between](images/05-high-impact-self-regulation-without-outsourcing-thinking-fig-03.png)
+*Figure 5.3 — Safe role vs. forbidden substitution*
+
+| Loop segment | Safe AI role | Forbidden substitution |
+| --- | --- | --- |
+| Prediction | Require a prediction before practice unlocks; log predictions against outcomes; chart the calibration curve | Display an AI-predicted grade before/instead of the student's own — anchoring replaces calibration |
+| Gap confrontation | Surface prediction vs. outcome with the student's own history ("12 points optimistic on multi-step problems") | Explain away or smooth the gap so the miss is never confronted |
+| Reflection | Generate reflection prompts keyed to the student's actual gap data | Draft the reflection prose for the student to edit and submit — the ghostwritten self |
+| Efficacy building | Flag efficacy collapses (flat-zero predictions on everything) for a human to act on | Supply borrowed confidence via an engineered, frictionless micro-success drip |
+| Peer teaching | Model predict-clarify-question-summarize as worked examples; organize logistics | Do the teaching act in place of the student-to-peer exchange |
 
 ## The Substitution Trap, Named Precisely
 
@@ -163,3 +178,16 @@ Reciprocal teaching with one human and one AI peer: clearly not the influence as
 5. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
 6. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.
 7. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 5.1 — Description vs. recipe
+Build a two-panel comparison contrasting two readings of one shared anchor value, d = 1.33. Left panel "What the number measured": correlational/descriptive finding, judgment accuracy as a pre-existing student asset, two quantities tracking together, "Legitimate reading". Right panel "What vendors claim": causal effect / expected payoff, a manufactured purchasable outcome, input drives an output bar upward, "Misreading" (highlight the legitimate-vs-misreading contrast row). Marks: paired rows across two columns, with a shared d=1.33 anchor labeled between them. Channels: column = reading, color = legitimate vs. misreading. No zero baseline (categorical contrast). Annotate that the same number warrants opposite interpretations. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 5.2 — The calibration flywheel
+Build a closed-loop cycle of six stages arranged clockwise: "Predict" → "Plan" → "Attempt" → "Monitor" → "Evaluate" → "Adjust" → back to "Predict". Marks: six nodes joined by directed arcs forming a ring. Emphasize the prediction-error as the loop's most valuable output (highlight the Predict→Monitor/Evaluate confrontation, or add an error-callout node where prediction meets outcome). Channels: position around the ring = sequence, color = emphasis on the error node. No axes, no zero baseline. Annotate that each cycle improves the work and sharpens the model of self, and that prediction-error is the curriculum. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 5.3 — Safe role vs. forbidden substitution
+Build a two-panel comparison ladder, one row per loop segment. Left column "Safe AI role (logistics/feedback)", right column "Forbidden first-person substitution". Rows: Prediction ("log and surface patterns" vs. "make the prediction for the learner"); Gap confrontation ("present the gap" vs. "explain away the gap", highlighted); Reflection ("prompt structured review" vs. "reflect on the learner's behalf"); Efficacy building ("track mastery evidence" vs. "supply borrowed confidence"); Peer teaching ("organize logistics" vs. "do the teaching act"). Marks: paired-column ladder, one row per segment. Channels: column = safe vs. forbidden, color = the dividing gate between them. No zero baseline. Annotate the gate running cleanly down the middle. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

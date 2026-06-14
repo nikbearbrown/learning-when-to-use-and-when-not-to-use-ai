@@ -1,0 +1,36 @@
+<!--
+  Bandura's four efficacy sources, by strength
+  Book: Visible Learning x AI
+  Chapter: 23-collective-teacher-efficacy-as-the-north-star
+  Figure: 01
+  Type: vertical ranked stack with adjacent capability columns (systems diagram)
+  Generated: 2026-06-08
+  Source: pantry/23-collective-teacher-efficacy-as-the-north-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
+<title id="fig-title-01">Bandura's four efficacy sources, by strength — 23-collective-teacher-efficacy-as-the-north-star</title>
+<desc>Collective efficacy grows from four sources ranked by strength — mastery experience (strongest, self-compounding), vicarious experience, social persuasion (weak alone), affective state — and the dashboard touches only source 3.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="23-collective-teacher-efficacy-as-the-north-star"
+    figure-number="01"
+    figure-title="Bandura's four efficacy sources, by strength"
+    figure-slug="bandura-s-four-efficacy-sources-by-stren"
+    figure-type="vertical ranked stack with adjacent capability columns (systems diagram)"
+    priority="Critical"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/23-collective-teacher-efficacy-as-the-north-star-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">Bandura's four efficacy sources, by strength</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">The dashboard touches only social persuasion</text><rect x="290" y="82" width="120" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/><text x="350" y="105" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">Sources of</text><text x="350" y="119" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#2a1a0e" text-anchor="middle">collective…</text><line x1="350" y1="138" x2="158" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="103" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="158" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Mastery</text><text x="158" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">experience</text><text x="158" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(strongest,…</text><line x1="350" y1="138" x2="286" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="231" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="286" y="241.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Vicarious</text><text x="286" y="254.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">experience</text><line x1="350" y1="138" x2="414" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="359" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="414" y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Social</text><text x="414" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">persuasion (weak</text><text x="414" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">alone; dashboard…</text><line x1="350" y1="138" x2="542" y2="222" stroke="#D4D4D4" stroke-width="1"/><rect x="487" y="222" width="110" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="241.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Affective state</text><text x="542" y="254.5" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">(degraded)</text>
+</svg>

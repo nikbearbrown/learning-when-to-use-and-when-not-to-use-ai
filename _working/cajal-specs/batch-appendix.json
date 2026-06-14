@@ -1,0 +1,188 @@
+[
+  {
+    "chapterSlug": "93-hattie-ai-analysis-summary",
+    "figureNumber": 1,
+    "figureTitle": "AI feasibility of 252 Hattie influences",
+    "figureType": "Small-multiple horizontal bar chart (four stacked-category panels) — counts out of 252.",
+    "priority": "Critical",
+    "desc": "Across 252 Hattie influences, AI feasibility skews toward support and amplification rather than native automation: 97 are AI-adjacent and 88 AI-augmented, while only 29 are AI-native and 38 AI-resistant.",
+    "subtitle": "Most influences fall into support, not AI-native categories",
+    "render": "bar",
+    "data": {
+      "unit": "count of influences (of 252)",
+      "items": [
+        {"label": "AI-Adjacent", "value": 97, "highlight": true},
+        {"label": "AI-Augmented", "value": 88},
+        {"label": "AI-Resistant", "value": 38},
+        {"label": "AI-Native", "value": 29}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "93-hattie-ai-analysis-summary",
+    "figureNumber": 2,
+    "figureTitle": "Effect band by AI feasibility",
+    "figureType": "Grouped horizontal bar chart (effect band on the vertical axis, four feasibility groups per band), counts.",
+    "priority": "Critical",
+    "desc": "The strongest learning effects cluster in amplification, not automation. In the High band, AI-Augmented influences dominate (24 of 32), while the Below-hinge band is led by AI-Adjacent (51). The top-impact effects concentrate where AI amplifies rather than substitutes.",
+    "subtitle": "High-impact effects concentrate in AI-Augmented",
+    "render": "bar",
+    "data": {
+      "unit": "count in High effect band",
+      "items": [
+        {"label": "AI-Augmented", "value": 24, "highlight": true},
+        {"label": "AI-Native", "value": 4},
+        {"label": "AI-Resistant", "value": 3},
+        {"label": "AI-Adjacent", "value": 1}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "93-hattie-ai-analysis-summary",
+    "figureNumber": 3,
+    "figureTitle": "The amplification-vs-substitution phase gate",
+    "figureType": "Horizontal two-branch conceptual schematic with a central gate.",
+    "priority": "Important",
+    "desc": "A high-impact learning influence meets a phase gate. If AI amplifies the mechanism (feedback, practice, diagnosis, planning, reflection), the effect is preserved. If AI substitutes for the cognitive or social work that produces the effect, the effect collapses.",
+    "subtitle": "Does AI amplify the mechanism or substitute for it?",
+    "render": "flow",
+    "data": {
+      "stages": [
+        {"label": "High-impact learning influence", "num": 1},
+        {"label": "Phase gate", "num": 2},
+        {"label": "Amplification: AI supports the mechanism — effect preserved", "num": 3},
+        {"label": "Substitution: AI performs the work — effect collapses", "num": 4}
+      ],
+      "relations": ["arrow", "arrow", "block"],
+      "relLabels": ["", "supports", "blocked"],
+      "note": "The gate divides amplification (effect preserved) from substitution (effect collapses)."
+    }
+  },
+  {
+    "chapterSlug": "93-hattie-ai-analysis-summary",
+    "figureNumber": 4,
+    "figureTitle": "Priority review cases by effect size",
+    "figureType": "Horizontal dot plot (one row per influence), effect size on the x-axis from zero, dot color encoding mechanism-conflict level.",
+    "priority": "Supplementary",
+    "desc": "The top priority-review influences span d=0.70 to d=1.57, all far above the 0.40 hinge. These are where high leverage and high mechanism-conflict risk coincide — the cases warranting the closest human review.",
+    "subtitle": "Top priority cases, ranked by effect size (d)",
+    "render": "dotplot",
+    "data": {
+      "unit": "effect size (Cohen's d)",
+      "baseline": 0.40,
+      "baselineLabel": "0.40 hinge",
+      "items": [
+        {"label": "Case 1", "value": 1.57, "highlight": true},
+        {"label": "Case 2", "value": 1.33},
+        {"label": "Case 3", "value": 1.29},
+        {"label": "Case 4", "value": 1.20},
+        {"label": "Case 5", "value": 0.93},
+        {"label": "Case 6", "value": 0.90},
+        {"label": "Case 7", "value": 0.82},
+        {"label": "Case 8", "value": 0.70}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "97-fundamental-themes",
+    "figureNumber": 1,
+    "figureTitle": "The Irreducibly Human tier taxonomy",
+    "figureType": "Vertical hierarchy / stacked-tier schematic with a marked boundary line.",
+    "priority": "Critical",
+    "desc": "Human cognitive capacity is organized into tiers. AI is superhuman at the bottom (Tier 1 pattern and association) and structurally weak-to-absent at the top (Tiers 4-7), with a phase gate at the Tier 1 / Tier 4 boundary dividing where machines win from where humans are irreplaceable.",
+    "subtitle": "Where machines win, where humans are irreplaceable",
+    "render": "tree",
+    "data": {
+      "root": {
+        "label": "Human cognitive capacity",
+        "children": [
+          {"label": "Tier 7 — Existential & wisdom (AI absent)"},
+          {"label": "Tier 6 — Collective & distributed (AI absent)"},
+          {"label": "Tier 5 — Causal & counterfactual (AI unreliable)"},
+          {"label": "Tier 4 — Metacognitive & supervisory (AI weak)"},
+          {"label": "Tier 2 — Embodied & sensorimotor (physics-bounded)"},
+          {"label": "Tier 1 — Pattern & association (AI wins)"}
+        ]
+      }
+    }
+  },
+  {
+    "chapterSlug": "97-fundamental-themes",
+    "figureNumber": 2,
+    "figureTitle": "Friction findings: practice gain vs. exam collapse",
+    "figureType": "Two-panel proportional bar chart — Panel A paired before/after-style bars (Bastani), Panel B a single magnitude bar (Kosmyna).",
+    "priority": "Critical",
+    "desc": "Free AI use during practice produced a 48% apparent gain but a 17-point loss on the unassisted exam, and AI-assisted writing cut functional brain connectivity by up to 55%. Output fluency diverged sharply from the neural events of learning.",
+    "subtitle": "Apparent benefit vs. real cost of AI in practice",
+    "render": "bar",
+    "data": {
+      "unit": "% change",
+      "items": [
+        {"label": "Practice-phase gain (Bastani)", "value": 48, "highlight": true},
+        {"label": "Brain connectivity reduction (Kosmyna)", "value": -55},
+        {"label": "Unassisted-exam drop (Bastani, pts)", "value": -17}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "97-fundamental-themes",
+    "figureNumber": 3,
+    "figureTitle": "The phase gate: Tier 1 delegation vs. Tier 4-7 protection",
+    "figureType": "Horizontal two-zone systems diagram with a central gate (left-to-right flow).",
+    "priority": "Critical",
+    "desc": "The division of labor: AI handles Tier 1 pattern work (structure, retrieval, feedback, error flagging), while the human keeps Tier 4-7 work (plausibility auditing, problem formulation, causal identification, accountability). The gate sits at the Tier 1 / Tier 4 boundary; AI is blocked from crossing it.",
+    "subtitle": "AI handles Tier 1; humans hold Tier 4-7",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "AI zone (Tier 1)",
+      "rightTitle": "Human zone (Tier 4-7)",
+      "rows": [
+        {"left": "Generate structure", "right": "Plausibility auditing"},
+        {"left": "Retrieve information", "right": "Problem formulation"},
+        {"left": "Adjust complexity", "right": "Causal identification"},
+        {"left": "Produce calibrated feedback", "right": "Hold / defend a position"},
+        {"left": "Flag errors", "right": "Institutional judgment"},
+        {"left": "Execute estimation", "right": "Accountability"}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "97-fundamental-themes",
+    "figureNumber": 4,
+    "figureTitle": "The AI+1 labor-market signal",
+    "figureType": "Two-panel proportional chart — Panel A wage-premium year-over-year bars, Panel B diverging job-growth bars.",
+    "priority": "Important",
+    "desc": "AI-skilled workers command a 56% wage premium, up from 25% the prior year. Meanwhile AI-skill job postings grew 7.5% while total postings fell 11.3% — the market pays a sharp premium for AI-fluent domain experts.",
+    "subtitle": "56% wage premium and the diverging job trend",
+    "render": "bar",
+    "data": {
+      "unit": "%",
+      "items": [
+        {"label": "AI wage premium, 2024", "value": 56, "highlight": true},
+        {"label": "AI wage premium, prior year", "value": 25},
+        {"label": "AI-skill job postings growth", "value": 7.5},
+        {"label": "Total job postings change", "value": -11.3}
+      ]
+    }
+  },
+  {
+    "chapterSlug": "97-fundamental-themes",
+    "figureNumber": 5,
+    "figureTitle": "The wrong arrow vs. the right arrow",
+    "figureType": "Two-panel before/after comparison schematic (two contrasting horizontal arrow paths).",
+    "priority": "Important",
+    "desc": "The default frame routes a domain expert OUT of their domain to become a generic technologist (the wrong arrow, unpaid by the market). The AI+1 model keeps the domain identity and layers AI capability on top (the right arrow) — which is what the 56% wage premium actually pays for.",
+    "subtitle": "Career model: leave the domain vs. augment it",
+    "render": "comparison",
+    "data": {
+      "leftTitle": "Wrong arrow",
+      "rightTitle": "Right arrow",
+      "rows": [
+        {"left": "Domain expert leaves the domain", "right": "Domain expert keeps the domain", "highlight": true},
+        {"left": "Becomes generic technologist", "right": "Adds AI capability on top"},
+        {"left": "Domain identity abandoned", "right": "Domain identity preserved + augmented"},
+        {"left": "Market does not pay this path", "right": "What the 56% premium pays for"}
+      ]
+    }
+  }
+]

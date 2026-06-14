@@ -32,11 +32,17 @@ The unifying mechanism is **coherence sustained by human implementation**. Progr
 
 Every link in that chain is an adult cognitive act: sequencing judgment, assessment interpretation, the diagnosis of *why* thirty students missed the proportionality item — procedure slip, rate misconception, reading load — and the redesign of Wednesday because of it. This is why the group sits at medium irreducibility. The learner's work is not the bottleneck. The organization's thinking is.
 
+![A left-to-right chain of four links — Teach, Check, Diagnose, Respond — each with a human-performs and an AI-performs row beneath, with Diagnose and Respond marked as the load-bearing mechanism](images/11-program-level-support-without-program-level-replacement-fig-01.png)
+*Figure 11.1 — The four-link implementation chain*
+
 <!-- → [DIAGRAM: Four-link implementation chain — horizontal boxes: Teach → Check → Diagnose → Respond; below each box, two rows showing "Humans perform this" vs. "AI performs this"; highlight the Diagnose and Respond boxes as the mechanism links; caption should note that automating any link does not augment the chain — it replaces the link] -->
 
 The same chain explains the substitution risk. Each link can be individually automated with a plausible-sounding justification: the suite sequences (adaptive pathing), checks (auto-generated items), diagnoses (misconception dashboard), and responds (autopilot remediation). Automate all four and you have not augmented the program — you have replaced it with a different program, one whose implementation quality is whatever the vendor shipped, and whose track record is not what the d = 0.59 measured.
 
 ## The Influences
+
+![Horizontal dot plot of the group's four program-level influences from d = 0.43 to 0.59, all above the 0.40 hinge reference line, with mathematics programs the dominant anchor](images/11-program-level-support-without-program-level-replacement-fig-03.png)
+*Figure 11.3 — Four program-level influences with effect sizes*
 
 **Mathematics programs (d = 0.59)** — rank 49 of 252. The number belongs to coherent, implemented programs: sequenced curricula with aligned materials, teacher support, and sustained use — not to any binder or platform on its own. The same program produces different results in different buildings, which is the quiet warning inside every program-level effect size. Implementation is the active ingredient, and implementation is made of teacher behavior. The dataset's hypothesis: adaptive practice is legitimate augmentation; conceptual instruction and misconception remediation stay human.
 
@@ -66,6 +72,9 @@ The boundary in imperative form: use AI to make the program's loop faster and be
 
 ## The Substitution Trap
 
+![Four-row matrix pairing each chain link's safe AI support role against its substitution trap and failure signature, with Diagnose and Respond rows carrying the heaviest stakes](images/11-program-level-support-without-program-level-replacement-fig-02.png)
+*Figure 11.2 — Safe AI role vs. substitution trap, by link*
+
 **Autopilot remediation.** The flagship feature is the flagship trap. The moment gap-detection flows straight into auto-assigned remediation, the teacher's diagnostic act — the load-bearing link — is bypassed by design. What autopilot can diagnose is the pattern of wrong answers. What it cannot diagnose is the cause behind the pattern, the conceptual model in the student's head, or whether the right response is a video, a small group, a manipulative, or a conversation. The loop keeps closing, smoothly, wrongly often enough — and because it closes silently, nobody is present to notice which.
 
 **The Tuesday meeting dies politely.** No one cancels the data meeting. It just thins. The dashboard is so legible that interpretation feels redundant. The suite has already assigned the remediation, so the reteach decision feels pre-made. Attendance becomes review, then becomes optional. Within two terms, the school still *has* a formative evaluation practice on paper and no longer has the influence — because the influence was never the data. It was teachers confronting evidence of their own effect and changing course.
@@ -74,7 +83,12 @@ The boundary in imperative form: use AI to make the program's loop faster and be
 
 Liljedahl's classroom research names the student-side risk in one word: *mimicking*. Students reproducing demonstrated procedures without thinking is precisely the mode an unsupervised video-then-practice-then-remediate loop rewards. The loop keeps producing green bars. The thinking it was supposed to build never starts.
 
-<!-- → [TABLE: Safe AI use vs. substitution trap by loop link — four rows, one per chain link (Teach, Check, Diagnose, Respond); columns: Loop link, Safe AI role, Substitution trap, Failure signature — student should see that the trap in each link is the AI performing the act rather than supporting it] -->
+| Loop link | Safe AI role | Substitution trap | Failure signature |
+|---|---|---|---|
+| Teach | Drafts worked-example variants, problem sets, lab and simulation setups for the teacher to use | AI delivers the teaching itself; the enacted curriculum becomes the vendor's | Program drift — teachers teach toward what the platform assesses |
+| Check | Scores and aggregates items by standard and misconception, fast | AI defines what counts as known; assessment skews to what it can auto-generate | Procedural-only item types crowd out rich tasks |
+| Diagnose | Flags which students missed *which way*, with a wrong-answer taxonomy | AI rules the cause unread by humans; pattern is named but cause is not | Misconception dashboard so legible interpretation feels redundant |
+| Respond | Suggests options as a recommendation with reasons in the teacher's queue | Autopilot auto-prescribes and assigns remediation; the diagnostic act is bypassed | The Tuesday meeting thins; green bars climb while transfer stays flat (mimicking) |
 
 ## The Case in Full
 
@@ -151,3 +165,17 @@ The new-teacher dilemma has no clean answer: the suite helps novices most and er
 3. Liljedahl, P. (2021). Building Thinking Classrooms in Mathematics. Corwin.
 4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS. https://www.pnas.org/doi/10.1073/pnas.2422633122
 5. Hattie, J. (2018). 252 Influences and Effect Sizes Related to Student Achievement. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+## Prompts
+
+### Figure 11.1 — The four-link implementation chain
+
+Build a left-to-right process flowchart of four sequential links: Teach, Check, Diagnose, Respond, joined by right-pointing arrows. Beneath each link, render a two-row split: a top "Humans perform this" row and a bottom "AI performs this" row, color-distinguished. Visually emphasize the Diagnose and Respond nodes (heavier border or accent fill) as the load-bearing mechanism links. Add a caption noting that automating a link does not augment the chain — it replaces the link. Keep equal node widths and consistent spacing; single flow line. Title "The four-link implementation chain". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 11.2 — Safe AI role vs. substitution trap, by link
+
+Build a four-row structured comparison matrix, one row per chain link (Teach, Check, Diagnose, Respond). Columns: Link | Safe AI support role | Substitution trap (failure signature). Each row pairs the legitimate support role against the trap where AI performs the act instead of supporting it. Highlight the Diagnose and Respond rows as the heaviest stakes via an accent treatment. Keep the two outcome columns visually balanced so the contrast within each row reads at a glance. Subtitle: "Diagnose and Respond rows carry the heaviest stakes". Title "Safe AI role vs. substitution trap, by link". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.
+
+### Figure 11.3 — Four program-level influences with effect sizes
+
+Build a horizontal dot/lollipop plot of four influences against a Cohen's d x-axis from zero: Mathematics programs (0.59, highlighted), Science programs (0.48), Providing formative evaluation (0.48), Exposure to reading (0.43). Sort descending. Draw a vertical reference line at 0.40 labeled "0.40 hinge"; all four dots sit to its right. X-axis from zero baseline. Encode value by dot x-position with a connecting stem to the axis; highlight mathematics programs as the dominant anchor by color. Label each dot with its value. Title "Four program-level influences with effect sizes". Deliverable: single standalone HTML file, inline CSS, D3 v7 from a pinned CDN, brutalist palette via CSS variables.

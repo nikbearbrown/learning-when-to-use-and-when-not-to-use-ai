@@ -30,9 +30,15 @@ But the engineering has two halves, and the halves have different owners.
 
 The **planned half** — the script, the example sequence, the organizer, the anticipated misconceptions — can be designed in advance. Which means it can be designed by anyone, including a machine. The **live half** is a feedback loop running in real time: explain, check, *detect*, adjust, re-explain. The detection step is the heart. The exit ticket with the inverted fraction is only data if someone recognizes it as the multiply-by-the-reciprocal confusion and not random error. The sea of nodding faces is only reassurance if the teacher knows nodding is the weakest comprehension signal there is. Expert clarity is mostly this diagnostic vigilance, built from hundreds of hours of watching explanations fail in patterned ways.
 
+![Expert clarity as a real-time loop — explain, check, detect, adjust, re-explain — whose detection step is the heart a script-bound teacher cannot run](images/08-instructional-clarity-with-moderate-substitution-risk-fig-02.png)
+*Figure 8.2 — The live-half feedback loop*
+
 Here is the group's developmental snag, and the reason it carries a moderate substitution risk that no previous group in this book has carried: **the live half is learned by doing the planned half badly.** A novice who writes her own flawed script discovers tomorrow, viscerally, where it breaks — and that discovery is the curriculum of teacher judgment. Lesson planning is the teacher's own generation effect: the plan is the exhaust; the planning is the engine-run. An AI that supplies perfect scripts to a novice does for her exactly what the AI summary does for the student — improves the artifact, deletes the apprenticeship.
 
 With one crucial difference: for *experienced* teachers, whose diagnostic vigilance is already built, the script was never the mechanism. Automating it is pure time arbitrage. The same tool is a crutch or a forklift depending on who is holding it. That asymmetry is the phase gate's hinge.
+
+![Instructional clarity split into an AI-delegable planned half and a human-only live half, the same delegation building a novice but mere time-saving for an expert](images/08-instructional-clarity-with-moderate-substitution-risk-fig-01.png)
+*Figure 8.1 — Two halves, two owners, two learners*
 
 <!-- → [DIAGRAM: Two-halves model of instructional clarity — vertical split: left column "Planned half" (script, examples, organizer, misconception list) labeled "AI-delegable"; right column "Live half" (check, detect, adjust, re-explain) labeled "human-only"; below the split, two rows: "Novice teacher" showing planned half building live half through struggle; "Expert teacher" showing planned half as time cost only — student should see why the same delegation is forklift for one and crutch for the other] -->
 
@@ -66,7 +72,13 @@ Lesson structures, scripted explanation variants, worked-example sequences with 
 
 **Support PD logistics and content** — around the human coaching relationship, per the dataset, never as it.
 
-<!-- → [TABLE: Safe AI uses by group influence — columns: Influence, Safe AI role, Novice restriction, Expert use; rows: Direct instruction, Explicit teaching, Advance organizers, PD programs, After-school programs — student should see the consistent pattern: planned-half delegation safe, live-half delegation forbidden, novice restriction tighter than expert] -->
+| Influence | Safe AI role | Novice restriction | Expert use |
+| --- | --- | --- | --- |
+| Direct instruction (d = 0.60) | Structure worked examples and practice items | Own skeleton first; AI output for contrast, never verbatim delivery | Time arbitrage — draft the planned half, recover hours |
+| Explicit teaching strategies (d = 0.57) | Structure the make-thinking-visible sequence | Modeling and guided-practice read stay with the novice to build | Delegate sequence drafting; keep the live read |
+| Behavioral/advance organizers (d = 0.42) | Generate the organizer | Must connect it explicitly to live instruction, not laminate it | Generate and deploy freely with live linkage |
+| Professional development programs (d = 0.41) | Curate and deliver content | Peer observation and coaching remain human | Content logistics around the coaching relationship |
+| After-school programs (d = 0.40) | Content delivery at the periphery | Relational mentorship is the core, not AI's | Academic-structure support only; mentorship human |
 
 ## The Substitution Trap
 
@@ -163,3 +175,13 @@ After-school programs sit awkwardly in this group: their hinge-riding 0.40 mixes
 3. Wang, R. E., et al. (2024). Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise. arXiv:2410.03017. https://arxiv.org/abs/2410.03017
 4. Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*, 122. https://www.pnas.org/doi/10.1073/pnas.2422633122
 5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 8.1 — Two halves, two owners, two learners
+Build a split-panel structural schematic. Vertical split: left column "Planned half (AI-delegable)" listing script, examples, organizer, misconception list; right column "Live half (human-only)" listing check, detect, adjust, re-explain. Below the split, two learner rows: "Novice" — an arrow from planned-half work crossing through "struggle" into building the live half (highlight this build-arrow); "Expert" — planned half shown as a detached time-cost, live half already built, labeled pure time arbitrage. Channels: column = planned vs. live, row = novice vs. expert, color = AI-delegable vs. human-only and the build-arrow emphasis. No zero baseline. Annotate that the same delegation is forklift for the expert, crutch for the novice. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 8.2 — The live-half feedback loop
+Build a closed-loop cycle of five stages clockwise: "Explain" → "Check" → "Detect (the heart)" → "Adjust" → "Re-explain" → back to "Explain". Emphasize the "Detect" node as the heart (highlight it). Show that a script-bound teacher reaches "Explain" but is structurally blocked from "Detect" — draw a blocked/severed edge or a shaded reach-limit around the script's access (script gets to Explain, cannot enter Detect). Channels: position around the ring = sequence, color = emphasis on Detect and the script's blocked reach. No axes, no zero baseline. Annotate that detection is the heart and a script cannot run it. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.

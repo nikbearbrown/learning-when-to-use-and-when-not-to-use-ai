@@ -1,0 +1,849 @@
+[
+  {
+    "file": "01-hatties-visible-learning-and-the-ai-question-fig-01.svg",
+    "title": "Bastani three-arm outcome",
+    "type": "statistical (grouped/paired bar chart)",
+    "status": "generated",
+    "chapter": "01-hatties-visible-learning-and-the-ai-question"
+  },
+  {
+    "file": "01-hatties-visible-learning-and-the-ai-question-fig-02.svg",
+    "title": "Two rulers for the same effect size",
+    "type": "comparison panels (two distribution panels)",
+    "status": "generated",
+    "chapter": "01-hatties-visible-learning-and-the-ai-question"
+  },
+  {
+    "file": "01-hatties-visible-learning-and-the-ai-question-fig-03.svg",
+    "title": "Four AI-feasibility classes across the list",
+    "type": "statistical (paired stacked bars)",
+    "status": "generated",
+    "chapter": "01-hatties-visible-learning-and-the-ai-question"
+  },
+  {
+    "file": "01-hatties-visible-learning-and-the-ai-question-fig-04.svg",
+    "title": "Anatomy of one framework row",
+    "type": "annotated example (single row schematic)",
+    "status": "generated",
+    "chapter": "01-hatties-visible-learning-and-the-ai-question"
+  },
+  {
+    "file": "02-the-below-hinge-exploration-bucket-fig-01.svg",
+    "title": "Three bands inside one drawer",
+    "type": "comparison panels (three stacked range bands)",
+    "status": "generated",
+    "chapter": "02-the-below-hinge-exploration-bucket"
+  },
+  {
+    "file": "02-the-below-hinge-exploration-bucket-fig-02.svg",
+    "title": "Four routes to below-hinge",
+    "type": "conceptual map (four-route decision fan)",
+    "status": "generated",
+    "chapter": "02-the-below-hinge-exploration-bucket"
+  },
+  {
+    "file": "02-the-below-hinge-exploration-bucket-fig-03.svg",
+    "title": "The fading worked-example sequence",
+    "type": "flowchart (three-stage horizontal progression)",
+    "status": "generated",
+    "chapter": "02-the-below-hinge-exploration-bucket"
+  },
+  {
+    "file": "02-the-below-hinge-exploration-bucket-fig-04.svg",
+    "title": "Phone-ban effect by subgroup",
+    "type": "statistical (bar chart by subgroup)",
+    "status": "generated",
+    "chapter": "02-the-below-hinge-exploration-bucket"
+  },
+  {
+    "file": "03-safe-augmentation-for-strong-learning-routines-fig-01.svg",
+    "title": "The spacing effect crossover",
+    "type": "statistical (two-line retention chart)",
+    "status": "generated",
+    "chapter": "03-safe-augmentation-for-strong-learning-routines"
+  },
+  {
+    "file": "03-safe-augmentation-for-strong-learning-routines-fig-02.svg",
+    "title": "Division of labor: logistics vs. retrieval",
+    "type": "systems diagram (perimeter-and-core)",
+    "status": "generated",
+    "chapter": "03-safe-augmentation-for-strong-learning-routines"
+  },
+  {
+    "file": "03-safe-augmentation-for-strong-learning-routines-fig-03.svg",
+    "title": "Reclaimed-hours accounting",
+    "type": "statistical (before/after stacked bar)",
+    "status": "generated",
+    "chapter": "03-safe-augmentation-for-strong-learning-routines"
+  },
+  {
+    "file": "04-augmentation-with-a-metacognitive-gate-fig-01.svg",
+    "title": "Who does the transforming?",
+    "type": "flowchart (two-path causal fork)",
+    "status": "generated",
+    "chapter": "04-augmentation-with-a-metacognitive-gate"
+  },
+  {
+    "file": "04-augmentation-with-a-metacognitive-gate-fig-02.svg",
+    "title": "The self-regulation control loop",
+    "type": "cycle (closed control loop)",
+    "status": "generated",
+    "chapter": "04-augmentation-with-a-metacognitive-gate"
+  },
+  {
+    "file": "04-augmentation-with-a-metacognitive-gate-fig-03.svg",
+    "title": "The fading schedule across four essays",
+    "type": "timeline (declining-scaffold progression)",
+    "status": "generated",
+    "chapter": "04-augmentation-with-a-metacognitive-gate"
+  },
+  {
+    "file": "05-high-impact-self-regulation-without-outsourcing-thinking-fig-01.svg",
+    "title": "Description vs. recipe",
+    "type": "comparison panels (two-column contrast)",
+    "status": "generated",
+    "chapter": "05-high-impact-self-regulation-without-outsourcing-thinking"
+  },
+  {
+    "file": "05-high-impact-self-regulation-without-outsourcing-thinking-fig-02.svg",
+    "title": "The calibration flywheel",
+    "type": "cycle (flywheel loop with error node)",
+    "status": "generated",
+    "chapter": "05-high-impact-self-regulation-without-outsourcing-thinking"
+  },
+  {
+    "file": "05-high-impact-self-regulation-without-outsourcing-thinking-fig-03.svg",
+    "title": "Safe role vs. forbidden substitution",
+    "type": "structural schematic (paired-column ladder)",
+    "status": "generated",
+    "chapter": "05-high-impact-self-regulation-without-outsourcing-thinking"
+  },
+  {
+    "file": "06-context-signals-ai-can-read-but-not-repair-fig-01.svg",
+    "title": "Detection pipeline vs. response pipeline",
+    "type": "systems diagram (two-pipeline flow with single handoff)",
+    "status": "generated",
+    "chapter": "06-context-signals-ai-can-read-but-not-repair"
+  },
+  {
+    "file": "06-context-signals-ai-can-read-but-not-repair-fig-02.svg",
+    "title": "Working-memory load reduction in a task",
+    "type": "annotated example (before/after structural schematic)",
+    "status": "generated",
+    "chapter": "06-context-signals-ai-can-read-but-not-repair"
+  },
+  {
+    "file": "07-human-relationships-ai-must-not-replace-fig-01.svg",
+    "title": "The asymmetry of trust",
+    "type": "statistical (two-timeline trajectory chart)",
+    "status": "generated",
+    "chapter": "07-human-relationships-ai-must-not-replace"
+  },
+  {
+    "file": "07-human-relationships-ai-must-not-replace-fig-02.svg",
+    "title": "AI on the perimeter, human at the event",
+    "type": "systems diagram (before/after perimeter around a protected core)",
+    "status": "generated",
+    "chapter": "07-human-relationships-ai-must-not-replace"
+  },
+  {
+    "file": "08-instructional-clarity-with-moderate-substitution-risk-fig-01.svg",
+    "title": "Two halves, two owners, two learners",
+    "type": "structural schematic (split panel with two learner rows)",
+    "status": "generated",
+    "chapter": "08-instructional-clarity-with-moderate-substitution-risk"
+  },
+  {
+    "file": "08-instructional-clarity-with-moderate-substitution-risk-fig-02.svg",
+    "title": "The live-half feedback loop",
+    "type": "cycle (real-time feedback loop with emphasized detection node)",
+    "status": "generated",
+    "chapter": "08-instructional-clarity-with-moderate-substitution-risk"
+  },
+  {
+    "file": "09-ai-as-expert-task-analyst-fig-01.svg",
+    "title": "Draft-then-correct workflow and the delta log",
+    "type": "flowchart (two-path comparison with branch output)",
+    "status": "generated",
+    "chapter": "09-ai-as-expert-task-analyst"
+  },
+  {
+    "file": "09-ai-as-expert-task-analyst-fig-02.svg",
+    "title": "Four rows, one repaired model",
+    "type": "conceptual map (central node with four repair spokes)",
+    "status": "generated",
+    "chapter": "09-ai-as-expert-task-analyst"
+  },
+  {
+    "file": "09-ai-as-expert-task-analyst-fig-03.svg",
+    "title": "The Bastani curve in a help channel",
+    "type": "statistical (two-line divergence chart)",
+    "status": "generated",
+    "chapter": "09-ai-as-expert-task-analyst"
+  },
+  {
+    "file": "10-ai-native-practice-with-a-high-substitution-warning-fig-01.svg",
+    "title": "Bastani divergence: assisted vs. unassisted",
+    "type": "Two-line divergence chart (time series), y-axis from zero.",
+    "status": "generated",
+    "chapter": "10-ai-native-practice-with-a-high-substitution-warning"
+  },
+  {
+    "file": "10-ai-native-practice-with-a-high-substitution-warning-fig-02.svg",
+    "title": "The vocabulary-encounter pipeline",
+    "type": "Horizontal left-to-right flowchart with a two-band split per stage.",
+    "status": "generated",
+    "chapter": "10-ai-native-practice-with-a-high-substitution-warning"
+  },
+  {
+    "file": "10-ai-native-practice-with-a-high-substitution-warning-fig-03.svg",
+    "title": "Receptive half, productive half, silent deletion",
+    "type": "Structural before/after comparison panel (two states of one encounter).",
+    "status": "generated",
+    "chapter": "10-ai-native-practice-with-a-high-substitution-warning"
+  },
+  {
+    "file": "10-ai-native-practice-with-a-high-substitution-warning-fig-04.svg",
+    "title": "Four group influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge reference line, y-axis from zero.",
+    "status": "generated",
+    "chapter": "10-ai-native-practice-with-a-high-substitution-warning"
+  },
+  {
+    "file": "11-program-level-support-without-program-level-replacement-fig-01.svg",
+    "title": "The four-link implementation chain",
+    "type": "Horizontal left-to-right flowchart with a two-row human/AI split beneath each link.",
+    "status": "generated",
+    "chapter": "11-program-level-support-without-program-level-replacement"
+  },
+  {
+    "file": "11-program-level-support-without-program-level-replacement-fig-02.svg",
+    "title": "Safe AI role vs. substitution trap, by link",
+    "type": "Four-row structured matrix / comparison schematic.",
+    "status": "generated",
+    "chapter": "11-program-level-support-without-program-level-replacement"
+  },
+  {
+    "file": "11-program-level-support-without-program-level-replacement-fig-03.svg",
+    "title": "Four program-level influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "11-program-level-support-without-program-level-replacement"
+  },
+  {
+    "file": "12-cooperation-is-the-intervention-fig-01.svg",
+    "title": "Consequential interdependence: two-sided exchange",
+    "type": "Two-node bidirectional systems diagram with a central concept node and an external support ring.",
+    "status": "generated",
+    "chapter": "12-cooperation-is-the-intervention"
+  },
+  {
+    "file": "12-cooperation-is-the-intervention-fig-02.svg",
+    "title": "Budget case: what the chatbot buys vs. center",
+    "type": "Structural comparison panel (cost columns plus an invisible-assets column).",
+    "status": "generated",
+    "chapter": "12-cooperation-is-the-intervention"
+  },
+  {
+    "file": "12-cooperation-is-the-intervention-fig-03.svg",
+    "title": "Human tutoring vs. ITS vs. AI-replaced peer",
+    "type": "Horizontal dot plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "12-cooperation-is-the-intervention"
+  },
+  {
+    "file": "13-self-regulated-learning-in-the-danger-zone-fig-01.svg",
+    "title": "Internalization arc: fading vs. permanent scaffold",
+    "type": "Two-path trajectory chart (time on x-axis, locus-of-control on y-axis).",
+    "status": "generated",
+    "chapter": "13-self-regulated-learning-in-the-danger-zone"
+  },
+  {
+    "file": "13-self-regulated-learning-in-the-danger-zone-fig-02.svg",
+    "title": "Six self-regulation influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "13-self-regulated-learning-in-the-danger-zone"
+  },
+  {
+    "file": "13-self-regulated-learning-in-the-danger-zone-fig-03.svg",
+    "title": "Dependence trajectory: engagement vs. independence",
+    "type": "Multi-curve time-series chart, value axis from zero.",
+    "status": "generated",
+    "chapter": "13-self-regulated-learning-in-the-danger-zone"
+  },
+  {
+    "file": "14-diagnosis-intervention-and-teacher-learning-loops-fig-01.svg",
+    "title": "One mechanism, two parallel loops",
+    "type": "Two parallel cyclical diagrams with a connecting bridge.",
+    "status": "generated",
+    "chapter": "14-diagnosis-intervention-and-teacher-learning-loops"
+  },
+  {
+    "file": "14-diagnosis-intervention-and-teacher-learning-loops-fig-02.svg",
+    "title": "Three substitution traps that keep the paperwork",
+    "type": "Three-row structured matrix.",
+    "status": "generated",
+    "chapter": "14-diagnosis-intervention-and-teacher-learning-loops"
+  },
+  {
+    "file": "14-diagnosis-intervention-and-teacher-learning-loops-fig-03.svg",
+    "title": "Three high-band influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "14-diagnosis-intervention-and-teacher-learning-loops"
+  },
+  {
+    "file": "15-jigsaw-credibility-and-the-human-core-fig-01.svg",
+    "title": "Jigsaw structure and the courier bypass",
+    "type": "Two-stage structural diagram with a labeled bypass path.",
+    "status": "generated",
+    "chapter": "15-jigsaw-credibility-and-the-human-core"
+  },
+  {
+    "file": "15-jigsaw-credibility-and-the-human-core-fig-02.svg",
+    "title": "Revised unit: AI wraps around human exchange",
+    "type": "Horizontal left-to-right three-stage flowchart with an AI-absent center stage.",
+    "status": "generated",
+    "chapter": "15-jigsaw-credibility-and-the-human-core"
+  },
+  {
+    "file": "15-jigsaw-credibility-and-the-human-core-fig-03.svg",
+    "title": "Jigsaw, credibility, and AI-replacement hypotheses",
+    "type": "Horizontal dot plot spanning a zero crossing, against the 0.40 hinge.",
+    "status": "generated",
+    "chapter": "15-jigsaw-credibility-and-the-human-core"
+  },
+  {
+    "file": "16-human-effort-supported-by-ai-evidence-fig-01.svg",
+    "title": "Effort bargain: AI repairs two, third stays human",
+    "type": "Three-vertex conceptual diagram (triangle) with damage and repair paths.",
+    "status": "generated",
+    "chapter": "16-human-effort-supported-by-ai-evidence"
+  },
+  {
+    "file": "16-human-effort-supported-by-ai-evidence-fig-02.svg",
+    "title": "Marcus workflow: detection feeds, human responds",
+    "type": "Horizontal left-to-right timeline flowchart with a platform/human lane split.",
+    "status": "generated",
+    "chapter": "16-human-effort-supported-by-ai-evidence"
+  },
+  {
+    "file": "16-human-effort-supported-by-ai-evidence-fig-03.svg",
+    "title": "Two high-band influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "16-human-effort-supported-by-ai-evidence"
+  },
+  {
+    "file": "17-memory-tools-that-can-stay-ai-native-fig-01.svg",
+    "title": "The three-part memory engineering model",
+    "type": "Three-band horizontal schematic with a per-band AI/learner split.",
+    "status": "generated",
+    "chapter": "17-memory-tools-that-can-stay-ai-native"
+  },
+  {
+    "file": "17-memory-tools-that-can-stay-ai-native-fig-02.svg",
+    "title": "Three substitution traps, all auditable",
+    "type": "Three-row structured matrix.",
+    "status": "generated",
+    "chapter": "17-memory-tools-that-can-stay-ai-native"
+  },
+  {
+    "file": "17-memory-tools-that-can-stay-ai-native-fig-03.svg",
+    "title": "Two high-band memory influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "17-memory-tools-that-can-stay-ai-native"
+  },
+  {
+    "file": "18-motivation-and-labels-as-human-judgment-problems-fig-01.svg",
+    "title": "Expectancy feedback loop: open vs. closed",
+    "type": "Cyclical diagram with two labeled versions (open and closed).",
+    "status": "generated",
+    "chapter": "18-motivation-and-labels-as-human-judgment-problems"
+  },
+  {
+    "file": "18-motivation-and-labels-as-human-judgment-problems-fig-02.svg",
+    "title": "Same tool, two configurations: default vs. adopted",
+    "type": "Two-branch comparison / decision-tree schematic.",
+    "status": "generated",
+    "chapter": "18-motivation-and-labels-as-human-judgment-problems"
+  },
+  {
+    "file": "18-motivation-and-labels-as-human-judgment-problems-fig-03.svg",
+    "title": "Two above-hinge influences with effect sizes",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "18-motivation-and-labels-as-human-judgment-problems"
+  },
+  {
+    "file": "19-low-risk-ai-native-skill-practice-fig-01.svg",
+    "title": "In-app mastery vs. paper: converge then diverge",
+    "type": "Two-line time-series chart with a labeled divergence inset, value axis from zero.",
+    "status": "generated",
+    "chapter": "19-low-risk-ai-native-skill-practice"
+  },
+  {
+    "file": "19-low-risk-ai-native-skill-practice-fig-02.svg",
+    "title": "Four-clause practice engine: AI administers, learner performs",
+    "type": "Four-stage practice-loop diagram with a per-clause AI/learner split.",
+    "status": "generated",
+    "chapter": "19-low-risk-ai-native-skill-practice"
+  },
+  {
+    "file": "19-low-risk-ai-native-skill-practice-fig-03.svg",
+    "title": "Two above-hinge skill-practice influences",
+    "type": "Horizontal dot/bar plot against the 0.40 hinge line, value axis from zero.",
+    "status": "generated",
+    "chapter": "19-low-risk-ai-native-skill-practice"
+  },
+  {
+    "file": "20-problem-solving-and-expectations-need-human-calibration-fig-01.svg",
+    "title": "The self-sealing prediction loop vs. the provisional alternative",
+    "type": "cycle diagram with adjacent linear chain (systems/causal diagram)",
+    "status": "generated",
+    "chapter": "20-problem-solving-and-expectations-need-human-calibration"
+  },
+  {
+    "file": "20-problem-solving-and-expectations-need-human-calibration-fig-02.svg",
+    "title": "Two parallel calibration problems",
+    "type": "two-column comparison panel with shared base row (conceptual map)",
+    "status": "generated",
+    "chapter": "20-problem-solving-and-expectations-need-human-calibration"
+  },
+  {
+    "file": "20-problem-solving-and-expectations-need-human-calibration-fig-03.svg",
+    "title": "Two influences against the Hattie hinge",
+    "type": "horizontal bar chart with reference line",
+    "status": "generated",
+    "chapter": "20-problem-solving-and-expectations-need-human-calibration"
+  },
+  {
+    "file": "21-ai-native-testing-and-tutoring-with-guardrails-fig-01.svg",
+    "title": "The configuration fork: guardrailed vs. unguardrailed",
+    "type": "four-curve line chart (two-panel divergence/convergence comparison)",
+    "status": "generated",
+    "chapter": "21-ai-native-testing-and-tutoring-with-guardrails"
+  },
+  {
+    "file": "21-ai-native-testing-and-tutoring-with-guardrails-fig-02.svg",
+    "title": "The pilot loop: diagnosis, teaching, verification",
+    "type": "three-panel horizontal flow with return loop (systems diagram)",
+    "status": "generated",
+    "chapter": "21-ai-native-testing-and-tutoring-with-guardrails"
+  },
+  {
+    "file": "21-ai-native-testing-and-tutoring-with-guardrails-fig-03.svg",
+    "title": "Tutoring effect sizes vs. hinge and human-tutor benchmark",
+    "type": "horizontal dot/bar plot with two reference lines",
+    "status": "generated",
+    "chapter": "21-ai-native-testing-and-tutoring-with-guardrails"
+  },
+  {
+    "file": "22-cohesion-and-adventure-beyond-the-screen-fig-01.svg",
+    "title": "Mechanism deletion: embodied vs. AI-mediated delivery",
+    "type": "grouped horizontal bar chart with reference line",
+    "status": "generated",
+    "chapter": "22-cohesion-and-adventure-beyond-the-screen"
+  },
+  {
+    "file": "22-cohesion-and-adventure-beyond-the-screen-fig-02.svg",
+    "title": "Cohesion as risk-tolerance infrastructure",
+    "type": "two-state side-by-side comparison panel (structural schematic)",
+    "status": "generated",
+    "chapter": "22-cohesion-and-adventure-beyond-the-screen"
+  },
+  {
+    "file": "22-cohesion-and-adventure-beyond-the-screen-fig-03.svg",
+    "title": "Nora's assembled evidence file",
+    "type": "four-quadrant component layout (conceptual map)",
+    "status": "generated",
+    "chapter": "22-cohesion-and-adventure-beyond-the-screen"
+  },
+  {
+    "file": "23-collective-teacher-efficacy-as-the-north-star-fig-01.svg",
+    "title": "Bandura's four efficacy sources, by strength",
+    "type": "vertical ranked stack with adjacent capability columns (systems diagram)",
+    "status": "generated",
+    "chapter": "23-collective-teacher-efficacy-as-the-north-star"
+  },
+  {
+    "file": "23-collective-teacher-efficacy-as-the-north-star-fig-02.svg",
+    "title": "The largest hypothesized collapse: 1.57 to 0.15",
+    "type": "two-bar comparison chart with hinge reference line",
+    "status": "generated",
+    "chapter": "23-collective-teacher-efficacy-as-the-north-star"
+  },
+  {
+    "file": "23-collective-teacher-efficacy-as-the-north-star-fig-03.svg",
+    "title": "Belief is the fuel, not the engine",
+    "type": "horizontal causal fan-in (systems diagram)",
+    "status": "generated",
+    "chapter": "23-collective-teacher-efficacy-as-the-north-star"
+  },
+  {
+    "file": "24-teacher-judgment-with-ai-evidence-fig-01.svg",
+    "title": "Teacher-model complementarity over the school year",
+    "type": "multi-line trend chart (prediction-accuracy over time)",
+    "status": "generated",
+    "chapter": "24-teacher-judgment-with-ai-evidence"
+  },
+  {
+    "file": "24-teacher-judgment-with-ai-evidence-fig-02.svg",
+    "title": "The two-student audit: where model and teacher disagree",
+    "type": "two-case side-by-side comparison panel (structural schematic)",
+    "status": "generated",
+    "chapter": "24-teacher-judgment-with-ai-evidence"
+  },
+  {
+    "file": "24-teacher-judgment-with-ai-evidence-fig-03.svg",
+    "title": "Two influences against the hinge",
+    "type": "horizontal bar chart with hinge reference line",
+    "status": "generated",
+    "chapter": "24-teacher-judgment-with-ai-evidence"
+  },
+  {
+    "file": "25-prior-ability-as-context-not-destiny-fig-01.svg",
+    "title": "The algorithmic Matthew effect loop and its exit",
+    "type": "cycle diagram with dotted exit branch (systems diagram)",
+    "status": "generated",
+    "chapter": "25-prior-ability-as-context-not-destiny"
+  },
+  {
+    "file": "25-prior-ability-as-context-not-destiny-fig-02.svg",
+    "title": "Same data, two uses: diagnosis vs. measurement",
+    "type": "two-column contrast fork from a shared source (conceptual map)",
+    "status": "generated",
+    "chapter": "25-prior-ability-as-context-not-destiny"
+  },
+  {
+    "file": "25-prior-ability-as-context-not-destiny-fig-03.svg",
+    "title": "Same number, opposite classification",
+    "type": "horizontal bar chart with classification color encoding and hinge line",
+    "status": "generated",
+    "chapter": "25-prior-ability-as-context-not-destiny"
+  },
+  {
+    "file": "26-classroom-discussion-cannot-be-simulated-away-fig-01.svg",
+    "title": "Three properties a chatbot cannot have",
+    "type": "three-panel structural comparison (comparison panels)",
+    "status": "generated",
+    "chapter": "26-classroom-discussion-cannot-be-simulated-away"
+  },
+  {
+    "file": "26-classroom-discussion-cannot-be-simulated-away-fig-02.svg",
+    "title": "AI at the edges of the talk, never its center",
+    "type": "weekly timeline with role-placement arrows (cycle/flow diagram)",
+    "status": "generated",
+    "chapter": "26-classroom-discussion-cannot-be-simulated-away"
+  },
+  {
+    "file": "26-classroom-discussion-cannot-be-simulated-away-fig-03.svg",
+    "title": "The asymmetry vendors omit",
+    "type": "two-bar comparison with hinge reference line",
+    "status": "generated",
+    "chapter": "26-classroom-discussion-cannot-be-simulated-away"
+  },
+  {
+    "file": "27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-01.svg",
+    "title": "The two-line graph: assisted vs. unassisted",
+    "type": "two-line trend chart with policy-change inflection (time series)",
+    "status": "generated",
+    "chapter": "27-scaffolding-and-deliberate-practice-at-the-phase-gate"
+  },
+  {
+    "file": "27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-02.svg",
+    "title": "The scaffolding contract: two phases and the failure mode",
+    "type": "horizontal two-phase progression with a divergent failure branch (mechanism diagram)",
+    "status": "generated",
+    "chapter": "27-scaffolding-and-deliberate-practice-at-the-phase-gate"
+  },
+  {
+    "file": "27-scaffolding-and-deliberate-practice-at-the-phase-gate-fig-03.svg",
+    "title": "The Macnamara correction: variance explained",
+    "type": "horizontal bar chart (percentage of variance explained)",
+    "status": "generated",
+    "chapter": "27-scaffolding-and-deliberate-practice-at-the-phase-gate"
+  },
+  {
+    "file": "28-summarization-is-learning-only-when-the-learner-does-it-fig-01.svg",
+    "title": "Two students, two preparation paths",
+    "type": "two-path comparison panel (process comparison)",
+    "status": "generated",
+    "chapter": "28-summarization-is-learning-only-when-the-learner-does-it"
+  },
+  {
+    "file": "28-summarization-is-learning-only-when-the-learner-does-it-fig-02.svg",
+    "title": "Three acts on the production side",
+    "type": "production-side three-act schematic with deletion contrast (mechanism diagram)",
+    "status": "generated",
+    "chapter": "28-summarization-is-learning-only-when-the-learner-does-it"
+  },
+  {
+    "file": "29-repeated-reading-as-ai-supported-fluency-practice-fig-01.svg",
+    "title": "Automaticity: working-memory reallocation",
+    "type": "before/after capacity-partition comparison (mechanism cross-section)",
+    "status": "generated",
+    "chapter": "29-repeated-reading-as-ai-supported-fluency-practice"
+  },
+  {
+    "file": "29-repeated-reading-as-ai-supported-fluency-practice-fig-02.svg",
+    "title": "The substitution ledger: five roles, three verdicts",
+    "type": "five-row classification roster (conceptual map / structural schematic)",
+    "status": "generated",
+    "chapter": "29-repeated-reading-as-ai-supported-fluency-practice"
+  },
+  {
+    "file": "29-repeated-reading-as-ai-supported-fluency-practice-fig-03.svg",
+    "title": "The listening economy, before and after",
+    "type": "before/after allocation comparison (proportional schematic)",
+    "status": "generated",
+    "chapter": "29-repeated-reading-as-ai-supported-fluency-practice"
+  },
+  {
+    "file": "30-phonics-support-without-replacing-instruction-fig-01.svg",
+    "title": "Two phonics numbers and the grade-band moderator",
+    "type": "horizontal dot plot / forest-style comparison against the 0.40 hinge",
+    "status": "generated",
+    "chapter": "30-phonics-support-without-replacing-instruction"
+  },
+  {
+    "file": "30-phonics-support-without-replacing-instruction-fig-02.svg",
+    "title": "Phonics mechanism stack and the AI/teacher split",
+    "type": "vertical layered stack with two parallel role columns",
+    "status": "generated",
+    "chapter": "30-phonics-support-without-replacing-instruction"
+  },
+  {
+    "file": "30-phonics-support-without-replacing-instruction-fig-03.svg",
+    "title": "Minute-audit: two configurations of the literacy block",
+    "type": "before/after stacked-bar comparison panels",
+    "status": "generated",
+    "chapter": "30-phonics-support-without-replacing-instruction"
+  },
+  {
+    "file": "31-feedback-as-the-most-tempting-automation-trap-fig-01.svg",
+    "title": "Feedback distribution: centers and the negative tail",
+    "type": "dot plot of meta-analytic centers plus a proportion bar for the negative tail",
+    "status": "generated",
+    "chapter": "31-feedback-as-the-most-tempting-automation-trap"
+  },
+  {
+    "file": "31-feedback-as-the-most-tempting-automation-trap-fig-02.svg",
+    "title": "Same essay, three comments, opposite signs",
+    "type": "three-column comparison panel (annotated example matrix)",
+    "status": "generated",
+    "chapter": "31-feedback-as-the-most-tempting-automation-trap"
+  },
+  {
+    "file": "31-feedback-as-the-most-tempting-automation-trap-fig-03.svg",
+    "title": "Three substitution failure modes and their signatures",
+    "type": "three parallel vertical failure-channel diagram",
+    "status": "generated",
+    "chapter": "31-feedback-as-the-most-tempting-automation-trap"
+  },
+  {
+    "file": "32-learning-goals-and-the-ownership-problem-fig-01.svg",
+    "title": "Three-stage ownership chain and the AI bypass",
+    "type": "horizontal left-to-right process chain with a bypass branch",
+    "status": "generated",
+    "chapter": "32-learning-goals-and-the-ownership-problem"
+  },
+  {
+    "file": "32-learning-goals-and-the-ownership-problem-fig-02.svg",
+    "title": "Conference prep: dashboard vs. revision trail",
+    "type": "side-by-side comparison panels",
+    "status": "generated",
+    "chapter": "32-learning-goals-and-the-ownership-problem"
+  },
+  {
+    "file": "33-concept-mapping-as-shared-cognitive-work-fig-01.svg",
+    "title": "Three mapping conditions and relative transfer",
+    "type": "ranked comparison panels (three conditions on a shared relative-outcome scale)",
+    "status": "generated",
+    "chapter": "33-concept-mapping-as-shared-cognitive-work"
+  },
+  {
+    "file": "33-concept-mapping-as-shared-cognitive-work-fig-02.svg",
+    "title": "Safe AI roles across the three production operations",
+    "type": "three-operation matrix with an off-to-the-side excluded element",
+    "status": "generated",
+    "chapter": "33-concept-mapping-as-shared-cognitive-work"
+  },
+  {
+    "file": "33-concept-mapping-as-shared-cognitive-work-fig-03.svg",
+    "title": "The four-move classroom sequence",
+    "type": "horizontal four-step process flow",
+    "status": "generated",
+    "chapter": "33-concept-mapping-as-shared-cognitive-work"
+  },
+  {
+    "file": "34-parental-involvement-without-platform-substitution-fig-01.svg",
+    "title": "Three channels of parental involvement and AI's reach",
+    "type": "three parallel vertical channels with access/reach annotation",
+    "status": "generated",
+    "chapter": "34-parental-involvement-without-platform-substitution"
+  },
+  {
+    "file": "34-parental-involvement-without-platform-substitution-fig-02.svg",
+    "title": "Five features, five boundaries: safe use vs. substitution",
+    "type": "five-row feature matrix with a shared boundary axis",
+    "status": "generated",
+    "chapter": "34-parental-involvement-without-platform-substitution"
+  },
+  {
+    "file": "35-note-taking-and-the-cost-of-convenience-fig-01.svg",
+    "title": "Two paths: encoding present vs. encoding absent",
+    "type": "two-path parallel-process diagram converging on a shared artifact",
+    "status": "generated",
+    "chapter": "35-note-taking-and-the-cost-of-convenience"
+  },
+  {
+    "file": "35-note-taking-and-the-cost-of-convenience-fig-02.svg",
+    "title": "The gated lecture-day timeline",
+    "type": "horizontal timeline with phased function bands",
+    "status": "generated",
+    "chapter": "35-note-taking-and-the-cost-of-convenience"
+  },
+  {
+    "file": "36-highlighting-underlining-and-false-fluency-fig-01.svg",
+    "title": "Selection quality over ten weeks",
+    "type": "two-line time series",
+    "status": "generated",
+    "chapter": "36-highlighting-underlining-and-false-fluency"
+  },
+  {
+    "file": "36-highlighting-underlining-and-false-fluency-fig-02.svg",
+    "title": "Two paths: discrimination retained vs. fluency illusion",
+    "type": "two-path mechanism diagram with divergent terminal states",
+    "status": "generated",
+    "chapter": "36-highlighting-underlining-and-false-fluency"
+  },
+  {
+    "file": "36-highlighting-underlining-and-false-fluency-fig-03.svg",
+    "title": "Three marking conditions and the mechanism profile",
+    "type": "three-row condition matrix",
+    "status": "generated",
+    "chapter": "36-highlighting-underlining-and-false-fluency"
+  },
+  {
+    "file": "37-school-effects-as-system-context-fig-01.svg",
+    "title": "Where the variance lives: between vs. within schools",
+    "type": "single proportional bar (between vs. within)",
+    "status": "generated",
+    "chapter": "37-school-effects-as-system-context"
+  },
+  {
+    "file": "37-school-effects-as-system-context-fig-02.svg",
+    "title": "The three-strand braid inside the school-effects number",
+    "type": "three-strand braid / layered-decomposition diagram",
+    "status": "generated",
+    "chapter": "37-school-effects-as-system-context"
+  },
+  {
+    "file": "38-ict-as-infrastructure-not-pedagogy-fig-01.svg",
+    "title": "The three channels of technology's contribution",
+    "type": "three-column channel model with a bundle input",
+    "status": "generated",
+    "chapter": "38-ict-as-infrastructure-not-pedagogy"
+  },
+  {
+    "file": "38-ict-as-infrastructure-not-pedagogy-fig-02.svg",
+    "title": "The one-question provenance audit",
+    "type": "three-column checkbox audit schematic",
+    "status": "generated",
+    "chapter": "38-ict-as-infrastructure-not-pedagogy"
+  },
+  {
+    "file": "38-ict-as-infrastructure-not-pedagogy-fig-03.svg",
+    "title": "The two-ledger structure",
+    "type": "two-panel ledger comparison",
+    "status": "generated",
+    "chapter": "38-ict-as-infrastructure-not-pedagogy"
+  },
+  {
+    "file": "39-technology-in-writing-and-the-authorship-gate-fig-01.svg",
+    "title": "The authorship gate as a line",
+    "type": "bisected schematic with directional role arrows",
+    "status": "generated",
+    "chapter": "39-technology-in-writing-and-the-authorship-gate"
+  },
+  {
+    "file": "39-technology-in-writing-and-the-authorship-gate-fig-02.svg",
+    "title": "The detection collapse: 94 percent undetected",
+    "type": "single proportional bar (detected vs. undetected)",
+    "status": "generated",
+    "chapter": "39-technology-in-writing-and-the-authorship-gate"
+  },
+  {
+    "file": "39-technology-in-writing-and-the-authorship-gate-fig-03.svg",
+    "title": "Two failure modes, one gate between them",
+    "type": "two-timeline comparison with a central gate",
+    "status": "generated",
+    "chapter": "39-technology-in-writing-and-the-authorship-gate"
+  },
+  {
+    "file": "93-hattie-ai-analysis-summary-fig-01.svg",
+    "title": "AI feasibility of 252 Hattie influences",
+    "type": "Small-multiple horizontal bar chart (four stacked-category panels) — counts out of 252.",
+    "status": "generated",
+    "chapter": "93-hattie-ai-analysis-summary"
+  },
+  {
+    "file": "93-hattie-ai-analysis-summary-fig-02.svg",
+    "title": "Effect band by AI feasibility",
+    "type": "Grouped horizontal bar chart (effect band on the vertical axis, four feasibility groups per band), counts.",
+    "status": "generated",
+    "chapter": "93-hattie-ai-analysis-summary"
+  },
+  {
+    "file": "93-hattie-ai-analysis-summary-fig-03.svg",
+    "title": "The amplification-vs-substitution phase gate",
+    "type": "Horizontal two-branch conceptual schematic with a central gate.",
+    "status": "generated",
+    "chapter": "93-hattie-ai-analysis-summary"
+  },
+  {
+    "file": "93-hattie-ai-analysis-summary-fig-04.svg",
+    "title": "Priority review cases by effect size",
+    "type": "Horizontal dot plot (one row per influence), effect size on the x-axis from zero, dot color encoding mechanism-conflict level.",
+    "status": "generated",
+    "chapter": "93-hattie-ai-analysis-summary"
+  },
+  {
+    "file": "97-fundamental-themes-fig-01.svg",
+    "title": "The Irreducibly Human tier taxonomy",
+    "type": "Vertical hierarchy / stacked-tier schematic with a marked boundary line.",
+    "status": "generated",
+    "chapter": "97-fundamental-themes"
+  },
+  {
+    "file": "97-fundamental-themes-fig-02.svg",
+    "title": "Friction findings: practice gain vs. exam collapse",
+    "type": "Two-panel proportional bar chart — Panel A paired before/after-style bars (Bastani), Panel B a single magnitude bar (Kosmyna).",
+    "status": "generated",
+    "chapter": "97-fundamental-themes"
+  },
+  {
+    "file": "97-fundamental-themes-fig-03.svg",
+    "title": "The phase gate: Tier 1 delegation vs. Tier 4-7 protection",
+    "type": "Horizontal two-zone systems diagram with a central gate (left-to-right flow).",
+    "status": "generated",
+    "chapter": "97-fundamental-themes"
+  },
+  {
+    "file": "97-fundamental-themes-fig-04.svg",
+    "title": "The AI+1 labor-market signal",
+    "type": "Two-panel proportional chart — Panel A wage-premium year-over-year bars, Panel B diverging job-growth bars.",
+    "status": "generated",
+    "chapter": "97-fundamental-themes"
+  },
+  {
+    "file": "97-fundamental-themes-fig-05.svg",
+    "title": "The wrong arrow vs. the right arrow",
+    "type": "Two-panel before/after comparison schematic (two contrasting horizontal arrow paths).",
+    "status": "generated",
+    "chapter": "97-fundamental-themes"
+  }
+]

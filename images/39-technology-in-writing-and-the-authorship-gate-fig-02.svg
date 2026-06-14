@@ -1,0 +1,36 @@
+<!--
+  The detection collapse: 94 percent undetected
+  Book: Visible Learning x AI
+  Chapter: 39-technology-in-writing-and-the-authorship-gate
+  Figure: 02
+  Type: single proportional bar (detected vs. undetected)
+  Generated: 2026-06-08
+  Source: pantry/39-technology-in-writing-and-the-authorship-gate-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
+<title id="fig-title-02">The detection collapse: 94 percent undetected — 39-technology-in-writing-and-the-authorship-gate</title>
+<desc>Scarfe and colleagues injected fully AI-written submissions into a real university exam system and 94 percent went undetected — retiring detection-based policy as a failed option, not merely a costly one.</desc>
+<metadata>
+  <cajal:figure
+    xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+    book="Visible Learning x AI"
+    book-slug="visible-learning-x-ai"
+    chapter="39-technology-in-writing-and-the-authorship-gate"
+    figure-number="02"
+    figure-title="The detection collapse: 94 percent undetected"
+    figure-slug="the-detection-collapse-94-percent-undete"
+    figure-type="single proportional bar (detected vs. undetected)"
+    priority="Important"
+    author="Nik Bear Brown"
+    date-generated="2026-06-08"
+    source-file="pantry/39-technology-in-writing-and-the-authorship-gate-cajal.md"
+  />
+</metadata>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+<text x="32" y="30" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" font-weight="400" fill="#2a1a0e" text-anchor="start">The detection collapse: 94 percent undetected</text><text x="32" y="47" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Scarfe et al. 2024</text><rect x="64" y="64" width="596" height="292" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/><line x1="64" y1="356" x2="660" y2="356" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">0</text><line x1="64" y1="64" x2="660" y2="64" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/><text x="56" y="68" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#545454" text-anchor="end">94</text><rect x="181" y="64" width="64" height="292" fill="#C8102E" rx="0"/><text x="213" y="58" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">94</text><text x="213" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Undetected</text><rect x="479" y="337.36170212765956" width="64" height="18.638297872340445" fill="#787878" rx="0"/><text x="511" y="331.36170212765956" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">6</text><text x="511" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#2a1a0e" text-anchor="middle">Detected</text><text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="400" fill="#545454" text-anchor="start">Share of injected AI submissions (%)</text>
+</svg>

@@ -38,7 +38,21 @@ Thirteen influences from the 2018 list, all above the hinge, all AI-AUGMENTED, w
 
 **Teacher-facilitated reasoning.** Inductive teaching (0.44), inquiry-based teaching (0.40), philosophy in schools (0.43) — rows where AI supplies materials and a human facilitates the live reasoning. The partial conflict here lands on the teacher's side: outsource the facilitation and a community of inquiry becomes content delivery.
 
-<!-- → [TABLE: All 13 group influences with effect size, AI feasibility classification, and the specific conflict note for each row — organized by the three strands above, with the meta-cognitive strategies "dependency warning" highlighted as the group's sharpest caution] -->
+| Strand | Influence (effect size) | AI feasibility | Conflict note |
+| --- | --- | --- | --- |
+| Transforming and elaborating | Outlining and transforming (d = 0.66) | AI-AUGMENTED | Tool's natural move is to produce the structure that is the learning |
+| Transforming and elaborating | Creativity programs (d = 0.62) | AI-AUGMENTED | AI can supply divergent prompts; the generative act must stay with the learner |
+| Transforming and elaborating | Imagery (d = 0.45) | AI-AUGMENTED | Learner must generate the mental representation |
+| Transforming and elaborating | Elaborative interrogation (d = 0.42) | AI-AUGMENTED | The learner does the generative work on the material |
+| Self-regulation loop | Setting standards for self-judgement (d = 0.62) | AI-AUGMENTED | Calibration practice safe; outsourced evaluation may erode self-judgment |
+| Self-regulation loop | Meta-cognitive strategies (d = 0.60) | AI-AUGMENTED | **Dependency warning: perpetual AI Socratic prompting creates cognitive dependency — without systematic fading, AI becomes an external regulator hollowing out independent metacognitive capacity** |
+| Self-regulation loop | Appropriately challenging goals (d = 0.59) | AI-AUGMENTED | Conflict the moment AI sets the goal rather than calibrating a student's |
+| Self-regulation loop | Strategy monitoring (d = 0.58) | AI-AUGMENTED | Learner must run the monitoring loop |
+| Self-regulation loop | Clear goal intentions (d = 0.48) | AI-AUGMENTED | Goals work when the learner owns them |
+| Self-regulation loop | Goal commitment (d = 0.40) | AI-AUGMENTED | Commitment cannot be supplied by a tool |
+| Teacher-facilitated reasoning | Inductive teaching (d = 0.44) | AI-AUGMENTED | AI supplies cases; outsourcing facilitation becomes content delivery |
+| Teacher-facilitated reasoning | Philosophy in schools (d = 0.43) | AI-AUGMENTED | AI supplies texts/seed questions; the live reasoning is human |
+| Teacher-facilitated reasoning | Inquiry-based teaching (d = 0.40) | AI-AUGMENTED | Human facilitates what happens when minds meet the material |
 
 One row in this group carries a warning so precise it deserves quoting nearly verbatim. For meta-cognitive strategies, the dataset's note reads: *perpetual AI Socratic prompting creates cognitive dependency — without systematic fading, AI acts as an external regulator, hollowing out independent metacognitive capacity.* Mark that. It is the only place in this group where even the *approved* AI use — asking good questions — turns harmful through sheer continuity. The problem is not what the tool does. The problem is what never starts.
 
@@ -54,11 +68,17 @@ An outline received, however excellent, is someone else's theory. The student wh
 
 This is not a metaphor. Bastani and colleagues' randomized field experiment, published in *PNAS* in 2025, gives it a number. High-school students with unrestricted GPT-4 access solved 48 percent more practice problems during the assisted period — and then scored 17 percentage points *worse* than students who had never used AI at all when the unassisted exam arrived. The help helped until the help left. Better performance, borrowed engine.
 
+![Two paths from one transforming decision: student-built structure with AI critique yields transfer, AI-generated structure does not](images/04-augmentation-with-a-metacognitive-gate-fig-01.png)
+*Figure 4.1 — Who does the transforming?*
+
 <!-- → [DIAGRAM: Two-path diagram — Path A: student builds structure → AI evaluates → student revises → transfer shows up on cold assessment; Path B: AI generates structure → student fills in → transfer does not show up on cold assessment. The fork is labeled "who does the transforming?"] -->
 
 **Self-regulation is a loop, not a label.** Metacognition is a control cycle: set a goal, attempt, monitor progress against the goal, adjust, evaluate. Every segment of the loop is a skill that improves with practice. The Education Endowment Foundation's evidence review puts metacognitive strategies among the highest-leverage, lowest-cost interventions available — *when explicitly taught and practiced until the learner runs the loop alone*. That last clause is where the conflict flag comes from.
 
 A tool that plans for you, monitors for you, and evaluates for you keeps the loop running beautifully while the learner's own loop atrophies. The performance is regulated; the person is not. There is even a name for the unautomatable core: *judgment of learning* — the learner's own assessment of what they know, which recent work argues is precisely the capacity AI cannot exercise on a human's behalf, only train or supplant.
+
+![Metacognition as a closed control loop — set goal, attempt, monitor, adjust, evaluate — every segment powered by the learner](images/04-augmentation-with-a-metacognitive-gate-fig-02.png)
+*Figure 4.2 — The self-regulation control loop*
 
 Goals obey the same logic at smaller scale. An appropriately challenging goal works through ownership: the commitment, the self-monitoring against the goal, the self-evaluation at the end. The dataset flags conflict the moment AI sets the goal rather than calibrating the challenge of one the student articulated.
 
@@ -78,7 +98,13 @@ The legitimate roles are substantial. Each one points the tool at the learner's 
 
 **Calibrate challenge.** Given a student-articulated goal, propose the next difficulty step. The goal itself, and the commitment to it, stay in the student's voice. AI moves the bar; the student agreed to jump.
 
-<!-- → [TABLE: Safe AI roles for each of the three strands — Transforming/Elaborating, Self-Regulation Loop, Teacher-Facilitated Reasoning — with the specific action AI takes and the cognitive act that must remain with the learner] -->
+| Strand | Specific action AI takes | Cognitive act that must remain with the learner |
+| --- | --- | --- |
+| Transforming / Elaborating | Evaluate a student-produced outline against source or draft; flag claims without evidence, mislabeled evidence, unsupported thesis | Producing the first structure — the transforming act that carries the 0.66 |
+| Transforming / Elaborating | Generate work samples at three quality levels for ranking | Generating elaborations and rationales |
+| Self-Regulation Loop | Prompt planning, monitoring, reflection on a fading schedule; co-construct rubrics for the class to argue with | Setting and owning goals; running the monitor-adjust-evaluate loop; the judgment of learning |
+| Self-Regulation Loop | Given a student-articulated goal, propose the next difficulty step | Articulating the goal and committing to it |
+| Teacher-Facilitated Reasoning | Supply diverse example sets, philosophical texts, seed questions, divergent-thinking prompts | The teacher facilitates the live reasoning; students do the reasoning when minds meet the material |
 
 ---
 
@@ -107,6 +133,9 @@ The fading schedule ran across four essays: full scaffold first, reduced second,
 Week three, a history teacher — moving fast before a deadline — pasted his essay prompt into the assistant, generated a model outline, and distributed it as a planning aid. Within a day, half the section's outlines were the model with cosmetic edits. Nothing in the artifact trail flagged it; every student had technically submitted an outline. What flagged it was the next in-class write, which reproduced last year's shapelessness on schedule.
 
 The model outline had crossed the gate in the most institutionally respectable way possible: distributed by the teacher, with good intentions, as a scaffold. The department's lesson: the gate can be crossed *for* students as easily as by them.
+
+![Scaffold intensity declining across four essays from full scaffold to AI-as-check-only as the learner demonstrates unprompted self-monitoring](images/04-augmentation-with-a-metacognitive-gate-fig-03.png)
+*Figure 4.3 — The fading schedule across four essays*
 
 <!-- → [INFOGRAPHIC: Timeline of the semester pilot — shows the fading schedule across four essays, marks the week-three incident with the model outline, and shows the cold-assessment performance trajectory that flagged it. The visual should make the contrast between the fading (working) arm and the model-outline (failed) arm legible at a glance] -->
 
@@ -195,3 +224,16 @@ The dependency warning has an empirical exit too: if year-long continuous AI Soc
 3. Huff, M., & Ulakçı, E. (2024/2025). Judgment of Learning: A Human Ability Beyond Generative Artificial Intelligence. arXiv:2410.13392. https://arxiv.org/abs/2410.13392
 4. Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning. *Psychological Science*, 17(3), 249–255.
 5. Visible Learning. Hattie Ranking: 252 Influences and Effect Sizes. https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+
+---
+
+## Prompts
+
+### Figure 4.1 — Who does the transforming?
+Build a left-to-right process flowchart with a causal fork. Start node "Fork: who does the transforming?" branches into two paths. Path A: "Student builds structure" → "AI evaluates, student revises" → "Transfer appears on cold assessment". Path B: "AI generates structure" → "Student fills in" → "Transfer blocked on cold assessment" (use a blocked/terminated edge style for the final Path B step, labeled "transfer blocked on Path B"). Channels: x = stage order, vertical position = path A vs. B, color = transfer-appears vs. transfer-blocked outcome, edge style = arrow vs. block. No axes, no zero baseline. Annotate that the fork is who performs the transforming act. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 4.2 — The self-regulation control loop
+Build a closed-loop cycle diagram with five stages arranged clockwise: "Set goal" → "Attempt" → "Monitor progress" → "Adjust" → "Evaluate" → back to "Set goal". Marks: five nodes connected by directed arcs forming a closed ring. Channels: position around the ring = sequence, color = uniform with optional emphasis that every segment is learner-powered. No axes, no zero baseline. Annotate that the learner must run every segment or an external regulator runs the loop while the learner's capacity atrophies. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
+
+### Figure 4.3 — The fading schedule across four essays
+Build a horizontal timeline of four successive essays showing declining scaffold intensity. Markers left to right: "Full scaffold" (Essay 1), "Reduced scaffold" (Essay 2), "Student self-critiques first" (Essay 3), "AI used only to check the student's critique" (Essay 4). Encode scaffold intensity as a shrinking band or decreasing bar height above the timeline while learner-led work expands. Channels: x = essay sequence, size/height = AI scaffold intensity (declining), color = scaffold vs. learner-led portion. zero baseline yes for the intensity encoding. Annotate that prompts thin out as the learner demonstrates unprompted self-monitoring. Deliverable: single standalone HTML file, inline CSS, D3 v7 from the pinned CDN, Okabe-Ito-free brutalist palette via CSS variables.
