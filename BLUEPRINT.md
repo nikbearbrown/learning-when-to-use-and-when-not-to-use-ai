@@ -1,5 +1,5 @@
 # Learning When to Use and When Not to Use AI
-## TIKTOC.md — Full TOC Draft, Chapter Architecture, and Adoption Plan
+## BLUEPRINT.md — Full TOC Draft, Chapter Architecture, and Adoption Plan
 
 **Working title:** Learning When to Use and When Not to Use AI
 **Subtitle candidate:** A Visible Learning Guide to Human Judgment, AI Support, and the Phase Gate
